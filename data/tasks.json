@@ -1,0 +1,97 @@
+{
+  "updatedAt": "2026-10-02T07:00:00+09:00",
+  "title": "Dongjoo Task Board",
+  "subtitle": "Morning digest · 2026-10-02 (금) KST",
+  "tasks": [
+    {
+      "id": "slack:1790877441.863009",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Jay Jev multimodal",
+      "summary": "Jay asked about multimodal / Jev — triage and reply.",
+      "link": null,
+      "tags": ["slack", "jay"]
+    },
+    {
+      "id": "slack:1790695318",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "still",
+      "title": "Vertex ADC",
+      "summary": "Vertex AI application-default credentials still pending.",
+      "link": null,
+      "tags": ["slack", "gcp", "vertex"]
+    },
+    {
+      "id": "slack:1790801772",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "still",
+      "title": "TikTok Shop",
+      "summary": "TikTok Shop follow-up still open.",
+      "link": null,
+      "tags": ["slack", "tiktok"]
+    },
+    {
+      "id": "slack:1790893769",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "still",
+      "title": "Bugsnag watch",
+      "summary": "Keep watching Bugsnag → Sentry migration signals.",
+      "link": "https://dongjoo-cloud.github.io/bugsnag-sentry-status/",
+      "tags": ["slack", "bugsnag", "sentry"]
+    },
+    {
+      "id": "gmail:typesafe-invite",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "TypeSafe invite",
+      "summary": "Respond to / accept TypeSafe invite.",
+      "link": null,
+      "tags": ["gmail", "invite"]
+    },
+    {
+      "id": "gmail:firecrawl-invite",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "Firecrawl invite",
+      "summary": "Respond to / accept Firecrawl invite.",
+      "link": null,
+      "tags": ["gmail", "invite"]
+    },
+    {
+      "id": "gmail:exa-invite",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "Exa invite",
+      "summary": "Respond to / accept Exa invite (combine with other invites if useful).",
+      "link": null,
+      "tags": ["gmail", "invite"]
+    },
+    {
+      "id": "gmail:ramp-weekly-2026-10-01",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "Ramp weekly — 3 txn",
+      "summary": "Review Ramp weekly summary (3 transactions, week of 2026-10-01).",
+      "link": null,
+      "tags": ["gmail", "ramp", "finance"]
+    },
+    {
+      "id": "gmail:maru-headcount",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "MARU headcount ~10/7",
+      "summary": "MARU headcount item — due around 2026-10-07.",
+      "link": null,
+      "tags": ["gmail", "maru", "deadline"]
+    }
+  ]
+}
