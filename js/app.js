@@ -154,8 +154,8 @@ function cardHtml(task) {
           <span class="card-title">${escapeHtml(task.title || task.id)}</span>
           ${pills.join("")}
         </div>
-        ${body ? `<p class="summary">${escapeHtml(body)}</p>` : ""}
-        ${action ? `<p class="action"><span class="action-label">액션</span> ${escapeHtml(action)}</p>` : ""}
+        ${body ? `<div class="summary">${escapeHtml(body)}</div>` : ""}
+        ${action ? `<div class="action"><span class="action-label">액션</span><div class="action-text">${escapeHtml(action)}</div></div>` : ""}
         <div class="meta">
           <span class="id">${escapeHtml(task.id)}</span>
           ${link}

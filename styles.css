@@ -165,14 +165,19 @@ section.col h2 .count {
   cursor: pointer;
 }
 
-.card-body { min-width: 0; }
+.card-body {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
 
 .card-title-row {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 6px 8px;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 .card-title {
   font-weight: 650;
@@ -201,14 +206,25 @@ section.col h2 .count {
 .summary {
   color: var(--muted);
   font-size: 13px;
-  margin: 0 0 6px;
+  margin: 0 0 12px;
+  padding: 0;
   white-space: pre-wrap;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
 }
+
 .action {
-  margin: 0 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 0 0 12px;
+  padding: 10px 0 0;
+  border-top: 1px solid var(--line);
   font-size: 13px;
   color: var(--ink);
-  line-height: 1.45;
+  line-height: 1.55;
 }
 .action-label {
   display: inline-block;
@@ -219,8 +235,15 @@ section.col h2 .count {
   background: var(--blue);
   border-radius: 999px;
   padding: 1px 8px;
-  margin-right: 4px;
-  vertical-align: 1px;
+  margin: 0;
+  vertical-align: 0;
+}
+.action-text {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+  line-height: 1.55;
 }
 
 .meta {
@@ -228,6 +251,9 @@ section.col h2 .count {
   flex-wrap: wrap;
   gap: 8px;
   align-items: center;
+  margin: 0;
+  padding: 10px 0 0;
+  border-top: 1px solid var(--line);
   font-size: 12px;
   color: var(--muted);
 }
