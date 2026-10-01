@@ -115,12 +115,19 @@ function updateBanner() {
   el.banner.hidden = false;
   el.banner.className = "banner warn";
   el.banner.innerHTML =
-    "Checkboxes save to <code>localStorage</code> only until you add a fine-grained PAT in Settings. " +
-    "With a PAT, Done state is written to <code>data/done.json</code> so the agent can read it.";
+    "체크박스는 설정에서 fine-grained PAT를 넣기 전까지는 <code>localStorage</code>에만 저장됩니다. " +
+    "PAT가 있으면 완료 상태가 <code>data/done.json</code>에 기록되어 에이전트가 읽을 수 있습니다.";
 }
 
 function renderEmpty(listEl, label) {
-  listEl.innerHTML = `<div class="empty">No ${label} items</div>`;
+  listEl.innerHTML = `<div class="empty">${label} 항목이 없습니다</div>`;
+}
+
+function linkLabel(task) {
+  const source = (task.source || "").toLowerCase();
+  if (source === "slack") return "스레드";
+  if (source === "gmail") return "메일";
+  return "열기";
 }
 
 function cardHtml(task) {
@@ -134,18 +141,21 @@ function cardHtml(task) {
   if (done && doneState.ids[task.id]?.at) {
     pills.push(`<span class="pill done-at">${formatDoneAt(doneState.ids[task.id].at)}</span>`);
   }
+  const body = task["내용"] || task.summary || "";
+  const action = task["액션"] || task.action || "";
   const link = task.link
-    ? `<a href="${escapeAttr(task.link)}" target="_blank" rel="noopener">open</a>`
+    ? `<a href="${escapeAttr(task.link)}" target="_blank" rel="noopener">${linkLabel(task)}</a>`
     : "";
   return `
     <article class="card ${done ? "is-done" : ""}" data-id="${escapeAttr(task.id)}">
-      <input class="check" type="checkbox" ${done ? "checked" : ""} aria-label="Mark done">
+      <input class="check" type="checkbox" ${done ? "checked" : ""} aria-label="완료로 표시">
       <div class="card-body">
         <div class="card-title-row">
           <span class="card-title">${escapeHtml(task.title || task.id)}</span>
           ${pills.join("")}
         </div>
-        ${task.summary ? `<p class="summary">${escapeHtml(task.summary)}</p>` : ""}
+        ${body ? `<p class="summary">${escapeHtml(body)}</p>` : ""}
+        ${action ? `<p class="action"><span class="action-label">액션</span> ${escapeHtml(action)}</p>` : ""}
         <div class="meta">
           <span class="id">${escapeHtml(task.id)}</span>
           ${link}
@@ -184,9 +194,9 @@ function render() {
     listEl.innerHTML = items.map(cardHtml).join("");
   };
 
-  fill(el.listTodo, buckets.todo, "to do");
-  fill(el.listProgress, buckets.progress, "in progress");
-  fill(el.listDone, buckets.done, "done");
+  fill(el.listTodo, buckets.todo, "할 일");
+  fill(el.listProgress, buckets.progress, "진행 중");
+  fill(el.listDone, buckets.done, "완료");
 
   el.kpiTodo.textContent = String(buckets.todo.length);
   el.kpiProgress.textContent = String(buckets.progress.length);
@@ -287,10 +297,10 @@ function queueSync() {
     if (!getPat()) return;
     try {
       await githubPutDone(doneState);
-      toast("Synced to data/done.json");
+      toast("data/done.json에 동기화됨");
     } catch (err) {
       console.error(err);
-      toast(`Sync failed: ${err.message}`, true);
+      toast(`동기화 실패: ${err.message}`, true);
     }
   });
   return syncLock;
@@ -309,7 +319,7 @@ function onToggle(id, checked, card) {
   if (cardAfter) cardAfter.classList.add("is-saving");
 
   if (!getPat()) {
-    toast(checked ? "Marked done (local only)" : "Unchecked (local only)");
+    toast(checked ? "완료 표시됨 (로컬만)" : "완료 해제됨 (로컬만)");
     if (cardAfter) cardAfter.classList.remove("is-saving");
     updateBanner();
     return;
@@ -362,7 +372,7 @@ function wireSettings() {
     const val = el.patInput.value.trim();
     if (dirty) {
       if (!val || val.startsWith("••")) {
-        toast("Enter a real token", true);
+        toast("실제 토큰을 입력하세요", true);
         return;
       }
       setPat(val);
@@ -370,12 +380,12 @@ function wireSettings() {
     closeSettings();
     updateBanner();
     if (getPat()) {
-      toast("PAT saved — syncing…");
+      toast("PAT 저장됨 — 동기화 중…");
       try {
         await queueSync();
       } catch (_) {}
     } else {
-      toast("No PAT — local only");
+      toast("PAT 없음 — 로컬만");
     }
   });
   el.patClear.addEventListener("click", () => {
@@ -383,7 +393,7 @@ function wireSettings() {
     el.patInput.value = "";
     el.patInput.dataset.dirty = "0";
     updateBanner();
-    toast("PAT cleared");
+    toast("PAT 지워짐");
     closeSettings();
   });
   document.addEventListener("keydown", (e) => {
@@ -404,7 +414,7 @@ async function init() {
     tasks = Array.isArray(tasksDoc.tasks) ? tasksDoc.tasks : [];
     if (tasksDoc.title) el.title.textContent = tasksDoc.title;
     if (tasksDoc.subtitle) el.sub.textContent = tasksDoc.subtitle;
-    else if (tasksDoc.updatedAt) el.sub.textContent = `Updated ${tasksDoc.updatedAt}`;
+    else if (tasksDoc.updatedAt) el.sub.textContent = `업데이트 ${tasksDoc.updatedAt}`;
 
     const local = loadLocalDone();
     doneState = mergeDone(remoteDone || { ids: {} }, local);
@@ -428,7 +438,7 @@ async function init() {
     }
   } catch (err) {
     console.error(err);
-    el.sub.textContent = "Failed to load tasks";
+    el.sub.textContent = "할 일을 불러오지 못했습니다";
     toast(String(err.message || err), true);
   }
 }
