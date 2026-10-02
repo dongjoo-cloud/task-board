@@ -1,24 +1,8 @@
 {
-  "updatedAt": "2026-10-02T15:49:00+09:00",
+  "updatedAt": "2026-10-02T17:42:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "15:40 스크리닝 · 2026-10-02 (금) KST",
+  "subtitle": "17:40 스크리닝 · 2026-10-02 (금) KST",
   "tasks": [
-    {
-      "id": "slack:1790923690.759469",
-      "status": "todo",
-      "source": "slack",
-      "priority": "new",
-      "title": "Jay — 미디어킷 요청 메일 초안 피드백",
-      "summary": "배경 — Jay가 #product에서 US 크리에이터에게 미디어킷·단가를 요청하는 영문 메일 초안을 올렸어요 (≈15:48 KST).\n\n왜 — 제목 스팸 느낌, Storika 소개 톤, ‘희망 단가’ 설명이 부담스러운지 Brice·Dongjoo 의견이 필요합니다.\n\n상태 — 아직 발송 안 함. 공개 미디어킷 수집 중이며 보류.",
-      "액션": "초안을 읽고\n제목·소개·단가 설명에 짧은 피드백을\n스레드에 남기기",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790923690759469",
-      "tags": [
-        "slack",
-        "jay",
-        "mediakit",
-        "email"
-      ]
-    },
     {
       "id": "gmail:wispr-billing-2026-10-02",
       "status": "todo",
@@ -70,7 +54,7 @@
       "source": "slack",
       "priority": "still",
       "title": "데이터파이프라인 + 댓글분석기에 JEV",
-      "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n왜 — 파이프라인 쪽을 계속 밀고, 댓글 분석에도 JEV를 붙이자는 요청입니다.\n\n상태 — 이미 👀로 진행 중. 같은 스레드에서 Jay는 media kit을 그록봇 루틴+Cloud Run 크론으로 가겠다고 정리(본인 ✅).",
+      "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n왜 — 파이프라인 쪽을 계속 밀고, 댓글 분석에도 JEV를 붙이자는 요청입니다.\n\n상태 — 이미 👀로 진행 중.",
       "액션": "파이프라인 진행 유지\ncomment 분석기에 JEV 붙이기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790900456826639",
       "tags": [
