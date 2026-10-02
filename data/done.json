@@ -1,3 +1,28 @@
 {
-  "ids": {}
+  "ids": {
+    "gmail:exa-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:41:23.852Z"
+    },
+    "gmail:firecrawl-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:36:15.905Z"
+    },
+    "gmail:maru-headcount": {
+      "status": "done",
+      "at": "2026-10-01T23:56:42.812Z"
+    },
+    "gmail:ramp-weekly-2026-10-01": {
+      "status": "done",
+      "at": "2026-10-01T23:56:51.754Z"
+    },
+    "gmail:typesafe-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:32:25.874Z"
+    },
+    "slack:1790923690.759469": {
+      "status": "done",
+      "at": "2026-10-02T08:32:01.664Z"
+    }
+  }
 }
