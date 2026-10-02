@@ -1,0 +1,100 @@
+# Persist Kanban column state to data/done.json (no user-facing PAT).
+# Triggered by the Pages UI via repository_dispatch (event_type: board-status).
+# Uses BOARD_WRITE_TOKEN for the push so Deploy Pages also re-runs (GITHUB_TOKEN
+# pushes do not trigger further workflows).
+name: Board status sync
+
+on:
+  repository_dispatch:
+    types: [board-status]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: board-status-done-json
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOARD_WRITE_TOKEN }}
+
+      - name: Apply status payload
+        env:
+          CLIENT_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          set -euo pipefail
+          python3 <<'PY'
+          import json, os, pathlib, datetime
+
+          DONE = pathlib.Path("data/done.json")
+          payload = json.loads(os.environ["CLIENT_PAYLOAD"] or "{}")
+
+          if DONE.exists():
+              try:
+                  state = json.loads(DONE.read_text(encoding="utf-8"))
+              except Exception:
+                  state = {"ids": {}}
+          else:
+              state = {"ids": {}}
+          if not isinstance(state, dict):
+              state = {"ids": {}}
+          ids = state.get("ids")
+          if not isinstance(ids, dict):
+              ids = {}
+
+          def normalize_entry(entry):
+              if not isinstance(entry, dict):
+                  return None
+              status = entry.get("status")
+              if status not in ("todo", "in_progress", "done"):
+                  if entry.get("done") is True:
+                      status = "done"
+                  elif entry.get("done") is False:
+                      status = "todo"
+                  else:
+                      return None
+              at = entry.get("at") or datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z")
+              return {"status": status, "at": at}
+
+          if isinstance(payload.get("ids"), dict):
+              new_ids = {}
+              for k, v in payload["ids"].items():
+                  n = normalize_entry(v)
+                  if n:
+                      new_ids[str(k)] = n
+              ids = new_ids
+          elif payload.get("id") and payload.get("status") in ("todo", "in_progress", "done"):
+              tid = str(payload["id"])
+              at = payload.get("at") or datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z")
+              ids[tid] = {"status": payload["status"], "at": at}
+          else:
+              raise SystemExit("client_payload must include ids{} or id+status")
+
+          state = {"ids": ids}
+          DONE.parent.mkdir(parents=True, exist_ok=True)
+          text = json.dumps(state, indent=2, ensure_ascii=False) + "\n"
+          prev = DONE.read_text(encoding="utf-8") if DONE.exists() else ""
+          if prev == text:
+              print("No change to data/done.json")
+              open(os.environ["GITHUB_ENV"], "a", encoding="utf-8").write("BOARD_CHANGED=0\n")
+          else:
+              DONE.write_text(text, encoding="utf-8")
+              print("Updated data/done.json (%d ids)" % len(ids))
+              open(os.environ["GITHUB_ENV"], "a", encoding="utf-8").write("BOARD_CHANGED=1\n")
+          PY
+
+      - name: Commit and push
+        if: env.BOARD_CHANGED == '1'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/done.json
+          git commit -m "chore(status): sync kanban column state"
+          git push

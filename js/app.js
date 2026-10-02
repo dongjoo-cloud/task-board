@@ -1,7 +1,6 @@
 const REPO = { owner: "dongjoo-cloud", name: "task-board", branch: "main" };
 const DONE_PATH = "data/done.json";
 const LS_DONE = "task-board:done";
-const LS_PAT = "task-board:pat";
 
 /** Canonical column statuses persisted in done.json */
 const STATUS = {
@@ -30,12 +29,6 @@ const el = {
   listProgress: document.getElementById("list-progress"),
   listDone: document.getElementById("list-done"),
   toast: document.getElementById("toast"),
-  settingsBtn: document.getElementById("settings-btn"),
-  modal: document.getElementById("settings-modal"),
-  patInput: document.getElementById("pat-input"),
-  patSave: document.getElementById("pat-save"),
-  patCancel: document.getElementById("pat-cancel"),
-  patClear: document.getElementById("pat-clear"),
 };
 
 /** @type {{ids: Record<string, {status:string, at:string, done?:boolean}>}} */
@@ -45,6 +38,19 @@ let tasks = [];
 let toastTimer = null;
 let syncLock = Promise.resolve();
 let dragId = null;
+
+function boardConfig() {
+  return window.BOARD_CONFIG || {};
+}
+
+function getWriteToken() {
+  return String(boardConfig().token || "").trim();
+}
+
+function writeMode() {
+  const m = String(boardConfig().mode || "dispatch").toLowerCase();
+  return m === "contents" ? "contents" : "dispatch";
+}
 
 function cacheBust(url) {
   const u = new URL(url, location.href);
@@ -64,15 +70,6 @@ function loadLocalDone() {
 
 function saveLocalDone(state) {
   localStorage.setItem(LS_DONE, JSON.stringify(state));
-}
-
-function getPat() {
-  return (localStorage.getItem(LS_PAT) || "").trim();
-}
-
-function setPat(token) {
-  if (!token) localStorage.removeItem(LS_PAT);
-  else localStorage.setItem(LS_PAT, token.trim());
 }
 
 /** Normalize legacy {done:boolean} entries into {status}. */
@@ -143,8 +140,8 @@ function toast(msg, isErr = false) {
 }
 
 function updateBanner() {
-  const hasPat = Boolean(getPat());
-  if (hasPat) {
+  const hasToken = Boolean(getWriteToken());
+  if (hasToken) {
     el.banner.hidden = true;
     el.banner.textContent = "";
     return;
@@ -152,8 +149,9 @@ function updateBanner() {
   el.banner.hidden = false;
   el.banner.className = "banner warn";
   el.banner.innerHTML =
-    "열 이동은 설정에서 fine-grained PAT를 넣기 전까지는 <code>localStorage</code>에만 저장됩니다. " +
-    "PAT가 있으면 칸반 상태가 <code>data/done.json</code>에 기록되어 에이전트가 읽을 수 있습니다.";
+    "배포 설정(<code>js/config.js</code>)에 쓰기 토큰이 없어 열 이동은 <code>localStorage</code>에만 저장됩니다. " +
+    "Pages 배포 워크플로가 Actions secret <code>BOARD_WRITE_TOKEN</code>으로 config를 주입하면 " +
+    "<code>data/done.json</code>에 동기화됩니다.";
 }
 
 function renderEmpty(listEl, label) {
@@ -257,17 +255,22 @@ async function fetchJson(path) {
   return res.json();
 }
 
-async function githubGetContents(path) {
-  const pat = getPat();
-  if (!pat) throw new Error("No PAT");
-  const url = `https://api.github.com/repos/${REPO.owner}/${REPO.name}/contents/${path}?ref=${encodeURIComponent(REPO.branch)}`;
-  const res = await fetch(url, {
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${pat}`,
-      "X-GitHub-Api-Version": "2022-11-28",
-    },
-  });
+function apiHeaders(token, withJson = false) {
+  const h = {
+    Accept: "application/vnd.github+json",
+    Authorization: `Bearer ${token}`,
+    "X-GitHub-Api-Version": "2022-11-28",
+  };
+  if (withJson) h["Content-Type"] = "application/json";
+  return h;
+}
+
+async function githubGetContents(path, token) {
+  const owner = boardConfig().owner || REPO.owner;
+  const name = boardConfig().repo || REPO.name;
+  const branch = boardConfig().branch || REPO.branch;
+  const url = `https://api.github.com/repos/${owner}/${name}/contents/${path}?ref=${encodeURIComponent(branch)}`;
+  const res = await fetch(url, { headers: apiHeaders(token) });
   if (!res.ok) {
     const text = await res.text();
     throw new Error(`GET ${path} ${res.status}: ${text.slice(0, 200)}`);
@@ -275,53 +278,71 @@ async function githubGetContents(path) {
   return res.json();
 }
 
+/** Preferred: trigger Actions workflow that writes data/done.json with GITHUB_TOKEN. */
+async function githubDispatchDone(state) {
+  const token = getWriteToken();
+  if (!token) return { skipped: true };
+
+  const owner = boardConfig().owner || REPO.owner;
+  const name = boardConfig().repo || REPO.name;
+  const url = `https://api.github.com/repos/${owner}/${name}/dispatches`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: apiHeaders(token, true),
+    body: JSON.stringify({
+      event_type: "board-status",
+      client_payload: { ids: state.ids },
+    }),
+  });
+  // 204 No Content on success
+  if (res.status !== 204 && !res.ok) {
+    const text = await res.text();
+    throw new Error(`dispatch ${res.status}: ${text.slice(0, 200)}`);
+  }
+  return { ok: true, mode: "dispatch" };
+}
+
+/** Fallback: direct Contents API PUT (same baked token). */
 async function githubPutDone(state) {
-  const pat = getPat();
-  if (!pat) return { skipped: true };
+  const token = getWriteToken();
+  if (!token) return { skipped: true };
 
   const content = JSON.stringify(state, null, 2) + "\n";
   const b64 = btoa(unescape(encodeURIComponent(content)));
 
   let sha;
   try {
-    const existing = await githubGetContents(DONE_PATH);
+    const existing = await githubGetContents(DONE_PATH, token);
     sha = existing.sha;
   } catch (err) {
     if (!String(err.message).includes("404")) throw err;
   }
 
-  const url = `https://api.github.com/repos/${REPO.owner}/${REPO.name}/contents/${DONE_PATH}`;
+  const owner = boardConfig().owner || REPO.owner;
+  const name = boardConfig().repo || REPO.name;
+  const branch = boardConfig().branch || REPO.branch;
+  const url = `https://api.github.com/repos/${owner}/${name}/contents/${DONE_PATH}`;
   const body = {
     message: `chore(status): sync kanban column state`,
     content: b64,
-    branch: REPO.branch,
+    branch,
   };
   if (sha) body.sha = sha;
 
   const res = await fetch(url, {
     method: "PUT",
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${pat}`,
-      "X-GitHub-Api-Version": "2022-11-28",
-      "Content-Type": "application/json",
-    },
+    headers: apiHeaders(token, true),
     body: JSON.stringify(body),
   });
 
   if (!res.ok) {
     const text = await res.text();
     if (res.status === 409) {
-      const existing = await githubGetContents(DONE_PATH);
+      const existing = await githubGetContents(DONE_PATH, token);
       body.sha = existing.sha;
       const retry = await fetch(url, {
         method: "PUT",
-        headers: {
-          Accept: "application/vnd.github+json",
-          Authorization: `Bearer ${pat}`,
-          "X-GitHub-Api-Version": "2022-11-28",
-          "Content-Type": "application/json",
-        },
+        headers: apiHeaders(token, true),
         body: JSON.stringify(body),
       });
       if (!retry.ok) {
@@ -335,12 +356,23 @@ async function githubPutDone(state) {
   return res.json();
 }
 
+async function persistDone(state) {
+  if (writeMode() === "contents") return githubPutDone(state);
+  try {
+    return await githubDispatchDone(state);
+  } catch (err) {
+    // If dispatch fails (e.g. token lacks dispatches), fall back to Contents PUT.
+    console.warn("dispatch failed, falling back to Contents PUT", err);
+    return githubPutDone(state);
+  }
+}
+
 function queueSync() {
   syncLock = syncLock.then(async () => {
-    if (!getPat()) return;
+    if (!getWriteToken()) return;
     try {
-      await githubPutDone(doneState);
-      toast("data/done.json에 동기화됨");
+      await persistDone(doneState);
+      toast("data/done.json에 동기화 요청됨");
     } catch (err) {
       console.error(err);
       toast(`동기화 실패: ${err.message}`, true);
@@ -359,7 +391,7 @@ function setStatus(id, status) {
   if (cardAfter) cardAfter.classList.add("is-saving");
 
   const label = STATUS_LABEL[status] || status;
-  if (!getPat()) {
+  if (!getWriteToken()) {
     toast(`${label}(으)로 이동 (로컬만)`);
     if (cardAfter) cardAfter.classList.remove("is-saving");
     updateBanner();
@@ -410,7 +442,6 @@ function wireDrag() {
   const onDragLeave = (e) => {
     const col = e.currentTarget.closest(".col");
     if (!col) return;
-    // Only clear when leaving the column entirely
     if (!col.contains(e.relatedTarget)) col.classList.remove("is-dragover");
   };
 
@@ -439,61 +470,6 @@ function wireDrag() {
   }
 }
 
-function openSettings() {
-  el.patInput.value = getPat() ? "••••••••••••" : "";
-  el.patInput.dataset.dirty = "0";
-  el.modal.hidden = false;
-  el.modal.classList.add("open");
-  el.patInput.focus();
-}
-function closeSettings() {
-  el.modal.classList.remove("open");
-  el.modal.hidden = true;
-}
-
-function wireSettings() {
-  el.settingsBtn.addEventListener("click", openSettings);
-  el.patCancel.addEventListener("click", closeSettings);
-  el.modal.addEventListener("click", (e) => {
-    if (e.target === el.modal) closeSettings();
-  });
-  el.patInput.addEventListener("input", () => {
-    el.patInput.dataset.dirty = "1";
-  });
-  el.patSave.addEventListener("click", async () => {
-    const dirty = el.patInput.dataset.dirty === "1";
-    const val = el.patInput.value.trim();
-    if (dirty) {
-      if (!val || val.startsWith("••")) {
-        toast("실제 토큰을 입력하세요", true);
-        return;
-      }
-      setPat(val);
-    }
-    closeSettings();
-    updateBanner();
-    if (getPat()) {
-      toast("PAT 저장됨 — 동기화 중…");
-      try {
-        await queueSync();
-      } catch (_) {}
-    } else {
-      toast("PAT 없음 — 로컬만");
-    }
-  });
-  el.patClear.addEventListener("click", () => {
-    setPat("");
-    el.patInput.value = "";
-    el.patInput.dataset.dirty = "0";
-    updateBanner();
-    toast("PAT 지워짐");
-    closeSettings();
-  });
-  document.addEventListener("keydown", (e) => {
-    if (e.key === "Escape" && el.modal.classList.contains("open")) closeSettings();
-  });
-}
-
 function entriesDiffer(a, b) {
   if (!a && !b) return false;
   if (!a || !b) return true;
@@ -505,7 +481,6 @@ function entriesDiffer(a, b) {
 
 async function init() {
   wireDrag();
-  wireSettings();
   updateBanner();
 
   try {
@@ -523,7 +498,7 @@ async function init() {
     saveLocalDone(doneState);
     render();
 
-    if (getPat() && local) {
+    if (getWriteToken() && local) {
       const remoteIds = normalizeState(remoteDone || { ids: {} }).ids;
       let needsPush = false;
       for (const [id, entry] of Object.entries(local.ids || {})) {

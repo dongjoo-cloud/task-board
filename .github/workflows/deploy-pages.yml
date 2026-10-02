@@ -1,0 +1,92 @@
+# Deploy static board to GitHub Pages and inject BOARD_WRITE_TOKEN into js/config.js
+# (token is never committed to git source; only present in the Pages artifact).
+name: Deploy Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build site with injected config
+        env:
+          BOARD_WRITE_TOKEN: ${{ secrets.BOARD_WRITE_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${BOARD_WRITE_TOKEN:-}" ]; then
+            echo "::error::BOARD_WRITE_TOKEN secret is missing"
+            exit 1
+          fi
+          python3 <<'PY'
+          import json, os, pathlib, shutil
+
+          token = os.environ["BOARD_WRITE_TOKEN"]
+          assert len(token) > 10
+
+          root = pathlib.Path(".")
+          site = pathlib.Path("_site")
+          if site.exists():
+              shutil.rmtree(site)
+          site.mkdir()
+
+          # Copy static assets (exclude git, workflows, examples, site build dir)
+          skip = {".git", ".github", "_site", "js"}
+          for p in root.iterdir():
+              if p.name in skip or p.name.startswith(".git"):
+                  continue
+              dest = site / p.name
+              if p.is_dir():
+                  shutil.copytree(p, dest)
+              else:
+                  shutil.copy2(p, dest)
+
+          js_dest = site / "js"
+          js_dest.mkdir(parents=True, exist_ok=True)
+          shutil.copy2(root / "js" / "app.js", js_dest / "app.js")
+
+          config = {
+              "owner": "dongjoo-cloud",
+              "repo": "task-board",
+              "branch": "main",
+              "mode": "dispatch",
+              "token": token,
+          }
+          # Write without dumping token to logs
+          (js_dest / "config.js").write_text(
+              "/* Generated at deploy from Actions secret BOARD_WRITE_TOKEN — do not commit. */\n"
+              "window.BOARD_CONFIG = %s;\n" % json.dumps(config, ensure_ascii=False),
+              encoding="utf-8",
+          )
+          print("config.js generated (token length %d, not printed)" % len(token))
+          print("site files:", sorted(x.name for x in site.iterdir()))
+          PY
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -14,12 +14,6 @@
         <h1 id="board-title">동주 태스크 보드</h1>
         <p class="sub" id="board-sub">불러오는 중…</p>
       </div>
-      <button type="button" class="icon-btn" id="settings-btn" title="설정 (PAT)" aria-label="설정">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-          <circle cx="12" cy="12" r="3"></circle>
-          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-        </svg>
-      </button>
     </header>
 
     <div id="setup-banner" class="banner warn" hidden></div>
@@ -56,32 +50,7 @@
 
   <div class="status" id="toast" role="status" aria-live="polite"></div>
 
-  <div class="modal-backdrop" id="settings-modal" hidden>
-    <div class="modal" role="dialog" aria-labelledby="settings-title">
-      <h3 id="settings-title">GitHub PAT (칸반 상태 저장)</h3>
-      <p>
-        <code>dongjoo-cloud/task-board</code>에만
-        <b>Contents: Read and write</b> 권한이 있는
-        <b>fine-grained PAT</b>를 붙여넣으세요.
-        이 브라우저의 <code>localStorage</code>에만 저장되며 — repo에는 절대 커밋되지 않습니다.
-      </p>
-      <label for="pat-input">Personal access token</label>
-      <input id="pat-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
-      <p class="hint">
-        발급:
-        <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">GitHub → Fine-grained tokens</a>
-        · Resource owner: <b>dongjoo-cloud</b> · Only select repository:
-        <b>task-board</b> · Permissions → Repository → Contents: <b>Read and write</b>
-        · Metadata: Read-only.
-      </p>
-      <div class="row">
-        <button type="button" class="btn danger" id="pat-clear">지우기</button>
-        <button type="button" class="btn" id="pat-cancel">취소</button>
-        <button type="button" class="btn primary" id="pat-save">저장</button>
-      </div>
-    </div>
-  </div>
-
+  <script src="js/config.js"></script>
   <script src="js/app.js" type="module"></script>
 </body>
 </html>
