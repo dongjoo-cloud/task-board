@@ -3,6 +3,19 @@ const DONE_PATH = "data/done.json";
 const LS_DONE = "task-board:done";
 const LS_PAT = "task-board:pat";
 
+/** Canonical column statuses persisted in done.json */
+const STATUS = {
+  TODO: "todo",
+  IN_PROGRESS: "in_progress",
+  DONE: "done",
+};
+
+const STATUS_LABEL = {
+  todo: "할 일",
+  in_progress: "진행 중",
+  done: "완료",
+};
+
 const el = {
   title: document.getElementById("board-title"),
   sub: document.getElementById("board-sub"),
@@ -25,12 +38,13 @@ const el = {
   patClear: document.getElementById("pat-clear"),
 };
 
-/** @type {{ids: Record<string, {done:boolean, at:string}>}} */
+/** @type {{ids: Record<string, {status:string, at:string, done?:boolean}>}} */
 let doneState = { ids: {} };
 /** @type {Array<any>} */
 let tasks = [];
 let toastTimer = null;
 let syncLock = Promise.resolve();
+let dragId = null;
 
 function cacheBust(url) {
   const u = new URL(url, location.href);
@@ -43,7 +57,7 @@ function loadLocalDone() {
     const raw = localStorage.getItem(LS_DONE);
     if (!raw) return null;
     const parsed = JSON.parse(raw);
-    if (parsed && typeof parsed === "object" && parsed.ids) return parsed;
+    if (parsed && typeof parsed === "object" && parsed.ids) return normalizeState(parsed);
   } catch (_) {}
   return null;
 }
@@ -61,9 +75,30 @@ function setPat(token) {
   else localStorage.setItem(LS_PAT, token.trim());
 }
 
+/** Normalize legacy {done:boolean} entries into {status}. */
+function normalizeEntry(entry) {
+  if (!entry || typeof entry !== "object") return null;
+  let status = entry.status;
+  if (status !== STATUS.TODO && status !== STATUS.IN_PROGRESS && status !== STATUS.DONE) {
+    if (entry.done === true) status = STATUS.DONE;
+    else if (entry.done === false) status = STATUS.TODO;
+    else return null;
+  }
+  return { status, at: entry.at || new Date().toISOString() };
+}
+
+function normalizeState(state) {
+  const out = { ids: {} };
+  for (const [id, entry] of Object.entries(state?.ids || {})) {
+    const n = normalizeEntry(entry);
+    if (n) out.ids[id] = n;
+  }
+  return out;
+}
+
 function mergeDone(remote, local) {
-  const out = { ids: { ...(remote?.ids || {}) } };
-  const localIds = local?.ids || {};
+  const out = { ids: { ...(normalizeState(remote).ids) } };
+  const localIds = normalizeState(local).ids;
   for (const [id, entry] of Object.entries(localIds)) {
     const r = out.ids[id];
     if (!r) {
@@ -77,11 +112,13 @@ function mergeDone(remote, local) {
   return out;
 }
 
-function isDone(id) {
-  return Boolean(doneState.ids?.[id]?.done);
+function getOverrideStatus(id) {
+  const entry = doneState.ids?.[id];
+  if (!entry) return null;
+  return entry.status || null;
 }
 
-function formatDoneAt(iso) {
+function formatStatusAt(iso) {
   if (!iso) return "";
   try {
     const d = new Date(iso);
@@ -115,8 +152,8 @@ function updateBanner() {
   el.banner.hidden = false;
   el.banner.className = "banner warn";
   el.banner.innerHTML =
-    "체크박스는 설정에서 fine-grained PAT를 넣기 전까지는 <code>localStorage</code>에만 저장됩니다. " +
-    "PAT가 있으면 완료 상태가 <code>data/done.json</code>에 기록되어 에이전트가 읽을 수 있습니다.";
+    "열 이동은 설정에서 fine-grained PAT를 넣기 전까지는 <code>localStorage</code>에만 저장됩니다. " +
+    "PAT가 있으면 칸반 상태가 <code>data/done.json</code>에 기록되어 에이전트가 읽을 수 있습니다.";
 }
 
 function renderEmpty(listEl, label) {
@@ -131,24 +168,23 @@ function linkLabel(task) {
 }
 
 function cardHtml(task) {
-  const done = isDone(task.id);
+  const col = bucketFor(task);
   const priority = task.priority || "";
   const source = task.source || "";
   const pills = [];
   if (priority === "new") pills.push('<span class="pill new">NEW</span>');
   if (priority === "still") pills.push('<span class="pill still">STILL</span>');
   if (source) pills.push(`<span class="pill ${source}">${source}</span>`);
-  if (done && doneState.ids[task.id]?.at) {
-    pills.push(`<span class="pill done-at">${formatDoneAt(doneState.ids[task.id].at)}</span>`);
+  if (doneState.ids[task.id]?.at) {
+    pills.push(`<span class="pill status-at">${formatStatusAt(doneState.ids[task.id].at)}</span>`);
   }
   const body = task["내용"] || task.summary || "";
   const action = task["액션"] || task.action || "";
   const link = task.link
-    ? `<a href="${escapeAttr(task.link)}" target="_blank" rel="noopener">${linkLabel(task)}</a>`
+    ? `<a href="${escapeAttr(task.link)}" target="_blank" rel="noopener" draggable="false">${linkLabel(task)}</a>`
     : "";
   return `
-    <article class="card ${done ? "is-done" : ""}" data-id="${escapeAttr(task.id)}">
-      <input class="check" type="checkbox" ${done ? "checked" : ""} aria-label="완료로 표시">
+    <article class="card ${col === STATUS.DONE ? "is-done" : ""}" data-id="${escapeAttr(task.id)}" draggable="true">
       <div class="card-body">
         <div class="card-title-row">
           <span class="card-title">${escapeHtml(task.title || task.id)}</span>
@@ -176,15 +212,24 @@ function escapeAttr(s) {
   return escapeHtml(s).replace(/'/g, "&#39;");
 }
 
+function normalizeTaskStatus(raw) {
+  if (raw === STATUS.IN_PROGRESS || raw === "progress") return STATUS.IN_PROGRESS;
+  if (raw === STATUS.DONE) return STATUS.DONE;
+  return STATUS.TODO;
+}
+
 function bucketFor(task) {
-  if (isDone(task.id)) return "done";
-  if (task.status === "in_progress") return "progress";
-  return "todo";
+  const override = getOverrideStatus(task.id);
+  if (override) return override;
+  return normalizeTaskStatus(task.status);
 }
 
 function render() {
-  const buckets = { todo: [], progress: [], done: [] };
-  for (const t of tasks) buckets[bucketFor(t)].push(t);
+  const buckets = { todo: [], in_progress: [], done: [] };
+  for (const t of tasks) {
+    const b = bucketFor(t);
+    buckets[b].push(t);
+  }
 
   const fill = (listEl, items, label) => {
     if (!items.length) {
@@ -195,14 +240,14 @@ function render() {
   };
 
   fill(el.listTodo, buckets.todo, "할 일");
-  fill(el.listProgress, buckets.progress, "진행 중");
+  fill(el.listProgress, buckets.in_progress, "진행 중");
   fill(el.listDone, buckets.done, "완료");
 
   el.kpiTodo.textContent = String(buckets.todo.length);
-  el.kpiProgress.textContent = String(buckets.progress.length);
+  el.kpiProgress.textContent = String(buckets.in_progress.length);
   el.kpiDone.textContent = String(buckets.done.length);
   el.countTodo.textContent = String(buckets.todo.length);
-  el.countProgress.textContent = String(buckets.progress.length);
+  el.countProgress.textContent = String(buckets.in_progress.length);
   el.countDone.textContent = String(buckets.done.length);
 }
 
@@ -242,13 +287,12 @@ async function githubPutDone(state) {
     const existing = await githubGetContents(DONE_PATH);
     sha = existing.sha;
   } catch (err) {
-    // 404 = create new file
     if (!String(err.message).includes("404")) throw err;
   }
 
   const url = `https://api.github.com/repos/${REPO.owner}/${REPO.name}/contents/${DONE_PATH}`;
   const body = {
-    message: `chore(done): sync checkbox state`,
+    message: `chore(status): sync kanban column state`,
     content: b64,
     branch: REPO.branch,
   };
@@ -267,7 +311,6 @@ async function githubPutDone(state) {
 
   if (!res.ok) {
     const text = await res.text();
-    // Retry once on SHA conflict
     if (res.status === 409) {
       const existing = await githubGetContents(DONE_PATH);
       body.sha = existing.sha;
@@ -306,20 +349,18 @@ function queueSync() {
   return syncLock;
 }
 
-function onToggle(id, checked, card) {
+function setStatus(id, status) {
   const at = new Date().toISOString();
-  doneState.ids[id] = { done: Boolean(checked), at };
+  doneState.ids[id] = { status, at };
   saveLocalDone(doneState);
-  if (card) {
-    card.classList.toggle("is-done", checked);
-    card.classList.add("is-saving");
-  }
   render();
+
   const cardAfter = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
   if (cardAfter) cardAfter.classList.add("is-saving");
 
+  const label = STATUS_LABEL[status] || status;
   if (!getPat()) {
-    toast(checked ? "완료 표시됨 (로컬만)" : "완료 해제됨 (로컬만)");
+    toast(`${label}(으)로 이동 (로컬만)`);
     if (cardAfter) cardAfter.classList.remove("is-saving");
     updateBanner();
     return;
@@ -331,19 +372,71 @@ function onToggle(id, checked, card) {
   });
 }
 
-function wireLists() {
-  const handler = (e) => {
-    const input = e.target;
-    if (!(input instanceof HTMLInputElement) || input.type !== "checkbox") return;
-    const card = input.closest(".card");
-    if (!card) return;
+function wireDrag() {
+  const lists = [el.listTodo, el.listProgress, el.listDone];
+  const cols = lists.map((list) => list.closest(".col"));
+
+  const onDragStart = (e) => {
+    const card = e.target.closest?.(".card");
+    if (!card || e.target.closest("a")) {
+      e.preventDefault();
+      return;
+    }
     const id = card.getAttribute("data-id");
-    if (!id) return;
-    onToggle(id, input.checked, card);
+    if (!id) {
+      e.preventDefault();
+      return;
+    }
+    dragId = id;
+    card.classList.add("is-dragging");
+    e.dataTransfer.effectAllowed = "move";
+    e.dataTransfer.setData("text/plain", id);
   };
-  el.listTodo.addEventListener("change", handler);
-  el.listProgress.addEventListener("change", handler);
-  el.listDone.addEventListener("change", handler);
+
+  const onDragEnd = (e) => {
+    const card = e.target.closest?.(".card");
+    if (card) card.classList.remove("is-dragging");
+    cols.forEach((c) => c?.classList.remove("is-dragover"));
+    dragId = null;
+  };
+
+  const onDragOver = (e) => {
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+    const col = e.currentTarget.closest(".col");
+    cols.forEach((c) => c?.classList.toggle("is-dragover", c === col));
+  };
+
+  const onDragLeave = (e) => {
+    const col = e.currentTarget.closest(".col");
+    if (!col) return;
+    // Only clear when leaving the column entirely
+    if (!col.contains(e.relatedTarget)) col.classList.remove("is-dragover");
+  };
+
+  const onDrop = (e) => {
+    e.preventDefault();
+    const list = e.currentTarget;
+    const status = list.getAttribute("data-status");
+    cols.forEach((c) => c?.classList.remove("is-dragover"));
+    const id = e.dataTransfer.getData("text/plain") || dragId;
+    dragId = null;
+    if (!id || !status) return;
+    const current = (() => {
+      const t = tasks.find((x) => x.id === id);
+      return t ? bucketFor(t) : null;
+    })();
+    if (current === status) return;
+    setStatus(id, status);
+  };
+
+  for (const list of lists) {
+    list.addEventListener("dragstart", onDragStart);
+    list.addEventListener("dragend", onDragEnd);
+    list.addEventListener("dragover", onDragOver);
+    list.addEventListener("dragleave", onDragLeave);
+    list.addEventListener("drop", onDrop);
+  }
 }
 
 function openSettings() {
@@ -401,8 +494,17 @@ function wireSettings() {
   });
 }
 
+function entriesDiffer(a, b) {
+  if (!a && !b) return false;
+  if (!a || !b) return true;
+  if (a.status !== b.status) return true;
+  const lt = Date.parse(a.at || 0) || 0;
+  const rt = Date.parse(b.at || 0) || 0;
+  return lt > rt;
+}
+
 async function init() {
-  wireLists();
+  wireDrag();
   wireSettings();
   updateBanner();
 
@@ -421,15 +523,11 @@ async function init() {
     saveLocalDone(doneState);
     render();
 
-    // If PAT present and local has newer entries, push once on load
     if (getPat() && local) {
-      const remoteIds = remoteDone?.ids || {};
+      const remoteIds = normalizeState(remoteDone || { ids: {} }).ids;
       let needsPush = false;
       for (const [id, entry] of Object.entries(local.ids || {})) {
-        const r = remoteIds[id];
-        const lt = Date.parse(entry?.at || 0) || 0;
-        const rt = Date.parse(r?.at || 0) || 0;
-        if (!r || lt > rt || Boolean(entry?.done) !== Boolean(r?.done)) {
+        if (entriesDiffer(entry, remoteIds[id])) {
           needsPush = true;
           break;
         }

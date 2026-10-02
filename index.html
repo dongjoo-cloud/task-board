@@ -30,23 +30,26 @@
       <div class="kpi"><div class="v" id="kpi-done">0</div><div class="l">완료</div></div>
     </div>
 
-    <section class="col" id="sec-todo">
-      <h2>할 일 <span class="count" id="count-todo">0</span></h2>
-      <div class="list" id="list-todo"></div>
-    </section>
+    <div class="board" id="kanban">
+      <section class="col" id="sec-todo" data-status="todo">
+        <h2>할 일 <span class="count" id="count-todo">0</span></h2>
+        <div class="list" id="list-todo" data-status="todo"></div>
+      </section>
 
-    <section class="col" id="sec-progress">
-      <h2>진행 중 <span class="count" id="count-progress">0</span></h2>
-      <div class="list" id="list-progress"></div>
-    </section>
+      <section class="col" id="sec-progress" data-status="in_progress">
+        <h2>진행 중 <span class="count" id="count-progress">0</span></h2>
+        <div class="list" id="list-progress" data-status="in_progress"></div>
+      </section>
 
-    <section class="col" id="sec-done">
-      <h2>완료 <span class="count" id="count-done">0</span></h2>
-      <div class="list" id="list-done"></div>
-    </section>
+      <section class="col" id="sec-done" data-status="done">
+        <h2>완료 <span class="count" id="count-done">0</span></h2>
+        <div class="list" id="list-done" data-status="done"></div>
+      </section>
+    </div>
 
     <footer class="foot">
-      데이터: <code>data/tasks.json</code> + <code>data/done.json</code>
+      데이터: <code>data/tasks.json</code> + <code>data/done.json</code> (status map)
+      · 카드를 열 사이로 드래그
       · <a href="https://github.com/dongjoo-cloud/task-board" target="_blank" rel="noopener">repo</a>
     </footer>
   </div>
@@ -55,7 +58,7 @@
 
   <div class="modal-backdrop" id="settings-modal" hidden>
     <div class="modal" role="dialog" aria-labelledby="settings-title">
-      <h3 id="settings-title">GitHub PAT (완료 상태 저장)</h3>
+      <h3 id="settings-title">GitHub PAT (칸반 상태 저장)</h3>
       <p>
         <code>dongjoo-cloud/task-board</code>에만
         <b>Contents: Read and write</b> 권한이 있는
