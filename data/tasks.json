@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-02T17:42:00+09:00",
+  "updatedAt": "2026-10-04T21:42:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "17:40 스크리닝 · 2026-10-02 (금) KST",
+  "subtitle": "21:40 스크리닝 · 2026-10-04 (일) KST · 신규 0건",
   "tasks": [
     {
       "id": "gmail:wispr-billing-2026-10-02",
@@ -9,14 +9,10 @@
       "source": "gmail",
       "priority": "still",
       "title": "Wispr 팀 결제 갱신",
-      "summary": "배경 — Wispr Flow(hello@updates.wispr.ai)가 Storika 팀 결제 실패를 알렸어요 (≈13:40 KST).\n\n왜 — 1주일 안에 billing을 안 고치면 dictation·Snippets·팀 관리 접근이 막힐 수 있어요.\n\n팁 — 직접 카드를 갱신하거나 finance@storika.ai로 이관하면 됩니다.",
+      "summary": "배경 — Wispr Flow가 Storika 팀 결제 실패를 알렸어요.\n\n왜 — 1주일 안에 billing을 안 고치면 dictation·Snippets·팀 관리 접근이 막힐 수 있어요.\n\n팁 — 직접 카드 갱신하거나 finance@storika.ai로 이관하면 됩니다.",
       "액션": "https://admin.wisprflow.ai/app/settings/billing 에서\n카드 갱신·재시도\n(또는 finance@로 이관)",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877911586356381277",
-      "tags": [
-        "gmail",
-        "wispr",
-        "billing"
-      ]
+      "tags": ["gmail", "wispr", "billing"]
     },
     {
       "id": "gmail:fathom-daily-2026-10-02",
@@ -24,14 +20,10 @@
       "source": "gmail",
       "priority": "still",
       "title": "데일리(10/2) Fathom — DJ 액션",
-      "summary": "배경 — 오늘 daily Fathom 회의록(≈09:25 KST)에 Dongjoo 담당 액션이 여러 개 잡혔어요.\n\n왜 — Jev 싱크, Sentry 에러·슬랙 규칙, Jen MCP 품질, Meta 초대용 개인메일이 DJ 몫입니다.\n\n맥락 — Brice·Jay도 각자 액션(미디어키트 루프·Meta/Shopify 조사 등)이 있어요.",
-      "액션": "① Jev 공부·엔지니어링 싱크 준비\n② 팀 인터뷰 → Sentry 에러 핸들링·Slack/티켓 규칙 정의\n③ Jen 인터뷰 → MCP 크리에이터 검색 품질·데이터 갭\n④ Brice에 Meta Creator Marketplace 초대용 개인 이메일 공유",
+      "summary": "배경 — 10/2 daily Fathom에 Dongjoo 담당 액션이 남아 있어요.\n\n왜 — Jev 싱크, Sentry/슬랙 규칙, Jen MCP 품질, Meta 초대용 개인메일이 DJ 몫입니다.\n\n맥락 — Fathom은 Zeb/Zep으로 오인식하지만 Slack 기준 도구명은 Jev입니다.",
+      "액션": "① Jev 공부·엔지니어링 싱크 준비\n② 팀 인터뷰 → Sentry 에러·Slack/티켓 규칙\n③ Jen 인터뷰 → MCP 크리에이터 검색 품질\n④ Brice에 Meta Creator Marketplace 초대용 개인 이메일 공유",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877895555099185158",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily"
-      ]
+      "tags": ["gmail", "fathom", "daily", "jev"]
     },
     {
       "id": "slack:1790877441.863009",
@@ -39,14 +31,32 @@
       "source": "slack",
       "priority": "still",
       "title": "Jay — Jev 멀티모달 확인",
-      "summary": "배경 — Jay가 #ai-native에서 TypeSafe Jev가 영상·이미지 같은 멀티모달 입력을 받는지 물어봤어요.\n\n왜 — 데이터 파이프라인에도 쓸 수 있을지, 가능하면 Gemini 청구를 거의 안 낼 수 있는지 확인이 필요합니다.\n\n맥락 — Brice는 text/짧은 mp4 수준은 된다 했고, jev-omni 영상 분석 품질은 별개라고 했어요.",
+      "summary": "배경 — Jay가 #ai-native에서 TypeSafe Jev가 영상·이미지 입력을 받는지 물어봤어요.\n\n왜 — 데이터 파이프라인에도 쓸 수 있을지, Gemini 청구를 줄일 수 있는지 확인이 필요합니다.\n\n맥락 — Brice는 text/짧은 mp4는 된다 했고, jev-omni 영상 품질은 별개. DJ 답장 아직 없음.",
       "액션": "스레드를 읽고\nJev 멀티모달 지원 범위(특히 영상)를 짧게 정리해\nJay에게 답장",
       "link": "https://storika-ai.slack.com/archives/C0AH5Q2THP1/p1790877441863009?thread_ts=1790873716.040419",
-      "tags": [
-        "slack",
-        "jay",
-        "jev"
-      ]
+      "tags": ["slack", "jay", "jev"]
+    },
+    {
+      "id": "gmail:calendar-hoesik-2026-10-28",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "still",
+      "title": "회식 RSVP (10/28)",
+      "summary": "배경 — Brice가 10/28(수) 18–21시 회식(Yoo's Barbecue Lab)에 초대했어요.\n\n왜 — 캘린더 responseStatus가 아직 needsAction입니다.\n\n팁 — Don·Brice는 수락, Jen·Dongjoo는 미응답.",
+      "액션": "Google Calendar에서\n회식(10/28) Accept 또는 Decline",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877850371820362495",
+      "tags": ["gmail", "calendar", "rsvp"]
+    },
+    {
+      "id": "slack:1791106870.357149",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "still",
+      "title": "고객(rire) 브랜드 재분석 안내",
+      "summary": "배경 — Brice DM: org 305 스튜디오1216(rire.co.kr) 브랜드 Enrich가 Firecrawl 크레딧 부족으로 실패했어요.\n\n왜 — 고객 토큰을 쓰지 않고 QA가 웹사이트를 읽어 크레딧을 소진했습니다. DJ가 월 10/5 오전 10시경 메일 안내를 약속했고 👀 진행 중.\n\n맥락 — 실패 읽기 토큰 0, 채팅 10턴 18,380 차감. 재분석 256토큰은 보전 불필요.",
+      "액션": "월 10/5 오전 10시경\n100joroom@gmail.com에 Enrich 재실행 안내\n채팅 토큰 보전 여부는 판단 후 메모",
+      "link": "https://storika-ai.slack.com/archives/D0A1ACQ0Z9V/p1791106870357149",
+      "tags": ["slack", "brice", "brand", "rire"]
     },
     {
       "id": "slack:1790900456.826639",
@@ -57,12 +67,7 @@
       "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n왜 — 파이프라인 쪽을 계속 밀고, 댓글 분석에도 JEV를 붙이자는 요청입니다.\n\n상태 — 이미 👀로 진행 중.",
       "액션": "파이프라인 진행 유지\ncomment 분석기에 JEV 붙이기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790900456826639",
-      "tags": [
-        "slack",
-        "jay",
-        "pipeline",
-        "jev"
-      ]
+      "tags": ["slack", "jay", "pipeline", "jev"]
     },
     {
       "id": "slack:1790695318",
@@ -70,14 +75,10 @@
       "source": "slack",
       "priority": "still",
       "title": "Vertex ADC 로그인",
-      "summary": "배경 — 하네스 Gemini 호출이 AI Studio 키 한도로 429가 나서 Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 서비스/파이프라인은 이미 Vertex라 영향 없고, 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자라 권한은 이미 준비돼 있어요.",
+      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.",
       "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790695318544699?thread_ts=1790695318.544699",
-      "tags": [
-        "slack",
-        "gcp",
-        "vertex"
-      ]
+      "tags": ["slack", "gcp", "vertex"]
     },
     {
       "id": "slack:1790801772",
@@ -85,88 +86,10 @@
       "source": "slack",
       "priority": "still",
       "title": "TikTok Shop 후속",
-      "summary": "배경 — TikTok Shop 관련 후속 논의가 아직 열려 있어요.\n\n왜 — 크리에이터 검색·샵 연결·GMV 이슈가 Linear/Slack에 이어지고 있습니다.\n\n범위 — 전체가 아니라 ‘내가 답하거나 승인할 것’만 골라 닫으면 됩니다.",
-      "액션": "관련 Slack 스레드/Linear를 훑고\n본인 액션 아이템만 회신하거나 완료 처리",
+      "summary": "배경 — TikTok Shop 관련 후속 논의가 아직 열려 있어요.\n\n왜 — 제휴 크리에이터·굿즈 등록·앱 담당자 연락처에 Brice/DJ 질문이 남아 있습니다.\n\n범위 — ‘내가 답하거나 승인할 것’만 골라 닫으면 됩니다.",
+      "액션": "관련 Slack 스레드를 훑고\n본인 액션 아이템만 회신하거나 완료 처리",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790801772922079",
-      "tags": [
-        "slack",
-        "tiktok"
-      ]
-    },
-    {
-      "id": "gmail:typesafe-invite",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "TypeSafe 초대 수락",
-      "summary": "배경 — Storika 팀 TypeSafe 초대 메일이 도착해 있어요.\n\n왜 — TypeSafe는 Jev API를 쓰는 곳이라 팀 협업·키·콘솔 접근을 위해 계정을 팀에 붙여야 합니다.\n\n할 일 — 초대를 수락만 하면 되고, 거절할 이유가 없다면 오늘 처리해도 됩니다.",
-      "액션": "Gmail TypeSafe 초대에서\nAccept / Join Storika 클릭",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877866110926550430",
-      "tags": [
-        "gmail",
-        "invite",
-        "typesafe"
-      ]
-    },
-    {
-      "id": "gmail:firecrawl-invite",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "Firecrawl 초대 수락",
-      "summary": "배경 — jay@storika.ai가 Storika Firecrawl 팀으로 초대해 둔 메일입니다.\n\n왜 — 웹 스크래핑/크롤 API를 팀 단위로 쓰려면 초대를 수락해야 키가 팀에 묶입니다.\n\n팁 — TypeSafe·Exa 초대와 같이 한 번에 처리하면 메일함이 덜 쌓입니다.",
-      "액션": "Gmail Firecrawl 초대에서\nJoin Team / Accept 클릭",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877790511947312386",
-      "tags": [
-        "gmail",
-        "invite",
-        "firecrawl"
-      ]
-    },
-    {
-      "id": "gmail:exa-invite",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "Exa 초대 수락",
-      "summary": "배경 — Jay·Brice가 각각 Storika Exa 팀으로 초대해 둔 메일이 있습니다.\n\n왜 — Exa는 검색/리서치 API라 팀 초대만 수락하면 같은 워크스페이스를 쓰게 됩니다.\n\n팁 — 초대가 두 통이어도 하나만 수락하면 되고, 다른 SaaS 초대와 묶어서 처리하세요.",
-      "액션": "Gmail Exa 초대(Jay 또는 Brice)에서\nACCEPT INVITE 클릭",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877638100807020760",
-      "tags": [
-        "gmail",
-        "invite",
-        "exa"
-      ]
-    },
-    {
-      "id": "gmail:ramp-weekly-2026-10-01",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "Ramp 주간 — 거래 3건 검토",
-      "summary": "배경 — Ramp 주간 다이제스트에 ‘검토가 필요한 거래 3건’이 잡혀 있어요.\n\n왜 — 카드/지갑 지출을 누가 썼는지·카테고리가 맞는지 확인하는 가벼운 재무 루틴입니다.\n\n팁 — 이상 거래만 표시해 두면 나중에 정산·세금 때 덜 헤맵니다.",
-      "액션": "Ramp 주간 메일(또는 Ramp 앱)에서\n검토 대기 3건을 승인/메모하고 닫기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877845013855716936",
-      "tags": [
-        "gmail",
-        "ramp",
-        "finance"
-      ]
-    },
-    {
-      "id": "gmail:maru-headcount",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "MARU 인원 수 확인 (~10/7)",
-      "summary": "배경 — 아산나눔재단(MARU)이 10/1 기준 출입증 발급 수와 마루 홈페이지 등록 인원을 대사한 뒤 확인을 요청했어요.\n\n왜 — 관리비는 매월 1일 홈페이지 인원·출입증 기준으로 청구됩니다.\n\n기한 — 10/7(수)까지 회신. 실제 상주/등록 인원이 맞는지만 확인하면 됩니다.",
-      "액션": "MARU 메일 내용과 실제 인원을 대조해\n10/7 전에 회신\n(또는 담당자에게 확인 부탁)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1877818178922465748",
-      "tags": [
-        "gmail",
-        "maru",
-        "deadline"
-      ]
+      "tags": ["slack", "tiktok"]
     }
   ]
 }
