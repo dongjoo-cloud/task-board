@@ -4,13 +4,13 @@ Interactive Korean Kanban board for Dongjoo, deployed on GitHub Pages.
 
 Live: https://dongjoo-cloud.github.io/task-board/
 
-Columns: **할 일** / **진행 중** / **완료**. Drag cards between columns (no checkboxes). Max-width ~1540px. Card body/action text keep line breaks (`white-space: pre-wrap`).
+Columns: **할 일** / **진행 중** / **완료** / **내 업무 아님**. Drag cards between columns, or use right-click / 「상태 변경」. Max-width ~1540px. Card body/action text keep line breaks (`white-space: pre-wrap`).
 
 ## How sync works (no user-facing PAT)
 
 | Piece | Role |
 |-------|------|
-| `data/tasks.json` | Source of truth for open items (agent writes on each digest). Default `status` per task: `todo` \| `in_progress` \| `done`. |
+| `data/tasks.json` | Source of truth for open items (agent writes on each digest). Default `status` per task: `todo` \| `in_progress` \| `done` \| `not_mine`. |
 | `data/done.json` | **Status map** (user overrides from the board). See schema below. |
 | Actions secret `BOARD_WRITE_TOKEN` | Limited write credential (stored as repo secret only — never committed as plaintext source on `main`). |
 | `.github/workflows/deploy-pages.yml` | Builds Pages artifact and **injects** `js/config.js` from `BOARD_WRITE_TOKEN`. |
@@ -34,7 +34,7 @@ There is **no gear icon / PAT paste UI**. The write token is injected only into 
 {
   "ids": {
     "<externalId>": {
-      "status": "todo" | "in_progress" | "done",
+      "status": "todo" | "in_progress" | "done" | "not_mine",
       "at": "2026-10-02T01:23:45.678Z"
     }
   }
@@ -42,7 +42,8 @@ There is **no gear icon / PAT paste UI**. The write token is injected only into 
 ```
 
 - **Override wins**: if an id is present in `done.json`, use that `status` instead of `tasks.json`’s default `status`.
-- **Missing id**: fall back to `tasks.json` → `task.status` (`todo` / `in_progress` / `done`).
+- **Missing id**: fall back to `tasks.json` → `task.status` (`todo` / `in_progress` / `done` / `not_mine`).
+- **`not_mine`**: same screening treatment as `done` — do not re-nudge; keep the card out of active work.
 - **Legacy**: old checkbox shape `{ "done": true, "at": "…" }` is still accepted and treated as `status: "done"`.
 - Local cache key: `task-board:done` (status map).
 

@@ -7,12 +7,16 @@ const STATUS = {
   TODO: "todo",
   IN_PROGRESS: "in_progress",
   DONE: "done",
+  NOT_MINE: "not_mine",
 };
+
+const STATUS_ORDER = [STATUS.TODO, STATUS.IN_PROGRESS, STATUS.DONE, STATUS.NOT_MINE];
 
 const STATUS_LABEL = {
   todo: "할 일",
   in_progress: "진행 중",
   done: "완료",
+  not_mine: "내 업무 아님",
 };
 
 const el = {
@@ -22,12 +26,15 @@ const el = {
   kpiTodo: document.getElementById("kpi-todo"),
   kpiProgress: document.getElementById("kpi-progress"),
   kpiDone: document.getElementById("kpi-done"),
+  kpiNotMine: document.getElementById("kpi-not-mine"),
   countTodo: document.getElementById("count-todo"),
   countProgress: document.getElementById("count-progress"),
   countDone: document.getElementById("count-done"),
+  countNotMine: document.getElementById("count-not-mine"),
   listTodo: document.getElementById("list-todo"),
   listProgress: document.getElementById("list-progress"),
   listDone: document.getElementById("list-done"),
+  listNotMine: document.getElementById("list-not-mine"),
   toast: document.getElementById("toast"),
 };
 
@@ -76,7 +83,7 @@ function saveLocalDone(state) {
 function normalizeEntry(entry) {
   if (!entry || typeof entry !== "object") return null;
   let status = entry.status;
-  if (status !== STATUS.TODO && status !== STATUS.IN_PROGRESS && status !== STATUS.DONE) {
+  if (!STATUS_ORDER.includes(status)) {
     if (entry.done === true) status = STATUS.DONE;
     else if (entry.done === false) status = STATUS.TODO;
     else return null;
@@ -182,7 +189,7 @@ function cardHtml(task) {
     ? `<a href="${escapeAttr(task.link)}" target="_blank" rel="noopener" draggable="false">${linkLabel(task)}</a>`
     : "";
   return `
-    <article class="card ${col === STATUS.DONE ? "is-done" : ""}" data-id="${escapeAttr(task.id)}" draggable="true">
+    <article class="card ${col === STATUS.DONE ? "is-done" : ""}${col === STATUS.NOT_MINE ? " is-not-mine" : ""}" data-id="${escapeAttr(task.id)}" draggable="true">
       <div class="card-body">
         <div class="card-title-row">
           <span class="card-title">${escapeHtml(task.title || task.id)}</span>
@@ -214,6 +221,7 @@ function escapeAttr(s) {
 function normalizeTaskStatus(raw) {
   if (raw === STATUS.IN_PROGRESS || raw === "progress") return STATUS.IN_PROGRESS;
   if (raw === STATUS.DONE) return STATUS.DONE;
+  if (raw === STATUS.NOT_MINE) return STATUS.NOT_MINE;
   return STATUS.TODO;
 }
 
@@ -224,10 +232,10 @@ function bucketFor(task) {
 }
 
 function render() {
-  const buckets = { todo: [], in_progress: [], done: [] };
+  const buckets = { todo: [], in_progress: [], done: [], not_mine: [] };
   for (const t of tasks) {
     const b = bucketFor(t);
-    buckets[b].push(t);
+    (buckets[b] || buckets.todo).push(t);
   }
 
   const fill = (listEl, items, label) => {
@@ -241,13 +249,16 @@ function render() {
   fill(el.listTodo, buckets.todo, "할 일");
   fill(el.listProgress, buckets.in_progress, "진행 중");
   fill(el.listDone, buckets.done, "완료");
+  fill(el.listNotMine, buckets.not_mine, "내 업무 아님");
 
   el.kpiTodo.textContent = String(buckets.todo.length);
   el.kpiProgress.textContent = String(buckets.in_progress.length);
   el.kpiDone.textContent = String(buckets.done.length);
+  el.kpiNotMine.textContent = String(buckets.not_mine.length);
   el.countTodo.textContent = String(buckets.todo.length);
   el.countProgress.textContent = String(buckets.in_progress.length);
   el.countDone.textContent = String(buckets.done.length);
+  el.countNotMine.textContent = String(buckets.not_mine.length);
 }
 
 async function fetchJson(path) {
@@ -405,8 +416,12 @@ function setStatus(id, status) {
   });
 }
 
+function allLists() {
+  return [el.listTodo, el.listProgress, el.listDone, el.listNotMine];
+}
+
 function wireDrag() {
-  const lists = [el.listTodo, el.listProgress, el.listDone];
+  const lists = allLists();
   const cols = lists.map((list) => list.closest(".col"));
 
   const onDragStart = (e) => {
@@ -486,7 +501,7 @@ function ensureMenu() {
   menuEl.className = "ctx-menu";
   menuEl.setAttribute("role", "menu");
   menuEl.hidden = true;
-  const items = [STATUS.TODO, STATUS.IN_PROGRESS, STATUS.DONE]
+  const items = STATUS_ORDER
     .map(
       (st) =>
         `<button type="button" role="menuitem" class="ctx-item" data-status="${st}">` +
@@ -545,7 +560,7 @@ function closeMenu() {
 }
 
 function wireContextMenu() {
-  const lists = [el.listTodo, el.listProgress, el.listDone];
+  const lists = allLists();
 
   const onContext = (e) => {
     const card = e.target.closest?.(".card");

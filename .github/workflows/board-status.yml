@@ -52,7 +52,7 @@ jobs:
               if not isinstance(entry, dict):
                   return None
               status = entry.get("status")
-              if status not in ("todo", "in_progress", "done"):
+              if status not in ("todo", "in_progress", "done", "not_mine"):
                   if entry.get("done") is True:
                       status = "done"
                   elif entry.get("done") is False:
@@ -69,7 +69,7 @@ jobs:
                   if n:
                       new_ids[str(k)] = n
               ids = new_ids
-          elif payload.get("id") and payload.get("status") in ("todo", "in_progress", "done"):
+          elif payload.get("id") and payload.get("status") in ("todo", "in_progress", "done", "not_mine"):
               tid = str(payload["id"])
               at = payload.get("at") or datetime.datetime.now(datetime.timezone.utc).isoformat().replace("+00:00", "Z")
               ids[tid] = {"status": payload["status"], "at": at}

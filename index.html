@@ -22,6 +22,7 @@
       <div class="kpi"><div class="v" id="kpi-todo">0</div><div class="l">할 일</div></div>
       <div class="kpi"><div class="v" id="kpi-progress">0</div><div class="l">진행 중</div></div>
       <div class="kpi"><div class="v" id="kpi-done">0</div><div class="l">완료</div></div>
+      <div class="kpi"><div class="v" id="kpi-not-mine">0</div><div class="l">내 업무 아님</div></div>
     </div>
 
     <div class="board" id="kanban">
@@ -38,6 +39,11 @@
       <section class="col" id="sec-done" data-status="done">
         <h2>완료 <span class="count" id="count-done">0</span></h2>
         <div class="list" id="list-done" data-status="done"></div>
+      </section>
+
+      <section class="col" id="sec-not-mine" data-status="not_mine">
+        <h2>내 업무 아님 <span class="count" id="count-not-mine">0</span></h2>
+        <div class="list" id="list-not-mine" data-status="not_mine"></div>
       </section>
     </div>
 

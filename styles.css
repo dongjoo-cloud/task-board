@@ -18,6 +18,7 @@
   --col-todo: #111;
   --col-progress: #1a56db;
   --col-done: #03543f;
+  --col-not-mine: #6b7280;
 }
 
 * { box-sizing: border-box; }
@@ -75,7 +76,7 @@ h1 {
 
 .kpis {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 10px;
   margin-bottom: 18px;
 }
@@ -120,7 +121,7 @@ h1 {
 /* Kanban board */
 .board {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   align-items: start;
 }
@@ -150,6 +151,7 @@ section.col h2 {
 }
 #sec-progress h2 { border-left-color: var(--col-progress); }
 #sec-done h2 { border-left-color: var(--col-done); }
+#sec-not-mine h2 { border-left-color: var(--col-not-mine); }
 
 section.col h2 .count {
   font-size: 12px;
@@ -186,6 +188,11 @@ section.col h2 .count {
   border-color: #cce9dc;
   background: #f7fcf9;
 }
+.card.is-not-mine {
+  opacity: 0.82;
+  border-color: #d1d5db;
+  background: #f3f4f6;
+}
 .card.is-saving { outline: 2px solid #bcd3fb; }
 .card.is-error { outline: 2px solid #f5c2c2; }
 
@@ -210,6 +217,9 @@ section.col h2 .count {
 }
 .card.is-done .card-title {
   text-decoration: line-through;
+  color: var(--muted);
+}
+.card.is-not-mine .card-title {
   color: var(--muted);
 }
 
@@ -456,6 +466,7 @@ section.col h2 .count {
 }
 .ctx-dot.in_progress { background: var(--col-progress); }
 .ctx-dot.done { background: var(--col-done); }
+.ctx-dot.not_mine { background: var(--col-not-mine); }
 .ctx-label { flex: 1 1 auto; }
 .ctx-check {
   display: none;
@@ -480,15 +491,22 @@ footer.foot code {
   font-size: 11px;
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1200px) {
+  .board {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 720px) {
   .board {
     grid-template-columns: 1fr;
   }
   .wrap { max-width: 680px; }
+  .kpis { grid-template-columns: 1fr 1fr; gap: 8px; }
 }
 
 @media (max-width: 420px) {
-  .kpis { grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+  .kpis { grid-template-columns: 1fr 1fr; gap: 8px; }
   .kpi .v { font-size: 20px; }
   h1 { font-size: 20px; }
 }
