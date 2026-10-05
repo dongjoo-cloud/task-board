@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-05T09:46:00+09:00",
+  "updatedAt": "2026-10-05T11:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "09:40 스크리닝 · 2026-10-05 (월) KST · 신규 0건",
+  "subtitle": "11:40 스크리닝 · 2026-10-05 (월) KST · 신규 0건",
   "tasks": [
     {
       "id": "gmail:wispr-billing-2026-10-02",
@@ -62,22 +62,6 @@
         "gmail",
         "calendar",
         "rsvp"
-      ]
-    },
-    {
-      "id": "slack:1791106870.357149",
-      "status": "in_progress",
-      "source": "slack",
-      "priority": "still",
-      "title": "고객(rire) 브랜드 재분석 안내",
-      "summary": "배경 — org 305 스튜디오1216(rire.co.kr) 브랜드 분석이 Firecrawl 크레딧 부족으로 실패했던 건이에요.\n\n업데이트(10/5 새벽) — Brice가 브랜드 분석을 다시 돌려 프로필이 채워졌고(job 2658918, 고객 차감 0), 채팅 10턴 18,380토큰도 org 305에 추가해 줬어요(04:15).\n\n주의 — 재시도 요청이나 '아직 해결 안 됨' 안내는 이제 필요 없어요. 메일에 '환불'이라는 표현과 내부 티켓 번호는 쓰지 말라고 했어요.",
-      "액션": "오늘 10/5 오전 10시경 100joroom@gmail.com에 메일\n'브랜드 프로필이 준비됐다' + '오류 중 사용하신 토큰만큼 추가해 드렸다'로 안내",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791139804097629",
-      "tags": [
-        "slack",
-        "brice",
-        "brand",
-        "rire"
       ]
     },
     {
