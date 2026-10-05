@@ -193,6 +193,7 @@ function cardHtml(task) {
         <div class="meta">
           <span class="id">${escapeHtml(task.id)}</span>
           ${link}
+          <button type="button" class="card-menu-btn" data-menu-for="${escapeAttr(task.id)}" draggable="false" aria-label="상태 변경" title="상태 변경">상태 변경</button>
         </div>
       </div>
     </article>
@@ -470,6 +471,138 @@ function wireDrag() {
   }
 }
 
+/* Card context menu: right-click (or "상태 변경" button / long-press) to set status */
+let menuEl = null;
+let menuTaskId = null;
+
+function currentStatusOf(id) {
+  const t = tasks.find((x) => x.id === id);
+  return t ? bucketFor(t) : null;
+}
+
+function ensureMenu() {
+  if (menuEl) return menuEl;
+  menuEl = document.createElement("div");
+  menuEl.className = "ctx-menu";
+  menuEl.setAttribute("role", "menu");
+  menuEl.hidden = true;
+  const items = [STATUS.TODO, STATUS.IN_PROGRESS, STATUS.DONE]
+    .map(
+      (st) =>
+        `<button type="button" role="menuitem" class="ctx-item" data-status="${st}">` +
+        `<span class="ctx-dot ${st}"></span><span class="ctx-label">${STATUS_LABEL[st]}</span>` +
+        `<span class="ctx-check">현재</span></button>`
+    )
+    .join("");
+  menuEl.innerHTML = `<div class="ctx-head">상태 변경</div>${items}`;
+  document.body.appendChild(menuEl);
+
+  menuEl.addEventListener("click", (e) => {
+    const btn = e.target.closest(".ctx-item");
+    if (!btn) return;
+    const status = btn.getAttribute("data-status");
+    const id = menuTaskId;
+    closeMenu();
+    if (!id || !status) return;
+    if (currentStatusOf(id) === status) return;
+    setStatus(id, status);
+  });
+  menuEl.addEventListener("contextmenu", (e) => e.preventDefault());
+  return menuEl;
+}
+
+function openMenu(id, x, y) {
+  const m = ensureMenu();
+  menuTaskId = id;
+  const cur = currentStatusOf(id);
+  m.querySelectorAll(".ctx-item").forEach((b) => {
+    const isCur = b.getAttribute("data-status") === cur;
+    b.classList.toggle("is-current", isCur);
+    b.setAttribute("aria-current", isCur ? "true" : "false");
+  });
+  document.querySelectorAll(".card.is-menu-open").forEach((c) => c.classList.remove("is-menu-open"));
+  const card = document.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (card) card.classList.add("is-menu-open");
+
+  m.hidden = false;
+  m.style.left = "0px";
+  m.style.top = "0px";
+  const r = m.getBoundingClientRect();
+  const pad = 8;
+  const left = Math.min(Math.max(pad, x), window.innerWidth - r.width - pad);
+  const top = Math.min(Math.max(pad, y), window.innerHeight - r.height - pad);
+  m.style.left = `${left}px`;
+  m.style.top = `${top}px`;
+  const first = m.querySelector(".ctx-item:not(.is-current)") || m.querySelector(".ctx-item");
+  first?.focus({ preventScroll: true });
+}
+
+function closeMenu() {
+  if (!menuEl || menuEl.hidden) return;
+  menuEl.hidden = true;
+  menuTaskId = null;
+  document.querySelectorAll(".card.is-menu-open").forEach((c) => c.classList.remove("is-menu-open"));
+}
+
+function wireContextMenu() {
+  const lists = [el.listTodo, el.listProgress, el.listDone];
+
+  const onContext = (e) => {
+    const card = e.target.closest?.(".card");
+    if (!card) return;
+    if (e.target.closest("a")) return; // keep native menu on links (새 탭 열기 등)
+    const id = card.getAttribute("data-id");
+    if (!id) return;
+    e.preventDefault();
+    openMenu(id, e.clientX, e.clientY);
+  };
+
+  const onClick = (e) => {
+    const btn = e.target.closest?.(".card-menu-btn");
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const id = btn.getAttribute("data-menu-for");
+    if (!id) return;
+    if (menuEl && !menuEl.hidden && menuTaskId === id) {
+      closeMenu();
+      return;
+    }
+    const r = btn.getBoundingClientRect();
+    openMenu(id, r.left, r.bottom + 4);
+  };
+
+  for (const list of lists) {
+    list.addEventListener("contextmenu", onContext);
+    list.addEventListener("click", onClick);
+  }
+
+  document.addEventListener("pointerdown", (e) => {
+    if (!menuEl || menuEl.hidden) return;
+    if (menuEl.contains(e.target) || e.target.closest?.(".card-menu-btn")) return;
+    closeMenu();
+  });
+  document.addEventListener("keydown", (e) => {
+    if (!menuEl || menuEl.hidden) return;
+    if (e.key === "Escape") {
+      e.preventDefault();
+      closeMenu();
+      return;
+    }
+    if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+      e.preventDefault();
+      const items = [...menuEl.querySelectorAll(".ctx-item")];
+      const i = items.indexOf(document.activeElement);
+      const next = e.key === "ArrowDown" ? (i + 1) % items.length : (i - 1 + items.length) % items.length;
+      items[next]?.focus();
+    }
+  });
+  window.addEventListener("scroll", closeMenu, true);
+  window.addEventListener("resize", closeMenu);
+  window.addEventListener("blur", closeMenu);
+  document.addEventListener("dragstart", closeMenu);
+}
+
 function entriesDiffer(a, b) {
   if (!a && !b) return false;
   if (!a || !b) return true;
@@ -481,6 +614,7 @@ function entriesDiffer(a, b) {
 
 async function init() {
   wireDrag();
+  wireContextMenu();
   updateBanner();
 
   try {
