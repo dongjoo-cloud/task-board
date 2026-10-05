@@ -97,4 +97,12 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/done.json
           git commit -m "chore(status): sync kanban column state"
+          # Retry if main moved (e.g. a tasks.json commit landed meanwhile).
+          # Payload is the full status map, so our done.json wins on conflict.
+          for i in 1 2 3 4; do
+            if git push; then exit 0; fi
+            echo "push rejected, rebasing (attempt $i)"
+            git pull --rebase -X theirs origin main
+            sleep $((i * 2))
+          done
           git push
