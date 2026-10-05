@@ -1,16 +1,32 @@
 {
-  "updatedAt": "2026-10-05T17:52:00+09:00",
+  "updatedAt": "2026-10-06T07:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "17:40 스크리닝 · 2026-10-05 (월) KST · 신규 1건",
+  "subtitle": "07:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
   "tasks": [
     {
-      "id": "slack:1791188239.695509",
+      "id": "slack:1791211238.813709",
       "status": "todo",
       "source": "slack",
       "priority": "new",
+      "title": "Weekly Sync(10/6) 아젠다 — 내 섹션 작성",
+      "summary": "배경 — Don이 #general에 오늘 10:00 [Internal] Weekly Sync 아젠다 문서(Linear)를 올리고, 회의 전에 각자 섹션을 채워 달라고 했어요.\n\n맥락 — 오늘 회의 시간은 10:00–11:00 KST. 최근 내 진행 건은 STORIKA-12730(MART 신선도 카나리, dev 머지 완료·prod 릴리스 대기), 13272(카나리 503 재시도), StorikaOS PR #4 승인·#6 수정요청 정도예요.",
+      "액션": "10:00 전에 Linear 아젠다 문서에서 내 섹션 작성\n(지난주 한 일 · 이번 주 계획 · 블로커)",
+      "link": "https://linear.app/storika/document/weekly-sync-2026-10-06-f7a5e75408c3",
+      "tags": [
+        "slack",
+        "don",
+        "weekly-sync",
+        "agenda"
+      ]
+    },
+    {
+      "id": "slack:1791188239.695509",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "still",
       "title": "Brice — prod 카나리 데이터 신선도 실패 맡기",
-      "summary": "배경 — Brice가 #product에서 Dongjoo를 태그해, prod Sentry cron 'storika-business-canaries'가 매시간 실패하니 데이터 쪽에서 맡아줄 수 있는지 물어봤어요.\n\n원인 — 08:00 UTC 로그에 'MART sync 5개 stale (임계 2h / Discovery 14h)' → FAIL: mart-freshness. 앱 코드가 아니라 데이터 파이프라인 상태 문제입니다.\n\n맥락 — 관련 코드는 STORIKA-12216(#10842). 아직 이걸 다루는 티켓은 없어요. 바로 위 Jay의 12730·12216 우선순위 질문과 같은 건이라 한 번에 답해도 됩니다.",
-      "액션": "스레드에 답장:\n① 내가 맡음(티켓 생성 + stale MART sync 5개 확인)\n② 또는 Jay 쪽으로 넘김\n(Jay 스레드 답과 같이 정리)",
+      "summary": "배경 — Brice가 #product에서 Dongjoo를 태그해, prod Sentry cron 'storika-business-canaries'가 매시간 실패하니 데이터 쪽에서 맡아줄 수 있는지 물어봤어요.\n\n원인 — 08:00 UTC 로그에 'MART sync 5개 stale (임계 2h / Discovery 14h)' → FAIL: mart-freshness. 앱 코드가 아니라 데이터 파이프라인 상태 문제입니다.\n\n맥락 — 관련 코드는 STORIKA-12216(#10842). 아직 이걸 다루는 티켓은 없어요. 바로 위 Jay의 12730·12216 우선순위 질문과 같은 건이라 한 번에 답해도 됩니다.\n\n업데이트(10/6) — 내가 맡는다고 답장했고, 12730(#11522)·13272(#11530 503 재시도) 둘 다 dev 머지. Brice가 확인함 — 릴리스 전까지 #api-error 매시간 실패는 알려진 오탐으로 취급.",
+      "액션": "다음 dev→main 릴리스 후 첫 clean run을 스레드에 올리기 (Brice 요청)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791188239695509",
       "tags": [
         "slack",
@@ -22,12 +38,12 @@
     },
     {
       "id": "slack:1791182100.346269",
-      "status": "todo",
+      "status": "in_progress",
       "source": "slack",
       "priority": "still",
       "title": "Jay — 티켓 2건(12730·12216) 우선순위 답장",
-      "summary": "배경 — Jay가 #product에서 Dongjoo를 태그해, 담당 티켓 STORIKA-12730·12216을 큐 맨 위로 올릴지, 바쁘면 Jay 쪽에 넘길지 물어봤어요.\n\n왜 — Jay가 #daily에 고객 알림(신규 가입·구독 변경·이탈 위험·일일 요약)을 세팅하려는데, 기존 알림 채널부터 믿을 수 있어야 한대요.\n\n맥락 — #api-error에 10/1부터 매시간 뜨는 'Cron failure: storika-business-canaries'는 12730이 말하는 오탐(일 단위 싱크를 2시간 기준으로 판정)일 가능성이 크고, Cloud Monitoring 알림은 슬랙에 안 들어와요.",
-      "액션": "둘 중 하나 정해서 스레드에 답장:\n① 내가 12730·12216을 최우선으로 처리\n② Jay 쪽으로 넘김",
+      "summary": "배경 — Jay가 #product에서 Dongjoo를 태그해, 담당 티켓 STORIKA-12730·12216을 큐 맨 위로 올릴지, 바쁘면 Jay 쪽에 넘길지 물어봤어요.\n\n왜 — Jay가 #daily에 고객 알림(신규 가입·구독 변경·이탈 위험·일일 요약)을 세팅하려는데, 기존 알림 채널부터 믿을 수 있어야 한대요.\n\n맥락 — #api-error에 10/1부터 매시간 뜨는 'Cron failure: storika-business-canaries'는 12730이 말하는 오탐(일 단위 싱크를 2시간 기준으로 판정)일 가능성이 크고, Cloud Monitoring 알림은 슬랙에 안 들어와요.\n\n업데이트(10/6) — 스레드에 답장 완료: 12730을 큐 맨 위로 올렸고 dev 머지(#11522)까지 끝남. 12216은 내 Bugsnag→Sentry 세션 유지.",
+      "액션": "다음 dev→main 릴리스 후 첫 clean 카나리 런을 이 스레드에 확인 답장",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791182100346269",
       "tags": [
         "slack",
