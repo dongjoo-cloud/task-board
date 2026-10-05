@@ -1,8 +1,23 @@
 {
-  "updatedAt": "2026-10-05T11:50:00+09:00",
+  "updatedAt": "2026-10-05T13:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "11:40 스크리닝 · 2026-10-05 (월) KST · 신규 0건",
+  "subtitle": "13:40 스크리닝 · 2026-10-05 (월) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "slack:1791173219.937569",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Claude 클라우드 세션 $250 크레딧 클레임",
+      "summary": "배경 — Jay가 #product에서 Brice·Don·Dongjoo를 태그해, Claude Projects 클라우드 세션을 테스트 중이라고 공유했어요.\n\n왜 — 클라우드 세션은 맥 CPU 병목을 덜어줄 수 있고, 지금 $250 크레딧을 준다며 클레임하라고 했습니다.\n\n맥락 — 클라우드 세션은 맥 세션과 SendMessage로 소통이 안 되는 한계가 있어요. Brice는 본인 계정 크레딧을 처리 중.",
+      "액션": "본인 Claude 계정에서\n$250 크레딧 클레임\n(필요하면 스레드에 ✅)",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791173219937569",
+      "tags": [
+        "slack",
+        "jay",
+        "claude"
+      ]
+    },
     {
       "id": "gmail:wispr-billing-2026-10-02",
       "status": "todo",
