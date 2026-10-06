@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-06T15:50:00+09:00",
+  "updatedAt": "2026-10-06T17:45:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "15:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
+  "subtitle": "17:40 스크리닝 · 2026-10-06 (화) KST · 신규 0건",
   "tasks": [
     {
       "id": "gmail:fathom-product-sync-2026-10-06",
@@ -105,7 +105,7 @@
     },
     {
       "id": "slack:1791188239.695509",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "still",
       "title": "Brice — prod 카나리 데이터 신선도 실패 맡기",
