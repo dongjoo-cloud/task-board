@@ -1,13 +1,29 @@
 {
-  "updatedAt": "2026-10-06T11:55:00+09:00",
+  "updatedAt": "2026-10-06T13:55:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "11:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
+  "subtitle": "13:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "slack:1791259096.864229",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Brice — 4주 간트 롤업(10/7 14:00) 데이터 간트 준비",
+      "summary": "배경 — Brice가 #general에서 Don·Jay·Dongjoo를 태그해, 내일 10/7(수) 14:00–16:00 KST에 4주 간트 롤업 세션을 연다고 공지했어요.\n\n준비물 — 각자 다음 4주(10/7–11/3) 개인 간트. 큰 덩어리 2–3개를 '무엇을 언제까지' 수준으로만 적으면 되고 태스크 단위는 필요 없어요. 담당은 Don GTM, Jay MCP, DJ 데이터, Brice 웹앱/프론트.\n\n맥락 — 세션에서 회사 간트 하나로 합치고, 이후 매주·매일 이 마일스톤 기준으로 진행을 확인한대요. Jay가 템플릿을 묻자 Brice는 '간트차트로 만들어와 주세요'라고 답함. 데이터 쪽은 TikTok 완전체 10만 명(10/9 목표), Taxonomy 허브 마일스톤 6개, Sentry 이관 마무리(12216, 10/8) 정도가 후보예요.",
+      "액션": "10/7 14:00 전에 데이터 파트 4주 간트 준비\n(큰 덩어리 2–3개 · 무엇을 언제까지)\n→ 세션에 들고 가기",
+      "link": "https://storika-ai.slack.com/archives/C07DTAUDS92/p1791259096864229",
+      "tags": [
+        "slack",
+        "brice",
+        "gantt",
+        "planning"
+      ]
+    },
     {
       "id": "gmail:fathom-weekly-sync-2026-10-06",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "Weekly Sync(10/6) Fathom — DJ 액션",
       "summary": "배경 — 오늘 [Internal] Weekly Sync(96분) Fathom 요약에 Dongjoo 담당 액션이 잡혔어요.\n\n맥락 — Fathom의 'Dexter/Dextor 잡'은 Dagster 잡으로 보여요. 파이프라인은 TikTok 10만 명 신선도 테스트 중이고, 카나리 모니터링을 없애고 잡 시간을 나눠서 데이터 충돌을 막자는 결론이에요. 기존 'Brice — prod 카나리' 카드와 이어지는 건이에요.\n\n팀 공지 — TIPS/KTP 비용은 Storika Korea나 Vertical AI 명의로 청구, 새 툴 사기 전엔 Jen에게 먼저 물어보기.\n\n참고 — 메일엔 전체 transcript가 없고 요약·액션 아이템만 있어요.",
       "액션": "① 데이터 파이프라인 카나리 모니터링 제거\n② Dagster 잡 일정을 겹치지 않게 분산\n③ Sentry 최종 검증 마무리 (남은 12216은 10/8 예정)",
