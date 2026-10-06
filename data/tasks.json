@@ -1,13 +1,30 @@
 {
-  "updatedAt": "2026-10-06T13:55:00+09:00",
+  "updatedAt": "2026-10-06T15:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "13:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
+  "subtitle": "15:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "gmail:fathom-product-sync-2026-10-06",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Daily product sync(10/6 오후) Fathom — DJ 액션",
+      "summary": "배경 — 오늘 오후 14분짜리 Daily product sync(Jay·Dongjoo) Fathom 회의록이에요. TikTok 10만 명 수집이 오늘 끝나고, 수집 비용을 하루 $450에서 $150–200로 낮추는 얘기가 중심이었어요.\n\n비용 — Vertex AI는 일 $150–200 수준으로 낮추고, 남은 Apify 예산 약 $4,000은 10/17까지 소진할 계획(회의록엔 'Epibyte'로 오인식). MART 인스턴스를 내리면 월 약 $1,000 절약.\n\nDiscovery — 지금 검색 결과 품질이 낮음(게시물 1–2개짜리 계정이 섞임). 10만 명 데이터셋으로 테스트·정제하고, Jay의 MCP 커넥터 프로젝트에서 찾은 버그를 서로 공유하기로 함.\n\n티켓 — 10MB 넘는 파일의 BigQuery 로드 실패, 2GB 넘는 파일로 Dagster 프로세스 중단(회의록엔 'Dexter').",
+      "액션": "Jen에게 Vertex AI 비용 상한/한도 메일\n클로드에 '10만 명 이후 TikTok 일 지출 $200' 지시 → MART 퇴역·인스턴스 종료\nDiscovery를 TikTok 10만 명 우선으로 수정 → 돌려보고 결과 Jay에게 공유\nJay MCP 커넥터 리뷰 → 버그 등록·공유\n자동화 이슈 티켓 2건(BQ 10MB, Dagster 2GB) 생성\n→ 4주 간트(내일 14:00)는 기존 카드에서 준비",
+      "link": "https://fathom.video/calls/848091210?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "discovery",
+        "budget"
+      ]
+    },
     {
       "id": "slack:1791259096.864229",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "still",
       "title": "Brice — 4주 간트 롤업(10/7 14:00) 데이터 간트 준비",
       "summary": "배경 — Brice가 #general에서 Don·Jay·Dongjoo를 태그해, 내일 10/7(수) 14:00–16:00 KST에 4주 간트 롤업 세션을 연다고 공지했어요.\n\n준비물 — 각자 다음 4주(10/7–11/3) 개인 간트. 큰 덩어리 2–3개를 '무엇을 언제까지' 수준으로만 적으면 되고 태스크 단위는 필요 없어요. 담당은 Don GTM, Jay MCP, DJ 데이터, Brice 웹앱/프론트.\n\n맥락 — 세션에서 회사 간트 하나로 합치고, 이후 매주·매일 이 마일스톤 기준으로 진행을 확인한대요. Jay가 템플릿을 묻자 Brice는 '간트차트로 만들어와 주세요'라고 답함. 데이터 쪽은 TikTok 완전체 10만 명(10/9 목표), Taxonomy 허브 마일스톤 6개, Sentry 이관 마무리(12216, 10/8) 정도가 후보예요.",
       "액션": "10/7 14:00 전에 데이터 파트 4주 간트 준비\n(큰 덩어리 2–3개 · 무엇을 언제까지)\n→ 세션에 들고 가기",
