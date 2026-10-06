@@ -1,13 +1,46 @@
 {
-  "updatedAt": "2026-10-06T07:50:00+09:00",
+  "updatedAt": "2026-10-06T09:55:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "07:40 스크리닝 · 2026-10-06 (화) KST · 신규 1건",
+  "subtitle": "09:40 스크리닝 · 2026-10-06 (화) KST · 신규 2건",
   "tasks": [
+    {
+      "id": "slack:1791246793.628409",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Jay — 클로드 클라우드 세션, 내 쪽에 적용 가능한지 확인",
+      "summary": "배경 — Jay가 #product에서 Brice와 Dongjoo를 태그해, 클로드 클라우드 세션을 각자 쓸 수 있을지 본인 Claude에게 직접 물어보라고 했어요.\n\n왜 — 클라우드 세션 덕에 PR은 빨리 나오는데, 이제 PR 검증이 병목이에요. 클라우드에선 browser QA가 안 되고 GCP Secret Manager 권한도 없어서, Jay는 맥 세션을 PR 검증에 쓰는 중이에요.\n\n맥락 — Jay가 08:42 스레드에 테스트 결과를 정리해 뒀어요(10/5 클라우드 PR 13건 중 7건 머지, 맡겨도 되는 일과 안 되는 일 목록). Brice는 같은 스레드에서 Jay에게 밀린 PR 관리를 부탁했어요.",
+      "액션": "Jay 정리글 보고 메피스토/마녀 레인 중 클라우드로 넘길 만한 일이 있는지 내 Claude에 확인\n→ 결과를 스레드에 짧게 공유\n($250 크레딧 클레임 카드와 같이 처리하면 돼)",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791246793628409",
+      "tags": [
+        "slack",
+        "jay",
+        "claude",
+        "cloud-session"
+      ]
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-06",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리(10/6) Fathom — DJ 액션",
+      "summary": "배경 — 오늘 아침 daily(38분) Fathom 요약에 Dongjoo 담당 액션이 4개 잡혔어요.\n\n맥락 — Fathom이 Zeab/Zev로 적었지만 Slack 기준 도구명은 Jev예요(기존 'JEV 붙이기' 카드와 같은 건). 'Dext/Dexter Job'은 Dagster 잡으로 보여요. 같은 회의에서 TikTok 데이터가 4일 만에 3만→10만 명으로 늘었고, Apify 예산은 10/16쯤 소진 예상이라고 했어요.\n\n참고 — 메일엔 전체 transcript가 없고 요약·액션 아이템만 있어요. 자세한 건 Fathom 링크에서 보면 돼.",
+      "액션": "① 웹/API 에러 모니터링 시작\n② 댓글 분석 파이프라인에 Jev 추가 → Gemini와 비교\n③ 완료됐는데 열려 있는 9000번대 티켓 정리 + v2 에픽 생성·계획 마무리\n④ Dagster 잡 로그 점검 → 불필요한 잡 제거",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878255900748049302",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "jev",
+        "dagster"
+      ]
+    },
     {
       "id": "slack:1791211238.813709",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "still",
       "title": "Weekly Sync(10/6) 아젠다 — 내 섹션 작성",
       "summary": "배경 — Don이 #general에 오늘 10:00 [Internal] Weekly Sync 아젠다 문서(Linear)를 올리고, 회의 전에 각자 섹션을 채워 달라고 했어요.\n\n맥락 — 오늘 회의 시간은 10:00–11:00 KST. 최근 내 진행 건은 STORIKA-12730(MART 신선도 카나리, dev 머지 완료·prod 릴리스 대기), 13272(카나리 503 재시도), StorikaOS PR #4 승인·#6 수정요청 정도예요.",
       "액션": "10:00 전에 Linear 아젠다 문서에서 내 섹션 작성\n(지난주 한 일 · 이번 주 계획 · 블로커)",
