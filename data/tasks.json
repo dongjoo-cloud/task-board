@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-06T17:45:00+09:00",
+  "updatedAt": "2026-10-07T07:45:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "17:40 스크리닝 · 2026-10-06 (화) KST · 신규 0건",
+  "subtitle": "07:40 스크리닝 · 2026-10-07 (수) KST · 신규 2건",
   "tasks": [
+    {
+      "id": "gmail:kban-tips-supplement-2026-10-08",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "KBAN 팁스 — 클린베딩 최종보고서 보완 (10/8 목 마감)",
+      "summary": "배경 — 한국엔젤투자협회 팁스 평가팀(이정희)이 9/17에 낸 클린베딩 사후평가 최종보고서를 검토하고 보완을 요청했어(개인 Gmail, 10/6 20:38). 2차 최종평가(서면)에 쓰이는 서류라 미흡하면 결과에 영향이 있대.\n\n보완 내용 — 1p 작성일자를 현재로 수정하고 주관기관장 성함·날인. 20p 개발목표 수치를 '98.33', '8회/1초'로 수정. 21p 매출·후속투자 실적은 '억원' 단위 소수점 첫째 자리. 22–23p 목표 미달 원인분석에 연구개발목표 100% 미달 사유도 추가. 모든 자료는 PDF로.",
+      "액션": "최종보고서 보완 → 10/8(목)까지 SMTECH에 PDF 제출\n제출 후 이 메일에 회신\n어렵다면 메일로 제출 가능일 회신",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo.namgung@gmail.com#all/thread-f:1878300295280086262",
+      "tags": [
+        "gmail",
+        "personal",
+        "deadline"
+      ]
+    },
+    {
+      "id": "gmail:calendar-gantt-review-2026-10-07",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "간트차트 리뷰(10/7 14:00) RSVP",
+      "summary": "배경 — Brice가 오늘 14:00–15:00 간트차트 리뷰를 잡았어(Jay·Don 포함). 오늘 아침 일정 DM 기준 아직 응답 안 함.\n\n준비 자료는 기존 'Brice — 4주 간트 롤업' 카드에서 챙기면 돼.",
+      "액션": "캘린더 초대 수락/불참 응답",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878301594516142256",
+      "tags": [
+        "gmail",
+        "calendar",
+        "rsvp"
+      ]
+    },
     {
       "id": "gmail:fathom-product-sync-2026-10-06",
       "status": "todo",
@@ -60,7 +90,7 @@
       "source": "slack",
       "priority": "still",
       "title": "Jay — 클로드 클라우드 세션, 내 쪽에 적용 가능한지 확인",
-      "summary": "배경 — Jay가 #product에서 Brice와 Dongjoo를 태그해, 클로드 클라우드 세션을 각자 쓸 수 있을지 본인 Claude에게 직접 물어보라고 했어요.\n\n왜 — 클라우드 세션 덕에 PR은 빨리 나오는데, 이제 PR 검증이 병목이에요. 클라우드에선 browser QA가 안 되고 GCP Secret Manager 권한도 없어서, Jay는 맥 세션을 PR 검증에 쓰는 중이에요.\n\n맥락 — Jay가 08:42 스레드에 테스트 결과를 정리해 뒀어요(10/5 클라우드 PR 13건 중 7건 머지, 맡겨도 되는 일과 안 되는 일 목록). Brice는 같은 스레드에서 Jay에게 밀린 PR 관리를 부탁했어요.",
+      "summary": "배경 — Jay가 #product에서 Brice와 Dongjoo를 태그해, 클로드 클라우드 세션을 각자 쓸 수 있을지 본인 Claude에게 직접 물어보라고 했어요.\n\n왜 — 클라우드 세션 덕에 PR은 빨리 나오는데, 이제 PR 검증이 병목이에요. 클라우드에선 browser QA가 안 되고 GCP Secret Manager 권한도 없어서, Jay는 맥 세션을 PR 검증에 쓰는 중이에요.\n\n맥락 — Jay가 08:42 스레드에 테스트 결과를 정리해 뒀어요(10/5 클라우드 PR 13건 중 7건 머지, 맡겨도 되는 일과 안 되는 일 목록). Brice는 같은 스레드에서 Jay에게 밀린 PR 관리를 부탁했어요.\n\n업데이트(10/6 19:38) — Jay가 #product에 측정 보고서를 올림: 3주·PR 2,535건 기준, 클라우드 세션 도입 후 dev 전체 머지는 오히려 줄었어(머지 큐·리뷰가 포화). 권고는 '지금은 효과 없음, 큐 수정(1–2일) 끝나면 명세가 분명한 독립 티켓에 병렬로'. Jay도 '로컬보다 할 수 있는 게 적어서 실효성 크지 않은 듯'이라고 덧붙임.\n보고서: https://drive.google.com/file/d/1AnlvC1_oh3HALymlLJH7H5Y3LPcBRiJP/view?usp=drivesdk",
       "액션": "Jay 정리글 보고 메피스토/마녀 레인 중 클라우드로 넘길 만한 일이 있는지 내 Claude에 확인\n→ 결과를 스레드에 짧게 공유\n($250 크레딧 클레임 카드와 같이 처리하면 돼)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791246793628409",
       "tags": [
