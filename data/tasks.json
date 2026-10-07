@@ -1,13 +1,28 @@
 {
-  "updatedAt": "2026-10-07T13:57:51+09:00",
+  "updatedAt": "2026-10-07T15:45:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "13:40 스크리닝 · 2026-10-07 (수) KST · 신규 0건",
+  "subtitle": "15:40 스크리닝 · 2026-10-07 (수) KST · 신규 1건",
   "tasks": [
     {
-      "id": "gmail:xai-payment-failed-2026-10-07",
+      "id": "gmail:fathom-gantt-review-2026-10-07",
       "status": "todo",
       "source": "gmail",
       "priority": "new",
+      "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
+      "summary": "배경 — 오늘 간트차트 리뷰에서 팀 우선순위를 파이프라인 최적화에서 V1 딜리버리로 돌렸어(Brice 웹앱 V1 10/20). 내 몫은 4주 데이터 파이프라인 자동화(틱톡·인스타 각 10만, Apify → BQ → Spanner 신선도 자동화, Dagster 잡 정리, 비용 벤치마크)야.\n\nDB 구조 논의 — 캠페인·연락 데이터는 마트에서 운영 DB로 옮기고, 마트는 Apify 잡 상태 추적용으로만 남길지 Dagster 잡 체이닝으로 아예 없앨지 정하기로 했어(Jay와 같이).\n\n성공지표 정의·공유 액션은 15:04에 #product에 올려서 끝난 걸로 봤어. 지표는 Brice가 모아서 회사 마일스톤으로 정리할 예정. Brice가 새 컴퓨터 2대 중 1대를 나한테 배정한다고 했어(FYI).",
+      "액션": "Dagster 잡 체이닝 + Apify 상태 추적을 Claude와 검토 → 마트 유지 vs Dagster로 대체 결정 (Jay와)\n4주 파이프라인 자동화 착수\n(완료) 데이터·디스커버리 성공지표 정의·공유",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878369049026777218",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ]
+    },
+    {
+      "id": "gmail:xai-payment-failed-2026-10-07",
+      "status": "not_mine",
+      "source": "gmail",
+      "priority": "still",
       "title": "Grok xAI $300 결제 실패 — 카드 확인",
       "summary": "배경 — 오늘 11:34에 Stripe에서 'Grok xAI $300.00 결제가 실패했다'는 메일이 왔어(회사 Gmail). 등록된 카드로 청구가 안 됐대.\n\n결제가 계속 실패하면 xAI 사용이 끊길 수 있어. 회사 비용 처리는 finance@storika.ai 경로로 돌리기로 한 게 있었어.",
       "액션": "xAI 결제 카드 상태 확인 → 결제수단 갱신 또는 재결제\n회사 비용이면 finance@storika.ai로 영수증·결제 경로 정리",
@@ -21,7 +36,7 @@
       "id": "slack:1791335471.984339",
       "status": "done",
       "source": "slack",
-      "priority": "new",
+      "priority": "still",
       "title": "Brice — 4일째 걸린 PR(STORIKA-12876) 머지",
       "summary": "배경 — Brice가 10:11에 #product에서 '4일째 걸려 있는 PR이 있다'고 짚었어. 인스타·틱톡 크리에이터 최신 비브랜드 게시물에 라벨 5개까지 채우는 작업이야.\n\n메피스토가 10:54에 내 이름으로 답했고, Brice가 11:17에 일정 기록했다고 확인했어. 리뷰에서 나온 중복 주문 방지 수정을 오늘 오전부터 반영 중.\n\n12:02 #11285(인스타), 12:46 #11286(틱톡) 둘 다 머지 완료. Brice가 13:17에 확인했어. 남은 건 배포 후 7일 중복 주문 측정(티켓에 기록).",
       "액션": "#11285(인스타) 수정 → CI → 재리뷰 → 오늘 머지\n#11286(틱톡) 같은 수정 + 충돌 정리 → 10/8까지 머지\n머지되면 이 스레드에 다시 남기기",
@@ -64,7 +79,7 @@
     },
     {
       "id": "gmail:fathom-product-sync-2026-10-06",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "Daily product sync(10/6 오후) Fathom — DJ 액션",
@@ -81,7 +96,7 @@
     },
     {
       "id": "slack:1791259096.864229",
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "still",
       "title": "Brice — 4주 간트 롤업(10/7 14:00) 데이터 간트 준비",
@@ -97,7 +112,7 @@
     },
     {
       "id": "gmail:fathom-weekly-sync-2026-10-06",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "Weekly Sync(10/6) Fathom — DJ 액션",
@@ -115,7 +130,7 @@
     },
     {
       "id": "slack:1791246793.628409",
-      "status": "todo",
+      "status": "not_mine",
       "source": "slack",
       "priority": "still",
       "title": "Jay — 클로드 클라우드 세션, 내 쪽에 적용 가능한지 확인",
@@ -131,7 +146,7 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-06",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "데일리(10/6) Fathom — DJ 액션",
@@ -197,7 +212,7 @@
     },
     {
       "id": "slack:1791173219.937569",
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "still",
       "title": "Claude 클라우드 세션 $250 크레딧 클레임",
@@ -212,7 +227,7 @@
     },
     {
       "id": "gmail:wispr-billing-2026-10-02",
-      "status": "todo",
+      "status": "not_mine",
       "source": "gmail",
       "priority": "still",
       "title": "Wispr 팀 결제 갱신",
@@ -227,7 +242,7 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-02",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "데일리(10/2) Fathom — DJ 액션",
@@ -243,7 +258,7 @@
     },
     {
       "id": "slack:1790877441.863009",
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "still",
       "title": "Jay — Jev 멀티모달 확인",
@@ -258,7 +273,7 @@
     },
     {
       "id": "gmail:calendar-hoesik-2026-10-28",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "회식 RSVP (10/28)",
