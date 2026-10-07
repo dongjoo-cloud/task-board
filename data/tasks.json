@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T13:45:00+09:00",
+  "updatedAt": "2026-10-07T13:57:51+09:00",
   "title": "동주 태스크 보드",
   "subtitle": "13:40 스크리닝 · 2026-10-07 (수) KST · 신규 0건",
   "tasks": [
@@ -45,21 +45,6 @@
         "gmail",
         "fathom",
         "meeting"
-      ]
-    },
-    {
-      "id": "gmail:kban-tips-supplement-2026-10-08",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "still",
-      "title": "KBAN 팁스 — 클린베딩 최종보고서 보완 (10/8 목 마감)",
-      "summary": "배경 — 한국엔젤투자협회 팁스 평가팀(이정희)이 9/17에 낸 클린베딩 사후평가 최종보고서를 검토하고 보완을 요청했어(개인 Gmail, 10/6 20:38). 2차 최종평가(서면)에 쓰이는 서류라 미흡하면 결과에 영향이 있대.\n\n보완 내용 — 1p 작성일자를 현재로 수정하고 주관기관장 성함·날인. 20p 개발목표 수치를 '98.33', '8회/1초'로 수정. 21p 매출·후속투자 실적은 '억원' 단위 소수점 첫째 자리. 22–23p 목표 미달 원인분석에 연구개발목표 100% 미달 사유도 추가. 모든 자료는 PDF로.",
-      "액션": "최종보고서 보완 → 10/8(목)까지 SMTECH에 PDF 제출\n제출 후 이 메일에 회신\n어렵다면 메일로 제출 가능일 회신",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo.namgung@gmail.com#all/thread-f:1878300295280086262",
-      "tags": [
-        "gmail",
-        "personal",
-        "deadline"
       ]
     },
     {
