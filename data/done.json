@@ -1,12 +1,28 @@
 {
   "ids": {
+    "gmail:calendar-hoesik-2026-10-28": {
+      "status": "done",
+      "at": "2026-10-07T04:57:05.590Z"
+    },
     "gmail:exa-invite": {
       "status": "done",
       "at": "2026-10-02T08:41:23.852Z"
     },
+    "gmail:fathom-daily-2026-10-02": {
+      "status": "done",
+      "at": "2026-10-07T04:57:00.978Z"
+    },
+    "gmail:fathom-daily-2026-10-06": {
+      "status": "done",
+      "at": "2026-10-07T04:56:50.253Z"
+    },
     "gmail:fathom-product-sync-2026-10-06": {
       "status": "done",
       "at": "2026-10-07T04:56:37.298Z"
+    },
+    "gmail:fathom-weekly-sync-2026-10-06": {
+      "status": "done",
+      "at": "2026-10-07T04:56:42.893Z"
     },
     "gmail:firecrawl-invite": {
       "status": "done",
@@ -25,16 +41,28 @@
       "at": "2026-10-02T08:32:25.874Z"
     },
     "gmail:wispr-billing-2026-10-02": {
-      "status": "todo",
-      "at": "2026-10-05T22:34:33.900Z"
+      "status": "not_mine",
+      "at": "2026-10-07T04:56:53.082Z"
     },
     "gmail:xai-payment-failed-2026-10-07": {
       "status": "not_mine",
       "at": "2026-10-07T04:55:26.769Z"
     },
+    "slack:1790877441.863009": {
+      "status": "done",
+      "at": "2026-10-07T04:57:03.694Z"
+    },
     "slack:1790923690.759469": {
       "status": "done",
       "at": "2026-10-02T08:32:01.664Z"
+    },
+    "slack:1791173219.937569": {
+      "status": "done",
+      "at": "2026-10-07T04:56:55.874Z"
+    },
+    "slack:1791259096.864229": {
+      "status": "done",
+      "at": "2026-10-07T04:56:40.107Z"
     },
     "slack:1791335471.984339": {
       "status": "done",
