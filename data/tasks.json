@@ -1,16 +1,45 @@
 {
-  "updatedAt": "2026-10-07T09:55:00+09:00",
+  "updatedAt": "2026-10-07T11:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "09:40 스크리닝 · 2026-10-07 (수) KST · 신규 1건",
+  "subtitle": "11:40 스크리닝 · 2026-10-07 (수) KST · 신규 2건",
   "tasks": [
+    {
+      "id": "gmail:xai-payment-failed-2026-10-07",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Grok xAI $300 결제 실패 — 카드 확인",
+      "summary": "배경 — 오늘 11:34에 Stripe에서 'Grok xAI $300.00 결제가 실패했다'는 메일이 왔어(회사 Gmail). 등록된 카드로 청구가 안 됐대.\n\n결제가 계속 실패하면 xAI 사용이 끊길 수 있어. 회사 비용 처리는 finance@storika.ai 경로로 돌리기로 한 게 있었어.",
+      "액션": "xAI 결제 카드 상태 확인 → 결제수단 갱신 또는 재결제\n회사 비용이면 finance@storika.ai로 영수증·결제 경로 정리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878356594630384495",
+      "tags": [
+        "gmail",
+        "billing"
+      ]
+    },
+    {
+      "id": "slack:1791335471.984339",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "new",
+      "title": "Brice — 4일째 걸린 PR(STORIKA-12876) 머지",
+      "summary": "배경 — Brice가 10:11에 #product에서 '4일째 걸려 있는 PR이 있다'고 짚었어. 인스타·틱톡 크리에이터 최신 비브랜드 게시물에 라벨 5개까지 채우는 작업이야.\n\n메피스토가 10:54에 내 이름으로 답했고, Brice가 11:17에 일정 기록했다고 확인했어. 리뷰에서 나온 중복 주문 방지 수정을 오늘 오전부터 반영 중.",
+      "액션": "#11285(인스타) 수정 → CI → 재리뷰 → 오늘 머지\n#11286(틱톡) 같은 수정 + 충돌 정리 → 10/8까지 머지\n머지되면 이 스레드에 다시 남기기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791335471984339",
+      "tags": [
+        "slack",
+        "product",
+        "pr"
+      ]
+    },
     {
       "id": "gmail:fathom-daily-2026-10-07",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "데일리(10/7 아침) Fathom — DJ 액션",
-      "summary": "배경 — 오늘 아침 데일리에서 4주 데이터 파이프라인 계획(틱톡 10만 확보 → Spanner 이관, 자동 새로고침, Dexter 잡 정리·알림 구축)을 공유했어. Fathom 액션 아이템에 내 몫이 따로 찍혔어.\n\nVertex 예산 건은 07:58에 이미 주은님(Jen)께 DM으로 KTP/TIPS 처리 여부를 물어봐서 답 기다리는 중이야. CI 이관 티켓 공유(STORIKA-13373, PR #11659)는 Brice가 #product에 올렸고 Jay가 확인해서 따로 할 일 없음.",
-      "액션": "Discovery가 완전체 크리에이터를 먼저 보여주게 수정\nSpanner 채팅 검색 12시간 지연 버그 해결\n4주 파이프라인 계획 착수\n주은님 Vertex·Apify 비용 KTP/TIPS 답변 확인",
+      "summary": "배경 — 오늘 아침 데일리에서 4주 데이터 파이프라인 계획(틱톡 10만 확보 → Spanner 이관, 자동 새로고침, Dexter 잡 정리·알림 구축)을 공유했어. Fathom 액션 아이템에 내 몫이 따로 찍혔어.\n\nVertex 예산 건은 주은님(Jen)이 10:16에 'KTP로 나가고 있다'고 답했어. 10:51에 월 사용 한도가 정해져 있는지 다시 물어봐서 그 답을 기다리는 중이야. CI 이관 티켓 공유(STORIKA-13373, PR #11659)는 Brice가 #product에 올렸고 Jay가 확인해서 따로 할 일 없음.",
+      "액션": "Discovery가 완전체 크리에이터를 먼저 보여주게 수정\nSpanner 채팅 검색 12시간 지연 버그 해결\n4주 파이프라인 계획 착수\n주은님 Vertex 월 한도 답변 확인 (KTP 처리는 확인됨)",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878345726915100174",
       "tags": [
         "gmail",
@@ -35,11 +64,11 @@
     },
     {
       "id": "gmail:calendar-gantt-review-2026-10-07",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "간트차트 리뷰(10/7 14:00) RSVP",
-      "summary": "배경 — Brice가 오늘 14:00–15:00 간트차트 리뷰를 잡았어(Jay·Don 포함). 오늘 아침 일정 DM 기준 아직 응답 안 함.\n\n준비 자료는 기존 'Brice — 4주 간트 롤업' 카드에서 챙기면 돼.",
+      "summary": "배경 — Brice가 오늘 14:00–15:00 간트차트 리뷰를 잡았어(Jay·Don 포함). 오늘 아침 일정 DM 기준 아직 응답 안 함.\n\n준비 자료는 기존 'Brice — 4주 간트 롤업' 카드에서 챙기면 돼.\n\n11:40 확인 — 캘린더에서 이미 수락돼 있어서 완료로 옮겼어.",
       "액션": "캘린더 초대 수락/불참 응답",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878301594516142256",
       "tags": [
