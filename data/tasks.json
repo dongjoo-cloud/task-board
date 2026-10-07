@@ -1,13 +1,28 @@
 {
-  "updatedAt": "2026-10-07T07:45:00+09:00",
+  "updatedAt": "2026-10-07T09:55:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "07:40 스크리닝 · 2026-10-07 (수) KST · 신규 2건",
+  "subtitle": "09:40 스크리닝 · 2026-10-07 (수) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-07",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리(10/7 아침) Fathom — DJ 액션",
+      "summary": "배경 — 오늘 아침 데일리에서 4주 데이터 파이프라인 계획(틱톡 10만 확보 → Spanner 이관, 자동 새로고침, Dexter 잡 정리·알림 구축)을 공유했어. Fathom 액션 아이템에 내 몫이 따로 찍혔어.\n\nVertex 예산 건은 07:58에 이미 주은님(Jen)께 DM으로 KTP/TIPS 처리 여부를 물어봐서 답 기다리는 중이야. CI 이관 티켓 공유(STORIKA-13373, PR #11659)는 Brice가 #product에 올렸고 Jay가 확인해서 따로 할 일 없음.",
+      "액션": "Discovery가 완전체 크리에이터를 먼저 보여주게 수정\nSpanner 채팅 검색 12시간 지연 버그 해결\n4주 파이프라인 계획 착수\n주은님 Vertex·Apify 비용 KTP/TIPS 답변 확인",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878345726915100174",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ]
+    },
     {
       "id": "gmail:kban-tips-supplement-2026-10-08",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "KBAN 팁스 — 클린베딩 최종보고서 보완 (10/8 목 마감)",
       "summary": "배경 — 한국엔젤투자협회 팁스 평가팀(이정희)이 9/17에 낸 클린베딩 사후평가 최종보고서를 검토하고 보완을 요청했어(개인 Gmail, 10/6 20:38). 2차 최종평가(서면)에 쓰이는 서류라 미흡하면 결과에 영향이 있대.\n\n보완 내용 — 1p 작성일자를 현재로 수정하고 주관기관장 성함·날인. 20p 개발목표 수치를 '98.33', '8회/1초'로 수정. 21p 매출·후속투자 실적은 '억원' 단위 소수점 첫째 자리. 22–23p 목표 미달 원인분석에 연구개발목표 100% 미달 사유도 추가. 모든 자료는 PDF로.",
       "액션": "최종보고서 보완 → 10/8(목)까지 SMTECH에 PDF 제출\n제출 후 이 메일에 회신\n어렵다면 메일로 제출 가능일 회신",
@@ -22,7 +37,7 @@
       "id": "gmail:calendar-gantt-review-2026-10-07",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "간트차트 리뷰(10/7 14:00) RSVP",
       "summary": "배경 — Brice가 오늘 14:00–15:00 간트차트 리뷰를 잡았어(Jay·Don 포함). 오늘 아침 일정 DM 기준 아직 응답 안 함.\n\n준비 자료는 기존 'Brice — 4주 간트 롤업' 카드에서 챙기면 돼.",
       "액션": "캘린더 초대 수락/불참 응답",
@@ -37,7 +52,7 @@
       "id": "gmail:fathom-product-sync-2026-10-06",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "Daily product sync(10/6 오후) Fathom — DJ 액션",
       "summary": "배경 — 오늘 오후 14분짜리 Daily product sync(Jay·Dongjoo) Fathom 회의록이에요. TikTok 10만 명 수집이 오늘 끝나고, 수집 비용을 하루 $450에서 $150–200로 낮추는 얘기가 중심이었어요.\n\n비용 — Vertex AI는 일 $150–200 수준으로 낮추고, 남은 Apify 예산 약 $4,000은 10/17까지 소진할 계획(회의록엔 'Epibyte'로 오인식). MART 인스턴스를 내리면 월 약 $1,000 절약.\n\nDiscovery — 지금 검색 결과 품질이 낮음(게시물 1–2개짜리 계정이 섞임). 10만 명 데이터셋으로 테스트·정제하고, Jay의 MCP 커넥터 프로젝트에서 찾은 버그를 서로 공유하기로 함.\n\n티켓 — 10MB 넘는 파일의 BigQuery 로드 실패, 2GB 넘는 파일로 Dagster 프로세스 중단(회의록엔 'Dexter').",
       "액션": "Jen에게 Vertex AI 비용 상한/한도 메일\n클로드에 '10만 명 이후 TikTok 일 지출 $200' 지시 → MART 퇴역·인스턴스 종료\nDiscovery를 TikTok 10만 명 우선으로 수정 → 돌려보고 결과 Jay에게 공유\nJay MCP 커넥터 리뷰 → 버그 등록·공유\n자동화 이슈 티켓 2건(BQ 10MB, Dagster 2GB) 생성\n→ 4주 간트(내일 14:00)는 기존 카드에서 준비",
