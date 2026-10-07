@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-07T15:45:00+09:00",
+  "updatedAt": "2026-10-07T17:45:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "15:40 스크리닝 · 2026-10-07 (수) KST · 신규 1건",
+  "subtitle": "17:40 스크리닝 · 2026-10-07 (수) KST · 신규 0건",
   "tasks": [
     {
       "id": "gmail:fathom-gantt-review-2026-10-07",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
-      "priority": "new",
+      "priority": "still",
       "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
       "summary": "배경 — 오늘 간트차트 리뷰에서 팀 우선순위를 파이프라인 최적화에서 V1 딜리버리로 돌렸어(Brice 웹앱 V1 10/20). 내 몫은 4주 데이터 파이프라인 자동화(틱톡·인스타 각 10만, Apify → BQ → Spanner 신선도 자동화, Dagster 잡 정리, 비용 벤치마크)야.\n\nDB 구조 논의 — 캠페인·연락 데이터는 마트에서 운영 DB로 옮기고, 마트는 Apify 잡 상태 추적용으로만 남길지 Dagster 잡 체이닝으로 아예 없앨지 정하기로 했어(Jay와 같이).\n\n성공지표 정의·공유 액션은 15:04에 #product에 올려서 끝난 걸로 봤어. 지표는 Brice가 모아서 회사 마일스톤으로 정리할 예정. Brice가 새 컴퓨터 2대 중 1대를 나한테 배정한다고 했어(FYI).",
       "액션": "Dagster 잡 체이닝 + Apify 상태 추적을 Claude와 검토 → 마트 유지 vs Dagster로 대체 결정 (Jay와)\n4주 파이프라인 자동화 착수\n(완료) 데이터·디스커버리 성공지표 정의·공유",
@@ -49,7 +49,7 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-07",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "still",
       "title": "데일리(10/7 아침) Fathom — DJ 액션",
