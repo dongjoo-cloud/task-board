@@ -1,8 +1,38 @@
 {
-  "updatedAt": "2026-10-07T17:45:00+09:00",
+  "updatedAt": "2026-10-08T07:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "17:40 스크리닝 · 2026-10-07 (수) KST · 신규 0건",
+  "subtitle": "07:40 스크리닝 · 2026-10-08 (목) KST · 신규 2건",
   "tasks": [
+    {
+      "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
+      "summary": "배경 — 어젯밤 21:38에 토론토의 G-Kor Consulting(대표 Joon Yoon)이 contact@storika.ai로 문의를 보냈어. 한국 브랜드의 북미·중국 진출을 돕는 회사이고, 파트너 브랜드용 인플루언서 마케팅 툴로 Storika를 검토 중이래.\n\n요청 내용 — 7M+ 크리에이터 DB 중 한국·중국·미국·캐나다 국가별 대략적인 프로필 수, 가능하면 플랫폼별(인스타·틱톡·유튜브 등) 분포까지.\n\n데이터 쪽 숫자라 내가 뽑아줘야 할 가능성이 커. 영업 회신은 Brice·Jen 쪽일 수 있어.",
+      "액션": "국가×플랫폼별 크리에이터 수 집계(BQ/DB) → 회신 담당(Brice·Jen)과 누가 답할지 정하기\n내 담당이 아니면 「내 업무 아님」으로",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878394662043155279",
+      "tags": [
+        "gmail",
+        "inbound",
+        "data"
+      ]
+    },
+    {
+      "id": "slack:1791409385.226769",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "normal",
+      "title": "결제 계정 BigQuery 청구 내보내기 켜기 요청 — 답 대기",
+      "summary": "배경 — 오늘 06:43에 메피스토가 내 이름으로 #product에 Brice·Jay·Jen한테 부탁을 올렸어. 9/1에 결제 계정이 01829D-84959E-C810FA로 바뀐 뒤 BigQuery 청구 내보내기가 안 켜져 있어서, 지출 게이트 실청구 대조(STORIKA-13445)와 BQ 비용 경보가 9월부터 멈춰 있대.\n\n부탁한 것 — 결제 관리자가 Billing export(Standard usage cost, 프로젝트 storika-455708, 데이터셋 billing_export)를 켜거나, 나한테 Billing Account Viewer 권한을 주기. 10/3~10/7 Vertex 실청구액 확인도 같이(지출 게이트 단가가 실측보다 약 2배 높게 잡혀 있음).\n\n아직 사람 답장 없음.",
+      "액션": "Brice·Jay·Jen 답 오면 export 켜졌는지/권한 받았는지 확인 → 13445 대조 재개\n오늘 중 답 없으면 1:1·데일리에서 한 번 더 요청",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791409385226769",
+      "tags": [
+        "slack",
+        "billing",
+        "pipeline"
+      ]
+    },
     {
       "id": "gmail:fathom-gantt-review-2026-10-07",
       "status": "done",
