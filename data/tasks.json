@@ -110,38 +110,6 @@
       ]
     },
     {
-      "id": "gmail:fathom-gantt-review-2026-10-07",
-      "status": "done",
-      "source": "gmail",
-      "priority": "still",
-      "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
-      "summary": "배경 — 오늘 간트차트 리뷰에서 팀 우선순위를 파이프라인 최적화에서 V1 딜리버리로 돌렸어(Brice 웹앱 V1 10/20). 내 몫은 4주 데이터 파이프라인 자동화(틱톡·인스타 각 10만, Apify → BQ → Spanner 신선도 자동화, Dagster 잡 정리, 비용 벤치마크)야.\n\nDB 구조 논의 — 캠페인·연락 데이터는 마트에서 운영 DB로 옮기고, 마트는 Apify 잡 상태 추적용으로만 남길지 Dagster 잡 체이닝으로 아예 없앨지 정하기로 했어(Jay와 같이).\n\n성공지표 정의·공유 액션은 15:04에 #product에 올려서 끝난 걸로 봤어. 지표는 Brice가 모아서 회사 마일스톤으로 정리할 예정. Brice가 새 컴퓨터 2대 중 1대를 나한테 배정한다고 했어(FYI).",
-      "액션": "Dagster 잡 체이닝 + Apify 상태 추적을 Claude와 검토 → 마트 유지 vs Dagster로 대체 결정 (Jay와)\n4주 파이프라인 자동화 착수\n(완료) 데이터·디스커버리 성공지표 정의·공유",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878369049026777218",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting"
-      ],
-      "status_at": "2026-10-07T08:30:21.913Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-07",
-      "status": "done",
-      "source": "gmail",
-      "priority": "still",
-      "title": "데일리(10/7 아침) Fathom — DJ 액션",
-      "summary": "배경 — 오늘 아침 데일리에서 4주 데이터 파이프라인 계획(틱톡 10만 확보 → Spanner 이관, 자동 새로고침, Dexter 잡 정리·알림 구축)을 공유했어. Fathom 액션 아이템에 내 몫이 따로 찍혔어.\n\nVertex 예산 건은 주은님(Jen)이 10:16에 'KTP로 나가고 있다'고 답했어. 10:51에 월 사용 한도가 정해져 있는지 다시 물어봐서 그 답을 기다리는 중이야. CI 이관 티켓 공유(STORIKA-13373, PR #11659)는 Brice가 #product에 올렸고 Jay가 확인해서 따로 할 일 없음.",
-      "액션": "Discovery가 완전체 크리에이터를 먼저 보여주게 수정\nSpanner 채팅 검색 12시간 지연 버그 해결\n4주 파이프라인 계획 착수\n주은님 Vertex 월 한도 답변 확인 (KTP 처리는 확인됨)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878345726915100174",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting"
-      ],
-      "status_at": "2026-10-07T08:30:28.244Z"
-    },
-    {
       "id": "slack:1791182100.346269",
       "status": "in_progress",
       "source": "slack",

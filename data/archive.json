@@ -35,6 +35,20 @@
       "title": "데일리(10/6) Fathom — DJ 액션",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-07": {
+      "status": "done",
+      "at": "2026-10-07T08:30:28.244Z",
+      "archived_at": "2026-10-08T15:32:29.568Z",
+      "title": "데일리(10/7 아침) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-gantt-review-2026-10-07": {
+      "status": "done",
+      "at": "2026-10-07T08:30:21.913Z",
+      "archived_at": "2026-10-08T15:32:29.568Z",
+      "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
+      "source": "gmail"
+    },
     "gmail:fathom-product-sync-2026-10-06": {
       "status": "done",
       "at": "2026-10-07T04:56:37.298Z",
