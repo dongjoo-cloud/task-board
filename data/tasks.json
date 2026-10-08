@@ -1,22 +1,38 @@
 {
-  "updatedAt": "2026-10-08T15:50:00+09:00",
+  "updatedAt": "2026-10-08T17:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "15:40 스크리닝 · 2026-10-08 (목) KST · 신규 1건",
+  "subtitle": "17:40 스크리닝 · 2026-10-08 (목) KST · 신규 1건",
   "tasks": [
     {
-      "id": "slack:1791441783.125839",
+      "id": "slack:1791448586.151989",
       "status": "todo",
       "source": "slack",
       "priority": "normal",
+      "title": "내 PR #11802(DB 변경) — no-auto-merge 라벨 붙일지 정하기",
+      "summary": "배경 — 17:36 Brice(Claude)가 #product 드래프트 정리 스레드에서 Jay와 나한테 알림. release #11835가 main에 들어가기 전까지는 main 쪽 auto-merge 워크플로에 사람 승인 단계(human gate)가 없어서, 라벨이나 ready 이벤트만 생겨도 승인 필요한 PR이 자동으로 머지 대기(arm)될 수 있대.\n\n실제로 17:32에 Brice의 #11834(이메일 변경)가 ready 직후 저절로 arm돼서 Brice가 해제하고 no-auto-merge 라벨을 붙였어.\n\n해당되는 내 PR — #11802(STORIKA-13572, 실패한 플랜 정산이 검색 중인 라운드의 run을 건드리지 않게 run-row 잠금). db-change로 분류돼 있고 지금은 ready·라벨 없음·auto-merge 꺼짐. Brice 쪽은 손대지 않았어.",
+      "액션": "#11802에 no-auto-merge 라벨 붙일지 결정(메피스토에게 맡겨도 됨)\n#11835 release가 main에 들어가면 라벨 떼고 원래 승인 흐름으로",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791448586151989?thread_ts=1791411722.112369&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "pr",
+        "auto-merge"
+      ]
+    },
+    {
+      "id": "slack:1791441783.125839",
+      "status": "done",
+      "source": "slack",
+      "priority": "normal",
       "title": "Brice PR #11832 리뷰 — main→dev back-merge (Jay 또는 나)",
-      "summary": "배경 — 15:43 Brice(Claude)가 #product 드래프트 정리 스레드에서 「Jay 또는 DJ」한테 #11832 리뷰를 부탁했어. 지금은 draft고 CI 끝나면 ready로 바뀜.\n\n왜 필요한지 — 12427을 prod로 올리는 release를 만들려는데, dev와 main이 Dagster 파일 15개에서 충돌함. main은 10/6 이후 direct-to-main 레인으로 708커밋을 받았고, dev 쪽 변경은 #11642 squash 하나뿐.\n\n내용 — 15개 파일 전부 main 버전으로 맞춤. 바뀌는 190개 파일이 모두 origin/main과 같고 apps/·packages/·CI·SQL은 없음. ruff 통과, media_kits pytest 493 통과.\n\n다음 단계 — 머지되면 Brice가 release PR 만들고 CI·prod SQL twin 목록까지만 진행. prod SQL 적용과 main 머지는 Brice나 Jay의 go 대기.",
-      "액션": "Jay와 누가 볼지 정하기(#11733처럼 Jay가 맡을 수도 있음)\n내가 본다면 ready 전환 후 PR 본문의 파일별 증명만 훑고 승인",
+      "summary": "배경 — 15:43 Brice(Claude)가 #product 드래프트 정리 스레드에서 「Jay 또는 DJ」한테 #11832 리뷰를 부탁했어. 지금은 draft고 CI 끝나면 ready로 바뀜.\n\n왜 필요한지 — 12427을 prod로 올리는 release를 만들려는데, dev와 main이 Dagster 파일 15개에서 충돌함. main은 10/6 이후 direct-to-main 레인으로 708커밋을 받았고, dev 쪽 변경은 #11642 squash 하나뿐.\n\n내용 — 15개 파일 전부 main 버전으로 맞춤. 바뀌는 190개 파일이 모두 origin/main과 같고 apps/·packages/·CI·SQL은 없음. ruff 통과, media_kits pytest 493 통과.\n\n다음 단계 — 머지되면 Brice가 release PR 만들고 CI·prod SQL twin 목록까지만 진행. prod SQL 적용과 main 머지는 Brice나 Jay의 go 대기.\n\n업데이트 — 16:00 ready 전환(CI 23개 통과) 뒤 16:03에 jjongsta(Jay 쪽) 계정이 승인했고, 16:39에 머지됐어. 내가 따로 볼 건 없어.",
+      "액션": "끝남(Jay 승인·머지 완료) — 할 일 없음",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791441783125839?thread_ts=1791411722.112369&cid=C07EB8FM44D",
       "tags": [
         "slack",
         "pr",
         "review"
-      ]
+      ],
+      "status_at": "2026-10-08T08:46:37.000Z"
     },
     {
       "id": "slack:1791426462.594509",
@@ -39,8 +55,8 @@
       "source": "slack",
       "priority": "high",
       "title": "PR #11780 머지 — UI 캡처를 ui-captures/STORIKA-11128 브랜치로 올리기",
-      "summary": "배경 — 08:31에 메피스토가 내 이름으로 #product에 PR #11780(STORIKA-11128, 디스커버리에서 완전체 크리에이터 우선 노출, 10/17 목표) 머지 서명을 Jay·Brice한테 부탁했어. macmini 레인에서 만든 web PR이라 ui-review-stamp 서명 코멘트가 있어야 자동 머지가 켜지는데, 서명 키가 맥북·맥미니 둘 다 없음.\n\nJay 답 — 남이 만든 nonce에는 서명 안 함. 대신 11128 캡처 폴더를 ui-captures/STORIKA-11128 브랜치로 올려주면 Jay 쪽에서 같은 head에 UI 리뷰 돌리고 서명→steward가 arm(약 20분). 자세한 건 STORIKA-11128 Linear 댓글.\n\nJay 결정 — 서명 키는 메인 Mac에만 둠. mac2 web PR이 잦아지면 키 복사 대신 DJ 전용 서명자를 코드에 등록하는 쪽으로.\n\n업데이트 — 11:21 메피스토가 같은 스레드에서 Jay한테 PR #11802(STORIKA-13572) approve도 부탁함. 검사 규칙이 테스트용 Postgres 픽스처의 CREATE TABLE을 DB 변경으로 오인해 막힌 거고, 작성자가 DJ 계정이라 직접 승인 불가. Jay 답 대기 중.",
-      "액션": "STORIKA-11128 Linear 댓글 확인 → 캡처 폴더를 ui-captures/STORIKA-11128 브랜치로 푸시(메피스토/마녀에게 지시)\n앞으로 macmini web PR도 같은 캡처 업로드 방식으로 처리",
+      "summary": "배경 — 08:31에 메피스토가 내 이름으로 #product에 PR #11780(STORIKA-11128, 디스커버리에서 완전체 크리에이터 우선 노출, 10/17 목표) 머지 서명을 Jay·Brice한테 부탁했어. macmini 레인에서 만든 web PR이라 ui-review-stamp 서명 코멘트가 있어야 자동 머지가 켜지는데, 서명 키가 맥북·맥미니 둘 다 없음.\n\nJay 답 — 남이 만든 nonce에는 서명 안 함. 대신 11128 캡처 폴더를 ui-captures/STORIKA-11128 브랜치로 올려주면 Jay 쪽에서 같은 head에 UI 리뷰 돌리고 서명→steward가 arm(약 20분). 자세한 건 STORIKA-11128 Linear 댓글.\n\nJay 결정 — 서명 키는 메인 Mac에만 둠. mac2 web PR이 잦아지면 키 복사 대신 DJ 전용 서명자를 코드에 등록하는 쪽으로.\n\n업데이트 — 11:21 메피스토가 같은 스레드에서 Jay한테 PR #11802(STORIKA-13572) approve도 부탁함. 검사 규칙이 테스트용 Postgres 픽스처의 CREATE TABLE을 DB 변경으로 오인해 막힌 거고, 작성자가 DJ 계정이라 직접 승인 불가. Jay 답 대기 중.\n\n업데이트 — 16:17 Jay가 10시간 넘게 열린 내 PR 점검으로 #11780·#11689를 물어봤고, 메피스토가 답함. #11780은 at-arm CI에서 진짜 실패 하나(feedback-reply 테스트 픽스처에 sizing_snapshot 칸 누락)를 찾아 한 줄 고친 새 head(ad7ff46)를 올리고, 서명되면 steward가 arm하기로 함. #11689는 Jay 담당이라 Jay 쪽에서 처리.\n\n주의 — 17:22에 새 head ad7ff46의 PR Guards가 실패했다는 GitHub 메일이 옴. arm 전에 뭐가 막혔는지 한 번 봐야 할 수도 있어.",
+      "액션": "ad7ff46 PR Guards 실패 원인 확인(메피스토에게 맡기기)\n통과하면 steward arm·머지까지 지켜보기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791415899696239",
       "tags": [
         "slack",
@@ -84,8 +100,8 @@
       "source": "slack",
       "priority": "normal",
       "title": "결제 계정 BigQuery 청구 내보내기 — Jay 설정, 확인 요청",
-      "summary": "배경 — 오늘 06:43에 메피스토가 내 이름으로 #product에 Brice·Jay·Jen한테 부탁을 올렸어. 9/1에 결제 계정이 01829D-84959E-C810FA로 바뀐 뒤 BigQuery 청구 내보내기가 안 켜져 있어서, 지출 게이트 실청구 대조(STORIKA-13445)와 BQ 비용 경보가 9월부터 멈춰 있대.\n\n부탁한 것 — 결제 관리자가 Billing export(Standard usage cost, 프로젝트 storika-455708, 데이터셋 billing_export)를 켜거나, 나한테 Billing Account Viewer 권한을 주기. 10/3~10/7 Vertex 실청구액 확인도 같이(지출 게이트 단가가 실측보다 약 2배 높게 잡혀 있음).\n\n아직 사람 답장 없음.\n\n업데이트 — 08:14 Jay가 「이거 제가 할게요」, 08:33에 나를 태그해 「한번 확인해주십쇼」. 설정은 Jay가 한 것으로 보여.",
-      "액션": "billing_export 데이터셋(storika-455708)에 내보내기 들어오는지/권한 받았는지 확인 → 스레드에 결과 답장\n확인되면 STORIKA-13445 실청구 대조 재개",
+      "summary": "배경 — 오늘 06:43에 메피스토가 내 이름으로 #product에 Brice·Jay·Jen한테 부탁을 올렸어. 9/1에 결제 계정이 01829D-84959E-C810FA로 바뀐 뒤 BigQuery 청구 내보내기가 안 켜져 있어서, 지출 게이트 실청구 대조(STORIKA-13445)와 BQ 비용 경보가 9월부터 멈춰 있대.\n\n부탁한 것 — 결제 관리자가 Billing export(Standard usage cost, 프로젝트 storika-455708, 데이터셋 billing_export)를 켜거나, 나한테 Billing Account Viewer 권한을 주기. 10/3~10/7 Vertex 실청구액 확인도 같이(지출 게이트 단가가 실측보다 약 2배 높게 잡혀 있음).\n\n아직 사람 답장 없음.\n\n업데이트 — 08:14 Jay가 「이거 제가 할게요」, 08:33에 나를 태그해 「한번 확인해주십쇼」. 설정은 Jay가 한 것으로 보여.\n\n업데이트 — 16:12 Jay가 새 결제 계정의 BigQuery 내보내기(Standard usage cost)를 켰다고 알려줌. 프로젝트 storika-455708, 데이터셋 billing_export(US). 테이블 gcp_billing_export_v1_01829D_84959E_C810FA는 보통 몇 시간 안에 생기고, 생기면 Jay가 스레드에 한 줄 남기고 10/3~10/7 Vertex 실청구액도 뽑아주기로 함.",
+      "액션": "Jay가 테이블 생성 확인 남기면 STORIKA-13445 실청구 대조 재개\n그 전엔 기다리기만 하면 돼",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791409385226769",
       "tags": [
         "slack",
@@ -106,7 +122,8 @@
         "gmail",
         "fathom",
         "meeting"
-      ]
+      ],
+      "status_at": "2026-10-07T08:30:21.913Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-07",
@@ -121,7 +138,8 @@
         "gmail",
         "fathom",
         "meeting"
-      ]
+      ],
+      "status_at": "2026-10-07T08:30:28.244Z"
     },
     {
       "id": "slack:1791182100.346269",
