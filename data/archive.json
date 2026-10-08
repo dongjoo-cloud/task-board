@@ -1,0 +1,60 @@
+{
+  "ids": {
+    "gmail:exa-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:41:23.852Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "gmail"
+    },
+    "gmail:firecrawl-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:36:15.905Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "gmail"
+    },
+    "gmail:maru-headcount": {
+      "status": "done",
+      "at": "2026-10-01T23:56:42.812Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "gmail"
+    },
+    "gmail:ramp-weekly-2026-10-01": {
+      "status": "done",
+      "at": "2026-10-01T23:56:51.754Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "gmail"
+    },
+    "gmail:typesafe-invite": {
+      "status": "done",
+      "at": "2026-10-02T08:32:25.874Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "gmail"
+    },
+    "slack:1790923690.759469": {
+      "status": "done",
+      "at": "2026-10-02T08:32:01.664Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "",
+      "source": "slack"
+    },
+    "slack:1791188239.695509": {
+      "status": "done",
+      "at": "2026-10-06T08:41:36.000Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "Brice — prod 카나리 데이터 신선도 실패 맡기",
+      "source": "slack"
+    },
+    "slack:1791211238.813709": {
+      "status": "done",
+      "at": "2026-10-06T02:50:39.000Z",
+      "archived_at": "2026-10-08T00:29:27.691Z",
+      "title": "Weekly Sync(10/6) 아젠다 — 내 섹션 작성",
+      "source": "slack"
+    }
+  }
+}
