@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T11:50:00+09:00",
+  "updatedAt": "2026-10-08T13:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "11:40 스크리닝 · 2026-10-08 (목) KST · 신규 1건",
+  "subtitle": "13:40 스크리닝 · 2026-10-08 (목) KST · 신규 0건",
   "tasks": [
     {
       "id": "slack:1791426462.594509",
@@ -9,8 +9,8 @@
       "source": "slack",
       "priority": "normal",
       "title": "Brice PR #11733(STORIKA-13171) — DB·가격 변경 승인(Jay 또는 나)",
-      "summary": "배경 — 11:05 Jay가 #product에서 Brice한테 열린 draft PR 13개 정리를 부탁했고, 11:27 Brice(Claude) 쪽이 결과를 올렸어. 7개 닫고 #11779·#11792는 ready로 전환.\n\n나한테 걸린 것 — #11733(13171)은 DB 변경 + 가격 변경이 섞여 있어서 「Jay나 DJ 승인이 필요」하대. 체크 통과하면 곧 ready로 바뀜.\n\n참고 — Jay가 볼 가능성도 있으니 겹치지 않게 누가 볼지만 정하면 돼.",
-      "액션": "PR #11733 DB·가격 변경 내용 확인\nJay와 누가 승인할지 정하고, 내가 보면 리뷰·approve",
+      "summary": "배경 — 11:05 Jay가 #product에서 Brice한테 열린 draft PR 13개 정리를 부탁했고, 11:27 Brice(Claude) 쪽이 결과를 올렸어. 7개 닫고 #11779·#11792는 ready로 전환.\n\n나한테 걸린 것 — #11733(13171)은 DB 변경 + 가격 변경이 섞여 있어서 「Jay나 DJ 승인이 필요」하대. 체크 통과하면 곧 ready로 바뀜.\n\n참고 — Jay가 볼 가능성도 있으니 겹치지 않게 누가 볼지만 정하면 돼.\n\n업데이트 — 13:40 Jay가 같은 스레드에서 「#11733은 ready로 바꾸면 Jay가 읽고 승인 리뷰로 풀겠다」고 답했어. 내가 따로 승인할 필요는 거의 없어 보여.",
+      "액션": "Jay가 승인 맡기로 함 — 따로 볼 필요 없으면 내 업무 아님/완료로 이동\n가격 변경만 한번 훑어볼지 판단",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791426462594509?thread_ts=1791411722.112369&cid=C07EB8FM44D",
       "tags": [
         "slack",
@@ -54,8 +54,8 @@
       "source": "gmail",
       "priority": "normal",
       "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
-      "summary": "배경 — 어젯밤 21:38에 토론토의 G-Kor Consulting(대표 Joon Yoon)이 contact@storika.ai로 문의를 보냈어. 한국 브랜드의 북미·중국 진출을 돕는 회사이고, 파트너 브랜드용 인플루언서 마케팅 툴로 Storika를 검토 중이래.\n\n요청 내용 — 7M+ 크리에이터 DB 중 한국·중국·미국·캐나다 국가별 대략적인 프로필 수, 가능하면 플랫폼별(인스타·틱톡·유튜브 등) 분포까지.\n\n데이터 쪽 숫자라 내가 뽑아줘야 할 가능성이 커. 영업 회신은 Brice·Jen 쪽일 수 있어.\n\n업데이트 — 08:37 Jay가 #business-development에서 Brice·Don·나를 태그해 공유했고, 내가 「제가 정리해서 답변하겠습니다」라고 맡았어.\n\n업데이트 — 10:37 Don이 메일로 Brice·Jay·나한테 포워드했어. 영업 기회로 보고 「최신 숫자랑 피치 포인트 정리해 줄 수 있냐」고 물음. 숫자 + 짧은 피치 문구를 같이 주면 돼.",
-      "액션": "국가(한·중·미·캐)×플랫폼별 크리에이터 수 집계(BQ/DB)\n숫자 + 피치 포인트를 Don(포워드 스레드)에게 공유\n회신 주체(Don/나) 정해서 Joon Yoon 대표에게 답장",
+      "summary": "배경 — 어젯밤 21:38에 토론토의 G-Kor Consulting(대표 Joon Yoon)이 contact@storika.ai로 문의를 보냈어. 한국 브랜드의 북미·중국 진출을 돕는 회사이고, 파트너 브랜드용 인플루언서 마케팅 툴로 Storika를 검토 중이래.\n\n요청 내용 — 7M+ 크리에이터 DB 중 한국·중국·미국·캐나다 국가별 대략적인 프로필 수, 가능하면 플랫폼별(인스타·틱톡·유튜브 등) 분포까지.\n\n데이터 쪽 숫자라 내가 뽑아줘야 할 가능성이 커. 영업 회신은 Brice·Jen 쪽일 수 있어.\n\n업데이트 — 08:37 Jay가 #business-development에서 Brice·Don·나를 태그해 공유했고, 내가 「제가 정리해서 답변하겠습니다」라고 맡았어.\n\n업데이트 — 10:37 Don이 메일로 Brice·Jay·나한테 포워드했어. 영업 기회로 보고 「최신 숫자랑 피치 포인트 정리해 줄 수 있냐」고 물음. 숫자 + 짧은 피치 문구를 같이 주면 돼.\n\n업데이트 — 12:39 #business-development에 국가별 숫자를 정리해 Don한테 공유했고, 12:56에 Joon 대표한테 회신 메일도 보냈어(한·미·캐·중 IG/TikTok 수 + 샘플 검색 콜 제안).\n\n남은 것 — 답장 오면 후속만. 끝났다고 보면 완료로 옮기면 돼.",
+      "액션": "Joon 대표 답장 오면 후속(샘플 검색·콜 일정)\n더 할 게 없으면 완료로 이동",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878394662043155279",
       "tags": [
         "gmail",
