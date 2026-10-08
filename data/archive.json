@@ -1,10 +1,52 @@
 {
   "ids": {
+    "gmail:calendar-gantt-review-2026-10-07": {
+      "status": "done",
+      "at": "2026-10-07T02:43:21.000Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "간트차트 리뷰(10/7 14:00) RSVP",
+      "source": "gmail"
+    },
+    "gmail:calendar-hoesik-2026-10-28": {
+      "status": "done",
+      "at": "2026-10-07T04:57:05.590Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "회식 RSVP (10/28)",
+      "source": "gmail"
+    },
     "gmail:exa-invite": {
       "status": "done",
       "at": "2026-10-02T08:41:23.852Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-02": {
+      "status": "done",
+      "at": "2026-10-07T04:57:00.978Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "데일리(10/2) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-06": {
+      "status": "done",
+      "at": "2026-10-07T04:56:50.253Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "데일리(10/6) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-product-sync-2026-10-06": {
+      "status": "done",
+      "at": "2026-10-07T04:56:37.298Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Daily product sync(10/6 오후) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-weekly-sync-2026-10-06": {
+      "status": "done",
+      "at": "2026-10-07T04:56:42.893Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Weekly Sync(10/6) Fathom — DJ 액션",
       "source": "gmail"
     },
     "gmail:firecrawl-invite": {
@@ -35,11 +77,39 @@
       "title": "",
       "source": "gmail"
     },
+    "gmail:wispr-billing-2026-10-02": {
+      "status": "not_mine",
+      "at": "2026-10-07T04:56:53.082Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Wispr 팀 결제 갱신",
+      "source": "gmail"
+    },
+    "gmail:xai-payment-failed-2026-10-07": {
+      "status": "not_mine",
+      "at": "2026-10-07T04:55:26.769Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Grok xAI $300 결제 실패 — 카드 확인",
+      "source": "gmail"
+    },
+    "slack:1790877441.863009": {
+      "status": "done",
+      "at": "2026-10-07T04:57:03.694Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Jay — Jev 멀티모달 확인",
+      "source": "slack"
+    },
     "slack:1790923690.759469": {
       "status": "done",
       "at": "2026-10-02T08:32:01.664Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "slack"
+    },
+    "slack:1791173219.937569": {
+      "status": "done",
+      "at": "2026-10-07T04:56:55.874Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Claude 클라우드 세션 $250 크레딧 클레임",
       "source": "slack"
     },
     "slack:1791188239.695509": {
@@ -54,6 +124,27 @@
       "at": "2026-10-06T02:50:39.000Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "Weekly Sync(10/6) 아젠다 — 내 섹션 작성",
+      "source": "slack"
+    },
+    "slack:1791246793.628409": {
+      "status": "not_mine",
+      "at": "2026-10-07T04:59:18.057Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Jay — 클로드 클라우드 세션, 내 쪽에 적용 가능한지 확인",
+      "source": "slack"
+    },
+    "slack:1791259096.864229": {
+      "status": "done",
+      "at": "2026-10-07T04:56:40.107Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Brice — 4주 간트 롤업(10/7 14:00) 데이터 간트 준비",
+      "source": "slack"
+    },
+    "slack:1791335471.984339": {
+      "status": "done",
+      "at": "2026-10-07T04:55:10.633Z",
+      "archived_at": "2026-10-08T07:17:08.176Z",
+      "title": "Brice — 4일째 걸린 PR(STORIKA-12876) 머지",
       "source": "slack"
     }
   }
