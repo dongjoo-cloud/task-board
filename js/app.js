@@ -1,6 +1,8 @@
 const REPO = { owner: "dongjoo-cloud", name: "task-board", branch: "main" };
 const DONE_PATH = "data/done.json";
 const LS_DONE = "task-board:done";
+/** done / not_mine cards disappear this long after entering that status. */
+const CLOSED_TTL_MS = 24 * 60 * 60 * 1000;
 
 /** Canonical column statuses persisted in done.json */
 const STATUS = {
@@ -11,6 +13,7 @@ const STATUS = {
 };
 
 const STATUS_ORDER = [STATUS.TODO, STATUS.IN_PROGRESS, STATUS.DONE, STATUS.NOT_MINE];
+const CLOSED_STATUSES = [STATUS.DONE, STATUS.NOT_MINE];
 
 const STATUS_LABEL = {
   todo: "할 일",
@@ -42,6 +45,9 @@ const el = {
 let doneState = { ids: {} };
 /** @type {Array<any>} */
 let tasks = [];
+/** Ids pruned into data/archive.json (done/not_mine > 24h). */
+let archivedIds = new Set();
+let lastVisibleKey = "";
 let toastTimer = null;
 let syncLock = Promise.resolve();
 let dragId = null;
@@ -180,8 +186,9 @@ function cardHtml(task) {
   if (priority === "new") pills.push('<span class="pill new">NEW</span>');
   if (priority === "still") pills.push('<span class="pill still">STILL</span>');
   if (source) pills.push(`<span class="pill ${source}">${source}</span>`);
-  if (doneState.ids[task.id]?.at) {
-    pills.push(`<span class="pill status-at">${formatStatusAt(doneState.ids[task.id].at)}</span>`);
+  const statusAt = statusAtFor(task);
+  if (statusAt) {
+    pills.push(`<span class="pill status-at">${formatStatusAt(statusAt)}</span>`);
   }
   const body = task["내용"] || task.summary || "";
   const action = task["액션"] || task.action || "";
@@ -231,9 +238,30 @@ function bucketFor(task) {
   return normalizeTaskStatus(task.status);
 }
 
+/** When the card entered its current column: done.json override `at`, else tasks.json `status_at`. */
+function statusAtFor(task) {
+  const entry = doneState.ids?.[task.id];
+  if (entry && entry.status) return entry.at || null;
+  return task.status_at || null;
+}
+
+/** done / not_mine for longer than CLOSED_TTL_MS → hidden. No timestamp → stays visible. */
+function isExpired(task, now = Date.now()) {
+  if (!CLOSED_STATUSES.includes(bucketFor(task))) return false;
+  const t = Date.parse(statusAtFor(task) || "");
+  if (!Number.isFinite(t)) return false;
+  return now - t > CLOSED_TTL_MS;
+}
+
+function visibleTasks(now = Date.now()) {
+  return tasks.filter((t) => !isExpired(t, now));
+}
+
 function render() {
   const buckets = { todo: [], in_progress: [], done: [], not_mine: [] };
-  for (const t of tasks) {
+  const visible = visibleTasks();
+  lastVisibleKey = visible.map((t) => `${t.id}:${bucketFor(t)}`).join("|");
+  for (const t of visible) {
     const b = bucketFor(t);
     (buckets[b] || buckets.todo).push(t);
   }
@@ -627,25 +655,52 @@ function entriesDiffer(a, b) {
   return lt > rt;
 }
 
+/** Remove ids already pruned into archive.json (not on the board anymore) so they aren't re-pushed. */
+function dropArchived(state) {
+  if (!state || !archivedIds.size) return state;
+  const out = { ids: {} };
+  for (const [id, entry] of Object.entries(state.ids || {})) {
+    if (!archivedIds.has(id)) out.ids[id] = entry;
+  }
+  return out;
+}
+
+/** Re-render when a done/not_mine card crosses the 24h mark while the page stays open. */
+function startExpiryTimer() {
+  setInterval(() => {
+    if (dragId || (menuEl && !menuEl.hidden)) return;
+    const key = visibleTasks()
+      .map((t) => `${t.id}:${bucketFor(t)}`)
+      .join("|");
+    if (key !== lastVisibleKey) render();
+  }, 60 * 1000);
+}
+
 async function init() {
   wireDrag();
   wireContextMenu();
   updateBanner();
 
   try {
-    const [tasksDoc, remoteDone] = await Promise.all([
+    const [tasksDoc, remoteDone, archiveDoc] = await Promise.all([
       fetchJson("data/tasks.json"),
       fetchJson("data/done.json").catch(() => ({ ids: {} })),
+      fetchJson("data/archive.json").catch(() => ({ ids: {} })),
     ]);
     tasks = Array.isArray(tasksDoc.tasks) ? tasksDoc.tasks : [];
+    const liveIds = new Set(tasks.map((t) => t.id));
+    archivedIds = new Set(
+      Object.keys(archiveDoc?.ids || {}).filter((id) => !liveIds.has(id))
+    );
     if (tasksDoc.title) el.title.textContent = tasksDoc.title;
     if (tasksDoc.subtitle) el.sub.textContent = tasksDoc.subtitle;
     else if (tasksDoc.updatedAt) el.sub.textContent = `업데이트 ${tasksDoc.updatedAt}`;
 
-    const local = loadLocalDone();
-    doneState = mergeDone(remoteDone || { ids: {} }, local);
+    const local = dropArchived(loadLocalDone());
+    doneState = dropArchived(mergeDone(remoteDone || { ids: {} }, local));
     saveLocalDone(doneState);
     render();
+    startExpiryTimer();
 
     if (getWriteToken() && local) {
       const remoteIds = normalizeState(remoteDone || { ids: {} }).ids;

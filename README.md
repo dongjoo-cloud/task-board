@@ -14,7 +14,9 @@ Columns: **할 일** / **진행 중** / **완료** / **내 업무 아님**. Drag
 | `data/done.json` | **Status map** (user overrides from the board). See schema below. |
 | Actions secret `BOARD_WRITE_TOKEN` | Limited write credential (stored as repo secret only — never committed as plaintext source on `main`). |
 | `.github/workflows/deploy-pages.yml` | Builds Pages artifact and **injects** `js/config.js` from `BOARD_WRITE_TOKEN`. |
-| `.github/workflows/board-status.yml` | On `repository_dispatch` type `board-status`, writes `data/done.json` using default `GITHUB_TOKEN`. |
+| `.github/workflows/board-status.yml` | On `repository_dispatch` type `board-status`, writes `data/done.json` (`.github/scripts/apply_status.py`; drops ids already in `archive.json`). |
+| `.github/workflows/board-prune.yml` | Hourly (:10 UTC) + manual. Moves `done`/`not_mine` cards older than 24h from `tasks.json` + `done.json` into `data/archive.json` (`.github/scripts/prune_board.py`). |
+| `data/archive.json` | Ids of pruned cards (`{"ids": {id: {status, at, archived_at, title, source}}}`). **Screening must never re-add these ids.** |
 | `index.html` + `styles.css` + `js/app.js` | Static Kanban UI (no Settings / PAT paste UI). |
 
 Drag between columns:
@@ -62,6 +64,14 @@ Stable external IDs (examples):
 
 - `slack:<ts>` e.g. `slack:1790877441.863009`
 - `gmail:<slug>` e.g. `gmail:ramp-weekly-2026-10-01`
+
+## 24h auto-expiry of 완료 / 내 업무 아님
+
+- Status time of a card = `done.json.ids[id].at` if an override exists, else `tasks.json` task `status_at` (ISO UTC).
+- UI (`js/app.js`) hides cards whose effective status is `done`/`not_mine` and whose status time is > 24h old (re-checked every minute). Moving a card back to 할 일/진행 중 writes a fresh override, so it shows normally. No timestamp → stays visible until prune stamps one.
+- `board-prune.yml` (hourly): stamps `status_at = now` on `done`/`not_mine` tasks that have no timestamp, then archives expired ones into `data/archive.json` and removes them from `tasks.json` / `done.json`.
+- When the screening agent sets a card to `done`/`not_mine` in `tasks.json`, it should also set `"status_at": "<now ISO UTC>"`.
+- Screening dedupe: skip any id present in `data/archive.json` (in addition to ids already in `tasks.json`).
 
 ## Agent workflow
 

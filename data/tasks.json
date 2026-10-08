@@ -95,6 +95,7 @@
     {
       "id": "gmail:calendar-gantt-review-2026-10-07",
       "status": "done",
+      "status_at": "2026-10-07T02:43:21.000Z",
       "source": "gmail",
       "priority": "still",
       "title": "간트차트 리뷰(10/7 14:00) RSVP",
@@ -194,6 +195,7 @@
     {
       "id": "slack:1791211238.813709",
       "status": "done",
+      "status_at": "2026-10-06T02:50:39.000Z",
       "source": "slack",
       "priority": "still",
       "title": "Weekly Sync(10/6) 아젠다 — 내 섹션 작성",
@@ -210,6 +212,7 @@
     {
       "id": "slack:1791188239.695509",
       "status": "done",
+      "status_at": "2026-10-06T08:41:36.000Z",
       "source": "slack",
       "priority": "still",
       "title": "Brice — prod 카나리 데이터 신선도 실패 맡기",

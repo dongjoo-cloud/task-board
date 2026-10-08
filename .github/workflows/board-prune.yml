@@ -1,0 +1,50 @@
+# Remove done / not_mine cards that have been in that status for > 24h.
+# Moves them from data/tasks.json + data/done.json into data/archive.json
+# (id list kept so the screening routine never re-adds them).
+# Uses BOARD_WRITE_TOKEN so the push re-triggers Deploy Pages.
+# The UI already hides expired cards client-side; this keeps the data files small.
+name: Board prune (24h)
+
+on:
+  schedule:
+    - cron: "10 * * * *" # hourly at :10 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: board-prune
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.BOARD_WRITE_TOKEN }}
+
+      - name: Prune and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            : > /tmp/prune.env
+            GITHUB_ENV=/tmp/prune.env python3 .github/scripts/prune_board.py
+            if ! grep -q '^BOARD_CHANGED=1' /tmp/prune.env; then
+              echo "Nothing to prune"; exit 0
+            fi
+            summary=$(grep '^PRUNE_SUMMARY=' /tmp/prune.env | cut -d= -f2-)
+            git add data/tasks.json data/done.json data/archive.json
+            git commit -m "chore(prune): archive done/not_mine cards older than 24h (${summary#prune: })"
+            if git push; then exit 0; fi
+            echo "push rejected, re-running prune on latest main (attempt $i)"
+            sleep $((i * 3))
+            git fetch origin main
+            git reset --hard origin/main
+          done
+          echo "::error::could not push prune after retries"
+          exit 1
