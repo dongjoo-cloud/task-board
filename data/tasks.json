@@ -1,8 +1,23 @@
 {
-  "updatedAt": "2026-10-08T13:50:00+09:00",
+  "updatedAt": "2026-10-08T15:50:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "13:40 스크리닝 · 2026-10-08 (목) KST · 신규 0건",
+  "subtitle": "15:40 스크리닝 · 2026-10-08 (목) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "slack:1791441783.125839",
+      "status": "todo",
+      "source": "slack",
+      "priority": "normal",
+      "title": "Brice PR #11832 리뷰 — main→dev back-merge (Jay 또는 나)",
+      "summary": "배경 — 15:43 Brice(Claude)가 #product 드래프트 정리 스레드에서 「Jay 또는 DJ」한테 #11832 리뷰를 부탁했어. 지금은 draft고 CI 끝나면 ready로 바뀜.\n\n왜 필요한지 — 12427을 prod로 올리는 release를 만들려는데, dev와 main이 Dagster 파일 15개에서 충돌함. main은 10/6 이후 direct-to-main 레인으로 708커밋을 받았고, dev 쪽 변경은 #11642 squash 하나뿐.\n\n내용 — 15개 파일 전부 main 버전으로 맞춤. 바뀌는 190개 파일이 모두 origin/main과 같고 apps/·packages/·CI·SQL은 없음. ruff 통과, media_kits pytest 493 통과.\n\n다음 단계 — 머지되면 Brice가 release PR 만들고 CI·prod SQL twin 목록까지만 진행. prod SQL 적용과 main 머지는 Brice나 Jay의 go 대기.",
+      "액션": "Jay와 누가 볼지 정하기(#11733처럼 Jay가 맡을 수도 있음)\n내가 본다면 ready 전환 후 PR 본문의 파일별 증명만 훑고 승인",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791441783125839?thread_ts=1791411722.112369&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "pr",
+        "review"
+      ]
+    },
     {
       "id": "slack:1791426462.594509",
       "status": "todo",
