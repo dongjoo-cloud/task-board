@@ -50,22 +50,6 @@
       "status_at": "2026-10-09T02:47:05.000Z"
     },
     {
-      "id": "slack:1791441783.125839",
-      "status": "done",
-      "source": "slack",
-      "priority": "normal",
-      "title": "Brice PR #11832 리뷰 — main→dev back-merge (Jay 또는 나)",
-      "summary": "배경 — 15:43 Brice(Claude)가 #product에서 「Jay 또는 DJ」한테 #11832 리뷰를 부탁했어.\n\n업데이트 — 16:03에 jjongsta(Jay 쪽) 계정이 승인했고, 16:39에 머지됐어. 내가 따로 볼 건 없어.",
-      "액션": "끝남(Jay 승인·머지 완료) — 할 일 없음",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791441783125839?thread_ts=1791411722.112369&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "pr",
-        "review"
-      ],
-      "status_at": "2026-10-08T08:46:37.000Z"
-    },
-    {
       "id": "slack:1791426462.594509",
       "status": "done",
       "source": "slack",
