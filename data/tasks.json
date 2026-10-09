@@ -1,8 +1,23 @@
 {
-  "updatedAt": "2026-10-09T11:47:00+09:00",
+  "updatedAt": "2026-10-09T13:44:00+09:00",
   "title": "동주 태스크 보드",
-  "subtitle": "11:40 스크리닝 · 2026-10-09 (금) KST · 신규 1건",
+  "subtitle": "13:40 스크리닝 · 2026-10-09 (금) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "gmail:ramp-admin-invite-kwoncpatx-2026-10-09",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "Ramp — 새 Admin(kwoncpatx@gmail.com) 초대 승인/거절",
+      "summary": "배경 — 10/9 12:35 KST에 Ramp가 Action required 메일을 또 보냈어. Brice가 kwoncpatx@gmail.com을 Storika Inc. Admin으로 초대했고, 추가 확인이 필요하대.\n\n어제 info@kwoncpa.com 초대와 별건이야. 승인하거나 모르면 거절하면 돼.",
+      "액션": "Ramp 메일에서 초대 승인 또는 거절\n모르는 요청이면 거절 후 Brice에게 확인",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878541676044203109",
+      "tags": [
+        "gmail",
+        "ramp",
+        "admin"
+      ]
+    },
     {
       "id": "gmail:ramp-admin-invite-kwoncpa-2026-10-08",
       "status": "todo",
