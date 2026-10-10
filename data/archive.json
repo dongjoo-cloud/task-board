@@ -161,11 +161,32 @@
       "title": "Brice — 4일째 걸린 PR(STORIKA-12876) 머지",
       "source": "slack"
     },
+    "slack:1791415899.696239": {
+      "status": "done",
+      "at": "2026-10-09T02:47:05.000Z",
+      "archived_at": "2026-10-10T06:59:33.165Z",
+      "title": "PR #11780 머지 — UI 캡처를 ui-captures/STORIKA-11128 브랜치로 올리기",
+      "source": "slack"
+    },
+    "slack:1791426462.594509": {
+      "status": "done",
+      "at": "2026-10-09T02:47:05.000Z",
+      "archived_at": "2026-10-10T06:59:33.165Z",
+      "title": "Brice PR #11733(STORIKA-13171) — DB·가격 변경 승인(Jay 또는 나)",
+      "source": "slack"
+    },
     "slack:1791441783.125839": {
       "status": "done",
       "at": "2026-10-08T08:46:37.000Z",
       "archived_at": "2026-10-09T08:56:31.350Z",
       "title": "Brice PR #11832 리뷰 — main→dev back-merge (Jay 또는 나)",
+      "source": "slack"
+    },
+    "slack:1791448586.151989": {
+      "status": "done",
+      "at": "2026-10-09T02:47:05.000Z",
+      "archived_at": "2026-10-10T06:59:33.165Z",
+      "title": "내 PR #11802(DB 변경) — no-auto-merge 라벨 붙일지 정하기",
       "source": "slack"
     }
   }

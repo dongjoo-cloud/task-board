@@ -34,54 +34,6 @@
       ]
     },
     {
-      "id": "slack:1791448586.151989",
-      "status": "done",
-      "source": "slack",
-      "priority": "normal",
-      "title": "내 PR #11802(DB 변경) — no-auto-merge 라벨 붙일지 정하기",
-      "summary": "배경 — 17:36 Brice(Claude)가 #product에서 release #11835 전까지 auto-merge 사람 승인 게이트가 없다고 알림.\n\n업데이트 — Overnight에 Jay가 오래된 PR 정리로 #11802·#11780을 오늘 안에 올리자고 함. 메피스토가 dev 따라잡기 head를 올렸고, Jay가 #11802 head 79cde0a8에 승인. 00:58Z에 #11802가 dev에 들어감(메피스토 확인). 할 일 없음.",
-      "액션": "끝남(dev 머지·Jay 승인 완료) — 할 일 없음",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791448586151989?thread_ts=1791411722.112369&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "pr",
-        "auto-merge"
-      ],
-      "status_at": "2026-10-09T02:47:05.000Z"
-    },
-    {
-      "id": "slack:1791426462.594509",
-      "status": "done",
-      "source": "slack",
-      "priority": "normal",
-      "title": "Brice PR #11733(STORIKA-13171) — DB·가격 변경 승인(Jay 또는 나)",
-      "summary": "배경 — 11:27 Brice가 #11733은 DB·가격 변경이라 Jay나 DJ 승인이 필요하다고 함.\n\n업데이트 — 13:40 Jay가 ready 되면 자기가 읽고 승인하겠다고 함. Jay가 맡기로 해서 내 액션은 끝.",
-      "액션": "끝남(Jay 승인 담당) — 할 일 없음",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791426462594509?thread_ts=1791411722.112369&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "pr",
-        "review"
-      ],
-      "status_at": "2026-10-09T02:47:05.000Z"
-    },
-    {
-      "id": "slack:1791415899.696239",
-      "status": "done",
-      "source": "slack",
-      "priority": "high",
-      "title": "PR #11780 머지 — UI 캡처를 ui-captures/STORIKA-11128 브랜치로 올리기",
-      "summary": "배경 — #11780(STORIKA-11128) 머지 서명·캡처 이슈로 막혀 있었음.\n\n업데이트 — overnight에 메피스토가 dev 따라잡기 head 11d50e66을 올렸고 Jay UI 서명 후 머지 큐 진입. 00:38Z에 #11780이 dev에 들어감(메피스토 확인). 할 일 없음.",
-      "액션": "끝남(dev 머지 완료) — 할 일 없음",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791415899696239",
-      "tags": [
-        "slack",
-        "pr",
-        "merge"
-      ],
-      "status_at": "2026-10-09T02:47:05.000Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-08",
       "status": "todo",
       "source": "gmail",
