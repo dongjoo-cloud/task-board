@@ -185,7 +185,7 @@ function cardHtml(task) {
   const pills = [];
   if (priority === "new") pills.push('<span class="pill new">NEW</span>');
   if (priority === "still") pills.push('<span class="pill still">STILL</span>');
-  if (source) pills.push(`<span class="pill ${source}">${source}</span>`);
+  if (source) pills.push(`<span class="pill src src-${source.toLowerCase().replace(/[^a-z0-9-]/g, "")}" data-source="${source.toLowerCase()}">${source}</span>`);
   const statusAt = statusAtFor(task);
   if (statusAt) {
     pills.push(`<span class="pill status-at">${formatStatusAt(statusAt)}</span>`);

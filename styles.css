@@ -233,8 +233,14 @@ section.col h2 .count {
 }
 .pill.new { background: var(--new); color: var(--newb); }
 .pill.still { background: var(--amber); color: var(--amberb); }
-.pill.slack { background: #eceef1; color: #4b5563; }
-.pill.gmail { background: #fde8e8; color: #9b1c1c; }
+.pill.src { color: #fff; background: #6b7280; font-weight: 600; }
+.pill.src-slack { background: #4A154B; color: #fff; box-shadow: inset 3px 0 0 #ECB22E; }
+.pill.src-gmail { background: #D93025; color: #fff; }
+.pill.src-calendar, .pill.src-gcal { background: #1A73E8; color: #fff; }
+.pill.src-github { background: #24292F; color: #fff; }
+.pill.src-linear { background: #5E6AD2; color: #fff; }
+.pill.src-fathom { background: #00BEFF; color: #0b1f2a; }
+.pill.src-notion { background: #191919; color: #fff; }
 .pill.status-at { background: var(--green); color: var(--greenb); }
 
 .summary {
