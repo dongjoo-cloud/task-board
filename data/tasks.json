@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-10-11T12:51:14Z",
+  "updatedAt": "2026-10-11T22:15:35Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/11 21:5x 온디맨드 업데이트",
+  "subtitle": "10/12 07:1x 30분 체크",
   "tasks": [
+    {
+      "id": "slack:1791750707.489299",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n07:05 업데이트 — 훅 수정 PR이 웹 화면 리뷰 검사에 걸려서 늦어지고, 프로드 서빙은 KST 09:00~09:30 예상이야. 14105·14163·12135도 같이 나가.",
+      "액션": "서빙 알림 오면 prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 스레드에 남기기\nSTORIKA-11218 dev에서 켜기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "jay",
+        "release",
+        "STORIKA-14085",
+        "STORIKA-11218"
+      ],
+      "created_at": "2026-10-11T20:31:47Z"
+    },
     {
       "id": "slack:1791585034.022859",
       "status": "todo",
