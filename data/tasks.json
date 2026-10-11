@@ -52,19 +52,67 @@
       "status_at": "2026-10-11T12:51:14Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-08",
+      "id": "gmail:fathom-daily-2026-10-08#tiktok-test",
       "status": "todo",
       "source": "gmail",
       "priority": "normal",
-      "title": "데일리(10/8 아침) Fathom — DJ 액션",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 빌드는 Ubicloud로 옮기고, PR 리뷰 병렬화, 고위험 PR엔 require human approval 레이블.\n\n검색 결과가 좋아져서 Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 제품 적합성 검증 시작. TikTok 디스커버리 버그는 수정됨.\n\n역할 — Jay는 검색 로직, 나는 데이터 품질(최신성 등) 검증.",
-      "액션": "Dev에서 TikTok 디스커버리 테스트 → 결과 Jay에게 공유\nDev 디스커버리 연결해 새 리드 검토, 컬럼·데이터는 Jay와 조율\n새 컴퓨터 오면 Jay에게 알리기",
+      "title": "데일리 10/8 — Dev에서 TikTok 디스커버리 테스트 → Jay 공유",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 10만 풀 중 50%만 검색하던 TikTok 디스커버리 버그가 고쳐졌고, Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 검증 시작.",
+      "액션": "Dev에서 TikTok 디스커버리 돌려 보고 결과를 Jay에게 공유",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
       "tags": [
         "gmail",
         "fathom",
         "meeting"
       ]
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-08#review-leads",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "데일리 10/8 — Dev 디스커버리 새 리드 검토·데이터 품질 검증",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 역할 분담: Jay는 검색 로직, 나는 데이터 품질(최신성 등) 검증.",
+      "액션": "Dev 디스커버리 연결해 새 리드 검토\n컬럼·데이터 품질(최신성)은 Jay와 조율",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ]
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-08#new-computer",
+      "status": "in_progress",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 새 컴퓨터로 개발 속도 높이기로 함. 10/9부터 새 MacBook(바알) 사용 중이지만 Jay에게 알렸는지는 Slack에서 확인 안 됨.",
+      "액션": "새 컴퓨터 세팅 마무리, 아직이면 Jay에게 알리기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ],
+      "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-08#1500-meeting",
+      "status": "done",
+      "source": "gmail",
+      "priority": "normal",
+      "title": "데일리 10/8 — 10/8 15:00 Jay와 후속 미팅",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 디스커버리 개선 위해 같은 날 오후 3시(KST)에 다시 보기로 함.",
+      "액션": "참석 (지난 일정)",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ],
+      "status_at": "2026-10-11T12:58:44Z",
+      "status_note": "10/8 15:00 일정이 지남"
     },
     {
       "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
