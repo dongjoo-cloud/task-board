@@ -203,17 +203,24 @@ section.col h2 .count {
   gap: 0;
 }
 
-.card-title-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px 8px;
-  margin-bottom: 10px;
-}
 .card-title {
   font-weight: 650;
   font-size: 14px;
   letter-spacing: -0.01em;
+  margin: 0 0 6px;
+  display: block;
+  width: 100%;
+}
+.card-chips {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px 8px;
+  margin: 0 0 10px;
+}
+.card-title + .summary {
+  margin-top: 4px;
 }
 .card.is-done .card-title {
   text-decoration: line-through;

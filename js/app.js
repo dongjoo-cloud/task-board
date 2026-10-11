@@ -203,10 +203,8 @@ function cardHtml(task) {
   return `
     <article class="card ${col === STATUS.DONE ? "is-done" : ""}${col === STATUS.NOT_MINE ? " is-not-mine" : ""}" data-id="${escapeAttr(task.id)}" draggable="true">
       <div class="card-body">
-        <div class="card-title-row">
-          <span class="card-title">${escapeHtml(task.title || task.id)}</span>
-          ${pills.join("")}
-        </div>
+        <div class="card-title">${escapeHtml(task.title || task.id)}</div>
+        ${pills.length ? `<div class="card-chips">${pills.join("")}</div>` : ""}
         ${body ? `<div class="summary">${escapeHtml(body)}</div>` : ""}
         ${action ? `<div class="action"><span class="action-label">액션</span><div class="action-text">${escapeHtml(action)}</div></div>` : ""}
         <div class="meta">
