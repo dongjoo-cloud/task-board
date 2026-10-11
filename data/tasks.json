@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-09T13:44:00+09:00",
+  "updatedAt": "2026-10-11T21:42:59+09:00",
   "title": "동주 태스크 보드",
   "subtitle": "13:40 스크리닝 · 2026-10-09 (금) KST · 신규 1건",
   "tasks": [
+    {
+      "id": "slack:1791585034.022859",
+      "status": "todo",
+      "source": "slack",
+      "priority": "medium",
+      "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
+      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.",
+      "액션": "Dockerfile 이미지 주소는 그대로 두고, 빌드 설정(Docker 데몬)에 Google Artifact Registry Docker Hub 캐시 연결\n실제 빌드와 Dagster 새 버전 사용을 각각 확인해서 스레드에 남기기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791585034022859?thread_ts=1791443817.572849&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "jay",
+        "STORIKA-13921",
+        "docker"
+      ]
+    },
     {
       "id": "gmail:ramp-admin-invite-kwoncpatx-2026-10-09",
       "status": "todo",
@@ -65,18 +81,19 @@
     },
     {
       "id": "slack:1791409385.226769",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "normal",
       "title": "결제 계정 BigQuery 청구 내보내기 — Jay 설정, 데이터 대기",
-      "summary": "배경 — 결제 계정 변경 뒤 BigQuery 청구 내보내기가 꺼져 있어서 지출 게이트 실청구 대조(STORIKA-13445)가 멈춰 있었음.\n\n업데이트 — Jay가 Standard usage cost 내보내기를 켰고, 10/9 08:11에 메피스토가 테이블 `gcp_billing_export_v1_01829D_84959E_C810FA` 생성을 확인함. 아직 9월 이후 사용 행은 0개(세금·반올림 4개만). 메피스토가 30분마다 확인 중이고, 데이터 들어오면 13445 대조·10/3~10/7 Vertex 실청구도 뽑기로 함.",
+      "summary": "배경 — 결제 계정 변경 뒤 BigQuery 청구 내보내기가 꺼져 있어서 지출 게이트 실청구 대조(STORIKA-13445)가 멈춰 있었음.\n\n업데이트 — Jay가 Standard usage cost 내보내기를 켰고, 10/9 08:11에 메피스토가 테이블 `gcp_billing_export_v1_01829D_84959E_C810FA` 생성을 확인함. 아직 9월 이후 사용 행은 0개(세금·반올림 4개만). 메피스토가 30분마다 확인 중이고, 데이터 들어오면 13445 대조·10/3~10/7 Vertex 실청구도 뽑기로 함.\n\n업데이트 — 10/11 09:04 바알이 새 결제 계정 내보내기에 사용 행이 들어오는 걸 확인했고(10/9), 지출 게이트 청구 대조(13445)가 매일 09:40 자동으로 돌기 시작했어. 기다리던 데이터가 들어와서 완료로 옮겼어.",
       "액션": "메피스토가 데이터 들어오면 13445 대조 돌림 — 기다리기만 하면 됨\n들어오면 스레드 확인",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791409385226769",
       "tags": [
         "slack",
         "billing",
         "pipeline"
-      ]
+      ],
+      "status_at": "2026-10-11T12:42:59Z"
     },
     {
       "id": "slack:1791182100.346269",
