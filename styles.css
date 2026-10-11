@@ -232,7 +232,10 @@ section.col h2 .count {
   white-space: nowrap;
 }
 .pill.new { background: var(--new); color: var(--newb); }
-.pill.still { background: var(--amber); color: var(--amberb); }
+.pill.age { font-weight: 600; }
+.pill.age-fresh { background: #E5E7EB; color: #374151; }
+.pill.age-mid { background: #FDE68A; color: #78350F; }
+.pill.age-old { background: #EA580C; color: #fff; }
 .pill.src { color: #fff; background: #6b7280; font-weight: 600; }
 .pill.src-slack { background: #4A154B; color: #fff; box-shadow: inset 3px 0 0 #ECB22E; }
 .pill.src-gmail { background: #D93025; color: #fff; }

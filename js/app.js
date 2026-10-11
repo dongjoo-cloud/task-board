@@ -183,8 +183,13 @@ function cardHtml(task) {
   const priority = task.priority || "";
   const source = task.source || "";
   const pills = [];
-  if (priority === "new") pills.push('<span class="pill new">NEW</span>');
-  if (priority === "still") pills.push('<span class="pill still">STILL</span>');
+  const ageDay = ageDayFor(task);
+  const isOpen = col === STATUS.TODO || col === STATUS.IN_PROGRESS;
+  if (ageDay === 1 || (ageDay == null && priority === "new")) pills.push('<span class="pill new">NEW</span>');
+  if (isOpen && ageDay != null) {
+    const tier = ageDay >= 5 ? "age-old" : ageDay >= 3 ? "age-mid" : "age-fresh";
+    pills.push(`<span class="pill age ${tier}" title="보드에 처음 올라온 날 기준 (KST)">${ageDay}일차</span>`);
+  }
   if (source) pills.push(`<span class="pill src src-${source.toLowerCase().replace(/[^a-z0-9-]/g, "")}" data-source="${source.toLowerCase()}">${source}</span>`);
   const statusAt = statusAtFor(task);
   if (statusAt) {
@@ -236,6 +241,25 @@ function bucketFor(task) {
   const override = getOverrideStatus(task.id);
   if (override) return override;
   return normalizeTaskStatus(task.status);
+}
+
+/** created_at, else earliest of status_at / done.json at / tasks updatedAt. */
+function createdAtFor(task) {
+  if (task.created_at && Number.isFinite(Date.parse(task.created_at))) return task.created_at;
+  const c = [task.status_at, doneState.ids?.[task.id]?.at, boardUpdatedAt]
+    .map((x) => Date.parse(x || "")).filter(Number.isFinite);
+  return c.length ? new Date(Math.min(...c)).toISOString() : null;
+}
+
+let boardUpdatedAt = null;
+const KST_MS = 9 * 3600 * 1000;
+function kstDayNumber(ms) { return Math.floor((ms + KST_MS) / 86400000); }
+
+/** KST calendar-day age: created today = 1. */
+function ageDayFor(task, now = Date.now()) {
+  const t = Date.parse(createdAtFor(task) || "");
+  if (!Number.isFinite(t)) return null;
+  return Math.max(1, kstDayNumber(now) - kstDayNumber(t) + 1);
 }
 
 /** When the card entered its current column: done.json override `at`, else tasks.json `status_at`. */
@@ -688,6 +712,7 @@ async function init() {
       fetchJson("data/archive.json").catch(() => ({ ids: {} })),
     ]);
     tasks = Array.isArray(tasksDoc.tasks) ? tasksDoc.tasks : [];
+    boardUpdatedAt = tasksDoc.updatedAt || null;
     const liveIds = new Set(tasks.map((t) => t.id));
     archivedIds = new Set(
       Object.keys(archiveDoc?.ids || {}).filter((id) => !liveIds.has(id))

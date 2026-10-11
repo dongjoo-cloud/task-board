@@ -17,7 +17,8 @@
         "jay",
         "STORIKA-13921",
         "docker"
-      ]
+      ],
+      "created_at": "2026-10-11T12:42:59.000Z"
     },
     {
       "id": "gmail:ramp-admin-invite-kwoncpatx-2026-10-09",
@@ -33,7 +34,8 @@
         "ramp",
         "admin"
       ],
-      "status_at": "2026-10-11T12:51:14Z"
+      "status_at": "2026-10-11T12:51:14Z",
+      "created_at": "2026-10-09T04:44:51.000Z"
     },
     {
       "id": "gmail:ramp-admin-invite-kwoncpa-2026-10-08",
@@ -49,7 +51,8 @@
         "ramp",
         "admin"
       ],
-      "status_at": "2026-10-11T12:51:14Z"
+      "status_at": "2026-10-11T12:51:14Z",
+      "created_at": "2026-10-09T02:48:14.000Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#tiktok-test",
@@ -64,7 +67,8 @@
         "gmail",
         "fathom",
         "meeting"
-      ]
+      ],
+      "created_at": "2026-10-11T12:58:44.000Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#review-leads",
@@ -79,7 +83,8 @@
         "gmail",
         "fathom",
         "meeting"
-      ]
+      ],
+      "created_at": "2026-10-11T12:58:44.000Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#new-computer",
@@ -95,7 +100,8 @@
         "fathom",
         "meeting"
       ],
-      "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인"
+      "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인",
+      "created_at": "2026-10-11T12:58:44.000Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#1500-meeting",
@@ -112,7 +118,8 @@
         "meeting"
       ],
       "status_at": "2026-10-11T12:58:44Z",
-      "status_note": "10/8 15:00 일정이 지남"
+      "status_note": "10/8 15:00 일정이 지남",
+      "created_at": "2026-10-11T12:58:44.000Z"
     },
     {
       "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
@@ -127,7 +134,8 @@
         "gmail",
         "inbound",
         "data"
-      ]
+      ],
+      "created_at": "2026-10-07T22:50:40.000Z"
     },
     {
       "id": "slack:1791409385.226769",
@@ -143,13 +151,13 @@
         "billing",
         "pipeline"
       ],
-      "status_at": "2026-10-11T12:42:59Z"
+      "status_at": "2026-10-11T12:42:59Z",
+      "created_at": "2026-10-07T22:50:40.000Z"
     },
     {
       "id": "slack:1791182100.346269",
       "status": "done",
       "source": "slack",
-      "priority": "still",
       "title": "Jay — 티켓 2건(12730·12216) 우선순위 답장",
       "summary": "배경 — Jay가 #product에서 Dongjoo를 태그해, 담당 티켓 STORIKA-12730·12216을 큐 맨 위로 올릴지, 바쁘면 Jay 쪽에 넘길지 물어봤어요.\n\n업데이트(10/6) — 스레드에 답장 완료: 12730을 큐 맨 위로 올렸고 dev 머지(#11522)까지 끝남. 12216은 내 Bugsnag→Sentry 세션 유지.\n\n상태 변경 — 10/6 16:08 내 쪽(메피스토)이 프로드 첫 clean 카나리 런을 스레드에 확인 답장, ✅ 받음 → 완료",
       "액션": "다음 dev→main 릴리스 후 첫 clean 카나리 런을 이 스레드에 확인 답장",
@@ -160,13 +168,13 @@
         "linear",
         "alerts"
       ],
-      "status_at": "2026-10-11T12:51:14Z"
+      "status_at": "2026-10-11T12:51:14Z",
+      "created_at": "2026-10-05T06:42:36.000Z"
     },
     {
       "id": "slack:1790900456.826639",
       "status": "in_progress",
       "source": "slack",
-      "priority": "still",
       "title": "데이터파이프라인 + 댓글분석기에 JEV",
       "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n상태 — 이미 👀로 진행 중.",
       "액션": "파이프라인 진행 유지\ncomment 분석기에 JEV 붙이기",
@@ -176,13 +184,13 @@
         "jay",
         "pipeline",
         "jev"
-      ]
+      ],
+      "created_at": "2026-10-02T00:49:16.000Z"
     },
     {
       "id": "slack:1790695318",
       "status": "in_progress",
       "source": "slack",
-      "priority": "still",
       "title": "Vertex ADC 로그인",
       "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.",
       "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
@@ -191,13 +199,13 @@
         "slack",
         "gcp",
         "vertex"
-      ]
+      ],
+      "created_at": "2026-10-01T23:00:00.000Z"
     },
     {
       "id": "slack:1790801772",
       "status": "in_progress",
       "source": "slack",
-      "priority": "still",
       "title": "TikTok Shop 후속",
       "summary": "배경 — TikTok Shop 관련 후속 논의가 아직 열려 있어요.\n\n왜 — 제휴 크리에이터·굿즈 등록·앱 담당자 연락처에 Brice/DJ 질문이 남아 있습니다.\n\n범위 — ‘내가 답하거나 승인할 것’만 골라 닫으면 됩니다.",
       "액션": "관련 Slack 스레드를 훑고\n본인 액션 아이템만 회신하거나 완료 처리",
@@ -205,7 +213,8 @@
       "tags": [
         "slack",
         "tiktok"
-      ]
+      ],
+      "created_at": "2026-10-01T23:00:00.000Z"
     }
   ]
 }
