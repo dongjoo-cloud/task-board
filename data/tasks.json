@@ -11,7 +11,7 @@
       "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
       "summary": "배경 — Stripe에서 'Grok xAI $300 결제가 또 실패했다'는 새 메일이 왔어(10/12 04:34 KST). 등록된 신용카드로 청구가 안 된 상태야.\n\n10/11에 지금은 해결이 어렵다고 해서, 새 실패 메일이 올 때만 다시 알려 주기로 했지. 이번 건이 그 새 메일이야.",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1a12c75afb2c57d5",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878783188141889493",
       "tags": [
         "gmail",
         "stripe",
