@@ -1,16 +1,33 @@
 {
-  "updatedAt": "2026-10-11T22:15:35Z",
+  "updatedAt": "2026-10-11T22:43:04Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/12 07:1x 30분 체크",
+  "subtitle": "10/12 07:4x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "gmail:xai-payment-failed-2026-10-12",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
+      "summary": "배경 — Stripe에서 'Grok xAI $300 결제가 또 실패했다'는 새 메일이 왔어(10/12 04:34 KST). 등록된 신용카드로 청구가 안 된 상태야.\n\n10/11에 지금은 해결이 어렵다고 해서, 새 실패 메일이 올 때만 다시 알려 주기로 했지. 이번 건이 그 새 메일이야.",
+      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1a12c75afb2c57d5",
+      "tags": [
+        "gmail",
+        "stripe",
+        "xai",
+        "billing"
+      ],
+      "created_at": "2026-10-11T22:43:04Z"
+    },
     {
       "id": "slack:1791750707.489299",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
-      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n07:05 업데이트 — 훅 수정 PR이 웹 화면 리뷰 검사에 걸려서 늦어지고, 프로드 서빙은 KST 09:00~09:30 예상이야. 14105·14163·12135도 같이 나가.",
-      "액션": "서빙 알림 오면 prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 스레드에 남기기\nSTORIKA-11218 dev에서 켜기",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n07:05 업데이트 — 훅 수정 PR이 웹 화면 리뷰 검사에 걸려서 늦어지고, 프로드 서빙은 KST 09:00~09:30 예상이야. 14105·14163·12135도 같이 나가.\n\n참고 — Jay가 10/11 21:05에 샌드박스 샵이 QA 조직 브랜드로 옮겨져 틱톡 DM·콜라보 초대 QA가 그 토큰으로 돈다고 했어. 11218 dev 동기화 켜기 전에 스레드에 한 줄 남겨 달래.",
+      "액션": "서빙 알림 오면 prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 스레드에 남기기\nSTORIKA-11218 dev에서 켜기\n(11218 켜기 전에 Jay 스레드에 한 줄 알림 → QA가 그 시간대 피함)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
       "tags": [
         "slack",
@@ -141,11 +158,11 @@
     },
     {
       "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
-      "status": "in_progress",
+      "status": "done",
       "source": "gmail",
       "priority": "normal",
       "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
-      "summary": "배경 — G-Kor Consulting(Joon Yoon)이 국가별 크리에이터 DB 규모를 문의. 내가 숫자 정리·회신까지 끝냄(10/8).\n\n남은 것 — Joon 대표 답장 오면 후속(샘플 검색·콜). 새 답장 없으면 완료로 옮겨도 됨.",
+      "summary": "배경 — G-Kor Consulting(Joon Yoon)이 국가별 크리에이터 DB 규모를 문의. 내가 숫자 정리·회신까지 끝냄(10/8).\n\n남은 것 — Joon 대표 답장 오면 후속(샘플 검색·콜). 새 답장 없으면 완료로 옮겨도 됨.\n\n상태 변경 — 보드에서 완료로 옮겨 둔 상태(done.json) 반영. 그 뒤 Joon 대표 새 답장 없음 → 완료",
       "액션": "Joon 대표 답장 오면 후속(샘플 검색·콜 일정)\n더 할 게 없으면 완료로 이동",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878394662043155279",
       "tags": [
@@ -153,7 +170,8 @@
         "inbound",
         "data"
       ],
-      "created_at": "2026-10-07T22:50:40.000Z"
+      "created_at": "2026-10-07T22:50:40.000Z",
+      "status_at": "2026-10-11T12:42:57.719Z"
     },
     {
       "id": "slack:1791409385.226769",
