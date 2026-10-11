@@ -18,7 +18,7 @@
         "STORIKA-13921",
         "docker"
       ],
-      "created_at": "2026-10-11T12:42:59.000Z"
+      "created_at": "2026-10-09T22:30:34Z"
     },
     {
       "id": "gmail:ramp-admin-invite-kwoncpatx-2026-10-09",
@@ -68,7 +68,7 @@
         "fathom",
         "meeting"
       ],
-      "created_at": "2026-10-11T12:58:44.000Z"
+      "created_at": "2026-10-07T23:29:14Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#review-leads",
@@ -84,7 +84,7 @@
         "fathom",
         "meeting"
       ],
-      "created_at": "2026-10-11T12:58:44.000Z"
+      "created_at": "2026-10-07T23:29:14Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#new-computer",
@@ -101,7 +101,7 @@
         "meeting"
       ],
       "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인",
-      "created_at": "2026-10-11T12:58:44.000Z"
+      "created_at": "2026-10-07T23:29:14Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#1500-meeting",
@@ -119,7 +119,7 @@
       ],
       "status_at": "2026-10-11T12:58:44Z",
       "status_note": "10/8 15:00 일정이 지남",
-      "created_at": "2026-10-11T12:58:44.000Z"
+      "created_at": "2026-10-07T23:29:14Z"
     },
     {
       "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
