@@ -5,11 +5,11 @@
   "tasks": [
     {
       "id": "gmail:xai-payment-failed-2026-10-12",
-      "status": "todo",
+      "status": "not_mine",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
-      "summary": "배경 — Stripe에서 'Grok xAI $300 결제가 또 실패했다'는 새 메일이 왔어(10/12 04:34 KST). 등록된 신용카드로 청구가 안 된 상태야.\n\n10/11에 지금은 해결이 어렵다고 해서, 새 실패 메일이 올 때만 다시 알려 주기로 했지. 이번 건이 그 새 메일이야.",
+      "summary": "배경 — Stripe에서 'Grok xAI $300 결제가 또 실패했다'는 새 메일이 왔어(10/12 04:34 KST). 등록된 신용카드로 청구가 안 된 상태야.\n\n10/11에 지금은 해결이 어렵다고 해서, 새 실패 메일이 올 때만 다시 알려 주기로 했지. 이번 건이 그 새 메일이야.\n\n상태 — 사용자가 보드에서 내 업무 아님으로 옮김 (10/12 08:14 KST).",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878783188141889493",
       "tags": [
@@ -18,7 +18,8 @@
         "xai",
         "billing"
       ],
-      "created_at": "2026-10-11T22:43:04Z"
+      "created_at": "2026-10-11T22:43:04Z",
+      "status_at": "2026-10-11T23:14:57.499Z"
     },
     {
       "id": "slack:1791750707.489299",
@@ -91,11 +92,11 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#tiktok-test",
-      "status": "todo",
+      "status": "in_progress",
       "source": "gmail",
       "priority": "normal",
       "title": "데일리 10/8 — Dev에서 TikTok 디스커버리 테스트 → Jay 공유",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 10만 풀 중 50%만 검색하던 TikTok 디스커버리 버그가 고쳐졌고, Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 검증 시작.",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 10만 풀 중 50%만 검색하던 TikTok 디스커버리 버그가 고쳐졌고, Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 검증 시작.\n\n상태 — 사용자가 보드에서 진행 중으로 옮김 (10/12 08:14 KST).",
       "액션": "Dev에서 TikTok 디스커버리 돌려 보고 결과를 Jay에게 공유",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
       "tags": [
@@ -107,11 +108,11 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#review-leads",
-      "status": "todo",
+      "status": "in_progress",
       "source": "gmail",
       "priority": "normal",
       "title": "데일리 10/8 — Dev 디스커버리 새 리드 검토·데이터 품질 검증",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 역할 분담: Jay는 검색 로직, 나는 데이터 품질(최신성 등) 검증.",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 역할 분담: Jay는 검색 로직, 나는 데이터 품질(최신성 등) 검증.\n\n상태 — 사용자가 보드에서 진행 중으로 옮김 (10/12 08:14 KST).",
       "액션": "Dev 디스커버리 연결해 새 리드 검토\n컬럼·데이터 품질(최신성)은 Jay와 조율",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
       "tags": [
@@ -123,11 +124,11 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#new-computer",
-      "status": "in_progress",
+      "status": "done",
       "source": "gmail",
       "priority": "normal",
       "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 새 컴퓨터로 개발 속도 높이기로 함. 10/9부터 새 MacBook(바알) 사용 중이지만 Jay에게 알렸는지는 Slack에서 확인 안 됨.",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 새 컴퓨터로 개발 속도 높이기로 함. 10/9부터 새 MacBook(바알) 사용 중이지만 Jay에게 알렸는지는 Slack에서 확인 안 됨.\n\n상태 — 사용자가 보드에서 완료로 옮김 (10/12 08:14 KST).",
       "액션": "새 컴퓨터 세팅 마무리, 아직이면 Jay에게 알리기",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
       "tags": [
@@ -136,7 +137,8 @@
         "meeting"
       ],
       "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인",
-      "created_at": "2026-10-07T23:29:14Z"
+      "created_at": "2026-10-07T23:29:14Z",
+      "status_at": "2026-10-11T23:03:52.610Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#1500-meeting",
