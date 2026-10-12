@@ -283,40 +283,6 @@
       "created_at": "2026-10-09T22:30:34Z"
     },
     {
-      "id": "gmail:ramp-admin-invite-kwoncpatx-2026-10-09",
-      "status": "not_mine",
-      "source": "gmail",
-      "priority": "high",
-      "title": "Ramp — 새 Admin(kwoncpatx@gmail.com) 초대 승인/거절",
-      "summary": "배경 — 10/9 12:35 KST에 Ramp가 Action required 메일을 또 보냈어. Brice가 kwoncpatx@gmail.com을 Storika Inc. Admin으로 초대했고, 추가 확인이 필요하대.\n\n어제 info@kwoncpa.com 초대와 별건이야. 승인하거나 모르면 거절하면 돼.\n\n상태 변경 — 링크 만료, 새 초대 메일 올 때만 다시 보기로 함(10/11 사용자 지시) → 정리",
-      "액션": "Ramp 메일에서 초대 승인 또는 거절\n모르는 요청이면 거절 후 Brice에게 확인",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878541676044203109",
-      "tags": [
-        "gmail",
-        "ramp",
-        "admin"
-      ],
-      "status_at": "2026-10-11T12:51:14Z",
-      "created_at": "2026-10-09T04:44:51.000Z"
-    },
-    {
-      "id": "gmail:ramp-admin-invite-kwoncpa-2026-10-08",
-      "status": "not_mine",
-      "source": "gmail",
-      "priority": "high",
-      "title": "Ramp — 새 Admin(info@kwoncpa.com) 초대 승인/거절",
-      "summary": "배경 — 10/8 19:32 KST에 Ramp가 나한테 Action required 메일을 보냈어. Brice가 info@kwoncpa.com(회계)을 Storika Inc. Admin으로 초대했고, 추가 확인이 필요하대.\n\n승인하거나 모르면 거절하면 돼. 메일 본문에 Approve / Reject 링크가 있어.\n\n상태 변경 — 링크 만료, 새 초대 메일 올 때만 다시 보기로 함(10/11 사용자 지시) → 정리",
-      "액션": "Ramp 메일에서 초대 승인 또는 거절\n모르는 요청이면 거절 후 Brice에게 확인",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878477298394815267",
-      "tags": [
-        "gmail",
-        "ramp",
-        "admin"
-      ],
-      "status_at": "2026-10-11T12:51:14Z",
-      "created_at": "2026-10-09T02:48:14.000Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-08#tiktok-test",
       "status": "in_progress",
       "source": "gmail",
@@ -365,75 +331,6 @@
       "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인",
       "created_at": "2026-10-07T23:29:14Z",
       "status_at": "2026-10-11T23:03:52.610Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-08#1500-meeting",
-      "status": "done",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "데일리 10/8 — 10/8 15:00 Jay와 후속 미팅",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 디스커버리 개선 위해 같은 날 오후 3시(KST)에 다시 보기로 함.",
-      "액션": "참석 (지난 일정)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting"
-      ],
-      "status_at": "2026-10-11T12:58:44Z",
-      "status_note": "10/8 15:00 일정이 지남",
-      "created_at": "2026-10-07T23:29:14Z"
-    },
-    {
-      "id": "gmail:gkor-creator-db-inquiry-2026-10-07",
-      "status": "done",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
-      "summary": "배경 — G-Kor Consulting(Joon Yoon)이 국가별 크리에이터 DB 규모를 문의. 내가 숫자 정리·회신까지 끝냄(10/8).\n\n남은 것 — Joon 대표 답장 오면 후속(샘플 검색·콜). 새 답장 없으면 완료로 옮겨도 됨.\n\n상태 변경 — 보드에서 완료로 옮겨 둔 상태(done.json) 반영. 그 뒤 Joon 대표 새 답장 없음 → 완료",
-      "액션": "Joon 대표 답장 오면 후속(샘플 검색·콜 일정)\n더 할 게 없으면 완료로 이동",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878394662043155279",
-      "tags": [
-        "gmail",
-        "inbound",
-        "data"
-      ],
-      "created_at": "2026-10-07T22:50:40.000Z",
-      "status_at": "2026-10-11T12:42:57.719Z"
-    },
-    {
-      "id": "slack:1791409385.226769",
-      "status": "done",
-      "source": "slack",
-      "priority": "normal",
-      "title": "결제 계정 BigQuery 청구 내보내기 — Jay 설정, 데이터 대기",
-      "summary": "배경 — 결제 계정 변경 뒤 BigQuery 청구 내보내기가 꺼져 있어서 지출 게이트 실청구 대조(STORIKA-13445)가 멈춰 있었음.\n\n업데이트 — Jay가 Standard usage cost 내보내기를 켰고, 10/9 08:11에 메피스토가 테이블 `gcp_billing_export_v1_01829D_84959E_C810FA` 생성을 확인함. 아직 9월 이후 사용 행은 0개(세금·반올림 4개만). 메피스토가 30분마다 확인 중이고, 데이터 들어오면 13445 대조·10/3~10/7 Vertex 실청구도 뽑기로 함.\n\n업데이트 — 10/11 09:04 바알이 새 결제 계정 내보내기에 사용 행이 들어오는 걸 확인했고(10/9), 지출 게이트 청구 대조(13445)가 매일 09:40 자동으로 돌기 시작했어. 기다리던 데이터가 들어와서 완료로 옮겼어.",
-      "액션": "메피스토가 데이터 들어오면 13445 대조 돌림 — 기다리기만 하면 됨\n들어오면 스레드 확인",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791409385226769",
-      "tags": [
-        "slack",
-        "billing",
-        "pipeline"
-      ],
-      "status_at": "2026-10-11T12:42:59Z",
-      "created_at": "2026-10-07T22:50:40.000Z"
-    },
-    {
-      "id": "slack:1791182100.346269",
-      "status": "done",
-      "source": "slack",
-      "title": "Jay — 티켓 2건(12730·12216) 우선순위 답장",
-      "summary": "배경 — Jay가 #product에서 Dongjoo를 태그해, 담당 티켓 STORIKA-12730·12216을 큐 맨 위로 올릴지, 바쁘면 Jay 쪽에 넘길지 물어봤어요.\n\n업데이트(10/6) — 스레드에 답장 완료: 12730을 큐 맨 위로 올렸고 dev 머지(#11522)까지 끝남. 12216은 내 Bugsnag→Sentry 세션 유지.\n\n상태 변경 — 10/6 16:08 내 쪽(메피스토)이 프로드 첫 clean 카나리 런을 스레드에 확인 답장, ✅ 받음 → 완료",
-      "액션": "다음 dev→main 릴리스 후 첫 clean 카나리 런을 이 스레드에 확인 답장",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791182100346269",
-      "tags": [
-        "slack",
-        "jay",
-        "linear",
-        "alerts"
-      ],
-      "status_at": "2026-10-11T12:51:14Z",
-      "created_at": "2026-10-05T06:42:36.000Z"
     },
     {
       "id": "slack:1790900456.826639",
