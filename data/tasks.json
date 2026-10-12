@@ -29,7 +29,7 @@
       "source": "slack",
       "priority": "",
       "title": "릴리스 2a 컷 끝날 때까지 main 직행 머지 잠깐 멈추기",
-      "summary": "배경 — 18:11에 Jay가 #product에서 부탁. 지금 릴리스 2a를 자르는 중인데, main 직행 머지(#12182, 17:05 KST)가 들어올 때마다 dev와 main이 데이터 파이프라인 파일에서 다시 충돌해 back-merge를 한 번 더 돌려야 한대.\n\n2a 컷은 약 1시간, 19:00 KST 전후에 끝날 예정이고 끝나면 Jay가 스레드에 남기기로 함. 이미 머지된 #12182는 Jay 쪽에서 back-merge로 받음.\n\n18:20 — 바알이 Jay에게 알겠다고 답하고 main 직행 머지 멈춤. 18:22 Jay 감사·2a 컷 끝나면 알리겠다고 함.\n\n이동 이유 — 바알이 대신 답했고 머지 중지 중. 2a 컷 끝 알림 오면 재개.\n\n업데이트 — 19:29 2a 코드 결함으로 재컷 결정, prod ETA 계속 밀림. 19:52 바알이 #12198(10/13 08:00 실행 전 필요)만 23:30 KST에 예외 머지하겠다고 함. 20:30 Jay 정정: #12198을 먼저 넣으면 2a 재컷과 충돌하니, 2a가 main에 머지(늦어도 10/13 01:00 KST)됐다고 Jay가 알린 뒤 머지해 달라고 함. 꼭 23:30에 넣어야 하면 스레드에 한 줄 남기면 Jay 쪽이 충돌 해결. 21:45 기준 2a PR #12200·#12198 둘 다 OPEN.",
+      "summary": "배경 — 18:11에 Jay가 #product에서 부탁. 지금 릴리스 2a를 자르는 중인데, main 직행 머지(#12182, 17:05 KST)가 들어올 때마다 dev와 main이 데이터 파이프라인 파일에서 다시 충돌해 back-merge를 한 번 더 돌려야 한대.\n\n2a 컷은 약 1시간, 19:00 KST 전후에 끝날 예정이고 끝나면 Jay가 스레드에 남기기로 함. 이미 머지된 #12182는 Jay 쪽에서 back-merge로 받음.\n\n18:20 — 바알이 Jay에게 알겠다고 답하고 main 직행 머지 멈춤. 18:22 Jay 감사·2a 컷 끝나면 알리겠다고 함.\n\n이동 이유 — 바알이 대신 답했고 머지 중지 중. 2a 컷 끝 알림 오면 재개.\n\n업데이트 — 19:29 2a 코드 결함으로 재컷 결정, prod ETA 계속 밀림. 19:52 바알이 #12198(10/13 08:00 실행 전 필요)만 23:30 KST에 예외 머지하겠다고 함. 20:30 Jay 정정: #12198을 먼저 넣으면 2a 재컷과 충돌하니, 2a가 main에 머지(늦어도 10/13 01:00 KST)됐다고 Jay가 알린 뒤 머지해 달라고 함. 꼭 23:30에 넣어야 하면 스레드에 한 줄 남기면 Jay 쪽이 충돌 해결. 21:45 기준 2a PR #12200·#12198 둘 다 OPEN.\n\nLinear(21:55) — #12198 티켓 STORIKA-13616 In Progress(담당 나). 유지.",
       "액션": "main 직행 머지 중지 유지\n#12198은 23:30에 넣지 말고 Jay의 '2a main 머지' 알림 뒤 머지 (바알에 전달 필요)\n꼭 23:30에 넣어야 하면 스레드에 한 줄 남기기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791796300200229",
       "tags": [
@@ -168,7 +168,7 @@
       "source": "slack",
       "priority": "",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n09:42 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40). 10:00 첫 동기화: 샵 2개 오류 없이 읽힘, Dogfood 인증 유지(토큰 10/17까지).\n\n10:05 — Jay 확인: 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켠다.",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n09:42 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40). 10:00 첫 동기화: 샵 2개 오류 없이 읽힘, Dogfood 인증 유지(토큰 10/17까지).\n\n10:05 — Jay 확인: 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켠다.\n\nLinear(21:55) — STORIKA-11218 Todo(담당 나). 유지.",
       "액션": "11218 prod PR을 org 230 실제 샵 기준으로 릴리스 2에 싣기\n릴리스 2 일정·PR 준비 상태를 스레드에 맞추기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
       "tags": [
@@ -253,7 +253,7 @@
       "source": "slack",
       "priority": "",
       "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
-      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.\n\n21:50 재확인 — 릴리스 1 스레드 마지막 글은 10/12 07:05 Jay. 14085 prod 확인 결과 글·PR 없음. 유지.",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.\n\n21:50 재확인 — 릴리스 1 스레드 마지막 글은 10/12 07:05 Jay. 14085 prod 확인 결과 글·PR 없음. 유지.\n\nLinear(21:55) — STORIKA-14085 In Progress(담당 나), STORIKA-11218 Todo(담당 나). 둘 다 미완료라 유지.",
       "액션": "prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 릴리스 스레드에 남기기\n(11218 dev 켜기는 #12120 머지로 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
       "tags": [
@@ -271,7 +271,7 @@
       "source": "slack",
       "priority": "medium",
       "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
-      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.\n\n21:50 재확인 — 스레드(최근 100개)·Slack 검색에 10/10 07:30 이후 13921 언급 없음, storika-mono에 13921 PR 없음. 유지.",
+      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.\n\n21:50 재확인 — 스레드(최근 100개)·Slack 검색에 10/10 07:30 이후 13921 언급 없음, storika-mono에 13921 PR 없음. 유지.\n\nLinear(21:55) — STORIKA-13921 Backlog(담당 나). 유지.",
       "액션": "Dockerfile 이미지 주소는 그대로 두고, 빌드 설정(Docker 데몬)에 Google Artifact Registry Docker Hub 캐시 연결\n실제 빌드와 Dagster 새 버전 사용을 각각 확인해서 스레드에 남기기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791585034022859?thread_ts=1791443817.572849&cid=C07EB8FM44D",
       "tags": [
@@ -322,7 +322,7 @@
       "source": "gmail",
       "priority": "normal",
       "title": "데일리 10/8 — Dev에서 TikTok 디스커버리 테스트 → Jay 공유",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 10만 풀 중 50%만 검색하던 TikTok 디스커버리 버그가 고쳐졌고, Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 검증 시작.\n\n상태 — 사용자가 보드에서 진행 중으로 옮김 (10/12 08:14 KST).\n\n17:36 업데이트 — 바알이 STORIKA-14243 해시태그 디스커버리 샘플 런을 Jay에게 부탁했고, Jay가 바로 돌려 run id `76c6d739-2c8b-485f-a30e-dc710add18bc`를 남김. 스케줄은 STOPPED 유지. 3일 뒤 이메일 있는 새 크리에이터 비용·결과를 읽어 Jay와 공유하면 이 카드와 맞물림.\n\n17:50 — 바알이 run `76c6d739` 받았다고 답함. 1·2시간 뒤 적재량·이메일 있는 작성자 수를 먼저 보고, 3일 뒤 새 연락 가능 크리에이터 수와 1명당 비용을 그 스레드에 올릴 예정.",
+      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 10만 풀 중 50%만 검색하던 TikTok 디스커버리 버그가 고쳐졌고, Dev에서 매일 20건(IG 10·TikTok 10) 아웃리치로 검증 시작.\n\n상태 — 사용자가 보드에서 진행 중으로 옮김 (10/12 08:14 KST).\n\n17:36 업데이트 — 바알이 STORIKA-14243 해시태그 디스커버리 샘플 런을 Jay에게 부탁했고, Jay가 바로 돌려 run id `76c6d739-2c8b-485f-a30e-dc710add18bc`를 남김. 스케줄은 STOPPED 유지. 3일 뒤 이메일 있는 새 크리에이터 비용·결과를 읽어 Jay와 공유하면 이 카드와 맞물림.\n\n17:50 — 바알이 run `76c6d739` 받았다고 답함. 1·2시간 뒤 적재량·이메일 있는 작성자 수를 먼저 보고, 3일 뒤 새 연락 가능 크리에이터 수와 1명당 비용을 그 스레드에 올릴 예정.\n\nLinear(21:55) — STORIKA-14243(새 TikTok 크리에이터 소스 계획)은 10/12 17:14 KST Done. 다만 Dev 디스커버리 결과를 Jay에게 공유하는 건 3일 뒤 예정이라 카드는 유지.",
       "액션": "Dev에서 TikTok 디스커버리 돌려 보고 결과를 Jay에게 공유",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
       "tags": [
@@ -456,7 +456,7 @@
       "status": "in_progress",
       "source": "slack",
       "title": "Vertex ADC 로그인",
-      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.",
+      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.\n\nLinear(21:55) — STORIKA-12329 Done(담당 Jay, 9/30 02:03 KST). 티켓은 하네스를 서비스 계정 토큰으로 돌리는 내용이라, 내 로컬 ADC 로그인이 아직 필요한지는 불확실. 유지.",
       "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790695318544699?thread_ts=1790695318.544699",
       "tags": [
