@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-12T04:33:00Z",
+  "updatedAt": "2026-10-12T05:10:18Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/12 07:4x 정기 스크리닝",
+  "subtitle": "10/12 14:0x 라이트 체크",
   "tasks": [
     {
       "id": "slack:1791775364.828019",
@@ -9,8 +9,8 @@
       "source": "slack",
       "priority": "",
       "title": "Jay 요청 — 오래된 PR 3개 정리 (#12121·#12109·#12117)",
-      "summary": "배경 — 12:22에 Jay가 #product에서 오래된 PR을 정리하면서 동주 쪽 PR 3개를 부탁했어. 12:23에 \"위 세 개 보시면 답 주세요\"라고 다시 태그함.\n\n1) #12121 — 11218 prod 플래그(TIKTOK_AFFILIATE_SYNC_ENABLED=true). Jay가 지금 승인했대. ready로 바꾸고 arm 해 달래. 2a와 같이 prod에 나가면 일요일 밤부터 prod 샵 주문 동기화가 돌아. QA는 매시 정각 앞뒤 5분을 피한대.\n\n2) #12109 — base가 dev가 아니라 feat/STORIKA-14085 브랜치야. base PR을 먼저 올리거나 dev로 retarget 해 달래.\n\n3) #12117(recall CLI imports) — 체크는 다 초록인데 16시간째 draft. ready로 바꾸면 바로 큐에 태운대.\n\n진행 중으로 옮김 — 12:53에 바알이 스레드에 답함: #12121·#12117은 지금 ready로 바꾸고(#12121은 arm까지), #12109는 #12117 머지 뒤 dev로 base 변경. 진행되면 스레드에 남기기로 함.\n\n13:03 진행 상황 — 바알이 #12117·#12121을 ready로 바꿈(#12117 검사 29개 통과·1개 진행 중). #12121은 전체 CI 끝나면 arm 예정. 13:04에 Jay가 #12117은 검사 초록 되면 큐에 태우고, #12121은 arm 뒤 머지까지 지켜보겠대.\n\n13:18 진행 상황 — 바알이 #12121을 arm 함(13:15, head 3d8c2e58ef). 머지되면 2a와 같이 prod로 나가고, prod 첫 정각 동기화 로그도 확인해서 남기기로 함.\n\n13:19 — Jay가 확인했고, #12121 머지는 Jay 쪽에서 지켜보겠대. prod 첫 정각 동기화 로그는 기다리는 중.",
-      "액션": "#12121 머지 뒤 prod 첫 정각 동기화 로그 확인해서 스레드에 남기기\n#12117 머지 뒤 #12109 base를 dev로 변경\n끝나면 스레드에 답 남기기",
+      "summary": "배경 — 12:22에 Jay가 #product에서 오래된 PR을 정리하면서 동주 쪽 PR 3개를 부탁했어. 12:23에 \"위 세 개 보시면 답 주세요\"라고 다시 태그함.\n\n1) #12121 — 11218 prod 플래그(TIKTOK_AFFILIATE_SYNC_ENABLED=true). Jay가 지금 승인했대. ready로 바꾸고 arm 해 달래. 2a와 같이 prod에 나가면 일요일 밤부터 prod 샵 주문 동기화가 돌아. QA는 매시 정각 앞뒤 5분을 피한대.\n\n2) #12109 — base가 dev가 아니라 feat/STORIKA-14085 브랜치야. base PR을 먼저 올리거나 dev로 retarget 해 달래.\n\n3) #12117(recall CLI imports) — 체크는 다 초록인데 16시간째 draft. ready로 바꾸면 바로 큐에 태운대.\n\n진행 중으로 옮김 — 12:53에 바알이 스레드에 답함: #12121·#12117은 지금 ready로 바꾸고(#12121은 arm까지), #12109는 #12117 머지 뒤 dev로 base 변경. 진행되면 스레드에 남기기로 함.\n\n13:03 진행 상황 — 바알이 #12117·#12121을 ready로 바꿈(#12117 검사 29개 통과·1개 진행 중). #12121은 전체 CI 끝나면 arm 예정. 13:04에 Jay가 #12117은 검사 초록 되면 큐에 태우고, #12121은 arm 뒤 머지까지 지켜보겠대.\n\n13:18 진행 상황 — 바알이 #12121을 arm 함(13:15, head 3d8c2e58ef). 머지되면 2a와 같이 prod로 나가고, prod 첫 정각 동기화 로그도 확인해서 남기기로 함.\n\n13:19 — Jay가 확인했고, #12121 머지는 Jay 쪽에서 지켜보겠대. prod 첫 정각 동기화 로그는 기다리는 중.\n\n13:53 업데이트 — 바알이 #12121이 13:52에 dev로 머지됐다고 알림(head 4e54341f34). 2a로 prod 나가면 prod 워커 설정·첫 정각 동기화 로그를 확인해서 남기기로 함.\n\n13:54 업데이트 — GitHub 알림으로 #12117도 dev에 머지됨. 이제 #12109 base를 dev로 바꾸는 일만 남음(+ prod 첫 동기화 로그).\n\n14:10 확인 — GitHub에서 #12109 base가 이미 `dev`로 되어 있음(아직 draft·open). Jay가 부탁한 retarget은 끝난 상태. 남은 건 #12121이 2a로 prod 나간 뒤 첫 정각 동기화 로그를 스레드에 남기는 것.",
+      "액션": "#12121 2a prod 서빙 뒤 첫 정각 동기화 로그 확인해서 스레드에 남기기\n(#12117 머지·#12109 base→dev는 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791775364828019?thread_ts=1791775364.828019&cid=C07EB8FM44D",
       "tags": [
         "slack",
@@ -40,6 +40,24 @@
       "created_at": "2026-10-12T02:18:47Z"
     },
     {
+      "id": "slack:1791781155.322559",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Stripe 라이브 시크릿 키 교체 대기 → 로컬 테스트 키로 교체",
+      "summary": "배경 — 13:59에 바알이 #product에서 Jay·Don을 태그해 Stripe 라이브 시크릿 키(sk_live) 교체를 부탁했어.\n\nDJ 맥의 로컬 개발 설정 파일(루트 .env·apps/api/.env.local)에 라이브 키가 들어 있었고, 로컬 API는 라이브 키면 부팅을 거부해서 지금 실행할 때마다 테스트 키로 덮어쓰고 있대. 개발 맥에 라이브 키가 있으니 교체가 안전하대.\n\n부탁한 일 — (1) Stripe에서 라이브 시크릿 키를 새로 만들고 prod Secret Manager를 갱신, (2) 옛 키 폐기. 키 값은 글에 안 올림. 일정 정해지면 알려 달라고 함.\n\n동주 후속 — 교체 끝나면 로컬 파일을 테스트 키로 바꾸기.",
+      "액션": "Jay·Don의 라이브 키 교체·옛 키 폐기 완료 기다리기\n끝나면 로컬 .env / apps/api/.env.local을 테스트 키로 교체",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791781155322559",
+      "tags": [
+        "slack",
+        "jay",
+        "don",
+        "stripe",
+        "security"
+      ],
+      "created_at": "2026-10-12T05:10:11Z"
+    },
+    {
       "id": "slack:1791766942.261219",
       "status": "todo",
       "source": "slack",
@@ -61,7 +79,7 @@
       "source": "slack",
       "priority": "",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.\n\n상태 → 진행 중 — 바알이 09:18 KST에 스레드에서 실제 샵 연결 확인하고, 11218 prod PR을 org 230 기준으로 릴리스 2에 맞춰 준비하겠다고 답했어. #12120(dev)은 09:36 KST에 dev에 머지됐어(GitHub 알림). 다음 dev 동기화 정각에 Dogfood 인증 확인 예정.\n\n09:42 업데이트 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40)를 알렸어. 첫 dev 동기화는 10:00 KST, 그 뒤 매시 정각. 10:00 로그 보고 두 샵 결과·Dogfood 인증 상태를 스레드에 남길 예정이라 아직 진행 중.\n\n10:03 업데이트 — 바알이 첫 dev 동기화 결과를 남겼어. 10:00:04 KST에 두 샵(QA Storika Shop Dogfood, QA TikTok Shop Sandbox) 다 오류 없이 읽었고, Dogfood 인증도 살아 있어(토큰 10/17까지). 주문 0건은 이번 구간에 어필리에이트 주문이 없어서야. 11218 dev 쪽은 끝, 남은 건 prod PR을 릴리스 2에 싣는 것.\n\n10:05 업데이트 — Jay도 확인했어. 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켜기로 정리됨. 남은 건 prod PR 준비.\n\n12:22 업데이트 — Jay가 오래된 PR 정리 스레드에서 #12121(11218 prod 플래그)을 승인했다고, ready로 바꾸고 arm 해 달래. 자세한 건 'Jay 요청 — 오래된 PR 3개 정리' 카드.",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.\n\n상태 → 진행 중 — 바알이 09:18 KST에 스레드에서 실제 샵 연결 확인하고, 11218 prod PR을 org 230 기준으로 릴리스 2에 맞춰 준비하겠다고 답했어. #12120(dev)은 09:36 KST에 dev에 머지됐어(GitHub 알림). 다음 dev 동기화 정각에 Dogfood 인증 확인 예정.\n\n09:42 업데이트 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40)를 알렸어. 첫 dev 동기화는 10:00 KST, 그 뒤 매시 정각. 10:00 로그 보고 두 샵 결과·Dogfood 인증 상태를 스레드에 남길 예정이라 아직 진행 중.\n\n10:03 업데이트 — 바알이 첫 dev 동기화 결과를 남겼어. 10:00:04 KST에 두 샵(QA Storika Shop Dogfood, QA TikTok Shop Sandbox) 다 오류 없이 읽었고, Dogfood 인증도 살아 있어(토큰 10/17까지). 주문 0건은 이번 구간에 어필리에이트 주문이 없어서야. 11218 dev 쪽은 끝, 남은 건 prod PR을 릴리스 2에 싣는 것.\n\n10:05 업데이트 — Jay도 확인했어. 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켜기로 정리됨. 남은 건 prod PR 준비.\n\n12:22 업데이트 — Jay가 오래된 PR 정리 스레드에서 #12121(11218 prod 플래그)을 승인했다고, ready로 바꾸고 arm 해 달래. 자세한 건 'Jay 요청 — 오래된 PR 3개 정리' 카드.\n\n13:52 업데이트 — #12121(11218 prod 플래그)이 dev에 머지됨(바알 스레드 알림). 2a와 같이 prod로 나가면 org 230 실제 샵 기준으로 동기화가 시작될 예정. prod 서빙·첫 정각 로그 확인이 남음.",
       "액션": "11218 prod PR을 org 230 실제 샵 연결 기준으로 준비해서 릴리스 2(10/14~15 KST)에 포함\n(dev 첫 동기화·Dogfood 인증 확인은 10:03에 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
       "tags": [
