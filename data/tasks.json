@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-12T01:43:00Z",
+  "updatedAt": "2026-10-12T02:18:47Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 07:4x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "slack:1791771216.998529",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Jay 질문 — Spanner에 이메일 있는 크리에이터만 넣고 있나?",
+      "summary": "배경 — 11:13에 Jay가 #product에서 동주를 태그해서 물어봤어.\n\nSpanner에 채우는 크리에이터를 이메일 있는 사람 위주로 넣고 있는지 묻는 거야. 바이오·미디어 키트에 이메일이 없으면 못 찾는데, TikTok Shop이 아닌 크리에이터는 이메일이 없으면 아웃리치 자체가 불가능하니까.",
+      "액션": "지금 Spanner 적재 기준(이메일 없는 크리에이터 포함 여부)을 확인해서 Jay한테 답하기\n필요하면 이메일 유무 필터·우선순위 방향 정하기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791771216998529",
+      "tags": [
+        "slack",
+        "product",
+        "spanner",
+        "outreach"
+      ],
+      "created_at": "2026-10-12T02:18:47Z"
+    },
     {
       "id": "slack:1791766942.261219",
       "status": "todo",
