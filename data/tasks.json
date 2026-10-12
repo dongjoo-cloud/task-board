@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-12T00:14:22Z",
+  "updatedAt": "2026-10-12T00:31:36Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 07:4x 정기 스크리닝",
   "tasks": [
     {
       "id": "slack:1791763504.860299",
-      "status": "todo",
+      "status": "in_progress",
       "source": "slack",
       "priority": "new",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.\n\n상태 → 진행 중 — 바알이 09:18 KST에 스레드에서 실제 샵 연결 확인하고, 11218 prod PR을 org 230 기준으로 릴리스 2에 맞춰 준비하겠다고 답했어. #12120(dev)은 머지 대기열에 있고, 첫 dev 동기화 정각에 Dogfood 인증 확인 예정.",
       "액션": "11218 prod PR을 실제 샵 연결 기준으로 준비해서 릴리스 2에 포함\n다음 dev 동기화(정각) 로그에서 QA Storika Shop Dogfood 인증 살아 있는지 확인 → 스레드에 한 줄",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
       "tags": [
