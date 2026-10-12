@@ -1,13 +1,30 @@
 {
-  "updatedAt": "2026-10-12T22:35:25Z",
+  "updatedAt": "2026-10-12T22:55:00Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/12 18:5x 10분 체크",
+  "subtitle": "10/13 07:5x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "gmail:ktech-funding-2026-10-12",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
+      "summary": "배경 — 10/12에 K-테크 파이오니어즈 운영사무국이 지원금 편성·사용 안내를 보냈어(회사 메일).\n\n• 국내유입지원금: 9/30까지 사용분 중 미제출 증빙을 10/30(금)까지 워크스페이스에 월별 업로드.\n• 기술사업화지원금: 총액 변경 신청 11/6(금), 사업내용·사업비 편성 변경 11/27(금).\n• 이미 다 냈거나 사용 내역 없으면 제출 불필요. 기한 내 어렵면 메일로 회신.",
+      "액션": "미제출 국내유입 증빙 있는지 확인하고 있으면 10/30까지 업로드\n편성·총액 변경이 필요하면 11/6·11/27 마감 전에 신청",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878831083660424970",
+      "tags": [
+        "gmail",
+        "ktech",
+        "funding",
+        "deadline"
+      ],
+      "created_at": "2026-10-12T22:55:00Z"
+    },
     {
       "id": "slack:1791843273.906169",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "주인 모를 Apify 사용처 — 데일리에서 Brice와 확인",
       "summary": "배경 — 07:14에 바알이 내 이름으로 #product에서 Jay·Brice에게 물었어. 매일 05:10~06:03 KST에 python-requests로 Apify 액터(tweet·LinkedIn·Reddit·TikTok·Instagram)를 돌리는 작업이 있는데(하루 약 $1.9), storika-mono 코드에도 없고 지출 관리(spend gate)도 안 거친대. 11월 Apify 하루 한도 $100 정리 중에 발견.\n\n07:22에 Jay가 \"브라이스가 예전에 뭐 돌려놓은 것 같은데 데일리 때 한번 확인하자\"고 답함.",
       "액션": "오늘 데일리에서 Brice에게 이 Apify 작업이 본인 것인지 확인하고, 계속 돌릴지·지출 관리에 넣을지 정하기",
@@ -25,7 +42,7 @@
       "id": "slack:1791842284.875529",
       "status": "in_progress",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "MART 은퇴 — 파이프라인 쪽 의견 3가지 답하기",
       "summary": "배경 — 06:58에 Jay가 #product에서 나를 태그해 MART 은퇴 전수 스캔 결과(읽기 전용, 아무것도 중지·삭제 안 함)를 올리고 파이프라인 쪽 의견을 물었어. MART 인스턴스는 월 약 $504, Dagster 컴포넌트 90개 중 80개가 MART를 쓰고, 검색 freshness gate가 MART를 읽어서 끄면 검색이 멈춘대.\n\n질문은 세 개야.\n(a) 파이프라인 상태·원장·워터마크 테이블(apify_run_state, pipeline_orchestration_state, *_pipeline_state, *_batch_state, incremental_sync_watermarks)을 어디로 옮길지 — prod PG, 별도 작은 인스턴스, Spanner 중\n(b) 이미지 워커 풀 4개의 MART 쓰기가 파이프라인 재구성(10043~10048)에 들어가는지\n(c) 순서나 빠진 것\n\nLinear에 새 티켓(STORIKA-14416, 14420 등)이 \"동주의 #product 답 대기\"로 올라와 있어. 전체 보고서는 레포 .runstate/mart-retire-scan-20261012/REPORT.md.\n\n같은 새벽 Jay DM — 06:19에 내가 \"디스커버리에서 마트 은퇴 완료, 안 쓰게 정리해도 된다\"고 했고, 인스턴스를 내려도 되냐는 질문엔 \"혹시 불안해서 하루만 더 확인해보겠다\"고 답함.\n\n▶ 진행 중으로 이동 — 07:26에 바알이 Jay DM에서 어제 \"안 쓰게 정리해도 된다\"는 말은 성급했다고 정정함. 파이프라인 상태(배치 상태·지출 장부·트래커·락)와 API 일부가 아직 MART에 있어서 인스턴스는 지금 내리면 안 되고, 은퇴 계획을 오늘 따로 세워 단계별로 공유하겠다고 함. #product 스레드의 (a)(b)(c) 질문엔 아직 답 없음.",
       "액션": "스레드에 (a) 상태·원장·워터마크 테이블 이전 위치 (b) 이미지 워커 쓰기 포함 여부 (c) 순서·누락 의견 답하기\nJay DM에서 약속한 대로 인스턴스 내려도 되는지 하루 더 확인하고 알려 주기",
@@ -42,7 +59,7 @@
       "id": "slack:1791836088.660669",
       "status": "done",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "STORIKA-14393 이메일 소스 정리 티켓 초안 — 범위·순서 의견",
       "summary": "배경 — 05:14에 Jay가 #product에서 나를 태그해 티켓 초안을 공유했어.\n\n파이프라인이 이미 bio·미디어 킷에서 파싱하는 이메일을 MART 대신 앱 DB `creator_contacts`에 바로 쓰는 writer를 하나 추가하는 건이야(멱등 insert, source=bio/media_kit, last_observed_at, MART 이중 쓰기 유지, Spanner 변경 없음). 컬럼 2개는 API 쪽 14390이 먼저 넣는대.\n\n착수는 아직 아니고, 범위·순서를 보고 의견을 달라고 함. 스레드에 아직 답 없음.\n\n✔ 완료로 이동 — 07:30에 바알이 내 이름으로 스레드에 답함: 범위·순서 좋고, 14390 들어가면 파이프라인에서 바로 받겠다. 미디어 킷 이메일도 '연락 가능'으로 세고(파이프라인 쪽 티켓 STORIKA-14429 생성), creator_sync가 MART 프로필에서 읽는 이메일 원본은 MART 은퇴 목록에 넣어 같이 챙기겠다고 함.",
       "액션": "STORIKA-14393 초안 범위·순서 보고 스레드에 의견 남기기 (14390 선행 순서 포함)",
@@ -60,7 +77,7 @@
       "id": "gmail:xai-payment-failed-2026-10-13",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "Grok xAI $300 결제 또 실패 (10/13) — 카드 확인",
       "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 01:34 KST). 등록된 신용카드로 청구가 안 됐대.\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 참고로 10/12 실패 카드는 보드에서 내 업무 아님으로 옮겼었어 — 계속 필요 없으면 알려 줘.",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
@@ -77,7 +94,7 @@
       "id": "gmail:google-agentic-oauth-djs-claude",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "Google OAuth 클라이언트 'agentic' 표시 — djs-claude (11/11까지)",
       "summary": "배경 — Google Workspace가 \"[Action Required]\" 공지를 보냈어(10/13 03:40 KST). 곧 나오는 Workspace MCP 서버는 Cloud 콘솔에서 'agentic'으로 표시한 OAuth 클라이언트만 부를 수 있대.\n\n영향 프로젝트로 djs-claude가 적혀 있어. 11/11부터 표시 안 된 클라이언트는 MCP 호출이 거부되고, 11/12부터는 설정을 못 바꿔서 새 OAuth 클라이언트를 만들어야 해. AI 에이전트가 아니고 Gmail·Drive REST API만 쓰는 앱이면 할 일 없음.",
       "액션": "djs-claude의 OAuth 클라이언트가 AI 에이전트용인지 확인\n맞으면 11/11 전에 Google Cloud 콘솔에서 agentic 설정 켜기 (에이전트·일반 트래픽 섞이면 클라이언트 분리)",
@@ -129,11 +146,11 @@
     },
     {
       "id": "gmail:fathom-product-sync-2026-10-12#2",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "",
       "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
-      "summary": "배경 — 10/12 15:00 Daily product sync에서 Jay가 컨텍스트 전환을 막으려고 에이전트 역할을 나눈 워크플로를 보여줬어. Orchestrator(PM)·Fleet Driver(티켓화)·QA(검증)로 세션을 분리하고, Grok Bot은 웹훅으로 Orchestrator와 연결돼.\n\n나도 같은 방식으로 세션을 나누고 이름 붙여 쓰기로 했어.",
+      "summary": "배경 — 10/12 15:00 Daily product sync에서 Jay가 컨텍스트 전환을 막으려고 에이전트 역할을 나눈 워크플로를 보여줬어. Orchestrator(PM)·Fleet Driver(티켓화)·QA(검증)로 세션을 분리하고, Grok Bot은 웹훅으로 Orchestrator와 연결돼.\n\n나도 같은 방식으로 세션을 나누고 이름 붙여 쓰기로 했어.\n\n✔ 완료로 이동 — 보드에서 완료로 옮긴 상태(done.json)와 맞춤.",
       "액션": "에이전트 세션을 Orchestrator / Fleet Driver / QA로 분리\n역할에 맞게 이름 정리",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878824821377003916",
       "tags": [
@@ -142,7 +159,8 @@
         "meeting",
         "agents"
       ],
-      "created_at": "2026-10-12T06:49:24Z"
+      "created_at": "2026-10-12T06:49:24Z",
+      "status_at": "2026-10-12T12:45:05.395Z"
     },
     {
       "id": "gmail:fathom-product-sync-2026-10-12#1",
@@ -252,11 +270,11 @@
     },
     {
       "id": "slack:1791763504.860299",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n09:42 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40). 10:00 첫 동기화: 샵 2개 오류 없이 읽힘, Dogfood 인증 유지(토큰 10/17까지).\n\n10:05 — Jay 확인: 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켠다.\n\nLinear(21:55) — STORIKA-11218 Todo(담당 나). 유지.",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n09:42 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40). 10:00 첫 동기화: 샵 2개 오류 없이 읽힘, Dogfood 인증 유지(토큰 10/17까지).\n\n10:05 — Jay 확인: 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켠다.\n\nLinear(21:55) — STORIKA-11218 Todo(담당 나). 유지.\n\n✔ 완료로 이동 — Linear STORIKA-11218 Done(10/13 00:36 KST). release 2a로 prod `TIKTOK_AFFILIATE_SYNC_ENABLED=true` 반영, 첫 정각 동기화(15:00Z) 증거로 Done 처리됨.",
       "액션": "11218 prod PR을 org 230 실제 샵 기준으로 릴리스 2에 싣기\n릴리스 2 일정·PR 준비 상태를 스레드에 맞추기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
       "tags": [
@@ -266,7 +284,8 @@
         "STORIKA-11218",
         "tiktok-shop"
       ],
-      "created_at": "2026-10-12T00:05:04Z"
+      "created_at": "2026-10-12T00:05:04Z",
+      "status_at": "2026-10-12T22:55:00Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-12#1",
