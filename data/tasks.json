@@ -1,8 +1,24 @@
 {
-  "updatedAt": "2026-10-12T08:55:00Z",
+  "updatedAt": "2026-10-12T09:12:43Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 17:4x 전체 스크리닝",
   "tasks": [
+    {
+      "id": "slack:1791796300.200229",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "릴리스 2a 컷 끝날 때까지 main 직행 머지 잠깐 멈추기",
+      "summary": "배경 — 18:11에 Jay가 #product에서 부탁. 지금 릴리스 2a를 자르는 중인데, main 직행 머지(#12182, 17:05 KST)가 들어올 때마다 dev와 main이 데이터 파이프라인 파일에서 다시 충돌해 back-merge를 한 번 더 돌려야 한대.\n\n2a 컷은 약 1시간, 19:00 KST 전후에 끝날 예정이고 끝나면 Jay가 스레드에 남기기로 함. 이미 머지된 #12182는 Jay 쪽에서 back-merge로 받음.",
+      "액션": "19:00 KST쯤까지 main 직행 머지 멈추기(바알·메피스토·마녀 레인 포함)\nJay에게 알겠다고 답하고, 2a 컷 끝났다는 글 오면 재개",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791796300200229",
+      "tags": [
+        "slack",
+        "#product",
+        "Jay"
+      ],
+      "created_at": "2026-10-12T09:12:43Z"
+    },
     {
       "id": "gmail:fathom-product-sync-2026-10-12#2",
       "status": "todo",
