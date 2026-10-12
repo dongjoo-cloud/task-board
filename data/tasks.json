@@ -1,13 +1,47 @@
 {
-  "updatedAt": "2026-10-12T22:55:00Z",
+  "updatedAt": "2026-10-12T23:50:00Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/13 07:5x 정기 스크리닝",
+  "subtitle": "10/13 08:5x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-13#retro-topics",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
+      "summary": "배경 — 10/13 아침 데일리에서 Brice가 스프린트 속도(2~3일), 우선순위 정렬(간트 누락), 작업 흐름 안정성, PR 병합 병목, 최근 릴리스 후 UI 버그 티켓 254건을 짚었어.\n\n10시 Weekly Sync 뒤에 회고를 하기로 했고, Jay·나한테 회고 주제 준비가 액션으로 달렸어.",
+      "액션": "10시 회고에 가져갈 주제·관찰을 짧게 정리해 두기\n(속도·우선순위·미완성 패턴·PR 병목·UI 버그 폭증 등)",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "retro"
+      ],
+      "created_at": "2026-10-12T23:50:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-13#mart-retire",
+      "status": "in_progress",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
+      "summary": "배경 — 10/13 아침 데일리(Jay·Brice·Don·Jen·나). MART(데이터 마트)를 끄고 비용을 줄이기로 했어. Fathom은 Spanner로 옮긴다고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10에 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냈고, 08:43에 9시 싱크 초대도 보냈어. Jay 확인 3가지(이 길 OK / pipeline-pg 생성 / 정지일 10/27) 대기.",
+      "액션": "Jay와 30분 싱크에서 MART 은퇴 계획 확정\n(확인: pipeline-pg 경로·인스턴스 생성·14422 정지일 10/27)",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "MART"
+      ],
+      "created_at": "2026-10-12T23:50:00Z"
+    },
     {
       "id": "gmail:ktech-funding-2026-10-12",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
       "summary": "배경 — 10/12에 K-테크 파이오니어즈 운영사무국이 지원금 편성·사용 안내를 보냈어(회사 메일).\n\n• 국내유입지원금: 9/30까지 사용분 중 미제출 증빙을 10/30(금)까지 워크스페이스에 월별 업로드.\n• 기술사업화지원금: 총액 변경 신청 11/6(금), 사업내용·사업비 편성 변경 11/27(금).\n• 이미 다 냈거나 사용 내역 없으면 제출 불필요. 기한 내 어렵면 메일로 회신.",
       "액션": "미제출 국내유입 증빙 있는지 확인하고 있으면 10/30까지 업로드\n편성·총액 변경이 필요하면 11/6·11/27 마감 전에 신청",
