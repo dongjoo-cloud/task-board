@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T06:49:24Z",
+  "updatedAt": "2026-10-12T07:51:39Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 15:4x 전체 스크리닝",
   "tasks": [
@@ -7,7 +7,7 @@
       "id": "gmail:fathom-product-sync-2026-10-12#2",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
       "summary": "배경 — 10/12 15:00 Daily product sync에서 Jay가 컨텍스트 전환을 막으려고 에이전트 역할을 나눈 워크플로를 보여줬어. Orchestrator(PM)·Fleet Driver(티켓화)·QA(검증)로 세션을 분리하고, Grok Bot은 웹훅으로 Orchestrator와 연결돼.\n\n나도 같은 방식으로 세션을 나누고 이름 붙여 쓰기로 했어.",
       "액션": "에이전트 세션을 Orchestrator / Fleet Driver / QA로 분리\n역할에 맞게 이름 정리",
@@ -43,7 +43,7 @@
       "source": "slack",
       "priority": "",
       "title": "IG 하루 구매 상한 9.7만→2.5만으로 낮추기",
-      "summary": "배경 — 14:26에 바알이 #product에서 Jay에게 IG 이미지 워커 풀(image-worker-instagram-posts)을 24→48로 오늘 안 증설해 달라고 부탁했어. Apify 선결제 소진이 어젯밤 IG 크리에이터 9.7만 명을 한 번에 사서 이미지 묶음 약 4.9만 개가 밀렸고, 풀이 시간당 ~1,200개라 41시간치인데 IG 미디어 링크는 32~36시간이면 만료된대.\n\n14:26 — Jay가 접수. 비용·prod 변경이라 Jay가 결정하겠대. 그 사이 IG 하루 소진 상한 2.5만으로 낮추는 건 먼저 진행해 달라고 함.\n\n14:32 — Jay가 승인하고 본인 계정으로 48 적용 확인(manualInstanceCount=48). 10/14 18:00 KST에 24로 자동 복구 예약.\n\n14:48 — 바알이 답함: 48이 14:43에 다시 24로 돌아갔다(우리 Dagster PR #12174 main 머지로 Deploy Image Workers가 덮음)며 Jay에게 한 번 더 올려 달라고 부탁. IG 하루 구매 상한 2.5만은 10/13 00:01(KST)부터 적용되고, 적용되면 스레드에 남기기로 함.\n\n14:52 — Jay: 인스턴스 수는 crema-autoscaler가 쥐고 있어서(최대 24) 수동 48이 계속 되돌아감. crema-config v5(최대 48)로 바꾸고 10/14 18:00에 v4로 되돌리겠대. Jay가 직접 하고, main 머지는 그대로 해도 된대.\n\n진행 중으로 옮김 — 바알이 상한 변경을 예약해 둠(적용 대기).\n남은 DJ 일 — 10/13 00:01 적용 확인 후 스레드에 남기기.\n\n14:58 — Jay가 적용 완료: crema-config v5(instagram-posts 최대 48)로 crema-autoscaler 교체(리비전 00008), 풀 48 확인. 10/14 18:00 KST에 v4로 되돌리게 예약했고, 그 사이 main 머지는 영향 없대. 풀 증설은 끝.",
+      "summary": "배경 — 14:26에 바알이 #product에서 Jay에게 IG 이미지 워커 풀(image-worker-instagram-posts)을 24→48로 오늘 안 증설해 달라고 부탁했어. Apify 선결제 소진이 어젯밤 IG 크리에이터 9.7만 명을 한 번에 사서 이미지 묶음 약 4.9만 개가 밀렸고, 풀이 시간당 ~1,200개라 41시간치인데 IG 미디어 링크는 32~36시간이면 만료된대.\n\n14:26 — Jay가 접수. 비용·prod 변경이라 Jay가 결정하겠대. 그 사이 IG 하루 소진 상한 2.5만으로 낮추는 건 먼저 진행해 달라고 함.\n\n14:32 — Jay가 승인하고 본인 계정으로 48 적용 확인(manualInstanceCount=48). 10/14 18:00 KST에 24로 자동 복구 예약.\n\n14:48 — 바알이 답함: 48이 14:43에 다시 24로 돌아갔다(우리 Dagster PR #12174 main 머지로 Deploy Image Workers가 덮음)며 Jay에게 한 번 더 올려 달라고 부탁. IG 하루 구매 상한 2.5만은 10/13 00:01(KST)부터 적용되고, 적용되면 스레드에 남기기로 함.\n\n14:52 — Jay: 인스턴스 수는 crema-autoscaler가 쥐고 있어서(최대 24) 수동 48이 계속 되돌아감. crema-config v5(최대 48)로 바꾸고 10/14 18:00에 v4로 되돌리겠대. Jay가 직접 하고, main 머지는 그대로 해도 된대.\n\n진행 중으로 옮김 — 바알이 상한 변경을 예약해 둠(적용 대기).\n남은 DJ 일 — 10/13 00:01 적용 확인 후 스레드에 남기기.\n\n14:58 — Jay가 적용 완료: crema-config v5(instagram-posts 최대 48)로 crema-autoscaler 교체(리비전 00008), 풀 48 확인. 10/14 18:00 KST에 v4로 되돌리게 예약했고, 그 사이 main 머지는 영향 없대. 풀 증설은 끝.\n\n16:5x — 바알이 Jay에게 Dagster Cloud 환경변수 PREPAID_BURN_IMAGE_CHUNKS_PER_HOUR_INSTAGRAM=2400을 10/14 18:00까지 넣어 달라고 부탁함. 풀이 48대인 동안 IG 소진 멈춤을 약 50시간→25시간으로 줄이려는 거야.\n하루 구매 상한 2.5만은 10/13 00:01 KST에 적용 예정이라 아직 진행 중.",
       "액션": "10/13 00:01 IG 하루 구매 상한 2.5만 적용 확인 → 스레드에 남기기\n(풀 48 증설은 Jay가 14:58에 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791782763027349?thread_ts=1791782763.027349&cid=C07EB8FM44D",
       "tags": [
