@@ -25,9 +25,9 @@
       "status": "todo",
       "source": "slack",
       "priority": "",
-      "title": "주인 모를 Apify 사용처 — 데일리에서 Brice와 확인",
-      "summary": "배경 — 07:14에 바알이 내 이름으로 #product에서 Jay·Brice에게 물었어. 매일 05:10~06:03 KST에 python-requests로 Apify 액터(tweet·LinkedIn·Reddit·TikTok·Instagram)를 돌리는 작업이 있는데(하루 약 $1.9), storika-mono 코드에도 없고 지출 관리(spend gate)도 안 거친대. 11월 Apify 하루 한도 $100 정리 중에 발견.\n\n07:22에 Jay가 \"브라이스가 예전에 뭐 돌려놓은 것 같은데 데일리 때 한번 확인하자\"고 답함.",
-      "액션": "오늘 데일리에서 Brice에게 이 Apify 작업이 본인 것인지 확인하고, 계속 돌릴지·지출 관리에 넣을지 정하기",
+      "title": "Apify 사용처는 Don 것 — 지출 관리(spend gate)에 Don 소유로 등록",
+      "summary": "배경 — 07:14에 바알이 내 이름으로 #product에서 Jay·Brice에게 물었어. 매일 05:10~06:03 KST에 python-requests로 Apify 액터(tweet·LinkedIn·Reddit·TikTok·Instagram)를 돌리는 작업이 있는데(하루 약 $1.9), storika-mono 코드에도 없고 지출 관리(spend gate)도 안 거친대. 11월 Apify 하루 한도 $100 정리 중에 발견.\n\n07:22에 Jay가 \"브라이스가 예전에 뭐 돌려놓은 것 같은데 데일리 때 한번 확인하자\"고 답함.\n\n▶ 갱신 — 08:06에 Brice가 \"Don 일 같다, GTM social listening에 붙어 있는 것\"이라고 답했고, 08:28에 Jay가 정리함: Don 소유로 보고 계속 돌리되 지출 관리에 Don 소유로 넣어 달라. Don에게는 맞는지 한 줄 확인, 액터를 바꾸거나 멈출 계획이면 나한테 알려 달라고 함.",
+      "액션": "지출 관리(spend gate)에 이 Apify 작업을 Don 소유로 등록하기\nDon이 확인 답을 주는지, 바꾸거나 멈출 계획을 알려 오는지 지켜보기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791843273906169?thread_ts=1791843273.906169&cid=C07EB8FM44D",
       "tags": [
         "slack",
@@ -40,11 +40,11 @@
     },
     {
       "id": "slack:1791842284.875529",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "",
       "title": "MART 은퇴 — 파이프라인 쪽 의견 3가지 답하기",
-      "summary": "배경 — 06:58에 Jay가 #product에서 나를 태그해 MART 은퇴 전수 스캔 결과(읽기 전용, 아무것도 중지·삭제 안 함)를 올리고 파이프라인 쪽 의견을 물었어. MART 인스턴스는 월 약 $504, Dagster 컴포넌트 90개 중 80개가 MART를 쓰고, 검색 freshness gate가 MART를 읽어서 끄면 검색이 멈춘대.\n\n질문은 세 개야.\n(a) 파이프라인 상태·원장·워터마크 테이블(apify_run_state, pipeline_orchestration_state, *_pipeline_state, *_batch_state, incremental_sync_watermarks)을 어디로 옮길지 — prod PG, 별도 작은 인스턴스, Spanner 중\n(b) 이미지 워커 풀 4개의 MART 쓰기가 파이프라인 재구성(10043~10048)에 들어가는지\n(c) 순서나 빠진 것\n\nLinear에 새 티켓(STORIKA-14416, 14420 등)이 \"동주의 #product 답 대기\"로 올라와 있어. 전체 보고서는 레포 .runstate/mart-retire-scan-20261012/REPORT.md.\n\n같은 새벽 Jay DM — 06:19에 내가 \"디스커버리에서 마트 은퇴 완료, 안 쓰게 정리해도 된다\"고 했고, 인스턴스를 내려도 되냐는 질문엔 \"혹시 불안해서 하루만 더 확인해보겠다\"고 답함.\n\n▶ 진행 중으로 이동 — 07:26에 바알이 Jay DM에서 어제 \"안 쓰게 정리해도 된다\"는 말은 성급했다고 정정함. 파이프라인 상태(배치 상태·지출 장부·트래커·락)와 API 일부가 아직 MART에 있어서 인스턴스는 지금 내리면 안 되고, 은퇴 계획을 오늘 따로 세워 단계별로 공유하겠다고 함. #product 스레드의 (a)(b)(c) 질문엔 아직 답 없음.",
+      "summary": "배경 — 06:58에 Jay가 #product에서 나를 태그해 MART 은퇴 전수 스캔 결과(읽기 전용, 아무것도 중지·삭제 안 함)를 올리고 파이프라인 쪽 의견을 물었어. MART 인스턴스는 월 약 $504, Dagster 컴포넌트 90개 중 80개가 MART를 쓰고, 검색 freshness gate가 MART를 읽어서 끄면 검색이 멈춘대.\n\n질문은 세 개야.\n(a) 파이프라인 상태·원장·워터마크 테이블(apify_run_state, pipeline_orchestration_state, *_pipeline_state, *_batch_state, incremental_sync_watermarks)을 어디로 옮길지 — prod PG, 별도 작은 인스턴스, Spanner 중\n(b) 이미지 워커 풀 4개의 MART 쓰기가 파이프라인 재구성(10043~10048)에 들어가는지\n(c) 순서나 빠진 것\n\nLinear에 새 티켓(STORIKA-14416, 14420 등)이 \"동주의 #product 답 대기\"로 올라와 있어. 전체 보고서는 레포 .runstate/mart-retire-scan-20261012/REPORT.md.\n\n같은 새벽 Jay DM — 06:19에 내가 \"디스커버리에서 마트 은퇴 완료, 안 쓰게 정리해도 된다\"고 했고, 인스턴스를 내려도 되냐는 질문엔 \"혹시 불안해서 하루만 더 확인해보겠다\"고 답함.\n\n▶ 진행 중으로 이동 — 07:26에 바알이 Jay DM에서 어제 \"안 쓰게 정리해도 된다\"는 말은 성급했다고 정정함. 파이프라인 상태(배치 상태·지출 장부·트래커·락)와 API 일부가 아직 MART에 있어서 인스턴스는 지금 내리면 안 되고, 은퇴 계획을 오늘 따로 세워 단계별로 공유하겠다고 함. #product 스레드의 (a)(b)(c) 질문엔 아직 답 없음.\n\n▶ 완료로 이동 — 08:10에 바알이 Jay DM으로 은퇴 방향을 답함: 살아있는 테이블만 새 작은 Postgres(pipeline-pg)로 통째로 옮기고 접속 주소(env)만 교체, 일정은 조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → MART 읽기 전용 10/23 → 정지 10/27 목표. 14416·14422에도 답 댓글 남김. 이제 Jay의 확인 3가지(이 길로 가도 되는지, pipeline-pg 생성 진행, 14422 정지일 10/27) 대기.",
       "액션": "스레드에 (a) 상태·원장·워터마크 테이블 이전 위치 (b) 이미지 워커 쓰기 포함 여부 (c) 순서·누락 의견 답하기\nJay DM에서 약속한 대로 인스턴스 내려도 되는지 하루 더 확인하고 알려 주기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791842284875529",
       "tags": [
@@ -53,7 +53,8 @@
         "Jay",
         "MART"
       ],
-      "created_at": "2026-10-12T22:17:21Z"
+      "created_at": "2026-10-12T22:17:21Z",
+      "status_at": "2026-10-12T23:33:00Z"
     },
     {
       "id": "slack:1791836088.660669",
