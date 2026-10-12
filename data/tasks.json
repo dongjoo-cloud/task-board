@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T05:10:18Z",
+  "updatedAt": "2026-10-12T05:22:06Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 14:0x 라이트 체크",
   "tasks": [
@@ -44,9 +44,9 @@
       "status": "todo",
       "source": "slack",
       "priority": "new",
-      "title": "Stripe 라이브 시크릿 키 교체 대기 → 로컬 테스트 키로 교체",
-      "summary": "배경 — 13:59에 바알이 #product에서 Jay·Don을 태그해 Stripe 라이브 시크릿 키(sk_live) 교체를 부탁했어.\n\nDJ 맥의 로컬 개발 설정 파일(루트 .env·apps/api/.env.local)에 라이브 키가 들어 있었고, 로컬 API는 라이브 키면 부팅을 거부해서 지금 실행할 때마다 테스트 키로 덮어쓰고 있대. 개발 맥에 라이브 키가 있으니 교체가 안전하대.\n\n부탁한 일 — (1) Stripe에서 라이브 시크릿 키를 새로 만들고 prod Secret Manager를 갱신, (2) 옛 키 폐기. 키 값은 글에 안 올림. 일정 정해지면 알려 달라고 함.\n\n동주 후속 — 교체 끝나면 로컬 파일을 테스트 키로 바꾸기.",
-      "액션": "Jay·Don의 라이브 키 교체·옛 키 폐기 완료 기다리기\n끝나면 로컬 .env / apps/api/.env.local을 테스트 키로 교체",
+      "title": "Stripe 로컬 .env를 테스트 키(STRIPE_SECRET_KEY_DEV)로 바로 교체",
+      "summary": "배경 — 13:59에 바알이 #product에서 Jay·Don을 태그해 Stripe 라이브 시크릿 키(sk_live) 교체를 부탁했어.\nDJ 맥의 로컬 개발 설정(루트 .env·apps/api/.env.local)에 라이브 키가 들어 있었고, 로컬 API는 라이브 키면 부팅을 거부해서 실행할 때마다 테스트 키로 덮어쓰고 있대.\n\n14:17 — Jay가 접수. 교체는 필요하다고 봤대. 지금 릴리스 2a를 prod에 내보내는 중이라, 그게 끝난 뒤 Jay가 교체 시각을 정해 스레드에 남기겠대. 그전까지 로컬은 테스트 키로 덮어쓰는 방식을 그대로 두고, 라이브 키 값은 올리지 말라고 함.\n\n14:19 — Jay가 정리해 줌.\n• Secret Manager(storika-455708)에 prod는 `STRIPE_SECRET_KEY`(sk_live), 로컬/개발용은 `STRIPE_SECRET_KEY_DEV`(sk_test)로 이미 나뉘어 있음.\n• 로컬 `.env`, `apps/api/.env.local`에는 지금 바로 `STRIPE_SECRET_KEY_DEV` 값(sk_test)만 넣고 sk_live는 지워 달라고 함. 덮어쓰기 우회는 더 이상 필요 없음.\n• 혹시 그 키를 git·셸 히스토리·다른 파일/툴에 복사한 적 있으면 같이 정리.\n• 라이브 키 교체(새 키 발급·Secret Manager 새 버전·prod 재배포·옛 키 폐기)는 Jay가 2a 배포 끝난 뒤에 함. 끝나면 스레드에 알리겠대.\n\n동주 할 일 — 로컬 파일을 테스트 키로 바로 교체(+ 유출 흔적 정리). 라이브 교체는 Jay 담당.",
+      "액션": "로컬 루트 .env·apps/api/.env.local에 STRIPE_SECRET_KEY_DEV(sk_test)만 넣고 sk_live 제거\ngit·셸 히스토리 등 복사 흔적 있으면 같이 정리\n(라이브 키 교체·옛 키 폐기는 Jay가 2a 배포 뒤 진행 — 대기)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791781155322559",
       "tags": [
         "slack",
