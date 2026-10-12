@@ -152,7 +152,7 @@
       "source": "slack",
       "priority": "",
       "title": "Dagster 정비 티켓 초안 — 관리 방법 찾기",
-      "summary": "배경 — #dagster-noti에 Dagster 봇이 \"정비 티켓 초안 4건 승인 대기\"를 올렸어. 전부 10/11 이후 다시 통과하고 있는 체크(IG 미디어 백로그, IG 수집 급증, TikTok 국가별 활동 풀, TikTok 국가 null 비율)라서 사실상 닫아도 되는 것들이야.\n\n승인은 ✅ 반응(전체), 번호 답장(일부), \"빼기 N\"(제외) 중에 고르면 돼.\n\n10:02에 동주가 스레드에서 바알·메피스토·마녀한테 \"이거 관리할 방법 찾아야 하니까 리마인더 해줘\"라고 남겨서 카드로 올림.\n\n14:41 — 바알이 DM으로 리마인더 보냄. 지금 4건 대기, 4건 모두 \"검사가 다시 통과함\" 알림이래. 관리 방법 3가지 제안:\n1) \"다시 통과함\" 초안은 자동으로 닫기 (추천)\n2) 진짜 실패 초안만 하루 한 번 묶어서 한 번에 승인/제외\n3) 초안을 Slack 대신 커맨드센터 결정 목록에 모아 보기\n아직 아무것도 승인·삭제 안 했고, 정해 주면 그대로 하겠대.",
+      "summary": "배경 — #dagster-noti에 Dagster 봇이 \"정비 티켓 초안 4건 승인 대기\"를 올렸어. 전부 10/11 이후 다시 통과하고 있는 체크(IG 미디어 백로그, IG 수집 급증, TikTok 국가별 활동 풀, TikTok 국가 null 비율)라서 사실상 닫아도 되는 것들이야.\n\n승인은 ✅ 반응(전체), 번호 답장(일부), \"빼기 N\"(제외) 중에 고르면 돼.\n\n10:02에 동주가 스레드에서 바알·메피스토·마녀한테 \"이거 관리할 방법 찾아야 하니까 리마인더 해줘\"라고 남겨서 카드로 올림.\n\n14:41 — 바알이 DM으로 리마인더 보냄. 지금 4건 대기, 4건 모두 \"검사가 다시 통과함\" 알림이래. 관리 방법 3가지 제안:\n1) \"다시 통과함\" 초안은 자동으로 닫기 (추천)\n2) 진짜 실패 초안만 하루 한 번 묶어서 한 번에 승인/제외\n3) 초안을 Slack 대신 커맨드센터 결정 목록에 모아 보기\n아직 아무것도 승인·삭제 안 했고, 정해 주면 그대로 하겠대.\n\n21:50 재확인 — 10:02 내 답글 이후 새 글·반응 없음. 유지.",
       "액션": "바알 DM의 3가지 방법 중 하나 골라 답하기 (1번 자동 닫기 추천)",
       "link": "https://storika-ai.slack.com/archives/C0A3KBPU2P4/p1791766942261219?thread_ts=1791766342.116069&cid=C0A3KBPU2P4",
       "tags": [
@@ -253,7 +253,7 @@
       "source": "slack",
       "priority": "",
       "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
-      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.\n\n21:50 재확인 — 릴리스 1 스레드 마지막 글은 10/12 07:05 Jay. 14085 prod 확인 결과 글·PR 없음. 유지.",
       "액션": "prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 릴리스 스레드에 남기기\n(11218 dev 켜기는 #12120 머지로 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
       "tags": [
@@ -271,7 +271,7 @@
       "source": "slack",
       "priority": "medium",
       "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
-      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.",
+      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.\n\n21:50 재확인 — 스레드(최근 100개)·Slack 검색에 10/10 07:30 이후 13921 언급 없음, storika-mono에 13921 PR 없음. 유지.",
       "액션": "Dockerfile 이미지 주소는 그대로 두고, 빌드 설정(Docker 데몬)에 Google Artifact Registry Docker Hub 캐시 연결\n실제 빌드와 Dagster 새 버전 사용을 각각 확인해서 스레드에 남기기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791585034022859?thread_ts=1791443817.572849&cid=C07EB8FM44D",
       "tags": [
@@ -440,7 +440,7 @@
       "status": "in_progress",
       "source": "slack",
       "title": "데이터파이프라인 + 댓글분석기에 JEV",
-      "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n상태 — 이미 👀로 진행 중.",
+      "summary": "배경 — Jay가 daily 후 #product에서 Dongjoo에게 data pipeline 진행과 comment 분석기 JEV 적용을 배정했어요.\n\n상태 — 이미 👀로 진행 중.\n\n21:50 재확인 — 스레드 마지막 글 10/2 09:47 Brice(스키마는 Brice 승인 필요). 이후 JEV 진행 글 못 찾음. 유지.",
       "액션": "파이프라인 진행 유지\ncomment 분석기에 JEV 붙이기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790900456826639",
       "tags": [
@@ -456,7 +456,7 @@
       "status": "in_progress",
       "source": "slack",
       "title": "Vertex ADC 로그인",
-      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.",
+      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.",
       "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790695318544699?thread_ts=1790695318.544699",
       "tags": [
@@ -471,7 +471,7 @@
       "status": "in_progress",
       "source": "slack",
       "title": "TikTok Shop 후속",
-      "summary": "배경 — TikTok Shop 관련 후속 논의가 아직 열려 있어요.\n\n왜 — 제휴 크리에이터·굿즈 등록·앱 담당자 연락처에 Brice/DJ 질문이 남아 있습니다.\n\n범위 — ‘내가 답하거나 승인할 것’만 골라 닫으면 됩니다.",
+      "summary": "배경 — TikTok Shop 관련 후속 논의가 아직 열려 있어요.\n\n왜 — 제휴 크리에이터·굿즈 등록·앱 담당자 연락처에 Brice/DJ 질문이 남아 있습니다.\n\n범위 — ‘내가 답하거나 승인할 것’만 골라 닫으면 됩니다.\n\n21:50 재확인 — 이 스레드엔 답글 0개. 유지.",
       "액션": "관련 Slack 스레드를 훑고\n본인 액션 아이템만 회신하거나 완료 처리",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790801772922079",
       "tags": [
