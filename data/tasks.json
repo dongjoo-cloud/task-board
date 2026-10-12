@@ -1,8 +1,27 @@
 {
-  "updatedAt": "2026-10-12T09:32:37Z",
+  "updatedAt": "2026-10-12T09:54:30Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/12 18:3x 10분 체크",
+  "subtitle": "10/12 18:5x 10분 체크",
   "tasks": [
+    {
+      "id": "slack:1791798457.582279",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "릴리스 2a — TikTok Shop 지정 초대 rate limit(429) A/B 판단",
+      "summary": "배경 — 18:47에 Jay가 #product에서 Brice·나를 태그해 릴리스 2a 판단을 부탁했어. Jay는 취침 중이라 둘 중 한 명 답으로 정한대.\n\ndev 최종 QA 중 TikTok Shop 초대(14110)에서 \"공개 플랜 제안\"은 통과했지만, \"크리에이터 지정 초대\"는 핸들 조회가 rate limit(429)에 걸려 제안 전에 멈춤. fail-closed라 잘못 보내진 건 없고, 원인은 초대 경로가 5페이지를 연속 호출하는 것.\n\nA(추천): 2a는 그대로 올리고, 조회 간격 수정은 P1로 2b(10/13 새벽 PT)에 태워 LG 미팅(10/15) 전 prod 반영.\nB: 2a를 멈추고 수정 후 다시 컷(1~2시간 지연).\n\n03:40 PT(19:40 KST)까지 답 없으면 A로 진행.",
+      "액션": "A 또는 B로 스레드에 답하기 (없으면 19:40 KST에 A로 자동 진행)\nBrice 답 여부도 확인",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791798457582279",
+      "tags": [
+        "slack",
+        "#product",
+        "Jay",
+        "Brice",
+        "release-2a",
+        "tiktok-shop"
+      ],
+      "created_at": "2026-10-12T09:54:30Z"
+    },
     {
       "id": "slack:1791796300.200229",
       "status": "in_progress",
