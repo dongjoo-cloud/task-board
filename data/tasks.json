@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T01:05:40Z",
+  "updatedAt": "2026-10-12T01:19:06Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 07:4x 정기 스크리닝",
   "tasks": [
@@ -25,7 +25,7 @@
       "source": "slack",
       "priority": "",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.\n\n상태 → 진행 중 — 바알이 09:18 KST에 스레드에서 실제 샵 연결 확인하고, 11218 prod PR을 org 230 기준으로 릴리스 2에 맞춰 준비하겠다고 답했어. #12120(dev)은 09:36 KST에 dev에 머지됐어(GitHub 알림). 다음 dev 동기화 정각에 Dogfood 인증 확인 예정.\n\n09:42 업데이트 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40)를 알렸어. 첫 dev 동기화는 10:00 KST, 그 뒤 매시 정각. 10:00 로그 보고 두 샵 결과·Dogfood 인증 상태를 스레드에 남길 예정이라 아직 진행 중.\n\n10:03 업데이트 — 바알이 첫 dev 동기화 결과를 남겼어. 10:00:04 KST에 두 샵(QA Storika Shop Dogfood, QA TikTok Shop Sandbox) 다 오류 없이 읽었고, Dogfood 인증도 살아 있어(토큰 10/17까지). 주문 0건은 이번 구간에 어필리에이트 주문이 없어서야. 11218 dev 쪽은 끝, 남은 건 prod PR을 릴리스 2에 싣는 것.",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.\n\n상태 → 진행 중 — 바알이 09:18 KST에 스레드에서 실제 샵 연결 확인하고, 11218 prod PR을 org 230 기준으로 릴리스 2에 맞춰 준비하겠다고 답했어. #12120(dev)은 09:36 KST에 dev에 머지됐어(GitHub 알림). 다음 dev 동기화 정각에 Dogfood 인증 확인 예정.\n\n09:42 업데이트 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40)를 알렸어. 첫 dev 동기화는 10:00 KST, 그 뒤 매시 정각. 10:00 로그 보고 두 샵 결과·Dogfood 인증 상태를 스레드에 남길 예정이라 아직 진행 중.\n\n10:03 업데이트 — 바알이 첫 dev 동기화 결과를 남겼어. 10:00:04 KST에 두 샵(QA Storika Shop Dogfood, QA TikTok Shop Sandbox) 다 오류 없이 읽었고, Dogfood 인증도 살아 있어(토큰 10/17까지). 주문 0건은 이번 구간에 어필리에이트 주문이 없어서야. 11218 dev 쪽은 끝, 남은 건 prod PR을 릴리스 2에 싣는 것.\n\n10:05 업데이트 — Jay도 확인했어. 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켜기로 정리됨. 남은 건 prod PR 준비.",
       "액션": "11218 prod PR을 org 230 실제 샵 연결 기준으로 준비해서 릴리스 2(10/14~15 KST)에 포함\n(dev 첫 동기화·Dogfood 인증 확인은 10:03에 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
       "tags": [
