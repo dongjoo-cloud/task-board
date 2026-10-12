@@ -1,8 +1,42 @@
 {
-  "updatedAt": "2026-10-12T06:22:00Z",
+  "updatedAt": "2026-10-12T06:49:24Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/12 15:1x 라이트 체크",
+  "subtitle": "10/12 15:4x 전체 스크리닝",
   "tasks": [
+    {
+      "id": "gmail:fathom-product-sync-2026-10-12#2",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
+      "summary": "배경 — 10/12 15:00 Daily product sync에서 Jay가 컨텍스트 전환을 막으려고 에이전트 역할을 나눈 워크플로를 보여줬어. Orchestrator(PM)·Fleet Driver(티켓화)·QA(검증)로 세션을 분리하고, Grok Bot은 웹훅으로 Orchestrator와 연결돼.\n\n나도 같은 방식으로 세션을 나누고 이름 붙여 쓰기로 했어.",
+      "액션": "에이전트 세션을 Orchestrator / Fleet Driver / QA로 분리\n역할에 맞게 이름 정리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878824821377003916",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "agents"
+      ],
+      "created_at": "2026-10-12T06:49:24Z"
+    },
+    {
+      "id": "gmail:fathom-product-sync-2026-10-12#1",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "프로덕트 싱크 10/12 — 브랜드 URL 스크래핑·UI 이슈 티켓 → Brice 배정",
+      "summary": "배경 — 10/12 15:00 Daily product sync(Jay·Brice·Jen·나). web app에서 브랜드 URL 스크래핑이 실패하고, MCP로 만든 캠페인 대화/brand.md가 웹에 안 보이는 버그가 나왔어. app.storika.com에서는 되는 것과 대비됨.\n\n회의 액션으로 내가 Linear 티켓을 만들어 Brice에게 넘기기로 했어. (Jay는 yepals·Plans 쪽에 별도 확인 중.)",
+      "액션": "브랜드 URL 스크래핑/UI 이슈 Linear 티켓 작성\nBrice에게 배정",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878824821377003916",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "scraping"
+      ],
+      "created_at": "2026-10-12T06:49:24Z"
+    },
     {
       "id": "slack:1791782763.027349",
       "status": "in_progress",
@@ -61,7 +95,7 @@
       "id": "slack:1791781155.322559",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "Stripe 로컬 .env를 테스트 키(STRIPE_SECRET_KEY_DEV)로 바로 교체",
       "summary": "배경 — 13:59에 바알이 #product에서 Jay·Don을 태그해 Stripe 라이브 시크릿 키(sk_live) 교체를 부탁했어.\nDJ 맥의 로컬 개발 설정(루트 .env·apps/api/.env.local)에 라이브 키가 들어 있었고, 로컬 API는 라이브 키면 부팅을 거부해서 실행할 때마다 테스트 키로 덮어쓰고 있대.\n\n14:17 — Jay가 접수. 교체는 필요하다고 봤대. 지금 릴리스 2a를 prod에 내보내는 중이라, 그게 끝난 뒤 Jay가 교체 시각을 정해 스레드에 남기겠대. 그전까지 로컬은 테스트 키로 덮어쓰는 방식을 그대로 두고, 라이브 키 값은 올리지 말라고 함.\n\n14:19 — Jay가 정리해 줌.\n• Secret Manager(storika-455708)에 prod는 `STRIPE_SECRET_KEY`(sk_live), 로컬/개발용은 `STRIPE_SECRET_KEY_DEV`(sk_test)로 이미 나뉘어 있음.\n• 로컬 `.env`, `apps/api/.env.local`에는 지금 바로 `STRIPE_SECRET_KEY_DEV` 값(sk_test)만 넣고 sk_live는 지워 달라고 함. 덮어쓰기 우회는 더 이상 필요 없음.\n• 혹시 그 키를 git·셸 히스토리·다른 파일/툴에 복사한 적 있으면 같이 정리.\n• 라이브 키 교체(새 키 발급·Secret Manager 새 버전·prod 재배포·옛 키 폐기)는 Jay가 2a 배포 끝난 뒤에 함. 끝나면 스레드에 알리겠대.\n\n동주 할 일 — 로컬 파일을 테스트 키로 바로 교체(+ 유출 흔적 정리). 라이브 교체는 Jay 담당.",
       "액션": "로컬 루트 .env·apps/api/.env.local에 STRIPE_SECRET_KEY_DEV(sk_test)만 넣고 sk_live 제거\ngit·셸 히스토리 등 복사 흔적 있으면 같이 정리\n(라이브 키 교체·옛 키 폐기는 Jay가 2a 배포 뒤 진행 — 대기)",
