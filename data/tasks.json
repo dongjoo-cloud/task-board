@@ -22,11 +22,10 @@
     },
     {
       "id": "gmail:fathom-product-sync-2026-10-12#1",
-      "status": "todo",
+      "status": "not_mine",
       "source": "gmail",
-      "priority": "new",
       "title": "프로덕트 싱크 10/12 — 브랜드 URL 스크래핑·UI 이슈 티켓 → Brice 배정",
-      "summary": "배경 — 10/12 15:00 Daily product sync(Jay·Brice·Jen·나). web app에서 브랜드 URL 스크래핑이 실패하고, MCP로 만든 캠페인 대화/brand.md가 웹에 안 보이는 버그가 나왔어. app.storika.com에서는 되는 것과 대비됨.\n\n회의 액션으로 내가 Linear 티켓을 만들어 Brice에게 넘기기로 했어. (Jay는 yepals·Plans 쪽에 별도 확인 중.)",
+      "summary": "배경 — 10/12 15:00 Daily product sync(Jay·Brice·Jen·나). web app에서 브랜드 URL 스크래핑이 실패하고, MCP로 만든 캠페인 대화/brand.md가 웹에 안 보이는 버그가 나왔어. app.storika.com에서는 되는 것과 대비됨.\n\n회의 액션으로 내가 Linear 티켓을 만들어 Brice에게 넘기기로 했어. (Jay는 yepals·Plans 쪽에 별도 확인 중.)\n\n이동 이유 — 15:44 #product 스레드에서 Jay가 이 두 버그(웹 캠페인 채팅이 크롤 완료를 모름 / MCP 크롤 중 안내 오류) 티켓은 Brice 쪽에서 만들라고 정리해서 '내 업무 아님'으로 옮겼어.",
       "액션": "브랜드 URL 스크래핑/UI 이슈 Linear 티켓 작성\nBrice에게 배정",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878824821377003916",
       "tags": [
@@ -35,7 +34,8 @@
         "meeting",
         "scraping"
       ],
-      "created_at": "2026-10-12T06:49:24Z"
+      "created_at": "2026-10-12T06:49:24Z",
+      "status_at": "2026-10-12T06:58:53Z"
     },
     {
       "id": "slack:1791782763.027349",
