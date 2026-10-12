@@ -1,8 +1,75 @@
 {
-  "updatedAt": "2026-10-11T22:43:04Z",
+  "updatedAt": "2026-10-12T00:14:22Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/12 07:4x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "slack:1791763504.860299",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
+      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n참고 — dev 쪽 실제 샵 연결(QA Storika Shop Dogfood)이 TikTok에서 아직 살아 있는지는 다음 dev 동기화 로그에서 봐 달래.",
+      "액션": "11218 prod PR을 실제 샵 연결 기준으로 준비해서 릴리스 2에 포함\n다음 dev 동기화(정각) 로그에서 QA Storika Shop Dogfood 인증 살아 있는지 확인 → 스레드에 한 줄",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "jay",
+        "release",
+        "STORIKA-11218",
+        "tiktok-shop"
+      ],
+      "created_at": "2026-10-12T00:05:04Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-12#1",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/12 — 주말 플릿·레인 결과 중간 점검 → Jay·Brice 공유",
+      "summary": "배경 — 10/12 아침 43분 데일리(Jay·Brice·나). 주말 동안 128GB 머신으로 레인을 많이 돌려서 4주 계획의 78%를 6일 만에 끝냈다는 보고가 나왔어. 다만 완료 티켓 승인을 안 해서 숫자가 낮게 잡혔고, 제대로 된 건지 아직 파악이 안 된 상태야.\n\n회의에서 오늘 오후에 클로드랑 같이 결과를 훑어보고 정리하겠다고 했어.",
+      "액션": "주말 레인 산출물·완료 티켓 점검(승인 대기 티켓 완료 처리 포함)\n결과를 Jay·Brice에게 공유",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878800118165122756",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ],
+      "created_at": "2026-10-12T00:03:37Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-12#2",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/12 — 원래 간트 차트 대비 진행률 업데이트",
+      "summary": "배경 — 10/12 아침 43분 데일리(Jay·Brice·나). 주말 동안 128GB 머신으로 레인을 많이 돌려서 4주 계획의 78%를 6일 만에 끝냈다는 보고가 나왔어. 다만 완료 티켓 승인을 안 해서 숫자가 낮게 잡혔고, 제대로 된 건지 아직 파악이 안 된 상태야.\n\nBrice는 12시간마다 원래 PPT 기준 간트로 진행을 보고 있고, 새로 생긴 티켓 191개는 새 간트로 따로 잡기로 했어.",
+      "액션": "원래 간트 차트 기준으로 진행 상황 업데이트",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878800118165122756",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "gantt"
+      ],
+      "created_at": "2026-10-12T00:03:37Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-12#3",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/12 — 7일 무개입 테스트 시작일 앞당기기",
+      "summary": "배경 — 10/12 아침 43분 데일리(Jay·Brice·나). 주말 동안 128GB 머신으로 레인을 많이 돌려서 4주 계획의 78%를 6일 만에 끝냈다는 보고가 나왔어. 다만 완료 티켓 승인을 안 해서 숫자가 낮게 잡혔고, 제대로 된 건지 아직 파악이 안 된 상태야.\n\n사람 손 없이 7일 동안 돌려서 증명하는 테스트는 원래 10/27 시작이었는데, 계획보다 많이 앞서서 날짜를 당기겠다고 했어.",
+      "액션": "7일 무개입 테스트 시작일을 새로 정해서 계획(간트)에 반영",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878800118165122756",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting"
+      ],
+      "created_at": "2026-10-12T00:03:37Z"
+    },
     {
       "id": "gmail:xai-payment-failed-2026-10-12",
       "status": "not_mine",
@@ -23,12 +90,12 @@
     },
     {
       "id": "slack:1791750707.489299",
-      "status": "todo",
+      "status": "in_progress",
       "source": "slack",
       "priority": "",
       "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
-      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n07:05 업데이트 — 훅 수정 PR이 웹 화면 리뷰 검사에 걸려서 늦어지고, 프로드 서빙은 KST 09:00~09:30 예상이야. 14105·14163·12135도 같이 나가.\n\n참고 — Jay가 10/11 21:05에 샌드박스 샵이 QA 조직 브랜드로 옮겨져 틱톡 DM·콜라보 초대 QA가 그 토큰으로 돈다고 했어. 11218 dev 동기화 켜기 전에 스레드에 한 줄 남겨 달래.",
-      "액션": "서빙 알림 오면 prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 스레드에 남기기\nSTORIKA-11218 dev에서 켜기\n(11218 켜기 전에 Jay 스레드에 한 줄 알림 → QA가 그 시간대 피함)",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n07:05 업데이트 — 훅 수정 PR이 웹 화면 리뷰 검사에 걸려서 늦어지고, 프로드 서빙은 KST 09:00~09:30 예상이야. 14105·14163·12135도 같이 나가.\n\n참고 — Jay가 10/11 21:05에 샌드박스 샵이 QA 조직 브랜드로 옮겨져 틱톡 DM·콜라보 초대 QA가 그 토큰으로 돈다고 했어. 11218 dev 동기화 켜기 전에 스레드에 한 줄 남겨 달래.\n\n09:12 업데이트 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n상태 — 11218 dev 켜기가 끝나서 진행 중으로 옮김.",
+      "액션": "prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 릴리스 스레드에 남기기\n(11218 dev 켜기는 #12120 머지로 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
       "tags": [
         "slack",
