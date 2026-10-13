@@ -5,12 +5,12 @@
       "at": "2026-10-13T00:45:19Z"
     },
     "gmail:fathom-daily-2026-10-08#review-leads": {
-      "status": "in_progress",
-      "at": "2026-10-11T23:14:51.420Z"
+      "status": "done",
+      "at": "2026-10-13T08:13:14.541Z"
     },
     "gmail:fathom-daily-2026-10-08#tiktok-test": {
-      "status": "in_progress",
-      "at": "2026-10-11T23:14:49.907Z"
+      "status": "done",
+      "at": "2026-10-13T08:13:12.099Z"
     },
     "gmail:fathom-daily-2026-10-12#1": {
       "status": "done",
@@ -55,6 +55,10 @@
     "slack:1790695318": {
       "status": "done",
       "at": "2026-10-13T05:43:47Z"
+    },
+    "slack:1790801772": {
+      "status": "not_mine",
+      "at": "2026-10-13T08:13:18.469Z"
     },
     "slack:1791750707.489299": {
       "status": "in_progress",
