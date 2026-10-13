@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-13T23:32:17Z",
+  "updatedAt": "2026-10-13T23:43:59Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/14 08:30 10분 체크",
+  "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
     {
       "id": "gmail:xai-payment-failed-2026-10-14-0734",
@@ -170,7 +170,7 @@
       "source": "gmail",
       "priority": "",
       "title": "Weekly Sync 10/13 — BigQuery 비용 급증($1k) 점검",
-      "summary": "배경 — 10/13 Weekly Sync(112분, Jay·Brice·Don·Jen·나) 초반에 BigQuery 비용이 약 $1,000 나온 게 나왔어. Brice는 \"유저도 없는데 이게 맞나\"고 물었고, Jay가 나한테 점검을 맡김(P0로 봐 달라고 함).\n\nJay 설명 — 파티션·SELECT가 크게 잡히면 비용이 확 튐. BigQuery에 넣는 건 거의 공짜지만 BigQuery→Spanner로 옮길 때 SELECT 비용이 나감. 날짜 파티션을 잘 쪼개면 하루 $50 미만이 정상. 정당한 비용이어도 이 수준이면 구조(GCS에 두고 JSON으로 당겨오기 등)를 다시 보자고 함.\n\n참고 — 회의록 '다음 단계'에 'Mart 제거 계획 실행'도 내 몫으로 적혀 있는데, MART 은퇴 카드는 이미 보드에서 완료 처리돼 있어서 따로 카드로 안 올림.\n\n이동 — 보드에서 직접 '진행 중'으로 옮겨서 반영함.\n\n17:16–17:28 — 바알이 BigQuery 비용 점검 보고서 초안을 준비함(~/Desktop/STORIKA-pipeline-lock/board/bq-cost-report-draft-20261013.md). 17:17 내 지시대로 #product 스레드엔 안 올리고 고침(14475 2·3단계 등)만 계속 진행 중. 기획실 탭에서 초안 확인하면 됨.",
+      "summary": "배경 — 10/13 Weekly Sync(112분, Jay·Brice·Don·Jen·나) 초반에 BigQuery 비용이 약 $1,000 나온 게 나왔어. Brice는 \"유저도 없는데 이게 맞나\"고 물었고, Jay가 나한테 점검을 맡김(P0로 봐 달라고 함).\n\nJay 설명 — 파티션·SELECT가 크게 잡히면 비용이 확 튐. BigQuery에 넣는 건 거의 공짜지만 BigQuery→Spanner로 옮길 때 SELECT 비용이 나감. 날짜 파티션을 잘 쪼개면 하루 $50 미만이 정상. 정당한 비용이어도 이 수준이면 구조(GCS에 두고 JSON으로 당겨오기 등)를 다시 보자고 함.\n\n참고 — 회의록 '다음 단계'에 'Mart 제거 계획 실행'도 내 몫으로 적혀 있는데, MART 은퇴 카드는 이미 보드에서 완료 처리돼 있어서 따로 카드로 안 올림.\n\n이동 — 보드에서 직접 '진행 중'으로 옮겨서 반영함.\n\n17:16–17:28 — 바알이 BigQuery 비용 점검 보고서 초안을 준비함(~/Desktop/STORIKA-pipeline-lock/board/bq-cost-report-draft-20261013.md). 17:17 내 지시대로 #product 스레드엔 안 올리고 고침(14475 2·3단계 등)만 계속 진행 중. 기획실 탭에서 초안 확인하면 됨.\n\n▶ 08:40 — Linear STORIKA-14475(IG 라벨 소스 읽기 BigQuery 잡 쪼개짐 고치기)가 10/13 22:53에 Done. 비용 판단·팀 공유는 아직 안 보여서 진행 중 유지.",
       "액션": "BigQuery 비용 내역 보고 정상 비용인지 누수인지 판단\n파티션(날짜별)·쿼리 SELECT 범위 최적화\n결과를 팀에 공유(필요하면 구조 재검토 제안)",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878901764722941561",
       "tags": [
