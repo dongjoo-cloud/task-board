@@ -1,13 +1,30 @@
 {
-  "updatedAt": "2026-10-13T08:38:35Z",
+  "updatedAt": "2026-10-13T18:59:07+09:00",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 17:3x 10분 체크",
   "tasks": [
     {
+      "id": "gmail:xai-payment-failed-2026-10-13-1834",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Grok xAI $300 결제 또 실패 (10/13 18:34) — 카드 확인",
+      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 18:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 같은 날 새벽(01:34 KST) 실패 카드는 이미 내 업무 아님으로 두었어.",
+      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878926648326646003",
+      "tags": [
+        "gmail",
+        "stripe",
+        "xai",
+        "billing"
+      ],
+      "created_at": "2026-10-13T09:59:07Z"
+    },
+    {
       "id": "slack:1791875200.565349",
       "status": "done",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "TIPS·KTP 연구장비 표찰 — 노트북에 붙여 증빙 사진 찍기",
       "summary": "배경 — 16:06에 Jen이 #general에서 나랑 Don을 태그해 TIPS·KTP 연구용 장비 구입 표찰을 올렸어(정부과제 장비 증빙용).\n\n핵심 — 노트북 촬영할 때 표찰이 같이 보이게 찍어야 해.\n\n16:08 스레드 댓글 — 나는 TIPS용 증빙이라 노트북 화면에 계정 설정 이름(동주)이 보이도록 같이 찍어 달래.\n\n✅ 16:27 — 내가 스레드에 표찰 붙인 노트북 사진 2장 올리고 Jen 태그함(\"사진 공유드립니다\"), 16:28 Jen이 \"넵! 감사합니다\" → 완료로 옮김.",
       "액션": "Jen이 올린 표찰을 노트북에 붙이기\n표찰 + 화면의 계정 이름(동주)이 함께 보이게 사진 찍어 스레드에 올리기",
@@ -25,7 +42,7 @@
       "id": "gmail:maru-gathering-2026-10-21",
       "status": "not_mine",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "10/21(수) 점심 마루게더링 — 참석 신청 여부 (10/20까지)",
       "summary": "배경 — 아산나눔재단 MARU에서 15:44 KST에 초대 메일이 왔어. 10/21(수) 12:00–13:00 MARU180 1층 카페 fyi에서 여덟 번째 마루게더링(식사 제공)이 열려.\n\n팀원들과 같이 와도 되고, 선착순이라 10/20(화) EOD까지 Airtable 폼으로 사전 신청해야 해.\n\n이동 — 16:53 KST에 보드에서 직접 '내 업무 아님'으로 옮겨서 그대로 반영했어.",
       "액션": "참석할지 정하기\n가면 10/20까지 신청 폼 제출 (팀원도 같이 갈지 확인)\n신청 폼: https://airtable.com/appSwC1QjuZAPgJf6/pagvd3wlqNAbYVkR2/form",
