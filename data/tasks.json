@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T03:31:11Z",
+  "updatedAt": "2026-10-13T03:43:25Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 10:4x 정기 스크리닝",
   "tasks": [
@@ -20,6 +20,23 @@
         "12271"
       ],
       "created_at": "2026-10-13T03:31:11Z"
+    },
+    {
+      "id": "gmail:fathom-weekly-sync-2026-10-13#mart-execute",
+      "status": "in_progress",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Weekly Sync 10/13 — MART 제거(은퇴) 계획 실행",
+      "summary": "배경 — 오늘 Weekly Sync(Fathom 요약) '다음 단계'에서 내 몫으로 'Mart 제거 계획을 실행한다'가 잡혔어. 오전에 MART 정지 논의(9시)와 Jay retire brief 답장까지는 끝났고, 이제 실행 단계야.\n\n진행 상황 — Linear 'Retire the MART instance' 프로젝트에 내 담당 STORIKA-14439(MART 테이블 전수 조사: 읽는 쪽·쓰는 쪽·크기·복사 여부)가 10:52에 생겼어. 이미 시작된 일이라 진행 중으로 올려 둠.",
+      "액션": "Retire the MART instance 프로젝트 티켓(14439부터) 순서대로 진행\n진행 상황을 간트·Jay와 맞추기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878901764722941561",
+      "tags": [
+        "gmail",
+        "Fathom",
+        "Weekly Sync",
+        "MART"
+      ],
+      "created_at": "2026-10-13T03:43:25Z"
     },
     {
       "id": "gmail:fathom-weekly-sync-2026-10-13#bigquery",
