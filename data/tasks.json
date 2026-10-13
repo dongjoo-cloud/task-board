@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-13T23:17:35Z",
+  "updatedAt": "2026-10-13T23:32:17Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/14 07:5x 정기",
+  "subtitle": "10/14 08:30 10분 체크",
   "tasks": [
     {
       "id": "gmail:xai-payment-failed-2026-10-14-0734",
@@ -22,12 +22,12 @@
     },
     {
       "id": "slack:1791927028.457509",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "",
       "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
-      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래. 원인 #12316(STORIKA-10065).\n\n진행 — 바알이 Jay에 답함(07:33): #12316은 우리 10065 레인 PR, #12346 내용 맞고 CI 녹색. 머지·배포 후 우리가 복구 확인하기로 함. Jay도 확인(07:42). prod 승격 보류 유지.\n\n▶ 07:5x — #12346 머지됨(07:38 KST, head 5a4cdaef → d43e410). 배포 후 dev 검색 복구 확인·스레드 남기기 남음.\n\n▶ 08:12 — Jay 업데이트: #12346이 dev에 머지·배포(07:38 머지 → 07:44 KST 배포, api-dev-06047-p6z)됐고 'Discovery Spanner store connected' 다시 찍힘(ENOENT 0건). Jay 쪽도 dev 검색 end-to-end 재검증 중이고, 내 확인도 이 스레드에 남겨 달래. prod 승격 보류는 그 확인까지 유지.",
-      "액션": "dev 크리에이터 검색 end-to-end 직접 확인\n결과를 Jay 스레드에 남기기 (남겨야 prod 승격 보류가 풀림)",
+      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래. 원인 #12316(STORIKA-10065).\n\n진행 — 바알이 Jay에 답함(07:33): #12316은 우리 10065 레인 PR, #12346 내용 맞고 CI 녹색. 머지·배포 후 우리가 복구 확인하기로 함. Jay도 확인(07:42). prod 승격 보류 유지.\n\n▶ 07:5x — #12346 머지됨(07:38 KST, head 5a4cdaef → d43e410). 배포 후 dev 검색 복구 확인·스레드 남기기 남음.\n\n▶ 08:12 — Jay 업데이트: #12346이 dev에 머지·배포(07:38 머지 → 07:44 KST 배포, api-dev-06047-p6z)됐고 'Discovery Spanner store connected' 다시 찍힘(ENOENT 0건). Jay 쪽도 dev 검색 end-to-end 재검증 중이고, 내 확인도 이 스레드에 남겨 달래. prod 승격 보류는 그 확인까지 유지.\n\n▶ 08:30 — 바알이 08:19에 dev 검색 복구 확인을 스레드에 남김(실제 검색 10명 완료·ENOENT 0). Jay가 08:23에 확인 감사·prod 승격은 본인이 판단한다고 답함. 원인 확인·복구 확인 액션 완료 → done.",
+      "액션": "완료 — Jay가 prod 승격 판단 예정. #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사 뒤 ready.",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791927028457509?thread_ts=1791927028.457509&cid=C07EB8FM44D",
       "tags": [
         "slack",
@@ -36,7 +36,8 @@
         "dev",
         "incident"
       ],
-      "created_at": "2026-10-13T22:05:49Z"
+      "created_at": "2026-10-13T22:05:49Z",
+      "status_at": "2026-10-13T23:32:17Z"
     },
     {
       "id": "slack:1791921623.197719",
@@ -44,8 +45,8 @@
       "source": "slack",
       "priority": "",
       "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
-      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.",
-      "액션": "#12309은 인덱스·캠페인 적재 끝날 때까지 draft 유지\n#12302 리뷰 끝났으면 ready로 (아니면 그대로)",
+      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.",
+      "액션": "#12309·#12343: #12346 base 반영 후 키 파일 없는 환경 부팅 검사 → 그다음 ready\n#12302: 리뷰 끝났으면 ready (아니면 draft 유지)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
       "tags": [
         "slack",
