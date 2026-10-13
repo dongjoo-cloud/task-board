@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T04:49:12Z",
+  "updatedAt": "2026-10-13T05:43:47Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 13:2x 10분 체크",
   "tasks": [
@@ -98,7 +98,7 @@
       "source": "slack",
       "priority": "",
       "title": "Weekly Sync 10/13 — Data pipeline 영어 초안 문서에 넣기",
-      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.\n\n12:0x 확인 — Weekly Sync는 끝났고(10:00–11:52), Linear 문서 Product/Data의 Pipeline 줄은 여전히 Brice 쪽 한 줄(43% of plan…)뿐이라 바알 영어 초안은 안 들어갔어. 회의에선 내가 MART 제거 결정을 말로 보고함. 문서에 남길 거면 지금이라도 붙여 넣으면 돼.\n\n12:28 확인 — Linear 문서 updatedAt 11:02 KST 이후 추가 갱신 없음. Pipeline 줄은 여전히 Brice 한 줄.",
+      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.\n\n12:0x 확인 — Weekly Sync는 끝났고(10:00–11:52), Linear 문서 Product/Data의 Pipeline 줄은 여전히 Brice 쪽 한 줄(43% of plan…)뿐이라 바알 영어 초안은 안 들어갔어. 회의에선 내가 MART 제거 결정을 말로 보고함. 문서에 남길 거면 지금이라도 붙여 넣으면 돼.\n\n12:28 확인 — Linear 문서 updatedAt 11:02 KST 이후 추가 갱신 없음. Pipeline 줄은 여전히 Brice 한 줄.\n\n▶ 14:4x 확인 — Linear Weekly Sync 2026-10-13 문서(updatedAt 11:02 KST, Don) Product/Data Pipeline 줄은 여전히 Fathom 한 줄(43% of plan…)뿐. 바알 영어 초안(TikTok 47,155·IG 30,218 등) 미반영.",
       "액션": "영어 초안을 Weekly Sync 문서 Data pipeline 칸에 붙여 넣기 (회의는 끝남, 문서엔 아직 Brice Fathom 한 줄만 있음)\n숫자·표현 고칠 곳 있으면 바로 수정",
       "link": "https://storika-ai.slack.com/archives/D0A1PQGF694/p1791851406111239",
       "tags": [
@@ -362,11 +362,11 @@
     },
     {
       "id": "slack:1791782763.027349",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "",
       "title": "IG 하루 구매 상한 9.7만→2.5만으로 낮추기",
-      "summary": "배경 — 14:26에 바알이 #product에서 Jay에게 IG 이미지 워커 풀(image-worker-instagram-posts)을 24→48로 오늘 안 증설해 달라고 부탁했어. Apify 선결제 소진이 어젯밤 IG 크리에이터 9.7만 명을 한 번에 사서 이미지 묶음 약 4.9만 개가 밀렸고, 풀이 시간당 ~1,200개라 41시간치인데 IG 미디어 링크는 32~36시간이면 만료된대.\n\n14:32 — Jay가 승인하고 본인 계정으로 48 적용 확인. 14:43에 Dagster PR #12174 머지로 다시 24로 돌아갔고, Jay가 crema-config v5(최대 48)로 고쳐 14:58에 48 유지 확인. 10/14 18:00 KST에 v4로 자동 복구 예약.\n\n16:51 — 바알이 Dagster Cloud 환경변수 `PREPAID_BURN_IMAGE_CHUNKS_PER_HOUR_INSTAGRAM=2400`을 10/14 18:00까지 넣어 달라고 부탁(48대 기준 처리량). Jay가 16:56에 넣었고 코드 로케이션 재로드 확인.\n\n17:12 — 바알 확인: 2400 적용 후 IG 구매 재개 시각이 10/13 00:10 KST쯤으로 당겨짐(이전 10/14 19시). 하루 구매 상한 2.5만은 그대로 10/13 00:01부터 적용 예정. 적용되면 스레드에 남기기로 함.\n\n업데이트 — 10/13 00:01 바알이 적용 보고를 스레드에 남김. IG는 지금 2.5만보다 낮은 0(가장 오래 기다린 이미지 작업 12.7시간이라 풀이 따라잡을 때까지 구매 멈춤, 10시간 아래로 내려가면 자동으로 2.5만). TikTok은 비활성 2,045 / 완전체 17,294 적용 확인. 첫 번째 할 일은 끝, 10/14 18:00 확인만 남음.\n\n10:4x — IG 상한 적용·PREPAID_BURN=2400 설정은 완료. 남은 건 10/14 18:00 crema-config v4 복구 때 변수 삭제 확인.",
+      "summary": "배경 — 14:26에 바알이 #product에서 Jay에게 IG 이미지 워커 풀(image-worker-instagram-posts)을 24→48로 오늘 안 증설해 달라고 부탁했어. Apify 선결제 소진이 어젯밤 IG 크리에이터 9.7만 명을 한 번에 사서 이미지 묶음 약 4.9만 개가 밀렸고, 풀이 시간당 ~1,200개라 41시간치인데 IG 미디어 링크는 32~36시간이면 만료된대.\n\n14:32 — Jay가 승인하고 본인 계정으로 48 적용 확인. 14:43에 Dagster PR #12174 머지로 다시 24로 돌아갔고, Jay가 crema-config v5(최대 48)로 고쳐 14:58에 48 유지 확인. 10/14 18:00 KST에 v4로 자동 복구 예약.\n\n16:51 — 바알이 Dagster Cloud 환경변수 `PREPAID_BURN_IMAGE_CHUNKS_PER_HOUR_INSTAGRAM=2400`을 10/14 18:00까지 넣어 달라고 부탁(48대 기준 처리량). Jay가 16:56에 넣었고 코드 로케이션 재로드 확인.\n\n17:12 — 바알 확인: 2400 적용 후 IG 구매 재개 시각이 10/13 00:10 KST쯤으로 당겨짐(이전 10/14 19시). 하루 구매 상한 2.5만은 그대로 10/13 00:01부터 적용 예정. 적용되면 스레드에 남기기로 함.\n\n업데이트 — 10/13 00:01 바알이 적용 보고를 스레드에 남김. IG는 지금 2.5만보다 낮은 0(가장 오래 기다린 이미지 작업 12.7시간이라 풀이 따라잡을 때까지 구매 멈춤, 10시간 아래로 내려가면 자동으로 2.5만). TikTok은 비활성 2,045 / 완전체 17,294 적용 확인. 첫 번째 할 일은 끝, 10/14 18:00 확인만 남음.\n\n10:4x — IG 상한 적용·PREPAID_BURN=2400 설정은 완료. 남은 건 10/14 18:00 crema-config v4 복구 때 변수 삭제 확인.\n\n▶ 14:4x 자동 이동 — STORIKA-14276 Done + 10/13 00:01 바알이 IG 하루 구매 상한 2.5만 적용 보고 완료. 10/14 18:00 풀 복구는 Jay 예약 작업.",
       "액션": "10/14 18:00 crema-config v4 복구 때 PREPAID_BURN=2400 변수도 함께 지워졌는지 확인\n(IG 상한 적용 보고는 10/13 00:01 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791782763027349?thread_ts=1791782763.027349&cid=C07EB8FM44D",
       "tags": [
@@ -374,7 +374,8 @@
         "#product",
         "Jay"
       ],
-      "created_at": "2026-10-12T05:33:16Z"
+      "created_at": "2026-10-12T05:33:16Z",
+      "status_at": "2026-10-13T05:43:47Z"
     },
     {
       "id": "slack:1791775364.828019",
@@ -523,7 +524,7 @@
       "source": "slack",
       "priority": "",
       "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
-      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.\n\n21:50 재확인 — 릴리스 1 스레드 마지막 글은 10/12 07:05 Jay. 14085 prod 확인 결과 글·PR 없음. 유지.\n\nLinear(21:55) — STORIKA-14085 In Progress(담당 나), STORIKA-11218 Todo(담당 나). 둘 다 미완료라 유지.",
+      "summary": "배경 — 바알이 #product에서 요청한 dev→main 릴리스를 Jay가 돌리는 중이야. 릴리스 PR #12140(11128 \"완전체 먼저\" 포함)이 열렸고, 서빙되면 동주가 14085 ① 확인과 11218 dev 켜기를 하라고 했어.\n\n09:12 — 바알이 08:33에 릴리스 1 서빙을 확인했고, 08:42에 11218 dev 동기화 PR #12120을 머지했어(Jay도 확인). 남은 건 prod에서 14085 ① 확인 결과를 스레드에 남기는 것.\n\n17:4x 스크리닝 — 릴리스 스레드·검색에 14085 prod 확인 결과 아직 안 보임. 계속 진행 중.\n\n21:50 재확인 — 릴리스 1 스레드 마지막 글은 10/12 07:05 Jay. 14085 prod 확인 결과 글·PR 없음. 유지.\n\nLinear(21:55) — STORIKA-14085 In Progress(담당 나), STORIKA-11218 Todo(담당 나). 둘 다 미완료라 유지.\n\n▶ 14:4x 갱신 — Linear STORIKA-11218 Done(10/12). 남은 액션은 prod에서 STORIKA-14085 ① 확인(검색 완전체 먼저) 후 릴리스 스레드에 결과 남기기. 14085는 여전히 In Progress.",
       "액션": "prod에서 STORIKA-14085 ① 확인(검색에서 완전체 먼저) 돌리고 결과를 릴리스 스레드에 남기기\n(11218 dev 켜기는 #12120 머지로 완료)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791750707489299?thread_ts=1791708714.889109&cid=C07EB8FM44D",
       "tags": [
@@ -602,10 +603,10 @@
     },
     {
       "id": "slack:1790695318",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "title": "Vertex ADC 로그인",
-      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.\n\nLinear(21:55) — STORIKA-12329 Done(담당 Jay, 9/30 02:03 KST). 티켓은 하네스를 서비스 계정 토큰으로 돌리는 내용이라, 내 로컬 ADC 로그인이 아직 필요한지는 불확실. 유지.",
+      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.\n\nLinear(21:55) — STORIKA-12329 Done(담당 Jay, 9/30 02:03 KST). 티켓은 하네스를 서비스 계정 토큰으로 돌리는 내용이라, 내 로컬 ADC 로그인이 아직 필요한지는 불확실. 유지.\n\n▶ 14:4x 자동 이동 — STORIKA-12329 Done(Jay). 하네스는 서비스 계정 토큰(Vertex) 경로로 해결돼 개인 ADC 로그인 액션은 더 이상 필요 없음.",
       "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790695318544699?thread_ts=1790695318.544699",
       "tags": [
@@ -613,7 +614,8 @@
         "gcp",
         "vertex"
       ],
-      "created_at": "2026-10-01T23:00:00.000Z"
+      "created_at": "2026-10-01T23:00:00.000Z",
+      "status_at": "2026-10-13T05:43:47Z"
     },
     {
       "id": "slack:1790801772",
