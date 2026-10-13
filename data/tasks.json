@@ -345,26 +345,6 @@
       "created_at": "2026-10-12T22:17:21Z"
     },
     {
-      "id": "slack:1791798457.582279",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "릴리스 2a — TikTok Shop 지정 초대 rate limit(429) A/B 판단",
-      "summary": "배경 — 18:47에 Jay가 #product에서 Brice·나를 태그해 릴리스 2a 판단을 부탁했어. Jay는 취침 중이라 둘 중 한 명 답으로 정한대.\n\ndev 최종 QA 중 TikTok Shop 초대(14110)에서 \"공개 플랜 제안\"은 통과했지만, \"크리에이터 지정 초대\"는 핸들 조회가 rate limit(429)에 걸려 제안 전에 멈춤. fail-closed라 잘못 보내진 건 없고, 원인은 초대 경로가 5페이지를 연속 호출하는 것.\n\nA(추천): 2a는 그대로 올리고, 조회 간격 수정은 P1로 2b(10/13 새벽 PT)에 태워 LG 미팅(10/15) 전 prod 반영.\nB: 2a를 멈추고 수정 후 다시 컷(1~2시간 지연).\n\n03:40 PT(19:40 KST)까지 답 없으면 A로 진행.\n\n이동 이유 — 19:07 Brice가 A로 결정, 19:13 Jay가 A 진행 확인(지정 초대 조회 간격 수정은 STORIKA-14328로 2b에 탑재). 내가 따로 답할 건 없음.",
-      "액션": "A 또는 B로 스레드에 답하기 (없으면 19:40 KST에 A로 자동 진행)\nBrice 답 여부도 확인",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791798457582279",
-      "tags": [
-        "slack",
-        "#product",
-        "Jay",
-        "Brice",
-        "release-2a",
-        "tiktok-shop"
-      ],
-      "created_at": "2026-10-12T09:54:30Z",
-      "status_at": "2026-10-12T12:45:00Z"
-    },
-    {
       "id": "slack:1791796300.200229",
       "status": "done",
       "source": "slack",
@@ -380,24 +360,6 @@
       ],
       "created_at": "2026-10-12T09:12:43Z",
       "status_at": "2026-10-12T22:17:21Z"
-    },
-    {
-      "id": "gmail:fathom-product-sync-2026-10-12#2",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
-      "summary": "배경 — 10/12 15:00 Daily product sync에서 Jay가 컨텍스트 전환을 막으려고 에이전트 역할을 나눈 워크플로를 보여줬어. Orchestrator(PM)·Fleet Driver(티켓화)·QA(검증)로 세션을 분리하고, Grok Bot은 웹훅으로 Orchestrator와 연결돼.\n\n나도 같은 방식으로 세션을 나누고 이름 붙여 쓰기로 했어.\n\n✔ 완료로 이동 — 보드에서 완료로 옮긴 상태(done.json)와 맞춤.",
-      "액션": "에이전트 세션을 Orchestrator / Fleet Driver / QA로 분리\n역할에 맞게 이름 정리",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878824821377003916",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "agents"
-      ],
-      "created_at": "2026-10-12T06:49:24Z",
-      "status_at": "2026-10-12T12:45:05.395Z"
     },
     {
       "id": "slack:1791782763.027349",

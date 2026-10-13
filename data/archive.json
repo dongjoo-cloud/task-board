@@ -77,6 +77,13 @@
       "title": "프로덕트 싱크 10/12 — 브랜드 URL 스크래핑·UI 이슈 티켓 → Brice 배정",
       "source": "gmail"
     },
+    "gmail:fathom-product-sync-2026-10-12#2": {
+      "status": "done",
+      "at": "2026-10-12T12:45:05.395Z",
+      "archived_at": "2026-10-13T15:54:04.515Z",
+      "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
+      "source": "gmail"
+    },
     "gmail:fathom-weekly-sync-2026-10-06": {
       "status": "done",
       "at": "2026-10-07T04:56:42.893Z",
@@ -264,6 +271,13 @@
       "at": "2026-10-12T06:22:00.000Z",
       "archived_at": "2026-10-13T07:39:37.108Z",
       "title": "Jay 요청 — 오래된 PR 3개 정리 (#12121·#12109·#12117)",
+      "source": "slack"
+    },
+    "slack:1791798457.582279": {
+      "status": "done",
+      "at": "2026-10-12T12:45:00.000Z",
+      "archived_at": "2026-10-13T15:54:04.515Z",
+      "title": "릴리스 2a — TikTok Shop 지정 초대 rate limit(429) A/B 판단",
       "source": "slack"
     }
   }
