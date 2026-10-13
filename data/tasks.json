@@ -406,24 +406,6 @@
       "created_at": "2026-10-12T00:03:37Z"
     },
     {
-      "id": "gmail:xai-payment-failed-2026-10-12",
-      "status": "not_mine",
-      "source": "gmail",
-      "priority": "",
-      "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
-      "summary": "배경 — Stripe에서 'Grok xAI $300 결제가 또 실패했다'는 새 메일이 왔어(10/12 04:34 KST). 등록된 신용카드로 청구가 안 된 상태야.\n\n10/11에 지금은 해결이 어렵다고 해서, 새 실패 메일이 올 때만 다시 알려 주기로 했지. 이번 건이 그 새 메일이야.\n\n상태 — 사용자가 보드에서 내 업무 아님으로 옮김 (10/12 08:14 KST).",
-      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878783188141889493",
-      "tags": [
-        "gmail",
-        "stripe",
-        "xai",
-        "billing"
-      ],
-      "created_at": "2026-10-11T22:43:04Z",
-      "status_at": "2026-10-11T23:14:57.499Z"
-    },
-    {
       "id": "slack:1791750707.489299",
       "status": "in_progress",
       "source": "slack",
@@ -489,24 +471,6 @@
         "meeting"
       ],
       "created_at": "2026-10-07T23:29:14Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-08#new-computer",
-      "status": "done",
-      "source": "gmail",
-      "priority": "normal",
-      "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
-      "summary": "배경 — 10/8 아침 12분 데일리(Jay·나). 새 컴퓨터로 개발 속도 높이기로 함. 10/9부터 새 MacBook(바알) 사용 중이지만 Jay에게 알렸는지는 Slack에서 확인 안 됨.\n\n상태 — 사용자가 보드에서 완료로 옮김 (10/12 08:14 KST).",
-      "액션": "새 컴퓨터 세팅 마무리, 아직이면 Jay에게 알리기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878435567265633325",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting"
-      ],
-      "status_note": "새 MacBook 10/9부터 사용 중, Jay 알림은 미확인",
-      "created_at": "2026-10-07T23:29:14Z",
-      "status_at": "2026-10-11T23:03:52.610Z"
     },
     {
       "id": "slack:1790900456.826639",

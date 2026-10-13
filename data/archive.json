@@ -49,6 +49,13 @@
       "title": "데일리 10/8 — 10/8 15:00 Jay와 후속 미팅",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-08#new-computer": {
+      "status": "done",
+      "at": "2026-10-11T23:03:52.610Z",
+      "archived_at": "2026-10-13T00:34:04.386Z",
+      "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",
@@ -131,6 +138,13 @@
       "at": "2026-10-07T04:55:26.769Z",
       "archived_at": "2026-10-08T07:17:08.176Z",
       "title": "Grok xAI $300 결제 실패 — 카드 확인",
+      "source": "gmail"
+    },
+    "gmail:xai-payment-failed-2026-10-12": {
+      "status": "not_mine",
+      "at": "2026-10-11T23:14:57.499Z",
+      "archived_at": "2026-10-13T00:34:04.386Z",
+      "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
       "source": "gmail"
     },
     "slack:1790877441.863009": {
