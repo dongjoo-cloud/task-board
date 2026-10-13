@@ -36,6 +36,10 @@
       "status": "done",
       "at": "2026-10-12T12:45:05.395Z"
     },
+    "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
+      "status": "in_progress",
+      "at": "2026-10-13T08:12:52.584Z"
+    },
     "gmail:ktech-funding-2026-10-12": {
       "status": "not_mine",
       "at": "2026-10-13T00:53:53.839Z"
