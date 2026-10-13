@@ -1,15 +1,32 @@
 {
-  "updatedAt": "2026-10-13T00:25:58Z",
+  "updatedAt": "2026-10-13T00:45:19Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/13 08:5x 정기 스크리닝",
+  "subtitle": "10/13 09:4x 정기 스크리닝",
   "tasks": [
     {
-      "id": "slack:1791850054.295409",
+      "id": "slack:1791851406.111239",
       "status": "todo",
       "source": "slack",
       "priority": "new",
+      "title": "Weekly Sync 10/13 — Data pipeline 영어 초안 문서에 넣기",
+      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.",
+      "액션": "10시 전에 영어 초안을 Weekly Sync 문서 Data pipeline 칸에 붙여 넣기\n숫자·표현 고칠 곳 있으면 바로 수정",
+      "link": "https://storika-ai.slack.com/archives/D0A1PQGF694/p1791851406111239",
+      "tags": [
+        "slack",
+        "DM",
+        "바알",
+        "weekly-sync"
+      ],
+      "created_at": "2026-10-13T00:45:19Z"
+    },
+    {
+      "id": "slack:1791850054.295409",
+      "status": "done",
+      "source": "slack",
+      "priority": "",
       "title": "Jay MART retire brief 확인·답장",
-      "summary": "배경 — 09:07 Jay DM. MART retire 관련 정리 자료(mart-retire-brief.html)를 보내며 확인을 부탁했어.\n\n직전에 9시 MART 정지 논의가 있었고, 09:15에 바알이 #product에 은퇴 계획서 v1도 올렸고 Jay가 👍 함.\n\n보드의 MART 은퇴 카드(데일리)와 같은 줄기 — 지금은 Jay brief 확인 답이 먼저.",
+      "summary": "배경 — 09:07 Jay DM. MART retire 관련 정리 자료(mart-retire-brief.html)를 보내며 확인을 부탁했어.\n\n직전에 9시 MART 정지 논의가 있었고, 09:15에 바알이 #product에 은퇴 계획서 v1도 올렸고 Jay가 👍 함.\n\n보드의 MART 은퇴 카드(데일리)와 같은 줄기 — 지금은 Jay brief 확인 답이 먼저.\n\n✅ 09:4x 자동 완료 — 09:15 바알이 #product 계획서 v1에 Jay 브리프 질문 6개 답을 담아 Jay에게 공유했고 Jay가 👍. 남은 수정 논의는 MART 은퇴 카드에서 이어감.",
       "액션": "Jay DM의 mart-retire-brief.html 읽고 확인·피드백 답장",
       "link": "https://storika-ai.slack.com/archives/D0A1KE81GJX/p1791850054295409",
       "tags": [
@@ -18,15 +35,16 @@
         "Jay",
         "MART"
       ],
-      "created_at": "2026-10-13T00:25:58Z"
+      "created_at": "2026-10-13T00:25:58Z",
+      "status_at": "2026-10-13T00:45:19Z"
     },
     {
       "id": "gmail:calendar-gantt-review-2026-10-13",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "오늘 11:00 간트차트 리뷰 초대 (Brice) — 참석 응답",
-      "summary": "배경 — 08:43에 Brice가 오늘 11:00–11:30 '간트차트 리뷰' 초대를 보냈어(Jay·Don·나). Jay는 이미 수락했고, 내 응답은 아직 없음.\n\n아침 데일리에서 TikTok Shop 작업 누락으로 간트가 밀렸다는 얘기가 나왔고, 10/12 데일리 액션(원래 간트 기준 진행 업데이트)과 이어져.",
+      "summary": "배경 — 08:43에 Brice가 오늘 11:00–11:30 '간트차트 리뷰' 초대를 보냈어(Jay·Don·나). Jay는 이미 수락했고, 내 응답은 아직 없음.\n\n아침 데일리에서 TikTok Shop 작업 누락으로 간트가 밀렸다는 얘기가 나왔고, 10/12 데일리 액션(원래 간트 기준 진행 업데이트)과 이어져.\n\n✅ 09:4x 자동 완료 — 캘린더에서 11:00 간트차트 리뷰 '수락'으로 응답돼 있음.",
       "액션": "캘린더에서 참석 여부 응답하기\n10/12 간트 진행 업데이트 내용 가져가기",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889479075553967",
       "tags": [
@@ -35,13 +53,14 @@
         "brice",
         "gantt"
       ],
-      "created_at": "2026-10-12T23:58:00Z"
+      "created_at": "2026-10-12T23:58:00Z",
+      "status_at": "2026-10-13T00:45:19Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-13#retro-topics",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
       "summary": "배경 — 10/13 아침 데일리에서 Brice가 스프린트 속도(2~3일), 우선순위 정렬(간트 누락), 작업 흐름 안정성, PR 병합 병목, 최근 릴리스 후 UI 버그 티켓 254건을 짚었어.\n\n10시 Weekly Sync 뒤에 회고를 하기로 했고, Jay·나한테 회고 주제 준비가 액션으로 달렸어.",
       "액션": "10시 회고에 가져갈 주제·관찰을 짧게 정리해 두기\n(속도·우선순위·미완성 패턴·PR 병목·UI 버그 폭증 등)",
@@ -60,8 +79,8 @@
       "source": "gmail",
       "priority": "",
       "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
-      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.",
-      "액션": "Jay DM brief.html 확인·답장 (별도 카드)\n계획서 v1 수정할 부분 있으면 #product에 말하기\n(없으면 10/15부터 조사·Linear 정리 진행)",
+      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.\n\n09:08 Fathom 'MART 정지 관련 논의' 회의록 — 내 액션은 ① 은퇴 계획 세우기 ② 코드 의존성(Collaboration Sync·Creator Sync 등) 찾아 고치기 ③ Jay에게 공유. ①③은 09:15 계획서 v1로 진행됨. 회의에서 MART 일정은 사용자 검색 기능 다음 순위로 내 마일스톤에 맞추기로 함.",
+      "액션": "계획서 v1 수정할 부분 있으면 #product에 말하기\n(없으면 10/15부터 조사 14439·Linear 정리 진행)\nMART에 묶인 코드 의존성(Collaboration Sync·Creator Sync 등) 정리 범위 확인",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
       "tags": [
         "gmail",

@@ -63,6 +63,14 @@
     "slack:1791843273.906169": {
       "status": "in_progress",
       "at": "2026-10-12T23:58:00Z"
+    },
+    "gmail:calendar-gantt-review-2026-10-13": {
+      "status": "done",
+      "at": "2026-10-13T00:45:19Z"
+    },
+    "slack:1791850054.295409": {
+      "status": "done",
+      "at": "2026-10-13T00:45:19Z"
     }
   }
 }
