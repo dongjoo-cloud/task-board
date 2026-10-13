@@ -75,6 +75,10 @@
     "slack:1791842284.875529": {
       "status": "done",
       "at": "2026-10-12T23:33:00Z"
+    },
+    "gmail:fathom-daily-2026-10-13#retro-topics": {
+      "status": "in_progress",
+      "at": "2026-10-13T01:47:08Z"
     }
   }
 }
