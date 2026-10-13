@@ -1,13 +1,48 @@
 {
-  "updatedAt": "2026-10-13T18:59:07+09:00",
+  "updatedAt": "2026-10-14T07:05:49+09:00",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 17:3x 10분 체크",
   "tasks": [
     {
+      "id": "slack:1791927028.457509",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
+      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래.\n\n원인으로 #12316(STORIKA-10065)을 지목했어. Spanner 스토어를 platform으로 옮기면서 초기화 순서가 바뀌어, 없는 google_credentials.json(ENOENT, Sentry STORIKA-API-27/3B)으로 먼저 연결을 시도하는 것 같다고. 직전 리비전 31d9acfe75는 정상.\n\nprod 승격은 수정이 dev에 배포될 때까지 막아 뒀고, 키 파일이 없으면 ADC로 넘어가는 수정은 fleet에서 진행 중. 자세한 건 STORIKA-10065 코멘트.",
+      "액션": "STORIKA-10065 코멘트 확인하고 ADC 폴백 수정이 dev에 배포됐는지 챙기기\n확인되면 Jay 스레드에 답 남기기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791927028457509?thread_ts=1791927028.457509&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "jay",
+        "STORIKA-10065",
+        "dev",
+        "incident"
+      ],
+      "created_at": "2026-10-13T22:05:49Z"
+    },
+    {
+      "id": "slack:1791921623.197719",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
+      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래.\n\n내 몫은 드래프트 #12309, #12302 두 개. 참고로 지금 CI 대기는 Ubicloud 러너 장애 영향이래.",
+      "액션": "#12309·#12302 상태 보고 리뷰 끝났으면 ready for review로 전환\n아직이면 그대로 두기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
+      "tags": [
+        "slack",
+        "jay",
+        "pr",
+        "github"
+      ],
+      "created_at": "2026-10-13T22:05:49Z"
+    },
+    {
       "id": "gmail:xai-payment-failed-2026-10-13-1834",
       "status": "todo",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "Grok xAI $300 결제 또 실패 (10/13 18:34) — 카드 확인",
       "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 18:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 같은 날 새벽(01:34 KST) 실패 카드는 이미 내 업무 아님으로 두었어.",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
