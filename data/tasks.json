@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-13T06:46:42Z",
+  "updatedAt": "2026-10-13T07:10:22Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 13:2x 10분 체크",
   "tasks": [
+    {
+      "id": "slack:1791875200.565349",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "TIPS·KTP 연구장비 표찰 — 노트북에 붙여 증빙 사진 찍기",
+      "summary": "배경 — 16:06에 Jen이 #general에서 나랑 Don을 태그해 TIPS·KTP 연구용 장비 구입 표찰을 올렸어(정부과제 장비 증빙용).\n\n핵심 — 노트북 촬영할 때 표찰이 같이 보이게 찍어야 해.\n\n16:08 스레드 댓글 — 나는 TIPS용 증빙이라 노트북 화면에 계정 설정 이름(동주)이 보이도록 같이 찍어 달래.",
+      "액션": "Jen이 올린 표찰을 노트북에 붙이기\n표찰 + 화면의 계정 이름(동주)이 함께 보이게 사진 찍어 스레드에 올리기",
+      "link": "https://storika-ai.slack.com/archives/C07DTAUDS92/p1791875200565349",
+      "tags": [
+        "slack",
+        "#general",
+        "Jen",
+        "TIPS"
+      ],
+      "created_at": "2026-10-13T07:10:22Z"
+    },
     {
       "id": "gmail:maru-gathering-2026-10-21",
       "status": "todo",
