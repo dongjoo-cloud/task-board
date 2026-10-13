@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-13T08:31:00Z",
+  "updatedAt": "2026-10-13T08:38:35Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/13 17:1x 10분 체크",
+  "subtitle": "10/13 17:3x 10분 체크",
   "tasks": [
     {
       "id": "slack:1791875200.565349",
@@ -525,11 +525,11 @@
     },
     {
       "id": "slack:1791585034.022859",
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "medium",
       "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
-      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.\n\n21:50 재확인 — 스레드(최근 100개)·Slack 검색에 10/10 07:30 이후 13921 언급 없음, storika-mono에 13921 PR 없음. 유지.\n\nLinear(21:55) — STORIKA-13921 Backlog(담당 나). 유지.",
+      "summary": "배경 — 10/10 07:30 Jay가 #product 스레드에서 13921은 동주 담당으로 유지한다고 했어. API·워커 배포 수정(13922)은 Jay가 맡았고.\n\n10/10 Brice 쪽 확인으로는 API가 기존 이미지를 재사용했을 뿐이라 Docker Hub cold-build 문제는 아직 근본 해결 안 됐어. 13921은 새 이미지 빌드 경로 검증까지 남아 있어.\n\n21:50 재확인 — 스레드(최근 100개)·Slack 검색에 10/10 07:30 이후 13921 언급 없음, storika-mono에 13921 PR 없음. 유지.\n\nLinear(21:55) — STORIKA-13921 Backlog(담당 나). 유지.\n\n이동 — 17:37 바알이 #product 스레드에 DJ 결정(10/13 17:36 KST)을 올림: STORIKA-13921은 지금은 Backlog에 두고, Docker Hub가 다시 막히면 Jay 안대로 GAR 캐시 연결 레인만 연다. 당장 할 일 없음 → done.",
       "액션": "Dockerfile 이미지 주소는 그대로 두고, 빌드 설정(Docker 데몬)에 Google Artifact Registry Docker Hub 캐시 연결\n실제 빌드와 Dagster 새 버전 사용을 각각 확인해서 스레드에 남기기",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791585034022859?thread_ts=1791443817.572849&cid=C07EB8FM44D",
       "tags": [
@@ -538,7 +538,8 @@
         "STORIKA-13921",
         "docker"
       ],
-      "created_at": "2026-10-09T22:30:34Z"
+      "created_at": "2026-10-09T22:30:34Z",
+      "status_at": "2026-10-13T08:38:35Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-08#tiktok-test",
