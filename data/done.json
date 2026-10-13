@@ -8,10 +8,6 @@
       "status": "in_progress",
       "at": "2026-10-11T23:14:49.907Z"
     },
-    "gmail:fathom-daily-2026-10-13#mart-retire": {
-      "status": "in_progress",
-      "at": "2026-10-12T23:50:00Z"
-    },
     "gmail:fathom-product-sync-2026-10-12#1": {
       "status": "not_mine",
       "at": "2026-10-12T06:58:53Z"
@@ -19,6 +15,10 @@
     "gmail:fathom-product-sync-2026-10-12#2": {
       "status": "done",
       "at": "2026-10-12T12:45:05.395Z"
+    },
+    "gmail:ktech-funding-2026-10-12": {
+      "status": "not_mine",
+      "at": "2026-10-13T00:53:53.839Z"
     },
     "slack:1791750707.489299": {
       "status": "in_progress",
@@ -59,18 +59,6 @@
     "slack:1791842284.875529": {
       "status": "done",
       "at": "2026-10-12T23:33:00Z"
-    },
-    "slack:1791843273.906169": {
-      "status": "in_progress",
-      "at": "2026-10-12T23:58:00Z"
-    },
-    "gmail:calendar-gantt-review-2026-10-13": {
-      "status": "done",
-      "at": "2026-10-13T00:45:19Z"
-    },
-    "slack:1791850054.295409": {
-      "status": "done",
-      "at": "2026-10-13T00:45:19Z"
     }
   }
 }
