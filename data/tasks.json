@@ -1,15 +1,51 @@
 {
-  "updatedAt": "2026-10-13T02:30:28.008Z",
+  "updatedAt": "2026-10-13T03:07:00.786Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 10:4x 정기 스크리닝",
   "tasks": [
     {
+      "id": "gmail:fathom-weekly-sync-2026-10-13#bigquery",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Weekly Sync 10/13 — BigQuery 비용 급증($1k) 점검",
+      "summary": "배경 — 10/13 Weekly Sync(112분, Jay·Brice·Don·Jen·나) 초반에 BigQuery 비용이 약 $1,000 나온 게 나왔어. Brice는 \"유저도 없는데 이게 맞나\"고 물었고, Jay가 나한테 점검을 맡김(P0로 봐 달라고 함).\n\nJay 설명 — 파티션·SELECT가 크게 잡히면 비용이 확 튐. BigQuery에 넣는 건 거의 공짜지만 BigQuery→Spanner로 옮길 때 SELECT 비용이 나감. 날짜 파티션을 잘 쪼개면 하루 $50 미만이 정상. 정당한 비용이어도 이 수준이면 구조(GCS에 두고 JSON으로 당겨오기 등)를 다시 보자고 함.\n\n참고 — 회의록 '다음 단계'에 'Mart 제거 계획 실행'도 내 몫으로 적혀 있는데, MART 은퇴 카드는 이미 보드에서 완료 처리돼 있어서 따로 카드로 안 올림.",
+      "액션": "BigQuery 비용 내역 보고 정상 비용인지 누수인지 판단\n파티션(날짜별)·쿼리 SELECT 범위 최적화\n결과를 팀에 공유(필요하면 구조 재검토 제안)",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878901764722941561",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "weekly-sync",
+        "bigquery"
+      ],
+      "created_at": "2026-10-13T03:07:00Z"
+    },
+    {
+      "id": "gmail:fathom-weekly-sync-2026-10-13#gantt-rollup",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Weekly Sync 10/13 — 전사 간트 매일 롤업 세팅 + 내일 16:00 간트 방법론 회의",
+      "summary": "배경 — Weekly Sync 끝부분에서 계획이 자주 바뀌고 간트가 서로 안 맞는다는 얘기가 나왔어. 내가 \"내 간트 루틴이 이미 있으니 전사 롤업도 매일 하겠다, 대신 각자 간트를 루틴으로 나한테 공유해 달라\"고 했고, Fathom 액션으로 '매일 간트 롤업 세팅·HTML 받아 모으기·통합 간트 게시'가 내 몫으로 잡힘.\n\nJay는 지금 내 아티팩트를 HTML로 내려받아 롤업 중이고, Don은 각자 HTML을 던지는 건 일회성으로 끝날 수 있으니 마일스톤 규칙부터 통일하자고 함. 방법론 표준화는 Don 담당.\n\n그래서 내일(10/14) 16:00 KST에 간트 방법론 회의를 하기로 함(Brice가 일정 잡음). 전원 간트 업데이트해서 참석.",
+      "액션": "각자 간트를 나한테 넘기는 방식(HTML·아티팩트 링크·채널) 정하고 매일 롤업 루틴 세팅\n통합 간트 게시\n내 간트 업데이트해서 10/14 16:00 간트 방법론 회의 참석",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878901764722941561",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "weekly-sync",
+        "gantt"
+      ],
+      "created_at": "2026-10-13T03:07:00Z"
+    },
+    {
       "id": "slack:1791851406.111239",
       "status": "todo",
       "source": "slack",
-      "priority": "new",
+      "priority": "",
       "title": "Weekly Sync 10/13 — Data pipeline 영어 초안 문서에 넣기",
-      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.",
+      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.\n\n12:0x 확인 — Weekly Sync는 끝났고(10:00–11:52), Linear 문서 Product/Data의 Pipeline 줄은 여전히 Brice 쪽 한 줄(43% of plan…)뿐이라 바알 영어 초안은 안 들어갔어. 회의에선 내가 MART 제거 결정을 말로 보고함. 문서에 남길 거면 지금이라도 붙여 넣으면 돼.",
       "액션": "10시 전에 영어 초안을 Weekly Sync 문서 Data pipeline 칸에 붙여 넣기\n숫자·표현 고칠 곳 있으면 바로 수정",
       "link": "https://storika-ai.slack.com/archives/D0A1PQGF694/p1791851406111239",
       "tags": [
