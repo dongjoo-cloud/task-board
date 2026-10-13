@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-12T23:58:00Z",
+  "updatedAt": "2026-10-13T00:25:58Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 08:5x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "slack:1791850054.295409",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Jay MART retire brief 확인·답장",
+      "summary": "배경 — 09:07 Jay DM. MART retire 관련 정리 자료(mart-retire-brief.html)를 보내며 확인을 부탁했어.\n\n직전에 9시 MART 정지 논의가 있었고, 09:15에 바알이 #product에 은퇴 계획서 v1도 올렸고 Jay가 👍 함.\n\n보드의 MART 은퇴 카드(데일리)와 같은 줄기 — 지금은 Jay brief 확인 답이 먼저.",
+      "액션": "Jay DM의 mart-retire-brief.html 읽고 확인·피드백 답장",
+      "link": "https://storika-ai.slack.com/archives/D0A1KE81GJX/p1791850054295409",
+      "tags": [
+        "slack",
+        "DM",
+        "Jay",
+        "MART"
+      ],
+      "created_at": "2026-10-13T00:25:58Z"
+    },
     {
       "id": "gmail:calendar-gantt-review-2026-10-13",
       "status": "todo",
@@ -41,10 +58,10 @@
       "id": "gmail:fathom-daily-2026-10-13#mart-retire",
       "status": "in_progress",
       "source": "gmail",
-      "priority": "new",
+      "priority": "",
       "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
-      "summary": "배경 — 10/13 아침 데일리(Jay·Brice·Don·Jen·나). MART(데이터 마트)를 끄고 비용을 줄이기로 했어. Fathom은 Spanner로 옮긴다고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10에 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냈고, 08:43에 9시 싱크 초대도 보냈어. Jay 확인 3가지(이 길 OK / pipeline-pg 생성 / 정지일 10/27) 대기.\n\n08:43 — Jay가 DM으로 \"넵 인바이트 보내주시면 / 저도 정리를 좀 해보겠습니다\"라고 답했고, 08:45에 9:00–9:30 'MART 정지 관련 논의' 초대를 수락함.",
-      "액션": "Jay와 30분 싱크에서 MART 은퇴 계획 확정\n(확인: pipeline-pg 경로·인스턴스 생성·14422 정지일 10/27)",
+      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.",
+      "액션": "Jay DM brief.html 확인·답장 (별도 카드)\n계획서 v1 수정할 부분 있으면 #product에 말하기\n(없으면 10/15부터 조사·Linear 정리 진행)",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
       "tags": [
         "gmail",
