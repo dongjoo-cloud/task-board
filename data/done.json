@@ -1,5 +1,9 @@
 {
   "ids": {
+    "gmail:calendar-gantt-review-2026-10-13": {
+      "status": "done",
+      "at": "2026-10-13T00:45:19Z"
+    },
     "gmail:fathom-daily-2026-10-08#review-leads": {
       "status": "in_progress",
       "at": "2026-10-11T23:14:51.420Z"
@@ -28,10 +32,6 @@
       "status": "done",
       "at": "2026-10-13T02:22:40.608Z"
     },
-    "gmail:fathom-product-sync-2026-10-12#1": {
-      "status": "not_mine",
-      "at": "2026-10-12T06:58:53Z"
-    },
     "gmail:fathom-product-sync-2026-10-12#2": {
       "status": "done",
       "at": "2026-10-12T12:45:05.395Z"
@@ -44,6 +44,10 @@
       "status": "not_mine",
       "at": "2026-10-13T00:54:03.431Z"
     },
+    "slack:1790695318": {
+      "status": "done",
+      "at": "2026-10-13T05:43:47Z"
+    },
     "slack:1791750707.489299": {
       "status": "in_progress",
       "at": "2026-10-12T00:14:22Z"
@@ -51,14 +55,6 @@
     "slack:1791763504.860299": {
       "status": "done",
       "at": "2026-10-12T22:55:00Z"
-    },
-    "slack:1791771216.998529": {
-      "status": "done",
-      "at": "2026-10-12T06:05:31Z"
-    },
-    "slack:1791775364.828019": {
-      "status": "done",
-      "at": "2026-10-12T06:22:00Z"
     },
     "slack:1791781155.322559": {
       "status": "done",
@@ -84,15 +80,7 @@
       "status": "done",
       "at": "2026-10-12T23:33:00Z"
     },
-    "slack:1790695318": {
-      "status": "done",
-      "at": "2026-10-13T05:43:47Z"
-    },
     "slack:1791850054.295409": {
-      "status": "done",
-      "at": "2026-10-13T00:45:19Z"
-    },
-    "gmail:calendar-gantt-review-2026-10-13": {
       "status": "done",
       "at": "2026-10-13T00:45:19Z"
     },
