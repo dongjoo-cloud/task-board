@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-10-13T03:43:25Z",
+  "updatedAt": "2026-10-13T04:26:42Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/13 10:4x 정기 스크리닝",
+  "subtitle": "10/13 13:2x 10분 체크",
   "tasks": [
+    {
+      "id": "slack:1791865502.075799",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "PR #12265 머지 후 — 라벨 동작 검증",
+      "summary": "배경 — 13:25 KST에 Brice(dot PR monitoring)가 #product 스레드에 올렸어. 내 PR #12265가 12:39에 main에 머지됐고(8285f61a…, head 703ca0e7…), public web이 그 머지를 서빙 중이고 Dagster·image-worker 배포와 production QA도 통과했어.\n\n남은 일 — 의도한 라벨 동작(label behavior)에 대한 DJ 검증이 필요하다고 함. dot은 paid reads·incident-specific acceptance는 안 했다고 함.\n\n참고 — 같은 업데이트에서 Jay #12262는 머지·배포 완료(prod signup acceptance는 미검증, Jay 쪽).",
+      "액션": "머지된 #12265의 의도한 라벨 동작 확인\n결과를 #product PR 모니터링 스레드에 남기기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791865502075799?thread_ts=1791443817.572849&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "#product",
+        "Brice",
+        "PR",
+        "12265"
+      ],
+      "created_at": "2026-10-13T04:26:42Z"
+    },
     {
       "id": "slack:1791861911.300429",
       "status": "todo",
