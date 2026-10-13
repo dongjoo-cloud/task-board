@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T01:47:08Z",
+  "updatedAt": "2026-10-13T02:30:28.008Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 10:4x 정기 스크리닝",
   "tasks": [
@@ -58,11 +58,11 @@
     },
     {
       "id": "gmail:fathom-daily-2026-10-13#retro-topics",
-      "status": "in_progress",
+      "status": "done",
       "source": "gmail",
       "priority": "",
       "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
-      "summary": "배경 — 10/13 아침 데일리에서 Brice가 스프린트 속도(2~3일), 우선순위 정렬(간트 누락), 작업 흐름 안정성, PR 병합 병목, 최근 릴리스 후 UI 버그 티켓 254건을 짚었어.\n\n10시 Weekly Sync 뒤에 회고를 하기로 했고, Jay·나한테 회고 주제 준비가 액션으로 달렸어.\n\n10:4x 자동 — Weekly Sync(10:00–11:00) 진행 중. 회고 주제 준비 카드는 미팅 끝날 때까지 In progress.",
+      "summary": "배경 — 10/13 아침 데일리에서 Brice가 스프린트 속도(2~3일), 우선순위 정렬(간트 누락), 작업 흐름 안정성, PR 병합 병목, 최근 릴리스 후 UI 버그 티켓 254건을 짚었어.\n\n10시 Weekly Sync 뒤에 회고를 하기로 했고, Jay·나한테 회고 주제 준비가 액션으로 달렸어.\n\n10:4x 자동 — Weekly Sync(10:00–11:00) 진행 중. 회고 주제 준비 카드는 미팅 끝날 때까지 In progress.\n\n상태 — 보드에서 완료로 옮김(done.json 02:22)에 맞춰 tasks 동기화.",
       "액션": "10시 회고에 가져갈 주제·관찰을 짧게 정리해 두기\n(속도·우선순위·미완성 패턴·PR 병목·UI 버그 폭증 등)",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
       "tags": [
@@ -71,15 +71,16 @@
         "meeting",
         "retro"
       ],
-      "created_at": "2026-10-12T23:50:00Z"
+      "created_at": "2026-10-12T23:50:00Z",
+      "status_at": "2026-10-13T02:22:40.608Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-13#mart-retire",
-      "status": "in_progress",
+      "status": "done",
       "source": "gmail",
       "priority": "",
       "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
-      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.\n\n09:08 Fathom 'MART 정지 관련 논의' 회의록 — 내 액션은 ① 은퇴 계획 세우기 ② 코드 의존성(Collaboration Sync·Creator Sync 등) 찾아 고치기 ③ Jay에게 공유. ①③은 09:15 계획서 v1로 진행됨. 회의에서 MART 일정은 사용자 검색 기능 다음 순위로 내 마일스톤에 맞추기로 함.\n\n10:4x 갱신 — 09:00 MART 정지 논의 Fathom: Dongjoo는 계획 초안·코드 의존성 정리 후 Jay 공유, Jay는 HTML 제안서 전달. 08:10 바알이 Jay에게 계획 공유·09:07 Jay brief(보드 done). Weekly Sync 액션에 ‘열린 결정 3개 Jay와 닫기’가 남아 있어 In progress 유지.",
+      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.\n\n09:08 Fathom 'MART 정지 관련 논의' 회의록 — 내 액션은 ① 은퇴 계획 세우기 ② 코드 의존성(Collaboration Sync·Creator Sync 등) 찾아 고치기 ③ Jay에게 공유. ①③은 09:15 계획서 v1로 진행됨. 회의에서 MART 일정은 사용자 검색 기능 다음 순위로 내 마일스톤에 맞추기로 함.\n\n10:4x 갱신 — 09:00 MART 정지 논의 Fathom: Dongjoo는 계획 초안·코드 의존성 정리 후 Jay 공유, Jay는 HTML 제안서 전달. 08:10 바알이 Jay에게 계획 공유·09:07 Jay brief(보드 done). Weekly Sync 액션에 ‘열린 결정 3개 Jay와 닫기’가 남아 있어 In progress 유지.\n\n상태 — 보드에서 완료로 옮김(done.json 02:22)에 맞춰 tasks 동기화.",
       "액션": "계획서 v1 수정할 부분 있으면 #product에 말하기\n(없으면 10/15부터 조사 14439·Linear 정리 진행)\nMART에 묶인 코드 의존성(Collaboration Sync·Creator Sync 등) 정리 범위 확인",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
       "tags": [
@@ -88,7 +89,8 @@
         "meeting",
         "MART"
       ],
-      "created_at": "2026-10-12T23:50:00Z"
+      "created_at": "2026-10-12T23:50:00Z",
+      "status_at": "2026-10-13T02:22:43.881Z"
     },
     {
       "id": "gmail:ktech-funding-2026-10-12",
