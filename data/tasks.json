@@ -23,11 +23,11 @@
     },
     {
       "id": "gmail:maru-gathering-2026-10-21",
-      "status": "todo",
+      "status": "not_mine",
       "source": "gmail",
       "priority": "new",
       "title": "10/21(수) 점심 마루게더링 — 참석 신청 여부 (10/20까지)",
-      "summary": "배경 — 아산나눔재단 MARU에서 15:44 KST에 초대 메일이 왔어. 10/21(수) 12:00–13:00 MARU180 1층 카페 fyi에서 여덟 번째 마루게더링(식사 제공)이 열려.\n\n팀원들과 같이 와도 되고, 선착순이라 10/20(화) EOD까지 Airtable 폼으로 사전 신청해야 해.",
+      "summary": "배경 — 아산나눔재단 MARU에서 15:44 KST에 초대 메일이 왔어. 10/21(수) 12:00–13:00 MARU180 1층 카페 fyi에서 여덟 번째 마루게더링(식사 제공)이 열려.\n\n팀원들과 같이 와도 되고, 선착순이라 10/20(화) EOD까지 Airtable 폼으로 사전 신청해야 해.\n\n이동 — 16:53 KST에 보드에서 직접 '내 업무 아님'으로 옮겨서 그대로 반영했어.",
       "액션": "참석할지 정하기\n가면 10/20까지 신청 폼 제출 (팀원도 같이 갈지 확인)\n신청 폼: https://airtable.com/appSwC1QjuZAPgJf6/pagvd3wlqNAbYVkR2/form",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878915964947515371",
       "tags": [
@@ -36,7 +36,8 @@
         "maru",
         "deadline"
       ],
-      "created_at": "2026-10-13T06:46:42Z"
+      "created_at": "2026-10-13T06:46:42Z",
+      "status_at": "2026-10-13T07:53:51.442Z"
     },
     {
       "id": "slack:1791865502.075799",
