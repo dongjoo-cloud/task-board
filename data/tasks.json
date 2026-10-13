@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-10-13T03:07:00.786Z",
+  "updatedAt": "2026-10-13T03:31:11Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 10:4x 정기 스크리닝",
   "tasks": [
+    {
+      "id": "slack:1791861911.300429",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "PR #12271 머지 후 — source-read 동작·절감 검증",
+      "summary": "배경 — 12:25 KST에 Brice(dot PR monitoring)가 #product 스레드에 올렸어. 내 PR #12271이 11:54에 main에 머지됐고(2fb456b…), public web이 그 빌드를 서빙 중이고 Dagster·image-worker 배포와 production QA도 통과했어.\n\n남은 일 — API는 이 2파일 data-pipeline 변경과 맞는 리비전(api-01445-gej)인데, 실제 source-read 동작과 절감 효과는 아직 DJ 검증이 필요하다고 함.\n\n참고 — Jay #12272 brand-extraction도 같이 언급됐지만 그건 Jay 쪽 live acceptance 대기.",
+      "액션": "머지된 #12271의 source-read 동작 확인\n절감(savings) 효과가 기대대로인지 확인\n결과를 #product PR 모니터링 스레드에 남기기",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791861911300429?thread_ts=1791443817.572849&cid=C07EB8FM44D",
+      "tags": [
+        "slack",
+        "#product",
+        "Brice",
+        "PR",
+        "12271"
+      ],
+      "created_at": "2026-10-13T03:31:11Z"
+    },
     {
       "id": "gmail:fathom-weekly-sync-2026-10-13#bigquery",
       "status": "todo",
@@ -45,8 +63,8 @@
       "source": "slack",
       "priority": "",
       "title": "Weekly Sync 10/13 — Data pipeline 영어 초안 문서에 넣기",
-      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.\n\n12:0x 확인 — Weekly Sync는 끝났고(10:00–11:52), Linear 문서 Product/Data의 Pipeline 줄은 여전히 Brice 쪽 한 줄(43% of plan…)뿐이라 바알 영어 초안은 안 들어갔어. 회의에선 내가 MART 제거 결정을 말로 보고함. 문서에 남길 거면 지금이라도 붙여 넣으면 돼.",
-      "액션": "10시 전에 영어 초안을 Weekly Sync 문서 Data pipeline 칸에 붙여 넣기\n숫자·표현 고칠 곳 있으면 바로 수정",
+      "summary": "배경 — 09:30에 바알이 내 DM으로 오늘 10시 Weekly Sync용 Data pipeline 정리를 보냈어(쉬운 설명 + Weekly Sync 문서 Product / Data → Data pipeline 칸에 넣을 영어 초안).\n\n핵심 — 목표를 '연락 가능한(이메일 있는) 완전체'로 바꿈(목표 수치는 10/20에 내가 정함). 지금 TikTok 47,155명·IG 30,218명, TikTok 하루 600~700명 증가, IG는 라벨·이미지 백로그로 정체.\n\n그 밖에 10월 Apify 일반 예산 10/18쯤 소진 → 예비 예산 전환, 10/9~10/13 티켓 38개 완료, MART 은퇴(10/21 이사·10/27 정지 목표)도 들어 있어.\n\n10:19 확인 — Linear 'Weekly Sync 2026-10-13' 문서(10:07 Brice 에이전트 갱신)의 Product / Data에 바알 영어 초안은 아직 안 들어가 있어. 지금 Pipeline 줄은 Brice 쪽이 Fathom 데일리 기준으로 채운 한 줄(43% of plan 등)뿐.\n\n10:4x 확인 — Weekly Sync 진행 중(10:00–11:00). Linear 문서 Product/Data pipeline 칸은 여전히 Brice Fathom 한 줄(43% of plan…)이고 바알 영어 초안(TikTok 47,155·IG 30,218 등)은 미반영. 문서 붙여넣기 액션은 열어둠.\n\n12:0x 확인 — Weekly Sync는 끝났고(10:00–11:52), Linear 문서 Product/Data의 Pipeline 줄은 여전히 Brice 쪽 한 줄(43% of plan…)뿐이라 바알 영어 초안은 안 들어갔어. 회의에선 내가 MART 제거 결정을 말로 보고함. 문서에 남길 거면 지금이라도 붙여 넣으면 돼.\n\n12:28 확인 — Linear 문서 updatedAt 11:02 KST 이후 추가 갱신 없음. Pipeline 줄은 여전히 Brice 한 줄.",
+      "액션": "영어 초안을 Weekly Sync 문서 Data pipeline 칸에 붙여 넣기 (회의는 끝남, 문서엔 아직 Brice Fathom 한 줄만 있음)\n숫자·표현 고칠 곳 있으면 바로 수정",
       "link": "https://storika-ai.slack.com/archives/D0A1PQGF694/p1791851406111239",
       "tags": [
         "slack",
