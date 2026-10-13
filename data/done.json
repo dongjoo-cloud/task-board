@@ -20,6 +20,10 @@
       "status": "in_progress",
       "at": "2026-10-13T00:54:39.358Z"
     },
+    "gmail:fathom-daily-2026-10-13#retro-topics": {
+      "status": "done",
+      "at": "2026-10-13T02:22:40.608Z"
+    },
     "gmail:fathom-product-sync-2026-10-12#1": {
       "status": "not_mine",
       "at": "2026-10-12T06:58:53Z"
@@ -75,10 +79,6 @@
     "slack:1791842284.875529": {
       "status": "done",
       "at": "2026-10-12T23:33:00Z"
-    },
-    "gmail:fathom-daily-2026-10-13#retro-topics": {
-      "status": "in_progress",
-      "at": "2026-10-13T01:47:08Z"
     }
   }
 }
