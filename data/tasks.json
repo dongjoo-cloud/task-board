@@ -1,16 +1,33 @@
 {
-  "updatedAt": "2026-10-14T07:05:49+09:00",
+  "updatedAt": "2026-10-13T22:38:48Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/13 17:3x 10분 체크",
   "tasks": [
     {
-      "id": "slack:1791927028.457509",
+      "id": "gmail:xai-payment-failed-2026-10-14-0734",
       "status": "todo",
-      "source": "slack",
+      "source": "gmail",
       "priority": "new",
+      "title": "Grok xAI $300 결제 또 실패 (10/14 07:34) — 카드 확인",
+      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/14 07:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 직전 실패(10/13 18:34) 카드는 보드에 그대로 둠.",
+      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878975728567967228",
+      "tags": [
+        "gmail",
+        "stripe",
+        "xai",
+        "billing"
+      ],
+      "created_at": "2026-10-13T22:38:48Z"
+    },
+    {
+      "id": "slack:1791927028.457509",
+      "status": "in_progress",
+      "source": "slack",
+      "priority": "",
       "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
-      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래.\n\n원인으로 #12316(STORIKA-10065)을 지목했어. Spanner 스토어를 platform으로 옮기면서 초기화 순서가 바뀌어, 없는 google_credentials.json(ENOENT, Sentry STORIKA-API-27/3B)으로 먼저 연결을 시도하는 것 같다고. 직전 리비전 31d9acfe75는 정상.\n\nprod 승격은 수정이 dev에 배포될 때까지 막아 뒀고, 키 파일이 없으면 ADC로 넘어가는 수정은 fleet에서 진행 중. 자세한 건 STORIKA-10065 코멘트.",
-      "액션": "STORIKA-10065 코멘트 확인하고 ADC 폴백 수정이 dev에 배포됐는지 챙기기\n확인되면 Jay 스레드에 답 남기기",
+      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래.\n\n원인으로 #12316(STORIKA-10065)을 지목했어. Spanner 스토어를 platform으로 옮기면서 초기화 순서가 바뀌어, 없는 google_credentials.json(ENOENT, Sentry STORIKA-API-27/3B)으로 먼저 연결을 시도하는 것 같다고. 직전 리비전 31d9acfe75는 정상.\n\nprod 승격은 수정이 dev에 배포될 때까지 막아 뒀고, 키 파일이 없으면 ADC로 넘어가는 수정은 fleet에서 진행 중. 자세한 건 STORIKA-10065 코멘트.\n\n▶ 07:37 이동 — 바알이 07:33에 Jay 스레드 답장: #12316은 우리 10065 레인 PR이라 책임지고, #12346 머지·배포 뒤 dev 검색 복구 확인 후 이 스레드에 남기겠다고 함(prod 승격 보류 유지). 복구 확인·스레드 마무리는 아직이라 진행 중.",
+      "액션": "#12346 머지·배포 후 dev 크리에이터 검색 복구 확인\n확인되면 Jay 스레드에 결과 남기기 (prod 승격 보류 유지)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791927028457509?thread_ts=1791927028.457509&cid=C07EB8FM44D",
       "tags": [
         "slack",
