@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T22:49:34Z",
+  "updatedAt": "2026-10-13T23:17:35Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 07:5x 정기",
   "tasks": [
@@ -26,8 +26,8 @@
       "source": "slack",
       "priority": "",
       "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
-      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래. 원인 #12316(STORIKA-10065).\n\n진행 — 바알이 Jay에 답함(07:33): #12316은 우리 10065 레인 PR, #12346 내용 맞고 CI 녹색. 머지·배포 후 우리가 복구 확인하기로 함. Jay도 확인(07:42). prod 승격 보류 유지.\n\n▶ 07:5x — #12346 머지됨(07:38 KST, head 5a4cdaef → d43e410). 배포 후 dev 검색 복구 확인·스레드 남기기 남음.",
-      "액션": "#12346 배포 후 dev 크리에이터 검색 복구 확인\n확인되면 Jay 스레드에 결과 남기기 (prod 승격 보류 유지)",
+      "summary": "배경 — Jay가 #product에서 멘션(10/14 06:30 KST). dev 크리에이터 검색이 2:05 PM PT 배포(api-dev 118c84b369)부터 전부 'creator database unavailable'로 실패 중이래. 원인 #12316(STORIKA-10065).\n\n진행 — 바알이 Jay에 답함(07:33): #12316은 우리 10065 레인 PR, #12346 내용 맞고 CI 녹색. 머지·배포 후 우리가 복구 확인하기로 함. Jay도 확인(07:42). prod 승격 보류 유지.\n\n▶ 07:5x — #12346 머지됨(07:38 KST, head 5a4cdaef → d43e410). 배포 후 dev 검색 복구 확인·스레드 남기기 남음.\n\n▶ 08:12 — Jay 업데이트: #12346이 dev에 머지·배포(07:38 머지 → 07:44 KST 배포, api-dev-06047-p6z)됐고 'Discovery Spanner store connected' 다시 찍힘(ENOENT 0건). Jay 쪽도 dev 검색 end-to-end 재검증 중이고, 내 확인도 이 스레드에 남겨 달래. prod 승격 보류는 그 확인까지 유지.",
+      "액션": "dev 크리에이터 검색 end-to-end 직접 확인\n결과를 Jay 스레드에 남기기 (남겨야 prod 승격 보류가 풀림)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791927028457509?thread_ts=1791927028.457509&cid=C07EB8FM44D",
       "tags": [
         "slack",
