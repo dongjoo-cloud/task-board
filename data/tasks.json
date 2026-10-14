@@ -1,8 +1,61 @@
 {
-  "updatedAt": "2026-10-13T23:43:59Z",
+  "updatedAt": "2026-10-14T00:02:41Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-14#search-outage",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/14 — 검색 장애 수정 확인 → Brice에게 prod QA 알리기",
+      "summary": "배경 — 10/14 아침 데일리에서 Brice가 검색 장애(search outage) 때문에 캠페인 브랜드 웹사이트 쪽이 다시 안 된다고 했고, 내가 '오늘 오후까지는 될 거고 오전에 한 번 더 보겠다'고 답함. Brice는 고쳐지면 prod QA를 하겠다고 함.\n\n참고 — Jay가 08:55 #product에 10065 검색 복구가 들어간 dev→main 릴리스 PR(#12356)을 올리는 중이라고 안내. 머지·서빙 후 확인하면 됨.",
+      "액션": "오전 중 검색 장애 수정 여부 확인(릴리스 #12356 서빙 후)\n고쳐졌으면 Brice에게 prod QA 해도 된다고 알리기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878980194685389681",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "search",
+        "release"
+      ],
+      "created_at": "2026-10-14T00:02:41Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-14#creator-emails",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/14 — prod creator_emails 테이블 확인 + Jay와 미디어킷·바이오 이메일 append 조율",
+      "summary": "배경 — 데일리에서 Apify 비용 얘기 중, 미디어킷 이메일이 어디 저장되는지 물었고 Jay가 prod에 크리에이터 이메일 테이블이 있으니 확인해 달라고 함. Jay는 오늘부터 하루 300통 아웃리치를 시작했고, 미디어킷이 오면 파싱해서 그 테이블에 append할 계획(되어 있는지는 Jay가 같이 보기로).\n\n방향 — Spanner 말고 prod Postgres에 모아서, prod DB에서 크리에이터 추적·Apify 수집 범위까지 보는 쪽으로.",
+      "액션": "prod DB의 creator_emails 테이블 상태 확인\nJay와 미디어킷·바이오 이메일을 그 테이블에 append하는 흐름 맞추기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878980194685389681",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "creator-email",
+        "jay"
+      ],
+      "created_at": "2026-10-14T00:02:41Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-14#mart-accelerate",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/14 — MART·중단 정리 1주 앞당기기 + 1주 검증 계획",
+      "summary": "배경 — 데일리에서 MART 계획은 'MART 읽기 금지, 읽는 곳·쓰는 곳 전환' 큰 틀로 짰다고 공유. 중단 정리는 바알 쪽 계획이 보수적으로 11월 초 완료로 잡혀 있는데, 새 티켓이 더 없을 테니 1주 앞당겨 끝내고 검증 기간을 1주 갖고 싶다고 말함.\n\n관련 카드 — Weekly Sync 10/13 'MART 제거(은퇴) 계획 실행'(In progress)과 이어짐.",
+      "액션": "MART·중단 정리 일정을 1주 앞당기도록 허브 계획 조정\n끝난 뒤 1주 검증 기간 계획 세우기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878980194685389681",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "MART"
+      ],
+      "created_at": "2026-10-14T00:02:41Z"
+    },
     {
       "id": "gmail:xai-payment-failed-2026-10-14-0734",
       "status": "todo",
@@ -45,7 +98,7 @@
       "source": "slack",
       "priority": "",
       "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
-      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.",
+      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.",
       "액션": "#12309·#12343: #12346 base 반영 후 키 파일 없는 환경 부팅 검사 → 그다음 ready\n#12302: 리뷰 끝났으면 ready (아니면 draft 유지)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
       "tags": [
