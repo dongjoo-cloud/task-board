@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-14T06:33:00.000Z",
+  "updatedAt": "2026-10-14T06:58:00.000Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/14 15:33 10분 체크",
+  "subtitle": "10/14 15:58 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-14-pm#mac-fan",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/14 오후 — Mac 팬 해결 세팅을 #product에 공유",
+      "summary": "배경 — 10/14 오후 Daily product sync(55분, Fathom 요약 15:56 수신)의 액션 아이템으로 내게 'Mac 팬 문제 해결 세팅을 Product Slack에 공유해서 팀이 쓰게 하기'가 잡힘.\n\n참고 — 같은 회의에서 Don이 Linear·Slack·GitHub를 묶은 통합 대시보드(Work 탭 + 일일 통계)와 Groupbot 데일리 넛지를 만들기로 했고, 다음 주 화요일 주간 싱크에 맞춰 출시 예정. 출시되면 Don이 나·Brice·Jay에게 Groupbot 설정을 부탁할 예정(아직 요청 전). Jay는 PR 머지 병목 해소 담당.",
+      "액션": "Mac 팬 해결 세팅 방법 정리\n#product 채널에 공유",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879007270682546433",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "product"
+      ],
+      "created_at": "2026-10-14T06:58:00Z"
+    },
     {
       "id": "slack:1791958595.817119",
       "status": "done",
