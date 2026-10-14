@@ -217,24 +217,6 @@
       "status_at": "2026-10-14T02:39:52Z"
     },
     {
-      "id": "slack:1791875200.565349",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "TIPS·KTP 연구장비 표찰 — 노트북에 붙여 증빙 사진 찍기",
-      "summary": "배경 — 16:06에 Jen이 #general에서 나랑 Don을 태그해 TIPS·KTP 연구용 장비 구입 표찰을 올렸어(정부과제 장비 증빙용).\n\n핵심 — 노트북 촬영할 때 표찰이 같이 보이게 찍어야 해.\n\n16:08 스레드 댓글 — 나는 TIPS용 증빙이라 노트북 화면에 계정 설정 이름(동주)이 보이도록 같이 찍어 달래.\n\n✅ 16:27 — 내가 스레드에 표찰 붙인 노트북 사진 2장 올리고 Jen 태그함(\"사진 공유드립니다\"), 16:28 Jen이 \"넵! 감사합니다\" → 완료로 옮김.",
-      "액션": "Jen이 올린 표찰을 노트북에 붙이기\n표찰 + 화면의 계정 이름(동주)이 함께 보이게 사진 찍어 스레드에 올리기",
-      "link": "https://storika-ai.slack.com/archives/C07DTAUDS92/p1791875200565349",
-      "tags": [
-        "slack",
-        "#general",
-        "Jen",
-        "TIPS"
-      ],
-      "created_at": "2026-10-13T07:10:22Z",
-      "status_at": "2026-10-13T07:30:28Z"
-    },
-    {
       "id": "gmail:maru-gathering-2026-10-21",
       "status": "not_mine",
       "source": "gmail",
@@ -361,42 +343,6 @@
       "created_at": "2026-10-13T00:45:19Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-13#retro-topics",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
-      "summary": "배경 — 10/13 아침 데일리에서 Brice가 스프린트 속도(2~3일), 우선순위 정렬(간트 누락), 작업 흐름 안정성, PR 병합 병목, 최근 릴리스 후 UI 버그 티켓 254건을 짚었어.\n\n10시 Weekly Sync 뒤에 회고를 하기로 했고, Jay·나한테 회고 주제 준비가 액션으로 달렸어.\n\n10:4x 자동 — Weekly Sync(10:00–11:00) 진행 중. 회고 주제 준비 카드는 미팅 끝날 때까지 In progress.\n\n상태 — 보드에서 완료로 옮김(done.json 02:22)에 맞춰 tasks 동기화.",
-      "액션": "10시 회고에 가져갈 주제·관찰을 짧게 정리해 두기\n(속도·우선순위·미완성 패턴·PR 병목·UI 버그 폭증 등)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "retro"
-      ],
-      "created_at": "2026-10-12T23:50:00Z",
-      "status_at": "2026-10-13T02:22:40.608Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-13#mart-retire",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
-      "summary": "배경 — 10/13 아침 데일리 + 09:00 MART 정지 논의(Jay·나). MART를 끄고 Spanner/BQ/앱 DB로 역할을 나누기로 했어. Fathom은 Spanner 이전이라고 적었지만, Slack·바알 정리로는 살아있는 파이프라인 상태 테이블만 작은 Postgres(pipeline-pg)로 옮기고 env만 바꾸는 방향이야.\n\n▶ 진행 — 08:10 바알이 Jay DM으로 방향·일정(조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → 읽기 전용 10/23 → 정지 10/27)을 보냄.\n\n09:07 — Jay가 DM으로 mart-retire-brief.html을 보내 \"확인 부탁\" (별도 카드).\n09:15 — 바알이 #product에 MART 은퇴 계획서 v1을 올림(열린 결정 3개·질의 6개 답 포함). Jay가 👍. 수정 없으면 10/15부터 조사 티켓(14439)·Linear 정리(14444→14416 합침) 시작 예정.\n\n09:08 Fathom 'MART 정지 관련 논의' 회의록 — 내 액션은 ① 은퇴 계획 세우기 ② 코드 의존성(Collaboration Sync·Creator Sync 등) 찾아 고치기 ③ Jay에게 공유. ①③은 09:15 계획서 v1로 진행됨. 회의에서 MART 일정은 사용자 검색 기능 다음 순위로 내 마일스톤에 맞추기로 함.\n\n10:4x 갱신 — 09:00 MART 정지 논의 Fathom: Dongjoo는 계획 초안·코드 의존성 정리 후 Jay 공유, Jay는 HTML 제안서 전달. 08:10 바알이 Jay에게 계획 공유·09:07 Jay brief(보드 done). Weekly Sync 액션에 ‘열린 결정 3개 Jay와 닫기’가 남아 있어 In progress 유지.\n\n상태 — 보드에서 완료로 옮김(done.json 02:22)에 맞춰 tasks 동기화.",
-      "액션": "계획서 v1 수정할 부분 있으면 #product에 말하기\n(없으면 10/15부터 조사 14439·Linear 정리 진행)\nMART에 묶인 코드 의존성(Collaboration Sync·Creator Sync 등) 정리 범위 확인",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889192594405424",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "MART"
-      ],
-      "created_at": "2026-10-12T23:50:00Z",
-      "status_at": "2026-10-13T02:22:43.881Z"
-    },
-    {
       "id": "slack:1791843273.906169",
       "status": "not_mine",
       "source": "slack",
@@ -431,23 +377,6 @@
         "deadline"
       ],
       "created_at": "2026-10-12T22:17:21Z"
-    },
-    {
-      "id": "slack:1791782763.027349",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "IG 하루 구매 상한 9.7만→2.5만으로 낮추기",
-      "summary": "배경 — 14:26에 바알이 #product에서 Jay에게 IG 이미지 워커 풀(image-worker-instagram-posts)을 24→48로 오늘 안 증설해 달라고 부탁했어. Apify 선결제 소진이 어젯밤 IG 크리에이터 9.7만 명을 한 번에 사서 이미지 묶음 약 4.9만 개가 밀렸고, 풀이 시간당 ~1,200개라 41시간치인데 IG 미디어 링크는 32~36시간이면 만료된대.\n\n14:32 — Jay가 승인하고 본인 계정으로 48 적용 확인. 14:43에 Dagster PR #12174 머지로 다시 24로 돌아갔고, Jay가 crema-config v5(최대 48)로 고쳐 14:58에 48 유지 확인. 10/14 18:00 KST에 v4로 자동 복구 예약.\n\n16:51 — 바알이 Dagster Cloud 환경변수 `PREPAID_BURN_IMAGE_CHUNKS_PER_HOUR_INSTAGRAM=2400`을 10/14 18:00까지 넣어 달라고 부탁(48대 기준 처리량). Jay가 16:56에 넣었고 코드 로케이션 재로드 확인.\n\n17:12 — 바알 확인: 2400 적용 후 IG 구매 재개 시각이 10/13 00:10 KST쯤으로 당겨짐(이전 10/14 19시). 하루 구매 상한 2.5만은 그대로 10/13 00:01부터 적용 예정. 적용되면 스레드에 남기기로 함.\n\n업데이트 — 10/13 00:01 바알이 적용 보고를 스레드에 남김. IG는 지금 2.5만보다 낮은 0(가장 오래 기다린 이미지 작업 12.7시간이라 풀이 따라잡을 때까지 구매 멈춤, 10시간 아래로 내려가면 자동으로 2.5만). TikTok은 비활성 2,045 / 완전체 17,294 적용 확인. 첫 번째 할 일은 끝, 10/14 18:00 확인만 남음.\n\n10:4x — IG 상한 적용·PREPAID_BURN=2400 설정은 완료. 남은 건 10/14 18:00 crema-config v4 복구 때 변수 삭제 확인.\n\n▶ 14:4x 자동 이동 — STORIKA-14276 Done + 10/13 00:01 바알이 IG 하루 구매 상한 2.5만 적용 보고 완료. 10/14 18:00 풀 복구는 Jay 예약 작업.",
-      "액션": "10/14 18:00 crema-config v4 복구 때 PREPAID_BURN=2400 변수도 함께 지워졌는지 확인\n(IG 상한 적용 보고는 10/13 00:01 완료)",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791782763027349?thread_ts=1791782763.027349&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "#product",
-        "Jay"
-      ],
-      "created_at": "2026-10-12T05:33:16Z",
-      "status_at": "2026-10-13T05:43:47Z"
     },
     {
       "id": "slack:1791766942.261219",
@@ -602,22 +531,6 @@
         "jev"
       ],
       "created_at": "2026-10-02T00:49:16.000Z"
-    },
-    {
-      "id": "slack:1790695318",
-      "status": "done",
-      "source": "slack",
-      "title": "Vertex ADC 로그인",
-      "summary": "배경 — 하네스 Gemini 호출을 AI Studio→Vertex AI + 각자 Google 로그인(ADC)으로 옮기는 중이에요 (STORIKA-12329).\n\n왜 — 로컬·터미널 사용자만 ADC를 한 번 잡으면 됩니다.\n\n맥락 — Dongjoo는 Vertex 관리자. ✅/👀 확인은 아직 없음.\n\n21:50 재확인 — 스레드 29개 답글 중 내 답글 없음, 마지막 9/30 14:20 Jay. ADC 완료 흔적 없음. 유지.\n\nLinear(21:55) — STORIKA-12329 Done(담당 Jay, 9/30 02:03 KST). 티켓은 하네스를 서비스 계정 토큰으로 돌리는 내용이라, 내 로컬 ADC 로그인이 아직 필요한지는 불확실. 유지.\n\n▶ 14:4x 자동 이동 — STORIKA-12329 Done(Jay). 하네스는 서비스 계정 토큰(Vertex) 경로로 해결돼 개인 ADC 로그인 액션은 더 이상 필요 없음.",
-      "액션": "터미널에서 실행:\n`gcloud auth application-default login`\n`gcloud auth application-default set-quota-project storika-455708`\n스레드에 완료 한마디",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1790695318544699?thread_ts=1790695318.544699",
-      "tags": [
-        "slack",
-        "gcp",
-        "vertex"
-      ],
-      "created_at": "2026-10-01T23:00:00.000Z",
-      "status_at": "2026-10-13T05:43:47Z"
     },
     {
       "id": "slack:1790801772",

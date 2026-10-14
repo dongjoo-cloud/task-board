@@ -63,6 +63,20 @@
       "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-13#mart-retire": {
+      "status": "done",
+      "at": "2026-10-13T02:22:43.881Z",
+      "archived_at": "2026-10-14T07:31:07.601Z",
+      "title": "데일리 10/13 — MART 은퇴 계획 준비 후 Jay와 확정",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-13#retro-topics": {
+      "status": "done",
+      "at": "2026-10-13T02:22:40.608Z",
+      "archived_at": "2026-10-14T07:31:07.601Z",
+      "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",
@@ -181,6 +195,13 @@
       "archived_at": "2026-10-14T01:10:42.889Z",
       "title": "Grok xAI $300 결제 또 실패 (10/13) — 카드 확인",
       "source": "gmail"
+    },
+    "slack:1790695318": {
+      "status": "done",
+      "at": "2026-10-13T05:43:47.000Z",
+      "archived_at": "2026-10-14T07:31:07.601Z",
+      "title": "Vertex ADC 로그인",
+      "source": "slack"
     },
     "slack:1790877441.863009": {
       "status": "done",
@@ -308,6 +329,13 @@
       "title": "Stripe 로컬 .env를 테스트 키(STRIPE_SECRET_KEY_DEV)로 바로 교체",
       "source": "slack"
     },
+    "slack:1791782763.027349": {
+      "status": "done",
+      "at": "2026-10-13T05:43:47.000Z",
+      "archived_at": "2026-10-14T07:31:07.601Z",
+      "title": "IG 하루 구매 상한 9.7만→2.5만으로 낮추기",
+      "source": "slack"
+    },
     "slack:1791796300.200229": {
       "status": "done",
       "at": "2026-10-12T22:17:21.000Z",
@@ -341,6 +369,13 @@
       "at": "2026-10-13T00:45:19.000Z",
       "archived_at": "2026-10-14T01:10:42.889Z",
       "title": "Jay MART retire brief 확인·답장",
+      "source": "slack"
+    },
+    "slack:1791875200.565349": {
+      "status": "done",
+      "at": "2026-10-13T07:30:28.000Z",
+      "archived_at": "2026-10-14T07:31:07.601Z",
+      "title": "TIPS·KTP 연구장비 표찰 — 노트북에 붙여 증빙 사진 찍기",
       "source": "slack"
     }
   }
