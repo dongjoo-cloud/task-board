@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T01:44:51Z",
+  "updatedAt": "2026-10-14T02:39:52Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
@@ -75,11 +75,11 @@
     },
     {
       "id": "gmail:xai-payment-failed-2026-10-14-0734",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "",
       "title": "Grok xAI $300 결제 또 실패 (10/14 07:34) — 카드 확인",
-      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/14 07:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 직전 실패(10/13 18:34) 카드는 보드에 그대로 둠.",
+      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/14 07:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 직전 실패(10/13 18:34) 카드는 보드에 그대로 둠.\n\n완료 처리 — 10/14 11:36 KST에 Stripe에서 Grok xAI $300 결제 영수증(#2200-2335, Mastercard)이 왔어. 결제가 됐으니 완료로 옮김.",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878975728567967228",
       "tags": [
@@ -88,7 +88,8 @@
         "xai",
         "billing"
       ],
-      "created_at": "2026-10-13T22:38:48Z"
+      "created_at": "2026-10-13T22:38:48Z",
+      "status_at": "2026-10-14T02:39:52Z"
     },
     {
       "id": "slack:1791927028.457509",
@@ -128,11 +129,11 @@
     },
     {
       "id": "gmail:xai-payment-failed-2026-10-13-1834",
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "",
       "title": "Grok xAI $300 결제 또 실패 (10/13 18:34) — 카드 확인",
-      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 18:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 같은 날 새벽(01:34 KST) 실패 카드는 이미 내 업무 아님으로 두었어.",
+      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 18:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 같은 날 새벽(01:34 KST) 실패 카드는 이미 내 업무 아님으로 두었어.\n\n완료 처리 — 10/14 11:36 KST에 Stripe에서 Grok xAI $300 결제 영수증(#2200-2335, Mastercard)이 왔어. 결제가 됐으니 완료로 옮김.",
       "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878926648326646003",
       "tags": [
@@ -141,7 +142,8 @@
         "xai",
         "billing"
       ],
-      "created_at": "2026-10-13T09:59:07Z"
+      "created_at": "2026-10-13T09:59:07Z",
+      "status_at": "2026-10-14T02:39:52Z"
     },
     {
       "id": "slack:1791875200.565349",
