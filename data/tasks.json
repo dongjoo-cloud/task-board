@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-14T03:38:42.000Z",
+  "updatedAt": "2026-10-14T04:09:54.000Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/14 08:40 정기 스크리닝",
+  "subtitle": "10/14 13:09 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:cursor-team-invite-storika-brice-2026-10-14",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Brice Cursor(SpaceXAI) Storika 팀 초대 수락",
+      "summary": "배경 — Brice가 Cursor/SpaceXAI Storika 팀으로 초대를 보냄(10/14 13:06 KST, updates@email.grok.com, [Action required]).\n\n수락 링크는 cursor.com/accept-team-invite (메일 본문 Accept invite). 같은 스레드에 초대 메일 2통(13:06·13:07).",
+      "액션": "메일 링크에서 Storika Cursor 팀 초대 수락\n이미 들어갔으면 카드만 완료 처리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878996570735891382",
+      "tags": [
+        "gmail",
+        "cursor",
+        "invite",
+        "brice"
+      ],
+      "created_at": "2026-10-14T04:06:08Z"
+    },
     {
       "id": "slack:1791947798.833679",
       "status": "done",
