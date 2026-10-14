@@ -7,6 +7,13 @@
       "title": "간트차트 리뷰(10/7 14:00) RSVP",
       "source": "gmail"
     },
+    "gmail:calendar-gantt-review-2026-10-13": {
+      "status": "done",
+      "at": "2026-10-13T00:45:19.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "오늘 11:00 간트차트 리뷰 초대 (Brice) — 참석 응답",
+      "source": "gmail"
+    },
     "gmail:calendar-hoesik-2026-10-28": {
       "status": "done",
       "at": "2026-10-07T04:57:05.590Z",
@@ -105,6 +112,13 @@
       "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
       "source": "gmail"
     },
+    "gmail:ktech-funding-2026-10-12": {
+      "status": "not_mine",
+      "at": "2026-10-13T00:53:53.839Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
+      "source": "gmail"
+    },
     "gmail:maru-headcount": {
       "status": "done",
       "at": "2026-10-01T23:56:42.812Z",
@@ -159,6 +173,13 @@
       "at": "2026-10-11T23:14:57.499Z",
       "archived_at": "2026-10-13T00:34:04.386Z",
       "title": "Grok xAI $300 결제 또 실패 — 카드 확인",
+      "source": "gmail"
+    },
+    "gmail:xai-payment-failed-2026-10-13": {
+      "status": "not_mine",
+      "at": "2026-10-13T00:54:03.431Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "Grok xAI $300 결제 또 실패 (10/13) — 카드 확인",
       "source": "gmail"
     },
     "slack:1790877441.863009": {
@@ -259,6 +280,13 @@
       "title": "내 PR #11802(DB 변경) — no-auto-merge 라벨 붙일지 정하기",
       "source": "slack"
     },
+    "slack:1791763504.860299": {
+      "status": "done",
+      "at": "2026-10-12T22:55:00.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
+      "source": "slack"
+    },
     "slack:1791771216.998529": {
       "status": "done",
       "at": "2026-10-12T06:05:31.000Z",
@@ -273,11 +301,46 @@
       "title": "Jay 요청 — 오래된 PR 3개 정리 (#12121·#12109·#12117)",
       "source": "slack"
     },
+    "slack:1791781155.322559": {
+      "status": "done",
+      "at": "2026-10-12T22:17:21.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "Stripe 로컬 .env를 테스트 키(STRIPE_SECRET_KEY_DEV)로 바로 교체",
+      "source": "slack"
+    },
+    "slack:1791796300.200229": {
+      "status": "done",
+      "at": "2026-10-12T22:17:21.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "릴리스 2a 컷 끝날 때까지 main 직행 머지 잠깐 멈추기",
+      "source": "slack"
+    },
     "slack:1791798457.582279": {
       "status": "done",
       "at": "2026-10-12T12:45:00.000Z",
       "archived_at": "2026-10-13T15:54:04.515Z",
       "title": "릴리스 2a — TikTok Shop 지정 초대 rate limit(429) A/B 판단",
+      "source": "slack"
+    },
+    "slack:1791836088.660669": {
+      "status": "done",
+      "at": "2026-10-12T22:35:25.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "STORIKA-14393 이메일 소스 정리 티켓 초안 — 범위·순서 의견",
+      "source": "slack"
+    },
+    "slack:1791842284.875529": {
+      "status": "done",
+      "at": "2026-10-12T23:33:00.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "MART 은퇴 — 파이프라인 쪽 의견 3가지 답하기",
+      "source": "slack"
+    },
+    "slack:1791850054.295409": {
+      "status": "done",
+      "at": "2026-10-13T00:45:19.000Z",
+      "archived_at": "2026-10-14T01:10:42.889Z",
+      "title": "Jay MART retire brief 확인·답장",
       "source": "slack"
     }
   }

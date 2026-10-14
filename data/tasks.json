@@ -288,42 +288,6 @@
       "created_at": "2026-10-13T00:45:19Z"
     },
     {
-      "id": "slack:1791850054.295409",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "Jay MART retire brief 확인·답장",
-      "summary": "배경 — 09:07 Jay DM. MART retire 관련 정리 자료(mart-retire-brief.html)를 보내며 확인을 부탁했어.\n\n직전에 9시 MART 정지 논의가 있었고, 09:15에 바알이 #product에 은퇴 계획서 v1도 올렸고 Jay가 👍 함.\n\n보드의 MART 은퇴 카드(데일리)와 같은 줄기 — 지금은 Jay brief 확인 답이 먼저.\n\n✅ 09:4x 자동 완료 — 09:15 바알이 #product 계획서 v1에 Jay 브리프 질문 6개 답을 담아 Jay에게 공유했고 Jay가 👍. 남은 수정 논의는 MART 은퇴 카드에서 이어감.",
-      "액션": "Jay DM의 mart-retire-brief.html 읽고 확인·피드백 답장",
-      "link": "https://storika-ai.slack.com/archives/D0A1KE81GJX/p1791850054295409",
-      "tags": [
-        "slack",
-        "DM",
-        "Jay",
-        "MART"
-      ],
-      "created_at": "2026-10-13T00:25:58Z",
-      "status_at": "2026-10-13T00:45:19Z"
-    },
-    {
-      "id": "gmail:calendar-gantt-review-2026-10-13",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "오늘 11:00 간트차트 리뷰 초대 (Brice) — 참석 응답",
-      "summary": "배경 — 08:43에 Brice가 오늘 11:00–11:30 '간트차트 리뷰' 초대를 보냈어(Jay·Don·나). Jay는 이미 수락했고, 내 응답은 아직 없음.\n\n아침 데일리에서 TikTok Shop 작업 누락으로 간트가 밀렸다는 얘기가 나왔고, 10/12 데일리 액션(원래 간트 기준 진행 업데이트)과 이어져.\n\n✅ 09:4x 자동 완료 — 캘린더에서 11:00 간트차트 리뷰 '수락'으로 응답돼 있음.",
-      "액션": "캘린더에서 참석 여부 응답하기\n10/12 간트 진행 업데이트 내용 가져가기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878889479075553967",
-      "tags": [
-        "gmail",
-        "calendar",
-        "brice",
-        "gantt"
-      ],
-      "created_at": "2026-10-12T23:58:00Z",
-      "status_at": "2026-10-13T00:45:19Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-13#retro-topics",
       "status": "done",
       "source": "gmail",
@@ -360,24 +324,6 @@
       "status_at": "2026-10-13T02:22:43.881Z"
     },
     {
-      "id": "gmail:ktech-funding-2026-10-12",
-      "status": "not_mine",
-      "source": "gmail",
-      "priority": "",
-      "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
-      "summary": "배경 — 10/12에 K-테크 파이오니어즈 운영사무국이 지원금 편성·사용 안내를 보냈어(회사 메일).\n\n• 국내유입지원금: 9/30까지 사용분 중 미제출 증빙을 10/30(금)까지 워크스페이스에 월별 업로드.\n• 기술사업화지원금: 총액 변경 신청 11/6(금), 사업내용·사업비 편성 변경 11/27(금).\n• 이미 다 냈거나 사용 내역 없으면 제출 불필요. 기한 내 어렵면 메일로 회신.\n\n10:19 — 내가 보드에서 '내 업무 아님'으로 옮긴 것 반영 (done.json 2026-10-13T00:53Z).",
-      "액션": "미제출 국내유입 증빙 있는지 확인하고 있으면 10/30까지 업로드\n편성·총액 변경이 필요하면 11/6·11/27 마감 전에 신청",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878831083660424970",
-      "tags": [
-        "gmail",
-        "ktech",
-        "funding",
-        "deadline"
-      ],
-      "created_at": "2026-10-12T22:55:00Z",
-      "status_at": "2026-10-13T00:53:53Z"
-    },
-    {
       "id": "slack:1791843273.906169",
       "status": "not_mine",
       "source": "slack",
@@ -397,60 +343,6 @@
       "status_at": "2026-10-13T08:12:58.285Z"
     },
     {
-      "id": "slack:1791842284.875529",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "MART 은퇴 — 파이프라인 쪽 의견 3가지 답하기",
-      "summary": "배경 — 06:58에 Jay가 #product에서 나를 태그해 MART 은퇴 전수 스캔 결과(읽기 전용, 아무것도 중지·삭제 안 함)를 올리고 파이프라인 쪽 의견을 물었어. MART 인스턴스는 월 약 $504, Dagster 컴포넌트 90개 중 80개가 MART를 쓰고, 검색 freshness gate가 MART를 읽어서 끄면 검색이 멈춘대.\n\n질문은 세 개야.\n(a) 파이프라인 상태·원장·워터마크 테이블(apify_run_state, pipeline_orchestration_state, *_pipeline_state, *_batch_state, incremental_sync_watermarks)을 어디로 옮길지 — prod PG, 별도 작은 인스턴스, Spanner 중\n(b) 이미지 워커 풀 4개의 MART 쓰기가 파이프라인 재구성(10043~10048)에 들어가는지\n(c) 순서나 빠진 것\n\nLinear에 새 티켓(STORIKA-14416, 14420 등)이 \"동주의 #product 답 대기\"로 올라와 있어. 전체 보고서는 레포 .runstate/mart-retire-scan-20261012/REPORT.md.\n\n같은 새벽 Jay DM — 06:19에 내가 \"디스커버리에서 마트 은퇴 완료, 안 쓰게 정리해도 된다\"고 했고, 인스턴스를 내려도 되냐는 질문엔 \"혹시 불안해서 하루만 더 확인해보겠다\"고 답함.\n\n▶ 진행 중으로 이동 — 07:26에 바알이 Jay DM에서 어제 \"안 쓰게 정리해도 된다\"는 말은 성급했다고 정정함. 파이프라인 상태(배치 상태·지출 장부·트래커·락)와 API 일부가 아직 MART에 있어서 인스턴스는 지금 내리면 안 되고, 은퇴 계획을 오늘 따로 세워 단계별로 공유하겠다고 함. #product 스레드의 (a)(b)(c) 질문엔 아직 답 없음.\n\n▶ 완료로 이동 — 08:10에 바알이 Jay DM으로 은퇴 방향을 답함: 살아있는 테이블만 새 작은 Postgres(pipeline-pg)로 통째로 옮기고 접속 주소(env)만 교체, 일정은 조사 10/14 → pipeline-pg 10/17 → 주소 교체 10/21 → MART 읽기 전용 10/23 → 정지 10/27 목표. 14416·14422에도 답 댓글 남김. 이제 Jay의 확인 3가지(이 길로 가도 되는지, pipeline-pg 생성 진행, 14422 정지일 10/27) 대기.",
-      "액션": "스레드에 (a) 상태·원장·워터마크 테이블 이전 위치 (b) 이미지 워커 쓰기 포함 여부 (c) 순서·누락 의견 답하기\nJay DM에서 약속한 대로 인스턴스 내려도 되는지 하루 더 확인하고 알려 주기",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791842284875529",
-      "tags": [
-        "slack",
-        "#product",
-        "Jay",
-        "MART"
-      ],
-      "created_at": "2026-10-12T22:17:21Z",
-      "status_at": "2026-10-12T23:33:00Z"
-    },
-    {
-      "id": "slack:1791836088.660669",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "STORIKA-14393 이메일 소스 정리 티켓 초안 — 범위·순서 의견",
-      "summary": "배경 — 05:14에 Jay가 #product에서 나를 태그해 티켓 초안을 공유했어.\n\n파이프라인이 이미 bio·미디어 킷에서 파싱하는 이메일을 MART 대신 앱 DB `creator_contacts`에 바로 쓰는 writer를 하나 추가하는 건이야(멱등 insert, source=bio/media_kit, last_observed_at, MART 이중 쓰기 유지, Spanner 변경 없음). 컬럼 2개는 API 쪽 14390이 먼저 넣는대.\n\n착수는 아직 아니고, 범위·순서를 보고 의견을 달라고 함. 스레드에 아직 답 없음.\n\n✔ 완료로 이동 — 07:30에 바알이 내 이름으로 스레드에 답함: 범위·순서 좋고, 14390 들어가면 파이프라인에서 바로 받겠다. 미디어 킷 이메일도 '연락 가능'으로 세고(파이프라인 쪽 티켓 STORIKA-14429 생성), creator_sync가 MART 프로필에서 읽는 이메일 원본은 MART 은퇴 목록에 넣어 같이 챙기겠다고 함.",
-      "액션": "STORIKA-14393 초안 범위·순서 보고 스레드에 의견 남기기 (14390 선행 순서 포함)",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791836088660669?thread_ts=1791836088.660669&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "#product",
-        "Jay",
-        "STORIKA-14393"
-      ],
-      "created_at": "2026-10-12T22:17:21Z",
-      "status_at": "2026-10-12T22:35:25Z"
-    },
-    {
-      "id": "gmail:xai-payment-failed-2026-10-13",
-      "status": "not_mine",
-      "source": "gmail",
-      "priority": "",
-      "title": "Grok xAI $300 결제 또 실패 (10/13) — 카드 확인",
-      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 01:34 KST). 등록된 신용카드로 청구가 안 됐대.\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 참고로 10/12 실패 카드는 보드에서 내 업무 아님으로 옮겼었어 — 계속 필요 없으면 알려 줘.\n\n10:19 — 내가 보드에서 '내 업무 아님'으로 옮긴 것 반영 (done.json 2026-10-13T00:54Z).",
-      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878862467588856266",
-      "tags": [
-        "gmail",
-        "stripe",
-        "xai",
-        "billing"
-      ],
-      "created_at": "2026-10-12T22:17:21Z",
-      "status_at": "2026-10-13T00:54:03Z"
-    },
-    {
       "id": "gmail:google-agentic-oauth-djs-claude",
       "status": "todo",
       "source": "gmail",
@@ -466,23 +358,6 @@
         "deadline"
       ],
       "created_at": "2026-10-12T22:17:21Z"
-    },
-    {
-      "id": "slack:1791796300.200229",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "릴리스 2a 컷 끝날 때까지 main 직행 머지 잠깐 멈추기",
-      "summary": "배경 — 18:11에 Jay가 #product에서 부탁. 지금 릴리스 2a를 자르는 중인데, main 직행 머지(#12182, 17:05 KST)가 들어올 때마다 dev와 main이 데이터 파이프라인 파일에서 다시 충돌해 back-merge를 한 번 더 돌려야 한대.\n\n2a 컷은 약 1시간, 19:00 KST 전후에 끝날 예정이고 끝나면 Jay가 스레드에 남기기로 함. 이미 머지된 #12182는 Jay 쪽에서 back-merge로 받음.\n\n18:20 — 바알이 Jay에게 알겠다고 답하고 main 직행 머지 멈춤. 18:22 Jay 감사·2a 컷 끝나면 알리겠다고 함.\n\n이동 이유 — 바알이 대신 답했고 머지 중지 중. 2a 컷 끝 알림 오면 재개.\n\n업데이트 — 19:29 2a 코드 결함으로 재컷 결정, prod ETA 계속 밀림. 19:52 바알이 #12198(10/13 08:00 실행 전 필요)만 23:30 KST에 예외 머지하겠다고 함. 20:30 Jay 정정: #12198을 먼저 넣으면 2a 재컷과 충돌하니, 2a가 main에 머지(늦어도 10/13 01:00 KST)됐다고 Jay가 알린 뒤 머지해 달라고 함. 꼭 23:30에 넣어야 하면 스레드에 한 줄 남기면 Jay 쪽이 충돌 해결. 21:45 기준 2a PR #12200·#12198 둘 다 OPEN.\n\nLinear(21:55) — #12198 티켓 STORIKA-13616 In Progress(담당 나). 유지.\n\n이동 이유 — 23:35 KST Jay가 \"2a 완료(main 머지 23:35, prod 배포 완료), main 직행 머지 재개 OK — #12198부터 머지해도 돼요\"라고 남겼고, #12198은 10/13 01:59 KST에 머지됨. 이후 2b 보류(03:48)도 05:00에 해제됨. 할 일 끝.",
-      "액션": "main 직행 머지 중지 유지\n#12198은 23:30에 넣지 말고 Jay의 '2a main 머지' 알림 뒤 머지 (바알에 전달 필요)\n꼭 23:30에 넣어야 하면 스레드에 한 줄 남기기",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791796300200229",
-      "tags": [
-        "slack",
-        "#product",
-        "Jay"
-      ],
-      "created_at": "2026-10-12T09:12:43Z",
-      "status_at": "2026-10-12T22:17:21Z"
     },
     {
       "id": "slack:1791782763.027349",
@@ -502,25 +377,6 @@
       "status_at": "2026-10-13T05:43:47Z"
     },
     {
-      "id": "slack:1791781155.322559",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "Stripe 로컬 .env를 테스트 키(STRIPE_SECRET_KEY_DEV)로 바로 교체",
-      "summary": "배경 — 13:59에 바알이 #product에서 Jay·Don을 태그해 Stripe 라이브 시크릿 키(sk_live) 교체를 부탁했어.\nDJ 맥의 로컬 개발 설정(루트 .env·apps/api/.env.local)에 라이브 키가 들어 있었고, 로컬 API는 라이브 키면 부팅을 거부해서 실행할 때마다 테스트 키로 덮어쓰고 있대.\n\n14:17 — Jay가 접수. 교체는 필요하다고 봤대. 지금 릴리스 2a를 prod에 내보내는 중이라, 그게 끝난 뒤 Jay가 교체 시각을 정해 스레드에 남기겠대. 그전까지 로컬은 테스트 키로 덮어쓰는 방식을 그대로 두고, 라이브 키 값은 올리지 말라고 함.\n\n14:19 — Jay가 정리해 줌.\n• Secret Manager(storika-455708)에 prod는 `STRIPE_SECRET_KEY`(sk_live), 로컬/개발용은 `STRIPE_SECRET_KEY_DEV`(sk_test)로 이미 나뉘어 있음.\n• 로컬 `.env`, `apps/api/.env.local`에는 지금 바로 `STRIPE_SECRET_KEY_DEV` 값(sk_test)만 넣고 sk_live는 지워 달라고 함. 덮어쓰기 우회는 더 이상 필요 없음.\n• 혹시 그 키를 git·셸 히스토리·다른 파일/툴에 복사한 적 있으면 같이 정리.\n• 라이브 키 교체(새 키 발급·Secret Manager 새 버전·prod 재배포·옛 키 폐기)는 Jay가 2a 배포 끝난 뒤에 함. 끝나면 스레드에 알리겠대.\n\n동주 할 일 — 로컬 파일을 테스트 키로 바로 교체(+ 유출 흔적 정리). 라이브 교체는 Jay 담당.\n\n이동 이유 — 바알이 스레드에 \"로컬 정리 끝\"을 남김: 맥북 32곳·맥미니 11곳에서 sk_live를 지우고 STRIPE_SECRET_KEY_DEV(sk_test)로 교체, 다시 확인해 sk_live 남은 파일 0개, 셸 기록에도 없음. 내 몫은 끝났고 라이브 키 교체는 Jay 담당.",
-      "액션": "로컬 루트 .env·apps/api/.env.local에 STRIPE_SECRET_KEY_DEV(sk_test)만 넣고 sk_live 제거\ngit·셸 히스토리 등 복사 흔적 있으면 같이 정리\n(라이브 키 교체·옛 키 폐기는 Jay가 2a 배포 뒤 진행 — 대기)",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791781155322559",
-      "tags": [
-        "slack",
-        "jay",
-        "don",
-        "stripe",
-        "security"
-      ],
-      "created_at": "2026-10-12T05:10:11Z",
-      "status_at": "2026-10-12T22:17:21Z"
-    },
-    {
       "id": "slack:1791766942.261219",
       "status": "todo",
       "source": "slack",
@@ -535,25 +391,6 @@
         "maintenance"
       ],
       "created_at": "2026-10-12T01:05:40Z"
-    },
-    {
-      "id": "slack:1791763504.860299",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
-      "summary": "배경 — Jay가 09:03 KST에 실제 Storika TikTok 샵(\"Storika, Inc.\")을 prod 워크스페이스(org 230, 브랜드 \"Storika\")에 연결했어. 셀러 토큰·샵 바인딩 정상, 액세스 만료 10/19.\n\n그래서 11218(어필리에이트 성과 동기화) prod PR을 이 연결 기준으로 릴리스 2(10/14~15 KST 예정)에 실어 달래.\n\n09:42 — 바알이 11218 dev 반영 완료(#12120 머지, dev 워커 배포 09:40). 10:00 첫 동기화: 샵 2개 오류 없이 읽힘, Dogfood 인증 유지(토큰 10/17까지).\n\n10:05 — Jay 확인: 11218 dev는 끝난 걸로 보고, prod는 릴리스 2에서 org 230 실제 샵 기준으로 켠다.\n\nLinear(21:55) — STORIKA-11218 Todo(담당 나). 유지.\n\n✔ 완료로 이동 — Linear STORIKA-11218 Done(10/13 00:36 KST). release 2a로 prod `TIKTOK_AFFILIATE_SYNC_ENABLED=true` 반영, 첫 정각 동기화(15:00Z) 증거로 Done 처리됨.",
-      "액션": "11218 prod PR을 org 230 실제 샵 기준으로 릴리스 2에 싣기\n릴리스 2 일정·PR 준비 상태를 스레드에 맞추기",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791763504860299?thread_ts=1791714609.174709&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "jay",
-        "release",
-        "STORIKA-11218",
-        "tiktok-shop"
-      ],
-      "created_at": "2026-10-12T00:05:04Z",
-      "status_at": "2026-10-12T22:55:00Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-12#1",
