@@ -123,6 +123,10 @@
     "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
       "status": "in_progress",
       "at": "2026-10-13T22:49:34Z"
+    },
+    "gmail:fathom-daily-2026-10-14#search-outage": {
+      "status": "in_progress",
+      "at": "2026-10-14T00:46:42Z"
     }
   }
 }

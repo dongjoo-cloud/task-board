@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-14T00:02:41Z",
+  "updatedAt": "2026-10-14T00:46:42Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
     {
       "id": "gmail:fathom-daily-2026-10-14#search-outage",
-      "status": "todo",
+      "status": "in_progress",
       "source": "gmail",
       "priority": "new",
       "title": "데일리 10/14 — 검색 장애 수정 확인 → Brice에게 prod QA 알리기",
-      "summary": "배경 — 10/14 아침 데일리에서 Brice가 검색 장애(search outage) 때문에 캠페인 브랜드 웹사이트 쪽이 다시 안 된다고 했고, 내가 '오늘 오후까지는 될 거고 오전에 한 번 더 보겠다'고 답함. Brice는 고쳐지면 prod QA를 하겠다고 함.\n\n참고 — Jay가 08:55 #product에 10065 검색 복구가 들어간 dev→main 릴리스 PR(#12356)을 올리는 중이라고 안내. 머지·서빙 후 확인하면 됨.",
+      "summary": "배경 — 10/14 아침 데일리에서 Brice가 검색 장애(search outage) 때문에 캠페인 브랜드 웹사이트 쪽이 다시 안 된다고 했고, 내가 '오늘 오후까지는 될 거고 오전에 한 번 더 보겠다'고 답함. Brice는 고쳐지면 prod QA를 하겠다고 함.\n\n참고 — Jay가 08:55 #product에 10065 검색 복구가 들어간 dev→main 릴리스 PR(#12356)을 올리는 중이라고 안내. 머지·서빙 후 확인하면 됨.\n\n▶ 09:45 진행 중으로 옮김 — 바알이 08:19 dev 검색 복구를 확인해 Jay 스레드에 남겼고, 08:45 Jay에게 DM으로 해결됐다고 공유함. 다만 prod 반영용 릴리스 #12356은 아직 OPEN(09:42 Jay: 릴리스 QA가 rate limit에 걸려 워크플로 고친 뒤 다시 컷 예정). 서빙되면 Brice에게 prod QA 알리기만 남음.",
       "액션": "오전 중 검색 장애 수정 여부 확인(릴리스 #12356 서빙 후)\n고쳐졌으면 Brice에게 prod QA 해도 된다고 알리기",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878980194685389681",
       "tags": [
@@ -98,7 +98,7 @@
       "source": "slack",
       "priority": "",
       "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
-      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.\n\n▶ 09:22 — Brice(Claude) 스레드 답: Brice 쪽 레인은 이제 draft 없이 리뷰 끝나면 Ready for review로 올림. #12356 머지 뒤부터 적용. DJ #12309·#12302는 여전히 draft(인덱스·캠페인 적재 대기)라 ready 보류 유지.",
+      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.\n\n▶ 09:22 — Brice(Claude) 스레드 답: Brice 쪽 레인은 이제 draft 없이 리뷰 끝나면 Ready for review로 올림. #12356 머지 뒤부터 적용. DJ #12309·#12302는 여전히 draft(인덱스·캠페인 적재 대기)라 ready 보류 유지.\n\n▶ 09:45 — Jay(09:42): 릴리스 QA가 rate limit에 걸려 다시 컷하기로 해서 dev PR arm·머지 보류는 풀림. #12309·#12302는 여전히 draft.",
       "액션": "#12309·#12343: #12346 base 반영 후 키 파일 없는 환경 부팅 검사 → 그다음 ready\n#12302: 리뷰 끝났으면 ready (아니면 draft 유지)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
       "tags": [
