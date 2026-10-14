@@ -63,6 +63,41 @@
       "title": "데일리 10/8 — 새 컴퓨터 오면 Jay에게 알리기",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-08#review-leads": {
+      "status": "done",
+      "at": "2026-10-13T08:13:14.541Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "데일리 10/8 — Dev 디스커버리 새 리드 검토·데이터 품질 검증",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-08#tiktok-test": {
+      "status": "done",
+      "at": "2026-10-13T08:13:12.099Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "데일리 10/8 — Dev에서 TikTok 디스커버리 테스트 → Jay 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-12#1": {
+      "status": "done",
+      "at": "2026-10-13T08:13:06.011Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "데일리 10/12 — 주말 플릿·레인 결과 중간 점검 → Jay·Brice 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-12#2": {
+      "status": "done",
+      "at": "2026-10-13T08:16:15.225Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "데일리 10/12 — 원래 간트 차트 대비 진행률 업데이트",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-12#3": {
+      "status": "done",
+      "at": "2026-10-13T08:16:17.412Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "데일리 10/12 — 7일 무개입 테스트 시작일 앞당기기",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-10-13#mart-retire": {
       "status": "done",
       "at": "2026-10-13T02:22:43.881Z",
@@ -133,6 +168,13 @@
       "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
       "source": "gmail"
     },
+    "gmail:maru-gathering-2026-10-21": {
+      "status": "not_mine",
+      "at": "2026-10-13T07:53:51.442Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "10/21(수) 점심 마루게더링 — 참석 신청 여부 (10/20까지)",
+      "source": "gmail"
+    },
     "gmail:maru-headcount": {
       "status": "done",
       "at": "2026-10-01T23:56:42.812Z",
@@ -201,6 +243,13 @@
       "at": "2026-10-13T05:43:47.000Z",
       "archived_at": "2026-10-14T07:31:07.601Z",
       "title": "Vertex ADC 로그인",
+      "source": "slack"
+    },
+    "slack:1790801772": {
+      "status": "not_mine",
+      "at": "2026-10-13T08:13:18.469Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "TikTok Shop 후속",
       "source": "slack"
     },
     "slack:1790877441.863009": {
@@ -301,6 +350,13 @@
       "title": "내 PR #11802(DB 변경) — no-auto-merge 라벨 붙일지 정하기",
       "source": "slack"
     },
+    "slack:1791585034.022859": {
+      "status": "done",
+      "at": "2026-10-13T08:38:35.142Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
+      "source": "slack"
+    },
     "slack:1791763504.860299": {
       "status": "done",
       "at": "2026-10-12T22:55:00.000Z",
@@ -364,11 +420,32 @@
       "title": "MART 은퇴 — 파이프라인 쪽 의견 3가지 답하기",
       "source": "slack"
     },
+    "slack:1791843273.906169": {
+      "status": "not_mine",
+      "at": "2026-10-13T08:12:58.285Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "Apify 사용처는 Don 것 — 지출 관리(spend gate)에 Don 소유로 등록",
+      "source": "slack"
+    },
     "slack:1791850054.295409": {
       "status": "done",
       "at": "2026-10-13T00:45:19.000Z",
       "archived_at": "2026-10-14T01:10:42.889Z",
       "title": "Jay MART retire brief 확인·답장",
+      "source": "slack"
+    },
+    "slack:1791861911.300429": {
+      "status": "not_mine",
+      "at": "2026-10-13T08:12:46.726Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "PR #12271 머지 후 — source-read 동작·절감 검증",
+      "source": "slack"
+    },
+    "slack:1791865502.075799": {
+      "status": "not_mine",
+      "at": "2026-10-13T08:12:09.184Z",
+      "archived_at": "2026-10-14T13:38:41.735Z",
+      "title": "PR #12265 머지 후 — 라벨 동작 검증",
       "source": "slack"
     },
     "slack:1791875200.565349": {
