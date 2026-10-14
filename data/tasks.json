@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-14T01:12:00Z",
+  "updatedAt": "2026-10-14T01:20:14Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
     {
       "id": "slack:1791938954.525909",
-      "status": "todo",
+      "status": "in_progress",
       "source": "slack",
       "priority": "new",
       "title": "REGAL(regal.ai) 아웃바운드용 크리에이터 5명 뽑기 — Don 요청",
-      "summary": "배경 — Don이 #business-development에서 나를 멘션(10/14 09:49 KST). REGAL(regal.ai / Eliza Loftus)이 \"sure send me 5 creators\"로 답했고, Brice가 10/14에 5명 보내겠다고 답장해 둔 상태.\n\n오디언스는 mid-market·enterprise B2C 회사의 contact center 리더. ISOI에 @storika.ai로 보냈던 크리에이터 리스트 패킷과 비슷한 포맷으로, 계정별 fit 이유를 짧게 달아 주면 Don이 바로 메일을 돌림.\n\n▶ 09:50 — Don 추가: 이번 건은 Instagram + TikTok 크리에이터만(LinkedIn·YouTube 제외).",
+      "summary": "배경 — Don이 #business-development에서 나를 멘션(10/14 09:49 KST). REGAL(regal.ai / Eliza Loftus)이 \"sure send me 5 creators\"로 답했고, Brice가 10/14에 5명 보내겠다고 답장해 둔 상태.\n\n오디언스는 mid-market·enterprise B2C 회사의 contact center 리더. ISOI에 @storika.ai로 보냈던 크리에이터 리스트 패킷과 비슷한 포맷으로, 계정별 fit 이유를 짧게 달아 주면 Don이 바로 메일을 돌림.\n\n▶ 09:50 — Don 추가: 이번 건은 Instagram + TikTok 크리에이터만(LinkedIn·YouTube 제외).\n\n상태: 👀 반응으로 진행 중으로 이동 (10/14 10분 체크).",
       "액션": "IG·TikTok 크리에이터 5명 선정 + 각 fit 이유 한 줄 → 스레드에 회신 (가능하면 다음 영업일 KST까지)",
       "link": "https://storika-ai.slack.com/archives/C0ADV86E07R/p1791938954525909",
       "tags": [
