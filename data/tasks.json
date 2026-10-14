@@ -1,15 +1,32 @@
 {
-  "updatedAt": "2026-10-14T02:39:52Z",
+  "updatedAt": "2026-10-14T03:30:38Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
     {
+      "id": "slack:1791947798.833679",
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "title": "Jay PR 규칙 변경 — 내 PR 7건 ready+arm / no-auto-merge 라벨 구분해서 알려주기 (내일 오전 전)",
+      "summary": "배경 — Jay가 #product에서 나를 멘션(10/14 12:16 KST). 새 규칙: 열린 PR은 전부 ready + auto-merge ON, 머지를 막고 싶으면 draft 대신 `no-auto-merge` 라벨. Brice 쪽 draft 20건은 이미 ready+arm 처리됨.\n\n왜 — 내 PR 7건(#12302 #12309 #12343, main 대상 #12252 #12313 #12351 #12361)은 '조건 대기'라 아직 안 건드렸다고 함. 답이 없으면 내일 오전에 전부 ready+arm 함.\n\n참고 — 기존 카드 기준 #12309는 D2 적재 결정(10/15) 전, #12302는 14418 2차 결정 전이라 머지되면 안 되는 쪽.",
+      "액션": "7건 중 지금 ready+arm 해도 되는 것과 no-auto-merge 라벨로 잡아둘 것 구분\n→ Jay 스레드에 회신 (내일 오전 전)",
+      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791947798833679",
+      "tags": [
+        "slack",
+        "jay",
+        "pr",
+        "github"
+      ],
+      "created_at": "2026-10-14T03:16:38Z"
+    },
+    {
       "id": "slack:1791938954.525909",
-      "status": "in_progress",
+      "status": "done",
       "source": "slack",
       "priority": "new",
       "title": "REGAL(regal.ai) 아웃바운드용 크리에이터 5명 뽑기 — Don 요청",
-      "summary": "배경 — Don이 #business-development에서 나를 멘션(10/14 09:49 KST). REGAL(regal.ai / Eliza Loftus)이 \"sure send me 5 creators\"로 답했고, Brice가 10/14에 5명 보내겠다고 답장해 둔 상태.\n\n오디언스는 mid-market·enterprise B2C 회사의 contact center 리더. ISOI에 @storika.ai로 보냈던 크리에이터 리스트 패킷과 비슷한 포맷으로, 계정별 fit 이유를 짧게 달아 주면 Don이 바로 메일을 돌림.\n\n▶ 09:50 — Don 추가: 이번 건은 Instagram + TikTok 크리에이터만(LinkedIn·YouTube 제외).\n\n상태: 👀 반응으로 진행 중으로 이동 (10/14 10분 체크).",
+      "summary": "배경 — Don이 #business-development에서 나를 멘션(10/14 09:49 KST). REGAL(regal.ai / Eliza Loftus)이 \"sure send me 5 creators\"로 답했고, Brice가 10/14에 5명 보내겠다고 답장해 둔 상태.\n\n오디언스는 mid-market·enterprise B2C 회사의 contact center 리더. ISOI에 @storika.ai로 보냈던 크리에이터 리스트 패킷과 비슷한 포맷으로, 계정별 fit 이유를 짧게 달아 주면 Don이 바로 메일을 돌림.\n\n▶ 09:50 — Don 추가: 이번 건은 Instagram + TikTok 크리에이터만(LinkedIn·YouTube 제외).\n\n상태: 👀 반응으로 진행 중으로 이동 (10/14 10분 체크).\n\n▶ 12:22 — 내가 스레드에 1차 후보 리스트 공유(IG 5명·TikTok 5명 탭, 중복 2명이라 총 8명, 프로필 링크·팔로워·fit 이유·협업 사례 포함). Don 피드백 대기 → 완료로 이동.",
       "액션": "IG·TikTok 크리에이터 5명 선정 + 각 fit 이유 한 줄 → 스레드에 회신 (가능하면 다음 영업일 KST까지)",
       "link": "https://storika-ai.slack.com/archives/C0ADV86E07R/p1791938954525909",
       "tags": [
@@ -18,7 +35,8 @@
         "bd",
         "regal"
       ],
-      "created_at": "2026-10-14T00:49:14Z"
+      "created_at": "2026-10-14T00:49:14Z",
+      "status_at": "2026-10-14T03:30:38.000Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-14#search-outage",
@@ -116,7 +134,7 @@
       "source": "slack",
       "priority": "",
       "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
-      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.\n\n▶ 09:22 — Brice(Claude) 스레드 답: Brice 쪽 레인은 이제 draft 없이 리뷰 끝나면 Ready for review로 올림. #12356 머지 뒤부터 적용. DJ #12309·#12302는 여전히 draft(인덱스·캠페인 적재 대기)라 ready 보류 유지.\n\n▶ 09:45 — Jay(09:42): 릴리스 QA가 rate limit에 걸려 다시 컷하기로 해서 dev PR arm·머지 보류는 풀림. #12309·#12302는 여전히 draft.\n\n▶ 10:02 — 바알이 내 이름으로 Jay에게 스레드 답: 두 PR은 조건 대기 드래프트. #12309는 Spanner 캠페인 크리에이터 적재(D2) 뒤 머지(적재 결정 10/15까지), #12302는 14418 2차 결정 뒤 ready. 그 전엔 ready 안 올림. 모듈 이동 PR은 ready 전에 키 파일 없는 환경 부팅 검사 넣음.\n→ 답은 나갔고 조건 대기 중이라 진행 중으로 옮김.",
+      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.\n\n▶ 09:22 — Brice(Claude) 스레드 답: Brice 쪽 레인은 이제 draft 없이 리뷰 끝나면 Ready for review로 올림. #12356 머지 뒤부터 적용. DJ #12309·#12302는 여전히 draft(인덱스·캠페인 적재 대기)라 ready 보류 유지.\n\n▶ 09:45 — Jay(09:42): 릴리스 QA가 rate limit에 걸려 다시 컷하기로 해서 dev PR arm·머지 보류는 풀림. #12309·#12302는 여전히 draft.\n\n▶ 10:02 — 바알이 내 이름으로 Jay에게 스레드 답: 두 PR은 조건 대기 드래프트. #12309는 Spanner 캠페인 크리에이터 적재(D2) 뒤 머지(적재 결정 10/15까지), #12302는 14418 2차 결정 뒤 ready. 그 전엔 ready 안 올림. 모듈 이동 PR은 ready 전에 키 파일 없는 환경 부팅 검사 넣음.\n→ 답은 나갔고 조건 대기 중이라 진행 중으로 옮김.\n\n▶ 12:16 — Jay가 #product에 PR 운영 규칙 변경 공지(열린 PR은 전부 ready+auto-merge, 막을 건 no-auto-merge 라벨). 내 PR 7건 처리 요청은 별도 카드로 뺐어(slack:1791947798.833679).",
       "액션": "#12309: D2 적재 결정(10/15까지) 뒤 부팅 검사 → ready\n#12302: 14418 2차 결정 뒤 ready",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
       "tags": [
