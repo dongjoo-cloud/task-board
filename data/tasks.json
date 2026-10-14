@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-10-14T03:30:38Z",
+  "updatedAt": "2026-10-14T03:38:42.000Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/14 08:40 정기 스크리닝",
   "tasks": [
     {
       "id": "slack:1791947798.833679",
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "new",
       "title": "Jay PR 규칙 변경 — 내 PR 7건 ready+arm / no-auto-merge 라벨 구분해서 알려주기 (내일 오전 전)",
-      "summary": "배경 — Jay가 #product에서 나를 멘션(10/14 12:16 KST). 새 규칙: 열린 PR은 전부 ready + auto-merge ON, 머지를 막고 싶으면 draft 대신 `no-auto-merge` 라벨. Brice 쪽 draft 20건은 이미 ready+arm 처리됨.\n\n왜 — 내 PR 7건(#12302 #12309 #12343, main 대상 #12252 #12313 #12351 #12361)은 '조건 대기'라 아직 안 건드렸다고 함. 답이 없으면 내일 오전에 전부 ready+arm 함.\n\n참고 — 기존 카드 기준 #12309는 D2 적재 결정(10/15) 전, #12302는 14418 2차 결정 전이라 머지되면 안 되는 쪽.",
+      "summary": "배경 — Jay가 #product에서 나를 멘션(10/14 12:16 KST). 새 규칙: 열린 PR은 전부 ready + auto-merge ON, 머지를 막고 싶으면 draft 대신 `no-auto-merge` 라벨. Brice 쪽 draft 20건은 이미 ready+arm 처리됨.\n\n왜 — 내 PR 7건(#12302 #12309 #12343, main 대상 #12252 #12313 #12351 #12361)은 '조건 대기'라 아직 안 건드렸다고 함. 답이 없으면 내일 오전에 전부 ready+arm 함.\n\n참고 — 기존 카드 기준 #12309는 D2 적재 결정(10/15) 전, #12302는 14418 2차 결정 전이라 머지되면 안 되는 쪽.\n\n결과 — 12:33 바알이 스레드에 회신(7건 전부 ready + no-auto-merge, 조건 풀리면 라벨 떼고 arm). 12:38 Jay 확인: 그쪽에선 안 건드림.",
       "액션": "7건 중 지금 ready+arm 해도 되는 것과 no-auto-merge 라벨로 잡아둘 것 구분\n→ Jay 스레드에 회신 (내일 오전 전)",
       "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791947798833679",
       "tags": [
@@ -18,7 +18,8 @@
         "pr",
         "github"
       ],
-      "created_at": "2026-10-14T03:16:38Z"
+      "created_at": "2026-10-14T03:16:38Z",
+      "status_at": "2026-10-14T03:38:42.000Z"
     },
     {
       "id": "slack:1791938954.525909",
