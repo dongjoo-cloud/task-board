@@ -1,8 +1,42 @@
 {
-  "updatedAt": "2026-10-14T23:21:59Z",
+  "updatedAt": "2026-10-14T23:50:30Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/15 08:22 10분 체크",
+  "subtitle": "10/15 08:50 정기 스캔",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-15#pipeline-appdb",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/15 — 이메일 디스커버리 created_at 추가 + 파이프라인 앱 DB 전환·24시간 가동",
+      "summary": "배경 — 데일리에서 파이프라인(이메일 데이터)을 앱 DB로 옮기는 중이라고 공유. 약 1주 걸리고 데이터마트는 10/31까지 끝낼 계획.\n\n회의록 액션 — 이메일 디스커버리에 created_at 추가하고 파이프라인이 앱 DB를 쓰게 바꾸기, 파이프라인을 하루 24시간 돌려서 검증을 앞당기기.\n\n관련 카드 — 데일리 10/14 'creator_emails 테이블 확인'·'MART·중단 정리 1주 앞당기기'와 이어짐.",
+      "액션": "이메일 디스커버리에 created_at 추가\n파이프라인을 앱 DB 쓰도록 전환(약 1주)\n파이프라인 24시간 가동으로 검증 앞당기기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879070627387096624",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "pipeline"
+      ],
+      "created_at": "2026-10-14T23:50:30Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-15#gcp-cost",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/15 — GCP 결제 알림(Storika Korea·Vertical AI) + 비용 보고서·비용 표 세팅",
+      "summary": "배경 — 데일리(25분)에서 Jay가 Storika Korea·Vertical AI GCP 계정 관리자 권한을 나한테 줌. Storika Korea는 정부 보조금(KTP)에 묶여 있어서 예산을 넘으면 계획을 고쳐야 하고, 넘치는 비용은 Vertical AI가 흡수함. 목표는 월 $3,000 이하, 지금은 하루 약 $150. 큰 비용은 BigQuery, Gemini 추론, 호스팅(Mart·Postgres).\n\n회의록 액션 — 비용 스파이크를 잡을 봇 비용 보고서(회의록 표기 'Groupbot') 세팅, 비용 표 유지, 두 계정 결제 알림 설정, 비용 합산과 기준선·Epify당 비용 추정.\n\n관련 카드 — Weekly Sync 10/13 'BigQuery 비용 급증 점검'(진행 중)과 이어짐.",
+      "액션": "Storika Korea·Vertical AI GCP 결제(예산) 알림 설정\n봇 비용 보고서 세팅 + 비용 표 유지, 스파이크 모니터링\n두 계정 비용 합산하고 기준선·Epify당 비용 추정",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879070627387096624",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "gcp-cost"
+      ],
+      "created_at": "2026-10-14T23:50:30Z"
+    },
     {
       "id": "slack:1792012953.826879",
       "status": "in_progress",
