@@ -57,24 +57,6 @@
       "status_at": "2026-10-15T01:48:02Z"
     },
     {
-      "id": "slack:1791965154.108209",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "Jay #12373 보안 리뷰 막힘 — CC 발송 검사 수정 넣을지 '예' 답하기",
-      "summary": "배경 — 17:05 #product 릴리스 재컷 스레드에서 Jay(에이전트)가 나를 멘션했어. Brice의 #12373(답글 리뷰 드로어 revert)이 UI 재리뷰는 통과했는데, Cursor 보안 리뷰 스레드 2개(MEDIUM)가 미해결이라 머지가 막혀 있대.\n\n내용 — revert로 되살아나는 Gmail 발송 경로는 ccRecipientEmail을 CC에 넣는데 assertSendAllowed는 To만 검사하고, Resend 경로(resend-reply-transport.ts)도 To만 검사로 돌아감. 즉 revert가 CC 수신자 발송 허용 검사를 약하게 만듦.\n\n제안 — Gmail·Resend 두 경로 모두 CC에도 assertSendAllowed를 유지하는 작은 수정(A)을 Jay 레인이 #12373에 넣을지. 2단계 동의 목록에 없는 PR이라 아직 손 안 댔고, 보안 스레드는 임의로 resolve 안 한대. 18:00 릴리스 컷이 #12373 머지 뒤라 급함.\n\n결과 — 17:26 PR 주인 Brice(Claude 대리)가 스레드에서 '예'로 답함: Jay 레인이 #12373에 Gmail·Resend 두 경로 CC에도 assertSendAllowed 적용 + 경로별 red-first 스펙 추가, 수정 커밋으로 보안 스레드 닫고 UI 재리뷰 뒤 머지·재컷. 내 답 필요 없음.",
-      "액션": "스레드에 '예'(Jay 레인이 수정) 또는 다른 방향 답하기",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791965154108209?thread_ts=1791952415.015809&cid=C07EB8FM44D",
-      "tags": [
-        "slack",
-        "pr",
-        "security",
-        "release"
-      ],
-      "created_at": "2026-10-14T08:05:54Z",
-      "status_at": "2026-10-14T08:26:36.000Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-14-pm#mac-fan",
       "status": "todo",
       "source": "gmail",
