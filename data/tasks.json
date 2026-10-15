@@ -92,24 +92,6 @@
       "created_at": "2026-10-14T06:58:00Z"
     },
     {
-      "id": "slack:1791958595.817119",
-      "status": "done",
-      "source": "slack",
-      "priority": "new",
-      "title": "Jay 미디어킷 질문 — 수신 거부 크리에이터 답장 속 단가 저장할지 (a)/(b) 의견 주기",
-      "summary": "배경 — Jay가 #product에서 Brice와 나한테 의견 부탁(10/14 15:16 KST). STORIKA-12890(미디어킷 답장에서 희망 단가 뽑기) 작업 중, 이미 '미디어킷 수신 거부'로 표시된 스레드에 크리에이터가 다시 답장했고 거기 단가가 들어 있는 경우가 정책에 없음.\n\n선택지 — (a) 단가 저장(크리에이터가 직접 보낸 구속력 없는 희망가니까). (b) 수신 거부 크리에이터 답장은 단가 추출 건너뛰고 아무것도 저장 안 함(처리 완료 표시만).\n\nJay 권고는 (b): 수신 거부는 '이 크리에이터 답장은 더 안 쓴다'는 뜻이고, 사람 답장이 오면 후속 메일을 멈추는 현재 정책과도 맞음. 답 올 때까지 레인은 (b)로 만들고, (a)로 정하면 한 줄만 바꾼대.\n\n결과 — 15:19 Jay가 스레드에서 직접 (a)로 결정: 수신 거부 크리에이터 답장 속 단가도 추출해서 저장(수신 거부는 발송 중단만 뜻함). 레인 반영·결정 기록 완료라 내 답 필요 없음.",
-      "액션": "(a) 저장 / (b) 건너뛰기 중 골라 Jay 스레드에 답하기 (Jay 권고 (b))",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791958595817119",
-      "tags": [
-        "slack",
-        "jay",
-        "media-kit",
-        "STORIKA-12890"
-      ],
-      "created_at": "2026-10-14T06:16:35Z",
-      "status_at": "2026-10-14T06:19:02.000Z"
-    },
-    {
       "id": "gmail:cursor-team-invite-storika-brice-2026-10-14",
       "status": "todo",
       "source": "gmail",
@@ -125,24 +107,6 @@
         "brice"
       ],
       "created_at": "2026-10-14T04:06:08Z"
-    },
-    {
-      "id": "slack:1791947798.833679",
-      "status": "done",
-      "source": "slack",
-      "priority": "new",
-      "title": "Jay PR 규칙 변경 — 내 PR 7건 ready+arm / no-auto-merge 라벨 구분해서 알려주기 (내일 오전 전)",
-      "summary": "배경 — Jay가 #product에서 나를 멘션(10/14 12:16 KST). 새 규칙: 열린 PR은 전부 ready + auto-merge ON, 머지를 막고 싶으면 draft 대신 `no-auto-merge` 라벨. Brice 쪽 draft 20건은 이미 ready+arm 처리됨.\n\n왜 — 내 PR 7건(#12302 #12309 #12343, main 대상 #12252 #12313 #12351 #12361)은 '조건 대기'라 아직 안 건드렸다고 함. 답이 없으면 내일 오전에 전부 ready+arm 함.\n\n참고 — 기존 카드 기준 #12309는 D2 적재 결정(10/15) 전, #12302는 14418 2차 결정 전이라 머지되면 안 되는 쪽.\n\n결과 — 12:33 바알이 스레드에 회신(7건 전부 ready + no-auto-merge, 조건 풀리면 라벨 떼고 arm). 12:38 Jay 확인: 그쪽에선 안 건드림.",
-      "액션": "7건 중 지금 ready+arm 해도 되는 것과 no-auto-merge 라벨로 잡아둘 것 구분\n→ Jay 스레드에 회신 (내일 오전 전)",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791947798833679",
-      "tags": [
-        "slack",
-        "jay",
-        "pr",
-        "github"
-      ],
-      "created_at": "2026-10-14T03:16:38Z",
-      "status_at": "2026-10-14T03:38:42.000Z"
     },
     {
       "id": "slack:1791938954.525909",
@@ -217,24 +181,6 @@
       "status_at": "2026-10-14T23:21:59Z"
     },
     {
-      "id": "gmail:xai-payment-failed-2026-10-14-0734",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "Grok xAI $300 결제 또 실패 (10/14 07:34) — 카드 확인",
-      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/14 07:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 직전 실패(10/13 18:34) 카드는 보드에 그대로 둠.\n\n완료 처리 — 10/14 11:36 KST에 Stripe에서 Grok xAI $300 결제 영수증(#2200-2335, Mastercard)이 왔어. 결제가 됐으니 완료로 옮김.",
-      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878975728567967228",
-      "tags": [
-        "gmail",
-        "stripe",
-        "xai",
-        "billing"
-      ],
-      "created_at": "2026-10-13T22:38:48Z",
-      "status_at": "2026-10-14T02:39:52Z"
-    },
-    {
       "id": "slack:1791921623.197719",
       "status": "in_progress",
       "source": "slack",
@@ -250,24 +196,6 @@
         "github"
       ],
       "created_at": "2026-10-13T22:05:49Z"
-    },
-    {
-      "id": "gmail:xai-payment-failed-2026-10-13-1834",
-      "status": "done",
-      "source": "gmail",
-      "priority": "",
-      "title": "Grok xAI $300 결제 또 실패 (10/13 18:34) — 카드 확인",
-      "summary": "배경 — Stripe에서 \"Grok xAI $300 결제가 또 실패했다\"는 새 메일이 왔어(10/13 18:34 KST).\n\n새 실패 메일이 올 때만 다시 알려 주기로 한 규칙에 따라 올림. 같은 날 새벽(01:34 KST) 실패 카드는 이미 내 업무 아님으로 두었어.\n\n완료 처리 — 10/14 11:36 KST에 Stripe에서 Grok xAI $300 결제 영수증(#2200-2335, Mastercard)이 왔어. 결제가 됐으니 완료로 옮김.",
-      "액션": "결제 카드(한도·만료·해외결제) 확인하거나 xAI 결제 수단 바꾸기\n아직 못 하면 다음 실패 메일 때 다시 알림",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878926648326646003",
-      "tags": [
-        "gmail",
-        "stripe",
-        "xai",
-        "billing"
-      ],
-      "created_at": "2026-10-13T09:59:07Z",
-      "status_at": "2026-10-14T02:39:52Z"
     },
     {
       "id": "gmail:fathom-weekly-sync-2026-10-13#mart-execute",

@@ -238,6 +238,20 @@
       "title": "Grok xAI $300 결제 또 실패 (10/13) — 카드 확인",
       "source": "gmail"
     },
+    "gmail:xai-payment-failed-2026-10-13-1834": {
+      "status": "done",
+      "at": "2026-10-14T02:39:52.000Z",
+      "archived_at": "2026-10-15T07:21:27.185Z",
+      "title": "Grok xAI $300 결제 또 실패 (10/13 18:34) — 카드 확인",
+      "source": "gmail"
+    },
+    "gmail:xai-payment-failed-2026-10-14-0734": {
+      "status": "done",
+      "at": "2026-10-14T02:39:52.000Z",
+      "archived_at": "2026-10-15T07:21:27.185Z",
+      "title": "Grok xAI $300 결제 또 실패 (10/14 07:34) — 카드 확인",
+      "source": "gmail"
+    },
     "slack:1790695318": {
       "status": "done",
       "at": "2026-10-13T05:43:47.000Z",
@@ -460,6 +474,20 @@
       "at": "2026-10-13T23:32:17.000Z",
       "archived_at": "2026-10-15T01:25:29.050Z",
       "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
+      "source": "slack"
+    },
+    "slack:1791947798.833679": {
+      "status": "done",
+      "at": "2026-10-14T03:38:42.000Z",
+      "archived_at": "2026-10-15T07:21:27.185Z",
+      "title": "Jay PR 규칙 변경 — 내 PR 7건 ready+arm / no-auto-merge 라벨 구분해서 알려주기 (내일 오전 전)",
+      "source": "slack"
+    },
+    "slack:1791958595.817119": {
+      "status": "done",
+      "at": "2026-10-14T06:19:02.000Z",
+      "archived_at": "2026-10-15T07:21:27.185Z",
+      "title": "Jay 미디어킷 질문 — 수신 거부 크리에이터 답장 속 단가 저장할지 (a)/(b) 의견 주기",
       "source": "slack"
     }
   }
