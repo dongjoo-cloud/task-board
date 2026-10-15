@@ -1,8 +1,60 @@
 {
-  "updatedAt": "2026-10-15T22:11:30Z",
+  "updatedAt": "2026-10-15T23:46:30Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/16 07:11 10분 체크",
+  "subtitle": "10/16 08:46 정기 스캔",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-16#dexter-automerge",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/16 — Dexter auto-merge를 main으로 설정",
+      "summary": "배경 — 10/16 아침 daily(30분, Fathom 요약 08:45 수신)에서 웹 앱 개발을 멈추고 MCP(Minimum Creator Product)에 집중하기로 범위를 재조정함.\n\n회의록 액션 — Fathom 액션 아이템에 'Set Dexter auto-merge to main'이 내 몫으로 잡힘. 같은 회의에서 Jay가 티켓 머지 시간을 200분에서 67분으로 줄였다고 공유.\n\n참고 — 회의록 표기를 그대로 옮김(Dexter가 무엇을 가리키는지는 회의 녹화로 확인).",
+      "액션": "Dexter auto-merge 대상을 main으로 설정\n설정 끝나면 카드 완료 처리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879161384534628848",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "merge"
+      ],
+      "created_at": "2026-10-15T23:46:30Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-16#refactor-strategy",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/16 — 모노레포 리팩토링(fork vs delete vs swap) AI에 묻고 추천안 #product 공유",
+      "summary": "배경 — 10/16 아침 daily(30분, Fathom 요약 08:45 수신)에서 웹 앱 개발을 멈추고 MCP(Minimum Creator Product)에 집중하기로 범위를 재조정함.\n\n논의 — 모노레포 컨텍스트 오염 때문에 리팩토링 필요. 옵션 1은 MCP 관련 코드(20–30%)만 포크, 옵션 2는 '웹 VT' 새 디렉토리에서 MCP를 만든 뒤 기존 웹 앱을 대체.\n\n회의록 액션 — 나와 Brice 둘 다 'AI에 fork vs delete vs swap 물어보고 추천안을 product 채널에 공유'가 잡힘(Brice는 Dot에 문의). 모두 오늘 안에 리팩토링 전략을 최종 결정하고 프로젝트 간트를 업데이트하기로 함.",
+      "액션": "AI에 fork / delete / swap 비교 물어보기\n추천안을 #product에 공유\n오늘 리팩토링 전략 확정 후 간트 업데이트",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879161384534628848",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "refactor",
+        "today"
+      ],
+      "created_at": "2026-10-15T23:46:30Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-16#rubric-pipeline",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/16 — Jay 크리에이터 평가 루브릭 나오면 MCP 파이프라인 재정비",
+      "summary": "배경 — 10/16 아침 daily(30분, Fathom 요약 08:45 수신)에서 웹 앱 개발을 멈추고 MCP(Minimum Creator Product)에 집중하기로 범위를 재조정함.\n\n논의 — 크리에이터 발굴용 새 LLM 평가 루브릭 도입. 하드 게이트(국가, 언어, 성인 콘텐츠, 혐오 발언) + 정량(카테고리 적합성, 팔로워 참여도) + 정성(브랜드 톤 적합성).\n\n회의록 액션 — Jay가 루브릭을 product 채널에 먼저 공유하고, 그다음 내가 루브릭에 맞춰 MCP 파이프라인을 정비(하드 게이트 통과한 크리에이터 우선). 회의에서 파이프라인 티켓 37/44(84%) 완료 공유.\n\n관련 카드 — 데일리 10/15 '파이프라인 앱 DB 전환·24시간 가동'과 이어짐.",
+      "액션": "Jay 루브릭 #product 공유 기다리기\n루브릭 기준으로 MCP 파이프라인 정비(하드 게이트 통과 크리에이터 우선)",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879161384534628848",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "pipeline"
+      ],
+      "created_at": "2026-10-15T23:46:30Z"
+    },
     {
       "id": "gmail:gcp-billing-overdue-0194FA-2026-10-15",
       "status": "todo",
