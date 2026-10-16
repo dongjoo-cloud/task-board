@@ -12,6 +12,10 @@
       "status": "in_progress",
       "at": "2026-10-13T22:49:34Z"
     },
+    "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
+      "status": "done",
+      "at": "2026-10-16T05:57:42.825Z"
+    },
     "slack:1791750707.489299": {
       "status": "in_progress",
       "at": "2026-10-12T00:14:22Z"
@@ -23,10 +27,6 @@
     "slack:1791938954.525909": {
       "status": "in_progress",
       "at": "2026-10-14T01:20:14Z"
-    },
-    "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
-      "status": "done",
-      "at": "2026-10-16T05:11:48Z"
     }
   }
 }
