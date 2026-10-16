@@ -4,6 +4,10 @@
       "status": "done",
       "at": "2026-10-16T05:59:43.405Z"
     },
+    "gmail:fathom-daily-2026-10-14#creator-emails": {
+      "status": "done",
+      "at": "2026-10-16T05:59:46.341Z"
+    },
     "gmail:fathom-daily-2026-10-14#mart-accelerate": {
       "status": "done",
       "at": "2026-10-16T05:58:13.928Z"
@@ -31,6 +35,10 @@
     "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
       "status": "done",
       "at": "2026-10-16T05:58:17.451Z"
+    },
+    "gmail:fathom-weekly-sync-2026-10-13#gantt-rollup": {
+      "status": "done",
+      "at": "2026-10-16T05:59:48.445Z"
     },
     "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
       "status": "done",
