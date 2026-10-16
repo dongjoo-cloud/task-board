@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-16T02:02:43Z",
+  "updatedAt": "2026-10-16T02:53:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/16 11:02 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:linear-STORIKA-10054-date-check-2026-10-16",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "",
+      "title": "STORIKA-10054 마감(10/27)과 MART 은퇴 일정 안 맞음 — 테이블 drop 12/3로 분리할지 마감 옮길지 정하기",
+      "summary": "배경 — Brice J Lee 계정으로 STORIKA-10054에 'Date check (Board)' 댓글이 달렸어(10:51 KST, 메일 알림 11:51). 오늘 10:28 #product에서 바꾼 MART 은퇴 일정(10/22 이전, 10/25 복사 중단, 10/26 읽기 전용, 11/3 정지, 12/3 삭제, Jay OK 10:33)과 티켓을 맞춰 봤대.\n\n복사 레인 중단은 10/27 마감에 맞지만, 범위에 있는 '미러 테이블 drop'은 12/3 삭제 일정이라 10/27까지는 안 맞음. 11/3까지는 MART를 읽는 곳이 남아 있을 수 있음. 담당자(나)한테 계획 확인 요청, 티켓은 안 바꿨대.",
+      "액션": "STORIKA-10054에서 drop 부분을 12/3로 분리할지, 마감일을 옮길지 정해서 티켓에 답하기",
+      "link": "https://linear.app/storika/issue/STORIKA-10054/stop-the-mart-copy-lanes-and-drop-the-post-and-profile-mirror-tables",
+      "tags": [
+        "gmail",
+        "Linear",
+        "Brice",
+        "MART"
+      ],
+      "created_at": "2026-10-16T01:51:16Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-16#dexter-automerge",
       "status": "todo",
