@@ -21,8 +21,8 @@
       "at": "2026-10-16T05:58:05.023Z"
     },
     "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
-      "status": "in_progress",
-      "at": "2026-10-13T08:12:52.584Z"
+      "status": "done",
+      "at": "2026-10-16T05:58:17.451Z"
     },
     "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
       "status": "done",
@@ -33,8 +33,8 @@
       "at": "2026-10-16T05:57:42.825Z"
     },
     "slack:1791750707.489299": {
-      "status": "in_progress",
-      "at": "2026-10-12T00:14:22Z"
+      "status": "done",
+      "at": "2026-10-16T05:58:20.988Z"
     },
     "slack:1791921623.197719": {
       "status": "done",
