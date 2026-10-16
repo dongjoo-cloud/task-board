@@ -1,8 +1,12 @@
 {
   "ids": {
+    "gmail:fathom-daily-2026-10-14#mart-accelerate": {
+      "status": "done",
+      "at": "2026-10-16T05:58:13.928Z"
+    },
     "gmail:fathom-daily-2026-10-14#search-outage": {
-      "status": "in_progress",
-      "at": "2026-10-14T00:46:42Z"
+      "status": "done",
+      "at": "2026-10-16T05:58:11.942Z"
     },
     "gmail:fathom-daily-2026-10-16#dexter-automerge": {
       "status": "done",
@@ -12,13 +16,17 @@
       "status": "done",
       "at": "2026-10-16T05:58:02.544Z"
     },
+    "gmail:fathom-daily-2026-10-16#rubric-pipeline": {
+      "status": "in_progress",
+      "at": "2026-10-16T05:58:05.023Z"
+    },
     "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
       "status": "in_progress",
       "at": "2026-10-13T08:12:52.584Z"
     },
     "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
-      "status": "in_progress",
-      "at": "2026-10-13T22:49:34Z"
+      "status": "done",
+      "at": "2026-10-16T05:58:15.760Z"
     },
     "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
       "status": "done",
@@ -33,8 +41,12 @@
       "at": "2026-10-16T02:02:43Z"
     },
     "slack:1791938954.525909": {
-      "status": "in_progress",
-      "at": "2026-10-14T01:20:14Z"
+      "status": "done",
+      "at": "2026-10-16T05:58:09.383Z"
+    },
+    "slack:1792012953.826879": {
+      "status": "done",
+      "at": "2026-10-16T05:58:07.236Z"
     }
   }
 }
