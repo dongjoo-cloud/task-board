@@ -21,6 +21,13 @@
       "title": "회식 RSVP (10/28)",
       "source": "gmail"
     },
+    "gmail:cursor-team-invite-storika-brice-2026-10-14": {
+      "status": "done",
+      "at": "2026-10-16T05:59:43.405Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Brice Cursor(SpaceXAI) Storika 팀 초대 수락",
+      "source": "gmail"
+    },
     "gmail:exa-invite": {
       "status": "done",
       "at": "2026-10-02T08:41:23.852Z",
@@ -112,6 +119,48 @@
       "title": "데일리 10/13 — 10시 주간 회고 주제 준비",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-14#creator-emails": {
+      "status": "done",
+      "at": "2026-10-16T05:59:46.341Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/14 — prod creator_emails 테이블 확인 + Jay와 미디어킷·바이오 이메일 append 조율",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-14#mart-accelerate": {
+      "status": "done",
+      "at": "2026-10-16T05:58:13.928Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/14 — MART·중단 정리 1주 앞당기기 + 1주 검증 계획",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-14#search-outage": {
+      "status": "done",
+      "at": "2026-10-16T05:58:11.942Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/14 — 검색 장애 수정 확인 → Brice에게 prod QA 알리기",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-14-pm#mac-fan": {
+      "status": "done",
+      "at": "2026-10-16T05:58:45.658Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/14 오후 — Mac 팬 해결 세팅을 #product에 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-16#dexter-automerge": {
+      "status": "done",
+      "at": "2026-10-16T05:57:58.309Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/16 — Dexter auto-merge를 main으로 설정",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-16#refactor-strategy": {
+      "status": "done",
+      "at": "2026-10-16T05:58:02.544Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데일리 10/16 — 모노레포 리팩토링(fork vs delete vs swap) AI에 묻고 추천안 #product 공유",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",
@@ -147,6 +196,27 @@
       "title": "Weekly Sync(10/6) Fathom — DJ 액션",
       "source": "gmail"
     },
+    "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
+      "status": "done",
+      "at": "2026-10-16T05:58:17.451Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Weekly Sync 10/13 — BigQuery 비용 급증($1k) 점검",
+      "source": "gmail"
+    },
+    "gmail:fathom-weekly-sync-2026-10-13#gantt-rollup": {
+      "status": "done",
+      "at": "2026-10-16T05:59:48.445Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Weekly Sync 10/13 — 전사 간트 매일 롤업 세팅 + 오늘 간트 방법론 회의",
+      "source": "gmail"
+    },
+    "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
+      "status": "done",
+      "at": "2026-10-16T05:58:15.760Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Weekly Sync 10/13 — MART 제거(은퇴) 계획 실행",
+      "source": "gmail"
+    },
     "gmail:firecrawl-invite": {
       "status": "done",
       "at": "2026-10-02T08:36:15.905Z",
@@ -166,6 +236,13 @@
       "at": "2026-10-13T00:53:53.839Z",
       "archived_at": "2026-10-14T01:10:42.889Z",
       "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
+      "source": "gmail"
+    },
+    "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
+      "status": "done",
+      "at": "2026-10-16T05:57:42.825Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "STORIKA-10054 마감(10/27)과 MART 은퇴 일정 안 맞음 — 테이블 drop 12/3로 분리할지 마감 옮길지 정하기",
       "source": "gmail"
     },
     "gmail:maru-gathering-2026-10-21": {
@@ -194,6 +271,13 @@
       "at": "2026-10-11T12:51:14.000Z",
       "archived_at": "2026-10-12T17:48:25.663Z",
       "title": "Ramp — 새 Admin(kwoncpatx@gmail.com) 초대 승인/거절",
+      "source": "gmail"
+    },
+    "gmail:ramp-digest-2026-10-15": {
+      "status": "not_mine",
+      "at": "2026-10-16T05:58:30.482Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Ramp 주간 다이제스트 — 검토 3건·누락 항목 8건",
       "source": "gmail"
     },
     "gmail:ramp-weekly-2026-10-01": {
@@ -271,6 +355,13 @@
       "at": "2026-10-07T04:57:03.694Z",
       "archived_at": "2026-10-08T07:17:08.176Z",
       "title": "Jay — Jev 멀티모달 확인",
+      "source": "slack"
+    },
+    "slack:1790900456.826639": {
+      "status": "done",
+      "at": "2026-10-16T05:58:24.510Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "데이터파이프라인 + 댓글분석기에 JEV",
       "source": "slack"
     },
     "slack:1790923690.759469": {
@@ -371,6 +462,13 @@
       "title": "STORIKA-13921 — 빌드에 Google Docker Hub 캐시 연결",
       "source": "slack"
     },
+    "slack:1791750707.489299": {
+      "status": "done",
+      "at": "2026-10-16T05:58:20.988Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "릴리스 1 서빙 후 — STORIKA-14085 ① 확인 + 11218 dev 켜기",
+      "source": "slack"
+    },
     "slack:1791763504.860299": {
       "status": "done",
       "at": "2026-10-12T22:55:00.000Z",
@@ -448,6 +546,13 @@
       "title": "Jay MART retire brief 확인·답장",
       "source": "slack"
     },
+    "slack:1791851406.111239": {
+      "status": "done",
+      "at": "2026-10-16T05:59:55.603Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "Weekly Sync 10/13 — Data pipeline 영어 초안 문서에 넣기",
+      "source": "slack"
+    },
     "slack:1791861911.300429": {
       "status": "not_mine",
       "at": "2026-10-13T08:12:46.726Z",
@@ -483,6 +588,13 @@
       "title": "dev 크리에이터 검색 전부 실패 — #12316(STORIKA-10065) 원인 확인",
       "source": "slack"
     },
+    "slack:1791938954.525909": {
+      "status": "done",
+      "at": "2026-10-16T05:58:09.383Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "REGAL(regal.ai) 아웃바운드용 크리에이터 5명 뽑기 — Don 요청",
+      "source": "slack"
+    },
     "slack:1791947798.833679": {
       "status": "done",
       "at": "2026-10-14T03:38:42.000Z",
@@ -502,6 +614,13 @@
       "at": "2026-10-14T08:26:36.000Z",
       "archived_at": "2026-10-15T13:21:43.410Z",
       "title": "Jay #12373 보안 리뷰 막힘 — CC 발송 검사 수정 넣을지 '예' 답하기",
+      "source": "slack"
+    },
+    "slack:1792012953.826879": {
+      "status": "done",
+      "at": "2026-10-16T05:58:07.236Z",
+      "archived_at": "2026-10-17T09:16:04.989Z",
+      "title": "열린 PR 정리 — 남은 #12391 rebase/.sig (#12302·#12309·#12479 머지 완료)",
       "source": "slack"
     }
   }

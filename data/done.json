@@ -1,76 +1,8 @@
 {
   "ids": {
-    "gmail:cursor-team-invite-storika-brice-2026-10-14": {
-      "status": "done",
-      "at": "2026-10-16T05:59:43.405Z"
-    },
-    "gmail:fathom-daily-2026-10-14#creator-emails": {
-      "status": "done",
-      "at": "2026-10-16T05:59:46.341Z"
-    },
-    "gmail:fathom-daily-2026-10-14#mart-accelerate": {
-      "status": "done",
-      "at": "2026-10-16T05:58:13.928Z"
-    },
-    "gmail:fathom-daily-2026-10-14#search-outage": {
-      "status": "done",
-      "at": "2026-10-16T05:58:11.942Z"
-    },
-    "gmail:fathom-daily-2026-10-14-pm#mac-fan": {
-      "status": "done",
-      "at": "2026-10-16T05:58:45.658Z"
-    },
-    "gmail:fathom-daily-2026-10-16#dexter-automerge": {
-      "status": "done",
-      "at": "2026-10-16T05:57:58.309Z"
-    },
-    "gmail:fathom-daily-2026-10-16#refactor-strategy": {
-      "status": "done",
-      "at": "2026-10-16T05:58:02.544Z"
-    },
     "gmail:fathom-daily-2026-10-16#rubric-pipeline": {
       "status": "in_progress",
       "at": "2026-10-16T05:58:05.023Z"
-    },
-    "gmail:fathom-weekly-sync-2026-10-13#bigquery": {
-      "status": "done",
-      "at": "2026-10-16T05:58:17.451Z"
-    },
-    "gmail:fathom-weekly-sync-2026-10-13#gantt-rollup": {
-      "status": "done",
-      "at": "2026-10-16T05:59:48.445Z"
-    },
-    "gmail:fathom-weekly-sync-2026-10-13#mart-execute": {
-      "status": "done",
-      "at": "2026-10-16T05:58:15.760Z"
-    },
-    "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
-      "status": "done",
-      "at": "2026-10-16T05:57:42.825Z"
-    },
-    "gmail:ramp-digest-2026-10-15": {
-      "status": "not_mine",
-      "at": "2026-10-16T05:58:30.482Z"
-    },
-    "slack:1790900456.826639": {
-      "status": "done",
-      "at": "2026-10-16T05:58:24.510Z"
-    },
-    "slack:1791750707.489299": {
-      "status": "done",
-      "at": "2026-10-16T05:58:20.988Z"
-    },
-    "slack:1791851406.111239": {
-      "status": "done",
-      "at": "2026-10-16T05:59:55.603Z"
-    },
-    "slack:1791938954.525909": {
-      "status": "done",
-      "at": "2026-10-16T05:58:09.383Z"
-    },
-    "slack:1792012953.826879": {
-      "status": "done",
-      "at": "2026-10-16T05:58:07.236Z"
     }
   }
 }
