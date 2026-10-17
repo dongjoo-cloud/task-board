@@ -266,24 +266,6 @@
       "status_at": "2026-10-14T23:21:59Z"
     },
     {
-      "id": "slack:1791921623.197719",
-      "status": "done",
-      "source": "slack",
-      "priority": "",
-      "title": "내 드래프트 PR #12309·#12302 — 리뷰 끝났으면 ready로",
-      "summary": "배경 — Jay가 #product에서 Brice와 나를 멘션(10/14 05:00 KST). 열린 PR 42개 중 auto-merge로 자연스럽게 머지될 건 8개뿐이고, 드래프트는 auto-arm이 안 되니 리뷰 끝난 건 ready로 바꿔 달래. 내 몫은 #12309, #12302.\n\n▶ 07:5x — 둘 다 아직 draft. #12309 본문에 'DRAFT - do not mark ready'(Creator_Username 인덱스 READ_WRITE·캠페인 크리에이터 적재 대기)라서 지금은 ready로 바꾸면 안 됨. #12302도 draft 유지. 반응 없음.\n\n▶ 08:30 — ENOENT 스레드에서 Jay(08:23): #12343·#12309는 #12346 base 반영 후 키 파일 없는 환경 부팅 검사하고 ready 올리라는 방향. 아직 ready로 바꾸지 말 것. #12302는 별도 상태 변화 없음.\n\n▶ 09:00 — 오늘 데일리에서 Draft PR 방식을 폐지하기로 함(모든 PR은 Open으로 시작, CI 통과하면 바로 머지 큐). Jay(08:57)도 #product에서 'draft PR은 더 이상 안 씀, 리뷰 코멘트 다 고치고 확인 리뷰 한 번 받은 뒤 Ready로 바꿔 머지 큐에 넣기, 보류할 PR은 no-auto-merge 라벨'로 안내(Brice 몫 목록에 #12309·#12302는 없음). 릴리스 PR(#12356) 머지 전까진 dev PR arm 보류.\n\n▶ 09:22 — Brice(Claude) 스레드 답: Brice 쪽 레인은 이제 draft 없이 리뷰 끝나면 Ready for review로 올림. #12356 머지 뒤부터 적용. DJ #12309·#12302는 여전히 draft(인덱스·캠페인 적재 대기)라 ready 보류 유지.\n\n▶ 09:45 — Jay(09:42): 릴리스 QA가 rate limit에 걸려 다시 컷하기로 해서 dev PR arm·머지 보류는 풀림. #12309·#12302는 여전히 draft.\n\n▶ 10:02 — 바알이 내 이름으로 Jay에게 스레드 답: 두 PR은 조건 대기 드래프트. #12309는 Spanner 캠페인 크리에이터 적재(D2) 뒤 머지(적재 결정 10/15까지), #12302는 14418 2차 결정 뒤 ready. 그 전엔 ready 안 올림. 모듈 이동 PR은 ready 전에 키 파일 없는 환경 부팅 검사 넣음.\n→ 답은 나갔고 조건 대기 중이라 진행 중으로 옮김.\n\n▶ 12:16 — Jay가 #product에 PR 운영 규칙 변경 공지(열린 PR은 전부 ready+auto-merge, 막을 건 no-auto-merge 라벨). 내 PR 7건 처리 요청은 별도 카드로 뺐어(slack:1791947798.833679).\n\n▶ 10/16 07:11 — #12309: no-auto-merge 라벨 없음·draft 해제·mergeable clean(fleet-head만). #12302는 여전히 OPEN·dirty(충돌). 열린 PR 카드(slack:1792012953.826879)와 겹침.\n\n▶ 10/16 10:10 — #12309 merge queue로 dev 머지 완료(e208e752). 남은 건 #12302 dirty(충돌)·rebase/.sig. 열린 PR 카드(slack:1792012953.826879)와 겹침.\n\n▶ 10/16 11:02 — #12302 merge queue로 10:57 KST dev 머지 완료(7d44a96ac841). #12309·#12302 둘 다 머지되어 이 카드 종료. 남은 #12391은 열린 PR 카드(slack:1792012953.826879)에서 추적.",
-      "액션": "#12309·#12302 머지 완료 — 카드 종료",
-      "link": "https://storika-ai.slack.com/archives/C07EB8FM44D/p1791921623197719",
-      "tags": [
-        "slack",
-        "jay",
-        "pr",
-        "github"
-      ],
-      "created_at": "2026-10-13T22:05:49Z",
-      "status_at": "2026-10-16T02:02:43Z"
-    },
-    {
       "id": "gmail:fathom-weekly-sync-2026-10-13#mart-execute",
       "status": "in_progress",
       "source": "gmail",
