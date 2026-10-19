@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-10-16T02:53:00Z",
+  "updatedAt": "2026-10-19T23:49:00Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/16 14:10 10분 체크",
+  "subtitle": "10/20 08:49 정기 스캔",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-20#cost-cut-mart",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/20 — 클라우드 비용 절감(GCS 콜드라인·Spanner 워커 축소) + MART 삭제 일정 검토",
+      "summary": "배경 — 10/20 아침 daily(27분, Fathom 요약 08:42 수신). 비용 절감이 최우선: 월 $15,000 → $3,000–4,000 목표. Brice가 오늘 Vertex AI LLM을 끄고(약 $1,500/월 절감) 비용 절감 계획을 Jay·나한테 공유하기로 함. 피봇 방향(에이전시 모델 Storika 0.0, 마이크로 SaaS Meta Fleet, 4–6주 안에 사용자 100명 테스트)도 논의.\n\n회의록 액션(내 몫) — MART 삭제 일정을 검토하고 Dexter에게 리뷰를 앞당기자고(예: 4시간) 제안. 다음 단계로 GCS 데이터를 콜드라인으로 옮기기, Spanner 워커 축소, Spanner 이전 끝나면 MART 정리 마무리.\n\n참고 — Dexter 계약 만료일(11월 또는 1월) 확인은 Fathom 액션 아이템상 Jay 담당. MART 종료일은 10/31.",
+      "액션": "MART 삭제 일정 검토, Dexter에게 리뷰 앞당기기(예: 4시간) 제안\nGCS 데이터 콜드라인으로 이전\nSpanner 워커 축소\nSpanner 이전 후 MART 정리 마무리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879523577975913599",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "gcp-cost",
+        "mart"
+      ],
+      "created_at": "2026-10-19T23:42:42Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-16#rubric-pipeline",
       "status": "todo",
