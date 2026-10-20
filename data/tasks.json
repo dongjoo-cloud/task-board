@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-19T23:49:00Z",
+  "updatedAt": "2026-10-20T03:57:30Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/20 08:49 정기 스캔",
   "tasks": [
+    {
+      "id": "gmail:fathom-weekly-sync-2026-10-20#persona-scenarios",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "주간 싱크 10/20 — 다음 회의까지 새 제품 아이디어 고객 페르소나·구현 시나리오 준비",
+      "summary": "배경 — 10/20 점심 [Internal] Weekly Sync(Fathom 요약 12:53 KST 수신). 새 제품 아이디어 세 가지를 브레인스토밍함: AI 에이전트 오케스트레이션(여러 에이전트를 한 플랫폼에서), 버티컬 AI 엑셀러레이터(AX, 산업별 맞춤 AI 워크플로우), 1억 건 콘텐츠 데이터셋으로 AI 페르소나를 만들어 시장 반응을 시뮬레이션하는 서비스. 4~6주 스프린트로 빠르게 검증하기로 함.\n\n회의록 액션(내 몫, 팀원 전원 공통) — 고른 아이디어에 대해 고객 페르소나와 구현 시나리오를 정리해서 다음 회의에 가져오기.\n\n참고 — 같은 회의에서 오후 3시 Daily product sync는 없애기로 함(Don·Jay 담당). 새 Linear 티켓 그래프·간트 대시보드 때문에 Linear 티켓을 최신으로 유지해 달라는 요청도 있었음.",
+      "액션": "아이디어 하나 골라 고객 페르소나 정의\n구현 시나리오 정리해서 다음 회의 때 공유",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879539373001173707",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "product-ideas"
+      ],
+      "created_at": "2026-10-20T03:57:30Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-20#cost-cut-mart",
       "status": "todo",
