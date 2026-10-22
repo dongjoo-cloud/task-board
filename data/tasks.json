@@ -1,8 +1,27 @@
 {
-  "updatedAt": "2026-10-21T03:42:02Z",
+  "updatedAt": "2026-10-22T01:08:00Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/21 12:42 정기 스캔",
+  "subtitle": "10/22 10:08 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Brice 1:1 10/22 — 한품 TikTok Shop MCP POC 계획 작성 + 디스커버리 크론 세팅",
+      "summary": "배경 — 10/22 Brice x DJ 주간 1:1(29분, Fathom 요약 10:02 KST 수신). 한품 TikTok Shop MCP를 테스트하려고 크리에이터 1명으로 캠페인 전체 주기(발견 → Storika MCP DM 초대 → 수락 시 한품 샘플 발송 → TikTok Shop API로 배송·게재 추적)를 자동화하는 MVP를 만들기로 함. DM은 AI가 초안 쓰고 사람이 승인하는 반자동. 업무 분담상 나는 한품 MCP와 피봇 아이디어에 집중.\n\n참고 — Brice 몫: 한품에 5% 수익 분배 수락 시 샘플 제공 가능한지 확인(되면 샘플 1개 구매), 한품 Storika 로그인 요청, aihub.storika.ai 서브도메인 요청, 나를 한품 TikTok Shop 계정에 추가. 한품 계정 연결이 Storika MCP에서 끊긴 걸로 보이는 버그는 종현과 같이 해결.",
+      "액션": "MCP POC 계획 초안 작성(인플루언서 1명 루프, DM+승인, 5% 수익 분배, 샘플, 지표) 후 Brice·Olive에게 공유\n데일리 디스커버리 크론/Groupbot 세팅, 이어서 Olive와 DM+승인 구현\n피봇 아이디어 평가 마무리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879709822221103849|msg-f:1879709822221103849",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "hanhum",
+        "mcp",
+        "tiktok-shop"
+      ],
+      "created_at": "2026-10-22T01:08:00Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-21-ax#scoreboard",
       "status": "todo",
