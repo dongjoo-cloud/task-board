@@ -1,8 +1,1 @@
-{
-  "ids": {
-    "gmail:fathom-daily-2026-10-16#rubric-pipeline": {
-      "status": "in_progress",
-      "at": "2026-10-16T05:58:05.023Z"
-    }
-  }
-}
+{"ids": {"gmail:fathom-daily-2026-10-16#rubric-pipeline": {"status": "in_progress", "at": "2026-10-16T05:58:05.023Z"}, "gmail:fathom-daily-2026-10-21-ax#scoreboard": {"status": "done", "at": "2026-10-22T03:24:00Z", "status_at": "2026-10-22T03:24:00Z"}}}
