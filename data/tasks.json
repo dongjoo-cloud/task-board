@@ -1,8 +1,61 @@
 {
-  "updatedAt": "2026-10-22T03:24:00Z",
+  "updatedAt": "2026-10-22T23:38:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/22 12:24 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-23#board-cleanup",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/23 — daily 보드 정리(잡동사니 빼기)",
+      "summary": "배경 — 10/23 daily(17분, Fathom 요약 08:34 KST 수신)에서 사업 종료와 한품 KTP 발표 준비 계획을 확정했어. 인프라는 10/27까지 종료, 최종 코드 정리는 11/9까지. 미국 크리에이터 메일 1,000건 이상 응답률 0%라 싱가포르 크리에이터 1,500명에게 마지막 테스트를 하고, 11월 초까지도 0%면 GTM 테스트를 멈추기로 함.\n\n회의록 액션(내 몫) — Fathom 액션 아이템에 'daily 보드 정리, 잡동사니 제거'가 내 앞으로 잡힘. Jay도 개발 환경 삭제로 필요 없어진 티켓 10~20개를 지우기로 함.",
+      "액션": "daily 보드에서 필요 없어진 항목 정리",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879794839839249511|msg-f:1879794839839249511",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "cleanup"
+      ],
+      "created_at": "2026-10-22T23:38:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-23#ktp-plan",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/23 — 한품 KTP 발표 계획 수립(Brice AI 데모·Jay UI용)",
+      "summary": "배경 — 10/23 daily(17분, Fathom 요약 08:34 KST 수신)에서 사업 종료와 한품 KTP 발표 준비 계획을 확정했어. 인프라는 10/27까지 종료, 최종 코드 정리는 11/9까지. 미국 크리에이터 메일 1,000건 이상 응답률 0%라 싱가포르 크리에이터 1,500명에게 마지막 테스트를 하고, 11월 초까지도 0%면 GTM 테스트를 멈추기로 함.\n\n회의록 액션(내 몫) — 한품 KTP 발표 계획 수립. 데모는 한품이 계속 쓰는 용도가 아니라 발표용이라 기능만 돌면 되고 성능은 안 중요함. 크리에이터 3만 명도 필요 없고, TikTok 마켓플레이스 검색 위에 얹은 Storika 서드파티 레이어를 보여주면 됨. Brice가 이 계획을 보고 AI 데모를 만들고 Jay가 UI를 붙임.\n\n관련 카드 — Brice 1:1 10/22 '한품 TikTok Shop MCP POC 계획'.",
+      "액션": "한품 KTP 발표 계획 작성(데모 범위, TikTok 마켓플레이스 기반, 한품 데이터 안 씀)\nBrice에게 검토 넘기기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879794839839249511|msg-f:1879794839839249511",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "hanhum",
+        "ktp"
+      ],
+      "created_at": "2026-10-22T23:38:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-23#infra-shutdown",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/23 — 10/27까지 인프라 전부 종료(dev DB 백업 후 삭제, 프로덕션 API 1대로)",
+      "summary": "배경 — 10/23 daily(17분, Fathom 요약 08:34 KST 수신)에서 사업 종료와 한품 KTP 발표 준비 계획을 확정했어. 인프라는 10/27까지 종료, 최종 코드 정리는 11/9까지. 미국 크리에이터 메일 1,000건 이상 응답률 0%라 싱가포르 크리에이터 1,500명에게 마지막 테스트를 하고, 11월 초까지도 0%면 GTM 테스트를 멈추기로 함.\n\n회의록 액션(내 몫) — 10/27까지 모든 인프라 종료. dev DB는 지우기 전에 Storika DB 아카이브 버킷에 백업, 프로덕션 API 서버는 1대로 축소. 데이터 파이프라인(라벨링, Spanner 업데이트) 코드는 지우지 말고 비활성화해서 나중에 재개할 여지를 둠.\n\n관련 카드 — 데일리 10/20 '클라우드 비용 절감 + MART 삭제 일정'.",
+      "액션": "dev DB를 Storika DB 아카이브 버킷에 백업한 뒤 삭제\n프로덕션 API 서버 1대로 축소\n나머지 인프라 10/27까지 종료\n데이터 파이프라인 코드는 삭제 대신 비활성화",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879794839839249511|msg-f:1879794839839249511",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "infra",
+        "deadline"
+      ],
+      "created_at": "2026-10-22T23:38:00Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-22#mcp-spanner-cache",
       "status": "todo",
