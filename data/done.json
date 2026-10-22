@@ -6,8 +6,11 @@
     },
     "gmail:fathom-daily-2026-10-21-ax#scoreboard": {
       "status": "done",
-      "at": "2026-10-22T03:24:00Z",
-      "status_at": "2026-10-22T03:24:00Z"
+      "at": "2026-10-22T03:24:00Z"
+    },
+    "gmail:fathom-daily-2026-10-22#mcp-spanner-cache": {
+      "status": "not_mine",
+      "at": "2026-10-22T21:56:26.227Z"
     }
   }
 }
