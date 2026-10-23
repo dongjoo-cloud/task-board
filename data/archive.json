@@ -168,6 +168,20 @@
       "title": "AX 아이디어 스코어보드 평가 — 10/22 10:30 daily 전까지",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-22#commerce-blueprint-roadmap": {
+      "status": "not_mine",
+      "at": "2026-10-22T21:56:34.258Z",
+      "archived_at": "2026-10-23T22:06:39.986Z",
+      "title": "데일리 10/22 — Commerce Blueprint MVP 로드맵 초안(플랫폼·API 목록, 최소 화면)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-22#mcp-spanner-cache": {
+      "status": "not_mine",
+      "at": "2026-10-22T21:56:26.227Z",
+      "archived_at": "2026-10-23T22:06:39.986Z",
+      "title": "데일리 10/22 — MCP 검색 결과 Spanner 캐시 구현(Spanner CPU 100–200 유지)",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",

@@ -57,44 +57,6 @@
       "created_at": "2026-10-22T23:38:00Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-22#mcp-spanner-cache",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/22 — MCP 검색 결과 Spanner 캐시 구현(Spanner CPU 100–200 유지)",
-      "summary": "배경 — 10/22 daily(108분, Fathom 요약 12:21 KST 수신)에서 새 피봇 아이디어로 Pabal(커머스 X-ray 분석 대시보드, Cafe24·네이버 스마트스토어·Meta Ads 통합)을 확정했어. 보험으로 Commerce Blueprint용 최소 앱을 플랫폼들에 제출해 API 권한을 미리 받아 두기로 함. dev 환경은 없애고 push-to-main으로 감(Brice).\n\n회의록 액션(내 몫) — MCP 캐시 구현: 검색 결과를 전부 Spanner에 저장하고 Spanner CPU는 100–200으로 유지. Spanner Graph를 외부 검색 결과 캐시로 써서 비용을 줄이고 검색 속도를 올리는 목적. 한품 KTP POC 지원도 내 몫으로 잡힘.\n\n관련 카드 — Brice 1:1 10/22 '한품 MCP POC'(오늘 10:51에 적어 둔 'MCP 툴콜링으로 찾은 크리에이터를 Spanner로 옮기는 잡'과 같은 일).",
-      "액션": "MCP 검색 결과를 Spanner에 전부 저장하는 캐시 구현\nSpanner CPU 100–200 범위 유지 확인\n한품 KTP POC 지원",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879718539167394088|msg-f:1879718539167394088",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "mcp",
-        "spanner",
-        "hanhum"
-      ],
-      "created_at": "2026-10-22T03:24:00Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-22#commerce-blueprint-roadmap",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/22 — Commerce Blueprint MVP 로드맵 초안(플랫폼·API 목록, 최소 화면)",
-      "summary": "배경 — 10/22 daily(108분, Fathom 요약 12:21 KST 수신)에서 새 피봇 아이디어로 Pabal(커머스 X-ray 분석 대시보드, Cafe24·네이버 스마트스토어·Meta Ads 통합)을 확정했어. 보험으로 Commerce Blueprint용 최소 앱을 플랫폼들에 제출해 API 권한을 미리 받아 두기로 함. dev 환경은 없애고 push-to-main으로 감(Brice).\n\n회의록 액션(내 몫) — Commerce Blueprint MVP 로드맵 초안 작성, 대상 플랫폼·API 목록 정리, 최소 화면 개요. 승인 대기는 2~3개월 예상.\n\n참고 — Jay가 Jen에게 Meta·Google·TikTok·Kakao·Naver·Cafe24 최소 앱 승인 제출 메일, SBNET API 접근 문의. Don이 Blueprint 딥다이브 문서를 Jay에게 공유. Brice가 commerce.storika.ai 서브도메인 준비.",
-      "액션": "Commerce Blueprint MVP 로드맵 초안 작성\n대상 플랫폼·API 목록 정리\n최소 화면 개요 잡기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879718539167394088|msg-f:1879718539167394088",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "pivot",
-        "commerce-blueprint",
-        "pabal"
-      ],
-      "created_at": "2026-10-22T03:24:00Z"
-    },
-    {
       "id": "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc",
       "status": "todo",
       "source": "gmail",
