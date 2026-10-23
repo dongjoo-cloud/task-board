@@ -114,26 +114,6 @@
       "created_at": "2026-10-22T01:08:00Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-21-ax#scoreboard",
-      "status": "done",
-      "source": "gmail",
-      "priority": "new",
-      "title": "AX 아이디어 스코어보드 평가 — 10/22 10:30 daily 전까지",
-      "summary": "배경 — 10/21 두 번째 daily(125분, Fathom 요약 12:37 KST 수신)에서 새 AI 제품 아이디어를 평가함. Jay의 AI 시뮬레이션 아이디어는 검증이 안 돼서 폐기. 남은 후보는 Blueprint(D2C 브랜드용 Company Ontology, 멀티채널 Shopify·Coupang·Cafe24), Law Firm Preset(로펌 반복 업무 자동화 + GTM), Agent Coordination Connector(내부용 에이전트 컨텍스트 공유) 세 가지야.\n\n회의록 다음 단계(내 몫) — 스코어보드로 아이디어 평가. 10/22 10:30에 다시 모여 스코어보드 보고 최종 아이디어를 정하기로 함.\n\n참고 — Fathom 액션 아이템: Don·Brice가 Blueprint와 Law Firm 프리셋 MVP UI/UX 초안(10/22까지), Jay가 3개 아이디어 AI 스코어보드 돌려서 공유, Don이 10/22 후속 시간을 Slack에 올리기.",
-      "액션": "Jay가 공유하는 스코어보드로 AX 아이디어 3개 평가\n10/22 10:30 daily 전에 내 점수·의견 준비",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879617960863218734|msg-f:1879628927358718234",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "ax",
-        "pivot",
-        "deadline"
-      ],
-      "created_at": "2026-10-21T03:42:02Z",
-      "status_at": "2026-10-22T03:24:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-21#mediakit-metrics",
       "status": "todo",
       "source": "gmail",
