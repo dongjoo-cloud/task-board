@@ -4,41 +4,6 @@
   "subtitle": "10/22 12:24 10분 체크",
   "tasks": [
     {
-      "id": "gmail:fathom-daily-2026-10-23#board-cleanup",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/23 — daily 보드 정리(잡동사니 빼기)",
-      "summary": "배경 — 10/23 daily(17분, Fathom 요약 08:34 KST 수신)에서 사업 종료와 한품 KTP 발표 준비 계획을 확정했어. 인프라는 10/27까지 종료, 최종 코드 정리는 11/9까지. 미국 크리에이터 메일 1,000건 이상 응답률 0%라 싱가포르 크리에이터 1,500명에게 마지막 테스트를 하고, 11월 초까지도 0%면 GTM 테스트를 멈추기로 함.\n\n회의록 액션(내 몫) — Fathom 액션 아이템에 'daily 보드 정리, 잡동사니 제거'가 내 앞으로 잡힘. Jay도 개발 환경 삭제로 필요 없어진 티켓 10~20개를 지우기로 함.",
-      "액션": "daily 보드에서 필요 없어진 항목 정리",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879794839839249511|msg-f:1879794839839249511",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "cleanup"
-      ],
-      "created_at": "2026-10-22T23:38:00Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-23#ktp-plan",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/23 — 한품 KTP 발표 계획 수립(Brice AI 데모·Jay UI용)",
-      "summary": "배경 — 10/23 daily(17분, Fathom 요약 08:34 KST 수신)에서 사업 종료와 한품 KTP 발표 준비 계획을 확정했어. 인프라는 10/27까지 종료, 최종 코드 정리는 11/9까지. 미국 크리에이터 메일 1,000건 이상 응답률 0%라 싱가포르 크리에이터 1,500명에게 마지막 테스트를 하고, 11월 초까지도 0%면 GTM 테스트를 멈추기로 함.\n\n회의록 액션(내 몫) — 한품 KTP 발표 계획 수립. 데모는 한품이 계속 쓰는 용도가 아니라 발표용이라 기능만 돌면 되고 성능은 안 중요함. 크리에이터 3만 명도 필요 없고, TikTok 마켓플레이스 검색 위에 얹은 Storika 서드파티 레이어를 보여주면 됨. Brice가 이 계획을 보고 AI 데모를 만들고 Jay가 UI를 붙임.\n\n관련 카드 — Brice 1:1 10/22 '한품 TikTok Shop MCP POC 계획'.",
-      "액션": "한품 KTP 발표 계획 작성(데모 범위, TikTok 마켓플레이스 기반, 한품 데이터 안 씀)\nBrice에게 검토 넘기기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879794839839249511|msg-f:1879794839839249511",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "hanhum",
-        "ktp"
-      ],
-      "created_at": "2026-10-22T23:38:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-23#infra-shutdown",
       "status": "todo",
       "source": "gmail",
@@ -76,41 +41,6 @@
       "created_at": "2026-10-22T01:08:00Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-21#mediakit-metrics",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/21 — 미디어 키트 아웃바운드 캠페인 오늘 측정 결과 검토",
-      "summary": "배경 — 10/21 아침 daily(10분, Fathom 요약 09:42 KST 수신). 미디어 키트 아웃바운드 캠페인이 이틀간 멈춰 있었는데, 원인은 필터 오류(미디어 키트 링크 있고 레이트 없는 크리에이터만 잡음)였어. 미디어 키트 없는 크리에이터도 포함하도록 고쳐서 잠재 고객 풀이 1,000명 미만에서 20만 명 이상으로 늘었어.\n\n회의록 액션(내 몫) — 오늘 측정 결과 검토. Jay는 경돈과 캠페인 지표(일별 발송량, 응답률)를 정하고 후속 미팅을 잡기로 함(요약엔 '오후 10시 30분'으로 적혀 있는데, 같은 시각 Jay가 daily를 10:30–11:00으로 바꾼 초대를 보냄).\n\n참고 — 티켓 100개 이상 취소·190일 넘은 PR 아카이빙, Storika Voice PR은 Brice가 처리 예정. MCP 툴셋은 40개 이상에서 15개로 통합 중(목표 20개 미만).",
-      "액션": "오늘 미디어 키트 캠페인 측정 결과(일별 발송량, 응답률) 검토\nJay·경돈이 정한 지표와 맞춰 보기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879617960863218734",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "media-kit",
-        "outbound"
-      ],
-      "created_at": "2026-10-21T00:45:00Z"
-    },
-    {
-      "id": "gmail:fathom-weekly-sync-2026-10-20#persona-scenarios",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "주간 싱크 10/20 — 다음 회의까지 새 제품 아이디어 고객 페르소나·구현 시나리오 준비",
-      "summary": "배경 — 10/20 점심 [Internal] Weekly Sync(Fathom 요약 12:53 KST 수신). 새 제품 아이디어 세 가지를 브레인스토밍함: AI 에이전트 오케스트레이션(여러 에이전트를 한 플랫폼에서), 버티컬 AI 엑셀러레이터(AX, 산업별 맞춤 AI 워크플로우), 1억 건 콘텐츠 데이터셋으로 AI 페르소나를 만들어 시장 반응을 시뮬레이션하는 서비스. 4~6주 스프린트로 빠르게 검증하기로 함.\n\n회의록 액션(내 몫, 팀원 전원 공통) — 고른 아이디어에 대해 고객 페르소나와 구현 시나리오를 정리해서 다음 회의에 가져오기.\n\n참고 — 같은 회의에서 오후 3시 Daily product sync는 없애기로 함(Don·Jay 담당). 새 Linear 티켓 그래프·간트 대시보드 때문에 Linear 티켓을 최신으로 유지해 달라는 요청도 있었음.",
-      "액션": "아이디어 하나 골라 고객 페르소나 정의\n구현 시나리오 정리해서 다음 회의 때 공유",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879539373001173707",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "product-ideas"
-      ],
-      "created_at": "2026-10-20T03:57:30Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-20#cost-cut-mart",
       "status": "todo",
       "source": "gmail",
@@ -127,40 +57,6 @@
         "mart"
       ],
       "created_at": "2026-10-19T23:42:42Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-16#rubric-pipeline",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/16 — Jay 크리에이터 평가 루브릭 나오면 MCP 파이프라인 재정비",
-      "summary": "배경 — 10/16 아침 daily(30분, Fathom 요약 08:45 수신)에서 웹 앱 개발을 멈추고 MCP(Minimum Creator Product)에 집중하기로 범위를 재조정함.\n\n논의 — 크리에이터 발굴용 새 LLM 평가 루브릭 도입. 하드 게이트(국가, 언어, 성인 콘텐츠, 혐오 발언) + 정량(카테고리 적합성, 팔로워 참여도) + 정성(브랜드 톤 적합성).\n\n회의록 액션 — Jay가 루브릭을 product 채널에 먼저 공유하고, 그다음 내가 루브릭에 맞춰 MCP 파이프라인을 정비(하드 게이트 통과한 크리에이터 우선). 회의에서 파이프라인 티켓 37/44(84%) 완료 공유.\n\n관련 카드 — 데일리 10/15 '파이프라인 앱 DB 전환·24시간 가동'과 이어짐.",
-      "액션": "Jay 루브릭 #product 공유 기다리기\n루브릭 기준으로 MCP 파이프라인 정비(하드 게이트 통과 크리에이터 우선)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879161384534628848",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "pipeline"
-      ],
-      "created_at": "2026-10-15T23:46:30Z"
-    },
-    {
-      "id": "gmail:gcp-billing-overdue-0194FA-2026-10-15",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "GCP 결제 계정(0194FA-5E63D1-510368) 연체·결제 정보 업데이트",
-      "summary": "배경 — 10/16 05:46 KST Google Cloud가 '조치 필요' 메일. 결제 계정 0194FA-5E63D1-510368이 연체되었거나 유효한 결제 정보가 없음(카드 만료·취소·미수신). 결제 실패 시 계정·프로젝트·서비스 정지 가능, 일부 서비스는 이미 영향받을 수 있음.\n\n조치 — https://console.cloud.google.com/billing/0194FA-5E63D1-510368/settings 에서 결제 정보 업데이트. 이미 고쳤으면 무시.\n\n관련 카드 — 데일리 10/15 'GCP 결제 알림·비용 보고서'(gmail:fathom-daily-2026-10-15#gcp-cost).",
-      "액션": "GCP 콘솔에서 결제 계정 0194FA-5E63D1-510368 결제 수단·연체 대금 확인·업데이트\n이미 반영됐으면 카드만 완료 처리",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879150078240142750",
-      "tags": [
-        "gmail",
-        "gcp",
-        "billing",
-        "urgent"
-      ],
-      "created_at": "2026-10-15T22:11:30Z"
     },
     {
       "id": "gmail:fathom-daily-2026-10-15#pipeline-appdb",
@@ -180,23 +76,6 @@
       "created_at": "2026-10-14T23:50:30Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-15#gcp-cost",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/15 — GCP 결제 알림(Storika Korea·Vertical AI) + 비용 보고서·비용 표 세팅",
-      "summary": "배경 — 데일리(25분)에서 Jay가 Storika Korea·Vertical AI GCP 계정 관리자 권한을 나한테 줌. Storika Korea는 정부 보조금(KTP)에 묶여 있어서 예산을 넘으면 계획을 고쳐야 하고, 넘치는 비용은 Vertical AI가 흡수함. 목표는 월 $3,000 이하, 지금은 하루 약 $150. 큰 비용은 BigQuery, Gemini 추론, 호스팅(Mart·Postgres).\n\n회의록 액션 — 비용 스파이크를 잡을 봇 비용 보고서(회의록 표기 'Groupbot') 세팅, 비용 표 유지, 두 계정 결제 알림 설정, 비용 합산과 기준선·Epify당 비용 추정.\n\n관련 카드 — Weekly Sync 10/13 'BigQuery 비용 급증 점검'(진행 중)과 이어짐.",
-      "액션": "Storika Korea·Vertical AI GCP 결제(예산) 알림 설정\n봇 비용 보고서 세팅 + 비용 표 유지, 스파이크 모니터링\n두 계정 비용 합산하고 기준선·Epify당 비용 추정",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879070627387096624",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "gcp-cost"
-      ],
-      "created_at": "2026-10-14T23:50:30Z"
-    },
-    {
       "id": "gmail:google-agentic-oauth-djs-claude",
       "status": "todo",
       "source": "gmail",
@@ -212,22 +91,6 @@
         "deadline"
       ],
       "created_at": "2026-10-12T22:17:21Z"
-    },
-    {
-      "id": "slack:1791766942.261219",
-      "status": "todo",
-      "source": "slack",
-      "priority": "",
-      "title": "Dagster 정비 티켓 초안 — 관리 방법 찾기",
-      "summary": "배경 — #dagster-noti에 Dagster 봇이 \"정비 티켓 초안 4건 승인 대기\"를 올렸어. 전부 10/11 이후 다시 통과하고 있는 체크(IG 미디어 백로그, IG 수집 급증, TikTok 국가별 활동 풀, TikTok 국가 null 비율)라서 사실상 닫아도 되는 것들이야.\n\n승인은 ✅ 반응(전체), 번호 답장(일부), \"빼기 N\"(제외) 중에 고르면 돼.\n\n10:02에 동주가 스레드에서 바알·메피스토·마녀한테 \"이거 관리할 방법 찾아야 하니까 리마인더 해줘\"라고 남겨서 카드로 올림.\n\n14:41 — 바알이 DM으로 리마인더 보냄. 지금 4건 대기, 4건 모두 \"검사가 다시 통과함\" 알림이래. 관리 방법 3가지 제안:\n1) \"다시 통과함\" 초안은 자동으로 닫기 (추천)\n2) 진짜 실패 초안만 하루 한 번 묶어서 한 번에 승인/제외\n3) 초안을 Slack 대신 커맨드센터 결정 목록에 모아 보기\n아직 아무것도 승인·삭제 안 했고, 정해 주면 그대로 하겠대.\n\n21:50 재확인 — 10:02 내 답글 이후 새 글·반응 없음. 유지.\n\n10:07 — #dagster-noti 봇이 새 묶음을 올림: 승인 대기 6건으로 늘었어(이번에도 '다시 통과함' 알림들). 관리 방법은 아직 안 정함.\n\n10/14 09:51 — 봇이 또 묶음을 올림: 승인 대기 8건(새로 deficit_tracker_schedule 실패 해소, 캠페인 engagement 신선도 체크 등 추가, 전부 '다시 통과함'류). 관리 방법은 아직 안 정함.",
-      "액션": "바알 DM의 3가지 방법 중 하나 골라 답하기 (1번 자동 닫기 추천)",
-      "link": "https://storika-ai.slack.com/archives/C0A3KBPU2P4/p1791766942261219?thread_ts=1791766342.116069&cid=C0A3KBPU2P4",
-      "tags": [
-        "slack",
-        "dagster",
-        "maintenance"
-      ],
-      "created_at": "2026-10-12T01:05:40Z"
     }
   ]
 }

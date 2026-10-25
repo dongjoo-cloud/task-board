@@ -147,6 +147,13 @@
       "title": "데일리 10/14 오후 — Mac 팬 해결 세팅을 #product에 공유",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-15#gcp-cost": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:12:08.365Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "데일리 10/15 — GCP 결제 알림(Storika Korea·Vertical AI) + 비용 보고서·비용 표 세팅",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-10-16#dexter-automerge": {
       "status": "done",
       "at": "2026-10-16T05:57:58.309Z",
@@ -159,6 +166,20 @@
       "at": "2026-10-16T05:58:02.544Z",
       "archived_at": "2026-10-17T09:16:04.989Z",
       "title": "데일리 10/16 — 모노레포 리팩토링(fork vs delete vs swap) AI에 묻고 추천안 #product 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-16#rubric-pipeline": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:09:16.844Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "데일리 10/16 — Jay 크리에이터 평가 루브릭 나오면 MCP 파이프라인 재정비",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-21#mediakit-metrics": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:09:59.999Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "데일리 10/21 — 미디어 키트 아웃바운드 캠페인 오늘 측정 결과 검토",
       "source": "gmail"
     },
     "gmail:fathom-daily-2026-10-21-ax#scoreboard": {
@@ -180,6 +201,20 @@
       "at": "2026-10-22T21:56:26.227Z",
       "archived_at": "2026-10-23T22:06:39.986Z",
       "title": "데일리 10/22 — MCP 검색 결과 Spanner 캐시 구현(Spanner CPU 100–200 유지)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-23#board-cleanup": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:09:33.112Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "데일리 10/23 — daily 보드 정리(잡동사니 빼기)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-23#ktp-plan": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:09:41.865Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "데일리 10/23 — 한품 KTP 발표 계획 수립(Brice AI 데모·Jay UI용)",
       "source": "gmail"
     },
     "gmail:fathom-gantt-review-2026-10-07": {
@@ -238,11 +273,25 @@
       "title": "Weekly Sync 10/13 — MART 제거(은퇴) 계획 실행",
       "source": "gmail"
     },
+    "gmail:fathom-weekly-sync-2026-10-20#persona-scenarios": {
+      "status": "done",
+      "at": "2026-10-24T08:10:04.735Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "주간 싱크 10/20 — 다음 회의까지 새 제품 아이디어 고객 페르소나·구현 시나리오 준비",
+      "source": "gmail"
+    },
     "gmail:firecrawl-invite": {
       "status": "done",
       "at": "2026-10-02T08:36:15.905Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:gcp-billing-overdue-0194FA-2026-10-15": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:10:13.524Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "GCP 결제 계정(0194FA-5E63D1-510368) 연체·결제 정보 업데이트",
       "source": "gmail"
     },
     "gmail:gkor-creator-db-inquiry-2026-10-07": {
@@ -495,6 +544,13 @@
       "at": "2026-10-12T22:55:00.000Z",
       "archived_at": "2026-10-14T01:10:42.889Z",
       "title": "STORIKA-11218 prod PR — 릴리스 2에 싣기",
+      "source": "slack"
+    },
+    "slack:1791766942.261219": {
+      "status": "not_mine",
+      "at": "2026-10-24T08:12:19.044Z",
+      "archived_at": "2026-10-25T11:16:56.580Z",
+      "title": "Dagster 정비 티켓 초안 — 관리 방법 찾기",
       "source": "slack"
     },
     "slack:1791771216.998529": {

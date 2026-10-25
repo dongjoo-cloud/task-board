@@ -4,41 +4,9 @@
       "status": "todo",
       "at": "2026-10-24T08:09:54.857Z"
     },
-    "gmail:fathom-daily-2026-10-15#gcp-cost": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:12:08.365Z"
-    },
-    "gmail:fathom-daily-2026-10-16#rubric-pipeline": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:09:16.844Z"
-    },
-    "gmail:fathom-daily-2026-10-21#mediakit-metrics": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:09:59.999Z"
-    },
-    "gmail:fathom-daily-2026-10-23#board-cleanup": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:09:33.112Z"
-    },
     "gmail:fathom-daily-2026-10-23#infra-shutdown": {
       "status": "todo",
       "at": "2026-10-24T08:09:53.150Z"
-    },
-    "gmail:fathom-daily-2026-10-23#ktp-plan": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:09:41.865Z"
-    },
-    "gmail:fathom-weekly-sync-2026-10-20#persona-scenarios": {
-      "status": "done",
-      "at": "2026-10-24T08:10:04.735Z"
-    },
-    "gmail:gcp-billing-overdue-0194FA-2026-10-15": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:10:13.524Z"
-    },
-    "slack:1791766942.261219": {
-      "status": "not_mine",
-      "at": "2026-10-24T08:12:19.044Z"
     }
   }
 }
