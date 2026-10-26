@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:38:00Z",
+  "updatedAt": "2026-10-26T22:05:02Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/22 12:24 10분 체크",
   "tasks": [
@@ -91,6 +91,22 @@
         "deadline"
       ],
       "created_at": "2026-10-12T22:17:21Z"
+    },
+    {
+      "id": "gmail:brex-account-review-2026-10-27",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "",
+      "title": "Brex 계정 공지 확인 — 대시보드에 '중요 업데이트'",
+      "summary": "배경 — Brex(adjustment@brex.com)가 10/27 02:48 KST에 \"Review your Brex account\" 메일을 보냈어. 메일엔 내용이 없고 Brex 대시보드 알림을 보라고만 해. 보낸 주소가 adjustment라 한도나 계정 조정일 수 있어(추정). 전날 21:40 KST엔 RAMP에서 $20,000 ACH 입금 알림도 왔어.",
+      "액션": "Brex 대시보드에서 알림 내용 확인\n한도·계정 조정이면 Brice와 공유",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a179538f118e783",
+      "tags": [
+        "gmail",
+        "brex",
+        "finance"
+      ],
+      "created_at": "2026-10-26T22:05:02Z"
     }
   ]
 }
