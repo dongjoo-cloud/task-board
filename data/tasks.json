@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-26T22:05:02Z",
+  "updatedAt": "2026-10-27T22:13:00Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/22 12:24 10분 체크",
+  "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
     {
       "id": "gmail:fathom-daily-2026-10-23#infra-shutdown",
@@ -107,6 +107,23 @@
         "finance"
       ],
       "created_at": "2026-10-26T22:05:02Z"
+    },
+    {
+      "id": "gmail:gcp-programmable-search-sunset-storika-455708",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "",
+      "title": "Google 프로그래밍 검색 엔진 전환 — storika-455708 (2027/1/1까지)",
+      "summary": "배경 — Google Cloud가 \"[조치 필요] 2027년 1월 1일까지 웹 검색 제품을 전환하세요\" 공지를 보냈어(10/28 02:07 KST). 영향 프로젝트로 storika-455708이 적혀 있어.\n\n'전체 웹 검색' 엔진이나 Custom Search JSON API를 쓰고 있으면 2027/1/1까지 Agent Search(구 Vertex AI Search, 50개 도메인 이하)나 Google 새 웹 검색 서비스로 옮겨야 해. 인프라 종료 계획으로 이미 안 쓰는 거면 할 일 없음.",
+      "액션": "storika-455708에서 Custom Search API·프로그래밍 검색 엔진을 실제로 쓰는지 확인\n쓰면 대체 경로(Agent Search 또는 Google 웹 검색 서비스 문의) 정하기",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a17e54aa02b3756",
+      "tags": [
+        "gmail",
+        "google",
+        "gcp",
+        "deadline"
+      ],
+      "created_at": "2026-10-27T22:13:00Z"
     }
   ]
 }
