@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-10-27T22:13:00Z",
+  "updatedAt": "2026-10-28T00:18:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-28#paval-share",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 10/28 — Brice·Jay에게 백서·리서치 폴더 공유 + TikTok/제휴 아티팩트 편집 권한·링크",
+      "summary": "배경 — 10/28 daily(55분, Fathom 요약 09:10 KST 수신)에서 Paval(AI 에이전트 활동을 기록하는 불변 원장) 브레인스토밍을 했어. 핵심 과제는 온보딩 때 기존 도구(Dot, Claude)의 과거 활동으로 '베이스라인'을 잡는 것. 나는 TikTok Shop 마케팅 QA 시나리오를 만들었고, 플러그인이 제휴 크리에이터를 구분 못 하는 문제와 크리에이터 GMB 정보 누락을 찾았어.\n\n회의록 액션(내 몫) — 백서와 리서치 폴더를 Brice·Jay에게 공유, TikTok/제휴 아티팩트 편집 권한을 Brice·Jay에게 주고 링크 공유. 다음 단계로 TikTok Shop QA 시나리오 계속 돌리고 MCP 커넥터 프로젝트에 들어가서 찾은 이슈를 직접 고치기.\n\n참고 — Brice는 베이스라인 리서치와 Paval MVP 티켓 검토, Jay는 시스템 다이어그램과 로깅 온톨로지·훅 정의 담당.",
+      "액션": "백서 + 리서치 폴더 Brice·Jay에게 공유\nTikTok/제휴 아티팩트 편집 권한 Brice·Jay에게 주고 링크 공유\nTikTok Shop QA 시나리오 계속 실행\nMCP 커넥터 프로젝트 합류해서 발견 이슈 직접 수정",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a17fd807f2dd23b",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "paval",
+        "tiktok-shop"
+      ],
+      "created_at": "2026-10-28T00:18:00Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-23#infra-shutdown",
       "status": "todo",
