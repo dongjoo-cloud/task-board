@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T00:18:00Z",
+  "updatedAt": "2026-10-29T00:01:47Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
@@ -142,6 +142,23 @@
         "deadline"
       ],
       "created_at": "2026-10-27T22:13:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-10-29#mcp-qa-topup",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "",
+      "title": "데일리 10/29 — Storika MCP QA 이번 주 완료 + 사용량 탑업 + 마케터 DM 권한",
+      "summary": "배경 — 10/29 daily(41분, Fathom 요약 08:59 KST 수신)에서 Storika MCP 개발 현황을 봤어. 에이전트가 TikTok Shop 캠페인 생성·크리에이터 발굴을 자동화하는데, 가격 파싱(세금 포함 필드로 수정 중), 제휴 크리에이터만 추천하도록 수정, GMB 누락은 Affiliate Center 'Find Creators' 도구로 수정 중. Groupbot은 이미지 카드를 지원 안 해서 카드는 Claude 앱에만 구현하기로 함. Storika MCP는 5일 안에 QA 완료 목표.\n\n회의록 액션(내 몫) — Claude 전용 이미지 기반 크리에이터 결과 켜기 + QA용 Runpod 로그 수집. 다음 단계로 Storika MCP QA 이번 주 완료, 사용량 탑업 기능 추가, 마케터 멤버가 DM 보낼 수 있게 권한 조정.\n\n참고 — Brice는 Pabal MVP 이번 주 출시·QA 공유, Settings에 Reset/Top-up 추가, Collab 멤버 DM 켜고 5% DM 발송을 나랑 조율, v1 웹사이트 빌드를 나·Jay에게 전달. Jay는 QA 시나리오 추가, lane-status 드라이버 스크립트를 레포로 옮겨 공유, 활성 MCP 툴 ~16개로 축소.",
+      "액션": "Claude 전용 이미지 기반 크리에이터 결과 켜기 + Runpod 로그 수집(QA용)\nStorika MCP QA 이번 주 안에 완료\nStorika MCP 사용량 탑업 기능 추가(Brice의 Settings Reset/Top-up과 맞추기)\n마케터 멤버 DM 권한 조정, 5% DM 발송은 Brice와 조율",
+      "link": "https://fathom.video/share/zUWxmbHg96-Suc_GDys6rqy8qgyJanX3?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "storika-mcp"
+      ],
+      "created_at": "2026-10-29T00:01:47Z"
     }
   ]
 }
