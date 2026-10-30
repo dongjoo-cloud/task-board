@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-29T01:09:27Z",
+  "updatedAt": "2026-10-30T00:12:14Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-10-30#mcp-5tasks-crons",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "데일리 10/30 — MCP 5개 작업 오늘 완료 + 커미션 5% + 크론 3개 + Olive 영상 (15:00 재싱크)",
+      "summary": "배경 — 10/30 daily(45분, Fathom 요약 09:02 KST 수신). MCP 아키텍처는 SpannerGraph 베이스라인 + Postgres 시계열 로그로 정함. Storika MCP 5개 작업(캠페인 설정, TikTok Shop 전용 크리에이터 검색, GMB·팔로워 기반 선정, 카드형 메시지 작성, 커미션 15%→5%)을 오늘 중 끝내고, 다음 주 초 일일 루틴(검색·발송·답장)을 세팅하기로 함. 툴은 37개→14개로 통합. 블로커는 DM 발송 계정(Hanhpoom US) 미설정.\n\n참고 — Brice는 Linkpad로 한품/TikTok DM 발송 계정 설정(그 뒤 내가 Olive 계정으로 DM 테스트), Paval 모니터링. Jay는 체험/탑업 흐름 수정, 툴 통합 후 코드 경로 업데이트, 오늘 15:00 재싱크 주관.",
+      "액션": "MCP 5개 작업 오늘 중 완료\nTikTok 오픈 콜라보 커미션 5%로 설정\nOlive/한품 웹·Claude 앱으로 QA(내부 계정 쓰지 말 것)\n크론 3개 세팅: 답장, 아웃리치, 일일 피드백 검색\nOlive에게 업무 인수인계 워크스루 영상 녹화·전달\n검색 결과 DB 인덱싱 구현\nBrice가 Linkpad 설정하면 Olive 계정으로 DM 테스트\n오늘 15:00 재싱크",
+      "link": "https://fathom.video/share/x9TymPfrx_B9zL1FsssNz-kA59dB6W3b?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "storika-mcp"
+      ],
+      "created_at": "2026-10-30T00:02:36Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-28#paval-share",
       "status": "todo",
