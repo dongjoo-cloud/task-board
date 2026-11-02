@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-10-30T00:12:14Z",
+  "updatedAt": "2026-11-02T00:00:32Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-daily-2026-11-02#invite-bugs-tests",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "데일리 11/2 — 초청 버그 티켓 2건 + 초청 차단 규칙 정리 + 높은 커미션 초청 5건 + 이메일 초청 테스트",
+      "summary": "배경 — 11/2 daily(32분, Fathom 요약 08:49 KST 수신). 크리에이터 초청 워크플로우 핵심 기능(캠페인 생성, GMB순 크리에이터 검색, 메시지 초안·승인 발송, 예약 검색)은 정상 작동 확인. 버그 두 개: GMB순 2차 정렬 목록에서 아바타 누락(Groubot 렌더링 한계로 보임, ChatGPT에선 정상), 이미 유효한 초대를 받은 크리에이터에게 재초대해서 대량 초청이 실패함. 초청 실패는 운영 이슈(캠페인 이름의 숫자·특수문자, 메시지 속 % 기호)로도 생김.\n\n참고 — Jay는 구독 관리 페이지에 $49 Basic 추가·Stripe 요금제 라벨 정리($2k 옵션 제거), Data Export 탭 제거, 장기 메모리 연구, Storika Gmail+Claude 이메일 아웃리치 테스트. Brice는 Storika 업무 마무리 후 Jay 백엔드 프로젝트 합류. WAU 2,000명 근접.",
+      "액션": "티켓 생성: 2차 정렬 목록 아바타 누락, 유효 초대 중복 발송 방지(발송 전 dedupe)\n초청을 막는 캠페인 이름·메시지 규칙 조사·문서화\n높은 커미션으로 초청 5건 보내고 답장 모니터링\nstorika-hanpoom.com 계정으로 이메일 초청 테스트",
+      "link": "https://fathom.video/share/mHwcbigHXmeygPZa4stgyxCzxBiWY77A?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "storika-mcp"
+      ],
+      "created_at": "2026-11-01T23:59:00Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-10-30#mcp-5tasks-crons",
       "status": "todo",
