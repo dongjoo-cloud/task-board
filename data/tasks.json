@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-03T00:06:20Z",
+  "updatedAt": "2026-11-03T02:46:17Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "Weekly Sync 11/3 — KTP POC 높은 커미션 아웃리치(~1시간 1건) + DM·이메일 병행 + 크리에이터 샘플 발송",
+      "summary": "배경 — 11/3 [Internal] Weekly Sync(92분, Fathom 요약 11:40 KST 수신). TikTok Shop POC는 AI 에이전트가 캠페인 생성·크리에이터 발굴·아웃리치를 자동화하며 진행 중이고, Fathom 요약은 이걸 SparkLabs KTP 데모데이(요약엔 11월 6일로 적혀 있음)의 핵심 성과 지표로 봄. 이슈는 낮은 응답률(커미션 올리기, 아웃리치 빈도 늘리기, 이메일 주소 찾아 DM과 병행)과 배치 초대에서 크리에이터별 커미션 수정 불가(크리에이터별로 따로 제안 발송).\n\n참고 — 가격은 무료 체험 50k 토큰·Basic/Pro 토큰 한도 10배 축소·툴 호출 표준 비용(Brice·Jay), DB 테이블 74개→약 50개 정리·미사용 테이블 GCP 아카이브(Jay), IR 덱 업데이트(Don), Mac Studio KTP 납기 지연 승인(Jen), POC 데모 발표 준비(Brice). 모두 Teamcooky 기사 검토.\n\n관련 카드 — daily 11/3 'TikTok Shop 배치 초대 개별 수정 + DM 대화방'과 이어짐.",
+      "액션": "KTP POC 아웃리치를 높은 커미션으로 보내고 약 1시간에 1건씩 예약\nDM+이메일 멀티채널 켜기, TikTok 이메일 검증, 내부 조회 추가\nKTP POC용으로 선정 크리에이터에게 제품 발송\nPOC 데모용 TikTok Shop API 이슈 해결·크리에이터 응답률 올리기",
+      "link": "https://fathom.video/share/_YKUFkZRAJSgzHdsAx_Y7WDPz5zPe_Kn?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "weekly-sync",
+        "tiktok-shop",
+        "ktp"
+      ],
+      "created_at": "2026-11-03T02:46:17Z"
+    },
     {
       "id": "gmail:fathom-daily-2026-11-02#invite-bugs-tests",
       "status": "todo",
