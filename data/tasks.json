@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-03T02:46:17Z",
+  "updatedAt": "2026-11-03T06:30:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:linear-storika-14981-jay-prod-qa-fail",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "STORIKA-14981 — Jay prod QA: 승인 샘플 배송 단계·송장 번호가 안 나옴(Done 처리 2분 뒤 실패 보고)",
+      "summary": "배경 — DJ 담당 STORIKA-14981(High, 마감 11/7, MCP QA)은 PR #13301 머지 후 11/3 14:26 KST에 Done 처리됨. 14:28 KST Jay가 prod QA 결과를 코멘트로 남김(Linear 알림 메일 15:28 KST 수신): 배포 8e8dad21에서 두 가게(org 330 Storika, Hanpoom Kimsbasket) qa-grok 캠페인의 handle_sample_requests list를 4번 불렀는데 매번 \"Approved TikTok Shop samples could not be fully read right now.\"와 노트 3개만 나오고 배송 단계·송장 줄은 한 번도 안 나옴. 같은 시간대 Sentry 경고 없음. 두 가게가 똑같이 실패해서 Jay는 읽기 자체 문제로 추정. 열린 요청 줄은 정상.\n\n추가 요청 — 하나도 못 읽었을 때는 'fully' 문구+노트 3개 대신 안내를 한 줄로 줄여 달라고 함. 스크린샷은 #qa 스레드 1793683591.593849.",
+      "액션": "STORIKA-14981 다시 열기(Done → In Progress)\n승인 샘플 읽기 실패 원인 확인 후 수정(Sentry에 경고가 안 남는 것도 같이 확인)\n전부 못 읽었을 때 안내를 한 줄로 줄이기\n배포 후 Jay에게 재QA 요청",
+      "link": "https://linear.app/storika/issue/STORIKA-14981/a-marketer-sees-the-shipping-stage-and-tracking-number-of-approved",
+      "tags": [
+        "gmail",
+        "linear",
+        "mcp",
+        "tiktok-shop",
+        "qa"
+      ],
+      "created_at": "2026-11-03T06:30:00Z"
+    },
     {
       "id": "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach",
       "status": "todo",
