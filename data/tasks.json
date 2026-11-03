@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-11-03T06:30:00Z",
+  "updatedAt": "2026-11-03T06:37:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:slack-invite-teamcookie-2026-11-03",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "medium",
+      "title": "팀쿠키 강동하 님 Slack 공유 채널 초대 수락(#스토리카pr_팀쿠키_협업채널)",
+      "summary": "11/3 15:30 KST에 Teamcookie(theteamcookie.slack.com)의 강동하 님(Dongha.Kang@teamcookie.kr)이 업무 메일로 Slack 공유 채널 #스토리카pr_팀쿠키_협업채널 초대를 보냄. 채널에 읽지 않은 메시지가 10개 이상 쌓여 있음. 초대는 14일 뒤(약 11/17) 만료.",
+      "액션": "초대 메일에서 수락(Storika Slack 워크스페이스로 연결)\n채널의 밀린 메시지 10여 개 훑어보기",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1a01a56fc7784d",
+      "tags": [
+        "gmail",
+        "slack-connect",
+        "pr",
+        "teamcookie"
+      ],
+      "created_at": "2026-11-03T06:37:00Z"
+    },
     {
       "id": "gmail:linear-storika-14981-jay-prod-qa-fail",
       "status": "todo",
