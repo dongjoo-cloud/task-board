@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T23:04:30Z",
+  "updatedAt": "2026-11-03T00:06:20Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
@@ -243,6 +243,23 @@
         "admin"
       ],
       "created_at": "2026-11-02T23:04:30Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-03#tts-batch-invite-dm",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "medium",
+      "title": "daily 11/3 — TikTok Shop 배치 초대 개별 수정 확인 + 크리에이터 DM 대화방 여는 방법 조사",
+      "summary": "배경 — 11/3 daily(42분, Fathom 요약 09:01 KST 수신). TikTok Shop에서 배치로 보낸 크리에이터 초대장은 하나의 ID로 묶여서 한 명의 커미션 요율만 바꿀 수 없고, 전체 배치를 바꾸거나 취소해야 함. 대안은 초대를 하나씩 보내는 건데 API 속도 제한을 고려해야 함. 또 셀러 센터에 기능이 없어 크리에이터에게 DM을 보낼 대화방을 열 수 없는 문제도 있음.\n\n참고 — Jay는 Pabal 데이터 수집에 gzip 압축 적용, Brice는 오늘 Pabal 설치·테스트하고 웹사이트 유스케이스 페이지를 에이전트 친화적 텍스트로 바꿀지 결정. 미디어 키트 캠페인은 싱가포르 성과가 좋아 동남아(싱가포르·말레이시아·필리핀) 크리에이터 추가.",
+      "액션": "TikTok Shop API/CLI에 수신자별 초대 수정 기능이 있는지 확인\n없으면 초대를 하나씩 보내는 방식으로 구현(속도 제한 처리 포함)\nDM 리마인더 흐름: 대화방 여는 방법 조사 후 TikTok Shop으로 DM 발송 가능하게",
+      "link": "https://fathom.video/share/Bx4RSuY1UZY93xywzAVZAWRvdP3Tpav5?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "tiktok-shop"
+      ],
+      "created_at": "2026-11-03T00:06:20Z"
     }
   ]
 }
