@@ -1,21 +1,5 @@
 {
   "ids": {
-    "gmail:brex-account-review-2026-10-27": {
-      "status": "not_mine",
-      "at": "2026-11-03T02:53:10.563Z"
-    },
-    "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc": {
-      "status": "done",
-      "at": "2026-11-03T02:52:55.944Z"
-    },
-    "gmail:fathom-1on1-2026-10-29#dm-qa-ktp-demo": {
-      "status": "done",
-      "at": "2026-11-03T02:53:21.555Z"
-    },
-    "gmail:fathom-daily-2026-10-15#pipeline-appdb": {
-      "status": "done",
-      "at": "2026-11-03T02:53:04.817Z"
-    },
     "gmail:fathom-daily-2026-10-20#cost-cut-mart": {
       "status": "in_progress",
       "at": "2026-11-03T02:53:00.264Z"
@@ -24,37 +8,9 @@
       "status": "in_progress",
       "at": "2026-11-03T02:52:50.016Z"
     },
-    "gmail:fathom-daily-2026-10-28#paval-share": {
-      "status": "done",
-      "at": "2026-11-03T02:52:44.292Z"
-    },
-    "gmail:fathom-daily-2026-10-29#mcp-qa-topup": {
-      "status": "done",
-      "at": "2026-11-03T02:53:18.268Z"
-    },
-    "gmail:fathom-daily-2026-10-30#mcp-5tasks-crons": {
-      "status": "done",
-      "at": "2026-11-03T02:52:40.289Z"
-    },
     "gmail:fathom-daily-2026-11-02#invite-bugs-tests": {
       "status": "in_progress",
       "at": "2026-11-03T02:52:31.570Z"
-    },
-    "gmail:gcp-programmable-search-sunset-storika-455708": {
-      "status": "not_mine",
-      "at": "2026-11-03T02:53:14.474Z"
-    },
-    "gmail:google-agentic-oauth-djs-claude": {
-      "status": "not_mine",
-      "at": "2026-11-03T02:53:07.928Z"
-    },
-    "gmail:maru-headcount-2026-11": {
-      "status": "not_mine",
-      "at": "2026-11-03T02:53:26.392Z"
-    },
-    "gmail:sedaily-press-interview-2026-10-29": {
-      "status": "not_mine",
-      "at": "2026-11-03T02:53:24.199Z"
     }
   }
 }

@@ -74,41 +74,6 @@
       "created_at": "2026-11-01T23:59:00Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-10-30#mcp-5tasks-crons",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "데일리 10/30 — MCP 5개 작업 오늘 완료 + 커미션 5% + 크론 3개 + Olive 영상 (15:00 재싱크)",
-      "summary": "배경 — 10/30 daily(45분, Fathom 요약 09:02 KST 수신). MCP 아키텍처는 SpannerGraph 베이스라인 + Postgres 시계열 로그로 정함. Storika MCP 5개 작업(캠페인 설정, TikTok Shop 전용 크리에이터 검색, GMB·팔로워 기반 선정, 카드형 메시지 작성, 커미션 15%→5%)을 오늘 중 끝내고, 다음 주 초 일일 루틴(검색·발송·답장)을 세팅하기로 함. 툴은 37개→14개로 통합. 블로커는 DM 발송 계정(Hanhpoom US) 미설정.\n\n참고 — Brice는 Linkpad로 한품/TikTok DM 발송 계정 설정(그 뒤 내가 Olive 계정으로 DM 테스트), Paval 모니터링. Jay는 체험/탑업 흐름 수정, 툴 통합 후 코드 경로 업데이트, 오늘 15:00 재싱크 주관.",
-      "액션": "MCP 5개 작업 오늘 중 완료\nTikTok 오픈 콜라보 커미션 5%로 설정\nOlive/한품 웹·Claude 앱으로 QA(내부 계정 쓰지 말 것)\n크론 3개 세팅: 답장, 아웃리치, 일일 피드백 검색\nOlive에게 업무 인수인계 워크스루 영상 녹화·전달\n검색 결과 DB 인덱싱 구현\nBrice가 Linkpad 설정하면 Olive 계정으로 DM 테스트\n오늘 15:00 재싱크",
-      "link": "https://fathom.video/share/x9TymPfrx_B9zL1FsssNz-kA59dB6W3b?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "storika-mcp"
-      ],
-      "created_at": "2026-10-30T00:02:36Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-28#paval-share",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/28 — Brice·Jay에게 백서·리서치 폴더 공유 + TikTok/제휴 아티팩트 편집 권한·링크",
-      "summary": "배경 — 10/28 daily(55분, Fathom 요약 09:10 KST 수신)에서 Paval(AI 에이전트 활동을 기록하는 불변 원장) 브레인스토밍을 했어. 핵심 과제는 온보딩 때 기존 도구(Dot, Claude)의 과거 활동으로 '베이스라인'을 잡는 것. 나는 TikTok Shop 마케팅 QA 시나리오를 만들었고, 플러그인이 제휴 크리에이터를 구분 못 하는 문제와 크리에이터 GMB 정보 누락을 찾았어.\n\n회의록 액션(내 몫) — 백서와 리서치 폴더를 Brice·Jay에게 공유, TikTok/제휴 아티팩트 편집 권한을 Brice·Jay에게 주고 링크 공유. 다음 단계로 TikTok Shop QA 시나리오 계속 돌리고 MCP 커넥터 프로젝트에 들어가서 찾은 이슈를 직접 고치기.\n\n참고 — Brice는 베이스라인 리서치와 Paval MVP 티켓 검토, Jay는 시스템 다이어그램과 로깅 온톨로지·훅 정의 담당.",
-      "액션": "백서 + 리서치 폴더 Brice·Jay에게 공유\nTikTok/제휴 아티팩트 편집 권한 Brice·Jay에게 주고 링크 공유\nTikTok Shop QA 시나리오 계속 실행\nMCP 커넥터 프로젝트 합류해서 발견 이슈 직접 수정",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a17fd807f2dd23b",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "paval",
-        "tiktok-shop"
-      ],
-      "created_at": "2026-10-28T00:18:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-23#infra-shutdown",
       "status": "todo",
       "source": "gmail",
@@ -127,25 +92,6 @@
       "created_at": "2026-10-22T23:38:00Z"
     },
     {
-      "id": "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "Brice 1:1 10/22 — 한품 TikTok Shop MCP POC 계획 작성 + 디스커버리 크론 세팅",
-      "summary": "배경 — 10/22 Brice x DJ 주간 1:1(29분, Fathom 요약 10:02 KST 수신). 한품 TikTok Shop MCP를 테스트하려고 크리에이터 1명으로 캠페인 전체 주기(발견 → Storika MCP DM 초대 → 수락 시 한품 샘플 발송 → TikTok Shop API로 배송·게재 추적)를 자동화하는 MVP를 만들기로 함. DM은 AI가 초안 쓰고 사람이 승인하는 반자동. 업무 분담상 나는 한품 MCP와 피봇 아이디어에 집중.\n\n참고 — Brice 몫: 한품에 5% 수익 분배 수락 시 샘플 제공 가능한지 확인(되면 샘플 1개 구매), 한품 Storika 로그인 요청, aihub.storika.ai 서브도메인 요청, 나를 한품 TikTok Shop 계정에 추가. 한품 계정 연결이 Storika MCP에서 끊긴 걸로 보이는 버그는 종현과 같이 해결.",
-      "액션": "MCP POC 계획 초안 작성(인플루언서 1명 루프, DM+승인, 5% 수익 분배, 샘플, 지표) 후 Brice·Olive에게 공유\n데일리 디스커버리 크론/Groupbot 세팅, 이어서 Olive와 DM+승인 구현\n피봇 아이디어 평가 마무리",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879709822221103849|msg-f:1879709822221103849",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "hanhum",
-        "mcp",
-        "tiktok-shop"
-      ],
-      "created_at": "2026-10-22T01:08:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-10-20#cost-cut-mart",
       "status": "todo",
       "source": "gmail",
@@ -162,140 +108,6 @@
         "mart"
       ],
       "created_at": "2026-10-19T23:42:42Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-15#pipeline-appdb",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "데일리 10/15 — 이메일 디스커버리 created_at 추가 + 파이프라인 앱 DB 전환·24시간 가동",
-      "summary": "배경 — 데일리에서 파이프라인(이메일 데이터)을 앱 DB로 옮기는 중이라고 공유. 약 1주 걸리고 데이터마트는 10/31까지 끝낼 계획.\n\n회의록 액션 — 이메일 디스커버리에 created_at 추가하고 파이프라인이 앱 DB를 쓰게 바꾸기, 파이프라인을 하루 24시간 돌려서 검증을 앞당기기.\n\n관련 카드 — 데일리 10/14 'creator_emails 테이블 확인'·'MART·중단 정리 1주 앞당기기'와 이어짐.",
-      "액션": "이메일 디스커버리에 created_at 추가\n파이프라인을 앱 DB 쓰도록 전환(약 1주)\n파이프라인 24시간 가동으로 검증 앞당기기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1879070627387096624",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "pipeline"
-      ],
-      "created_at": "2026-10-14T23:50:30Z"
-    },
-    {
-      "id": "gmail:google-agentic-oauth-djs-claude",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "",
-      "title": "Google OAuth 클라이언트 'agentic' 표시 — djs-claude (11/11까지)",
-      "summary": "배경 — Google Workspace가 \"[Action Required]\" 공지를 보냈어(10/13 03:40 KST). 곧 나오는 Workspace MCP 서버는 Cloud 콘솔에서 'agentic'으로 표시한 OAuth 클라이언트만 부를 수 있대.\n\n영향 프로젝트로 djs-claude가 적혀 있어. 11/11부터 표시 안 된 클라이언트는 MCP 호출이 거부되고, 11/12부터는 설정을 못 바꿔서 새 OAuth 클라이언트를 만들어야 해. AI 에이전트가 아니고 Gmail·Drive REST API만 쓰는 앱이면 할 일 없음.",
-      "액션": "djs-claude의 OAuth 클라이언트가 AI 에이전트용인지 확인\n맞으면 11/11 전에 Google Cloud 콘솔에서 agentic 설정 켜기 (에이전트·일반 트래픽 섞이면 클라이언트 분리)",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/thread-f:1878870380494340563",
-      "tags": [
-        "gmail",
-        "google",
-        "oauth",
-        "deadline"
-      ],
-      "created_at": "2026-10-12T22:17:21Z"
-    },
-    {
-      "id": "gmail:brex-account-review-2026-10-27",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "",
-      "title": "Brex 계정 공지 확인 — 대시보드에 '중요 업데이트'",
-      "summary": "배경 — Brex(adjustment@brex.com)가 10/27 02:48 KST에 \"Review your Brex account\" 메일을 보냈어. 메일엔 내용이 없고 Brex 대시보드 알림을 보라고만 해. 보낸 주소가 adjustment라 한도나 계정 조정일 수 있어(추정). 전날 21:40 KST엔 RAMP에서 $20,000 ACH 입금 알림도 왔어.",
-      "액션": "Brex 대시보드에서 알림 내용 확인\n한도·계정 조정이면 Brice와 공유",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a179538f118e783",
-      "tags": [
-        "gmail",
-        "brex",
-        "finance"
-      ],
-      "created_at": "2026-10-26T22:05:02Z"
-    },
-    {
-      "id": "gmail:gcp-programmable-search-sunset-storika-455708",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "",
-      "title": "Google 프로그래밍 검색 엔진 전환 — storika-455708 (2027/1/1까지)",
-      "summary": "배경 — Google Cloud가 \"[조치 필요] 2027년 1월 1일까지 웹 검색 제품을 전환하세요\" 공지를 보냈어(10/28 02:07 KST). 영향 프로젝트로 storika-455708이 적혀 있어.\n\n'전체 웹 검색' 엔진이나 Custom Search JSON API를 쓰고 있으면 2027/1/1까지 Agent Search(구 Vertex AI Search, 50개 도메인 이하)나 Google 새 웹 검색 서비스로 옮겨야 해. 인프라 종료 계획으로 이미 안 쓰는 거면 할 일 없음.",
-      "액션": "storika-455708에서 Custom Search API·프로그래밍 검색 엔진을 실제로 쓰는지 확인\n쓰면 대체 경로(Agent Search 또는 Google 웹 검색 서비스 문의) 정하기",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a17e54aa02b3756",
-      "tags": [
-        "gmail",
-        "google",
-        "gcp",
-        "deadline"
-      ],
-      "created_at": "2026-10-27T22:13:00Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-10-29#mcp-qa-topup",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "",
-      "title": "데일리 10/29 — Storika MCP QA 이번 주 완료 + 사용량 탑업 + 마케터 DM 권한",
-      "summary": "배경 — 10/29 daily(41분, Fathom 요약 08:59 KST 수신)에서 Storika MCP 개발 현황을 봤어. 에이전트가 TikTok Shop 캠페인 생성·크리에이터 발굴을 자동화하는데, 가격 파싱(세금 포함 필드로 수정 중), 제휴 크리에이터만 추천하도록 수정, GMB 누락은 Affiliate Center 'Find Creators' 도구로 수정 중. Groupbot은 이미지 카드를 지원 안 해서 카드는 Claude 앱에만 구현하기로 함. Storika MCP는 5일 안에 QA 완료 목표.\n\n회의록 액션(내 몫) — Claude 전용 이미지 기반 크리에이터 결과 켜기 + QA용 Runpod 로그 수집. 다음 단계로 Storika MCP QA 이번 주 완료, 사용량 탑업 기능 추가, 마케터 멤버가 DM 보낼 수 있게 권한 조정.\n\n참고 — Brice는 Pabal MVP 이번 주 출시·QA 공유, Settings에 Reset/Top-up 추가, Collab 멤버 DM 켜고 5% DM 발송을 나랑 조율, v1 웹사이트 빌드를 나·Jay에게 전달. Jay는 QA 시나리오 추가, lane-status 드라이버 스크립트를 레포로 옮겨 공유, 활성 MCP 툴 ~16개로 축소.",
-      "액션": "Claude 전용 이미지 기반 크리에이터 결과 켜기 + Runpod 로그 수집(QA용)\nStorika MCP QA 이번 주 안에 완료\nStorika MCP 사용량 탑업 기능 추가(Brice의 Settings Reset/Top-up과 맞추기)\n마케터 멤버 DM 권한 조정, 5% DM 발송은 Brice와 조율",
-      "link": "https://fathom.video/share/zUWxmbHg96-Suc_GDys6rqy8qgyJanX3?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "storika-mcp"
-      ],
-      "created_at": "2026-10-29T00:01:47Z"
-    },
-    {
-      "id": "gmail:fathom-1on1-2026-10-29#dm-qa-ktp-demo",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "",
-      "title": "1:1 10/29 — DM·초대 2,000자 제한 수정 + 5%/20% 커미션 테스트 + KTP 데모 준비(11/23)",
-      "summary": "배경 — Brice와 10/29 Weekly 1:1(22분, Fathom 요약 09:53 KST 수신). 크리에이터 디스커버리 DM 발송 QA는 이번 주에 끝냄. AI QA가 2,000자 제한을 4,000자로 허용하는 버그를 놓쳐서 사람 QA가 필수라는 결론(Dongjun이 사람 QA 지원). 11/23 KTP 발표 데모를 위해 크리에이터 검색(반복 검색에서 새 크리에이터 찾게 메모리 추가, 캠페인 설정 DB에 피드백 필드)과 피드백 기반 학습을 우선, 요금제 변경 기능은 우선순위 낮춤.\n\n회의록 액션(내 몫) — DM·초대에서 2,000자 제한 강제 + 크리에이터 핸들을 클릭 가능한 링크로, 5%/20% 커미션 콜라보 DM 테스트 발송하고 답장 모니터링, 크리에이터 검색 메모리 기능 티켓 만들어 Jay·Brice에게 배정, Groupbot 반복 크리에이터 검색 루틴(초기 10명 제한, Brice에게 알림), IR 자료 5~8번 데모 슬라이드를 실제 스크린샷·데이터로 구체화.\n\n참고 — Brice는 Yoohani에게 판매가 인상 제안(마진 보호), Olive 팀에 디스커버리 흐름 테스트 요청. GMB 읽기 수정 필요. 36코어 Mac Studio(약 2천만 원) 구매 계획, Pabal 프로젝트(에이전트 맥락 통합) MVP로 시작. 10/29 daily 카드의 5% DM 발송 조율과 겹침.",
-      "액션": "DM·초대 2,000자 제한 강제 + 핸들을 링크로 전달\n5%/20% 커미션 콜라보 DM 테스트 발송, 답장 모니터링\n크리에이터 검색 메모리 기능 티켓 생성 → Jay·Brice 배정\nGroupbot 반복 크리에이터 검색 설정(10명 제한, Brice 알림)\nKTP(11/23) IR 데모 슬라이드 5~8번 구체화",
-      "link": "https://fathom.video/share/eLPYiDY1-4D7ajsGorwMiNCVhaZa_L_6?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "1on1",
-        "creator-discovery",
-        "ktp"
-      ],
-      "created_at": "2026-10-29T01:09:27Z"
-    },
-    {
-      "id": "gmail:sedaily-press-interview-2026-10-29",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "서울경제 '스타트업 스트리트' 서면 인터뷰 요청 — 11/3(화)까지 답변",
-      "summary": "배경 — 서울경제 테크부 스타트업팀 장형임 기자(jang@sedaily.com)가 10/29 16:09 KST에 contact@storika.ai로 보낸 요청. 다음 주 '스타트업 스트리트' 코너 주제가 AI 에이전트 기반 크리에이터 마케팅 자동화 서비스라서, 스토리카 소식·시장 동향·추후 계획을 소개하려고 대표 또는 CTO에게 3~4개 이내 질문의 약식 서면 인터뷰를 부탁함. 다음 주 화요일(11/3)까지 답하면 11/4 저녁 웹기사, 11/5자 지면에 실릴 예정. 아직 질문 목록은 안 왔음.",
-      "액션": "인터뷰 응할지 Brice와 정하기(대표/CTO 중 누가 답할지)\n응하면 기자에게 회신해서 질문 받기\n11/3(화)까지 서면 답변 보내기",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1867e41574b4ff",
-      "tags": [
-        "gmail",
-        "press",
-        "pr"
-      ],
-      "created_at": "2026-10-29T07:13:30Z"
-    },
-    {
-      "id": "gmail:maru-headcount-2026-11",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "MARU 입주사 인원 수 확인 회신 — 11/9(월)까지",
-      "summary": "배경 — 아산나눔재단 경영지원팀 한지희 매니저가 11/3 08:00 KST에 입주사 대표들에게 보낸 메일. 11/1 기준 출입증 발급 개수와 마루 홈페이지 등록 인원수를 대사한 표(메일 본문 이미지)를 보내며, 차이가 나는 사유와 정확한 인원 수를 11/9(월)까지 회신해 달라고 함. 차이가 없어도 실제 인원과 다르면 회신해야 하고, 기한 내 미회신이면 더 큰 인원수 기준으로 관리비가 청구되고 수정 불가.",
-      "액션": "메일의 표에서 스토리카 행 확인\n실제 인원과 다르면 사유·정확한 인원 수 적어 회신\n11/9(월)까지 회신",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a19e7deec4dc280",
-      "tags": [
-        "gmail",
-        "maru",
-        "admin"
-      ],
-      "created_at": "2026-11-02T23:04:30Z"
     },
     {
       "id": "gmail:fathom-daily-2026-11-03#tts-batch-invite-dm",

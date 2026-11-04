@@ -1,5 +1,12 @@
 {
   "ids": {
+    "gmail:brex-account-review-2026-10-27": {
+      "status": "not_mine",
+      "at": "2026-11-03T02:53:10.563Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "Brex 계정 공지 확인 — 대시보드에 '중요 업데이트'",
+      "source": "gmail"
+    },
     "gmail:calendar-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T02:43:21.000Z",
@@ -33,6 +40,20 @@
       "at": "2026-10-02T08:41:23.852Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc": {
+      "status": "done",
+      "at": "2026-11-03T02:52:55.944Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "Brice 1:1 10/22 — 한품 TikTok Shop MCP POC 계획 작성 + 디스커버리 크론 세팅",
+      "source": "gmail"
+    },
+    "gmail:fathom-1on1-2026-10-29#dm-qa-ktp-demo": {
+      "status": "done",
+      "at": "2026-11-03T02:53:21.555Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "1:1 10/29 — DM·초대 2,000자 제한 수정 + 5%/20% 커미션 테스트 + KTP 데모 준비(11/23)",
       "source": "gmail"
     },
     "gmail:fathom-daily-2026-10-02": {
@@ -154,6 +175,13 @@
       "title": "데일리 10/15 — GCP 결제 알림(Storika Korea·Vertical AI) + 비용 보고서·비용 표 세팅",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-15#pipeline-appdb": {
+      "status": "done",
+      "at": "2026-11-03T02:53:04.817Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "데일리 10/15 — 이메일 디스커버리 created_at 추가 + 파이프라인 앱 DB 전환·24시간 가동",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-10-16#dexter-automerge": {
       "status": "done",
       "at": "2026-10-16T05:57:58.309Z",
@@ -215,6 +243,27 @@
       "at": "2026-10-24T08:09:41.865Z",
       "archived_at": "2026-10-25T11:16:56.580Z",
       "title": "데일리 10/23 — 한품 KTP 발표 계획 수립(Brice AI 데모·Jay UI용)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-28#paval-share": {
+      "status": "done",
+      "at": "2026-11-03T02:52:44.292Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "데일리 10/28 — Brice·Jay에게 백서·리서치 폴더 공유 + TikTok/제휴 아티팩트 편집 권한·링크",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-29#mcp-qa-topup": {
+      "status": "done",
+      "at": "2026-11-03T02:53:18.268Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "데일리 10/29 — Storika MCP QA 이번 주 완료 + 사용량 탑업 + 마케터 DM 권한",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-10-30#mcp-5tasks-crons": {
+      "status": "done",
+      "at": "2026-11-03T02:52:40.289Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "데일리 10/30 — MCP 5개 작업 오늘 완료 + 커미션 5% + 크론 3개 + Olive 영상 (15:00 재싱크)",
       "source": "gmail"
     },
     "gmail:fathom-gantt-review-2026-10-07": {
@@ -294,11 +343,25 @@
       "title": "GCP 결제 계정(0194FA-5E63D1-510368) 연체·결제 정보 업데이트",
       "source": "gmail"
     },
+    "gmail:gcp-programmable-search-sunset-storika-455708": {
+      "status": "not_mine",
+      "at": "2026-11-03T02:53:14.474Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "Google 프로그래밍 검색 엔진 전환 — storika-455708 (2027/1/1까지)",
+      "source": "gmail"
+    },
     "gmail:gkor-creator-db-inquiry-2026-10-07": {
       "status": "done",
       "at": "2026-10-11T12:42:57.719Z",
       "archived_at": "2026-10-12T17:48:25.663Z",
       "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
+      "source": "gmail"
+    },
+    "gmail:google-agentic-oauth-djs-claude": {
+      "status": "not_mine",
+      "at": "2026-11-03T02:53:07.928Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "Google OAuth 클라이언트 'agentic' 표시 — djs-claude (11/11까지)",
       "source": "gmail"
     },
     "gmail:ktech-funding-2026-10-12": {
@@ -329,6 +392,13 @@
       "title": "",
       "source": "gmail"
     },
+    "gmail:maru-headcount-2026-11": {
+      "status": "not_mine",
+      "at": "2026-11-03T02:53:26.392Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "MARU 입주사 인원 수 확인 회신 — 11/9(월)까지",
+      "source": "gmail"
+    },
     "gmail:ramp-admin-invite-kwoncpa-2026-10-08": {
       "status": "not_mine",
       "at": "2026-10-11T12:51:14.000Z",
@@ -355,6 +425,13 @@
       "at": "2026-10-01T23:56:51.754Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:sedaily-press-interview-2026-10-29": {
+      "status": "not_mine",
+      "at": "2026-11-03T02:53:24.199Z",
+      "archived_at": "2026-11-04T09:03:20.745Z",
+      "title": "서울경제 '스타트업 스트리트' 서면 인터뷰 요청 — 11/3(화)까지 답변",
       "source": "gmail"
     },
     "gmail:typesafe-invite": {
