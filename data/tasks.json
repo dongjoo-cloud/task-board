@@ -44,8 +44,8 @@
       "source": "gmail",
       "priority": "high",
       "title": "Weekly Sync 11/3 — KTP POC 높은 커미션 아웃리치(~1시간 1건) + DM·이메일 병행 + 크리에이터 샘플 발송",
-      "summary": "배경 — 11/3 [Internal] Weekly Sync(92분, Fathom 요약 11:40 KST 수신). TikTok Shop POC는 AI 에이전트가 캠페인 생성·크리에이터 발굴·아웃리치를 자동화하며 진행 중이고, Fathom 요약은 이걸 SparkLabs KTP 데모데이(요약엔 11월 6일로 적혀 있음)의 핵심 성과 지표로 봄. 이슈는 낮은 응답률(커미션 올리기, 아웃리치 빈도 늘리기, 이메일 주소 찾아 DM과 병행)과 배치 초대에서 크리에이터별 커미션 수정 불가(크리에이터별로 따로 제안 발송).\n\n참고 — 가격은 무료 체험 50k 토큰·Basic/Pro 토큰 한도 10배 축소·툴 호출 표준 비용(Brice·Jay), DB 테이블 74개→약 50개 정리·미사용 테이블 GCP 아카이브(Jay), IR 덱 업데이트(Don), Mac Studio KTP 납기 지연 승인(Jen), POC 데모 발표 준비(Brice). 모두 Teamcooky 기사 검토.\n\n관련 카드 — daily 11/3 'TikTok Shop 배치 초대 개별 수정 + DM 대화방'과 이어짐.",
-      "액션": "KTP POC 아웃리치를 높은 커미션으로 보내고 약 1시간에 1건씩 예약\nDM+이메일 멀티채널 켜기, TikTok 이메일 검증, 내부 조회 추가\nKTP POC용으로 선정 크리에이터에게 제품 발송\nPOC 데모용 TikTok Shop API 이슈 해결·크리에이터 응답률 올리기",
+      "summary": "배경 — 11/3 [Internal] Weekly Sync(92분, Fathom 요약 11:40 KST 수신). TikTok Shop POC는 AI 에이전트가 캠페인 생성·크리에이터 발굴·아웃리치를 자동화하며 진행 중이고, Fathom 요약은 이걸 SparkLabs KTP 데모데이(요약엔 11월 6일로 적혀 있음)의 핵심 성과 지표로 봄. 이슈는 낮은 응답률(커미션 올리기, 아웃리치 빈도 늘리기, 이메일 주소 찾아 DM과 병행)과 배치 초대에서 크리에이터별 커미션 수정 불가(크리에이터별로 따로 제안 발송).\n\n참고 — 가격은 무료 체험 50k 토큰·Basic/Pro 토큰 한도 10배 축소·툴 호출 표준 비용(Brice·Jay), DB 테이블 74개→약 50개 정리·미사용 테이블 GCP 아카이브(Jay), IR 덱 업데이트(Don), Mac Studio KTP 납기 지연 승인(Jen), POC 데모 발표 준비(Brice). 모두 Teamcooky 기사 검토.\n\n관련 카드 — daily 11/3 'TikTok Shop 배치 초대 개별 수정 + DM 대화방'과 이어짐.\n\n추가(11/4 12:30 KST) — Olive(Hanpoom)가 한품 단톡방 샘플 스레드에서 무료 샘플 받을 크리에이터 명단을 거기 올려 달라고 요청(배송은 Hanpoom이 처리). 앞서 30% 커미션·샘플 5개 동의, 결제는 송금 또는 카드 링크 중 선택 요청.",
+      "액션": "KTP POC 아웃리치를 높은 커미션으로 보내고 약 1시간에 1건씩 예약\nDM+이메일 멀티채널 켜기, TikTok 이메일 검증, 내부 조회 추가\nKTP POC용으로 선정 크리에이터에게 제품 발송\nPOC 데모용 TikTok Shop API 이슈 해결·크리에이터 응답률 올리기\n한품 단톡방 샘플 스레드에 무료 샘플 크리에이터 명단(5명) 올리기, 결제 방식(송금/카드 링크) 답하기",
       "link": "https://fathom.video/share/_YKUFkZRAJSgzHdsAx_Y7WDPz5zPe_Kn?tab=summary",
       "tags": [
         "gmail",
