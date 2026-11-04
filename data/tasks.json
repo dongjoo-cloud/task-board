@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T06:37:00Z",
+  "updatedAt": "2026-11-04T00:10:38Z",
   "title": "동주 태스크 보드",
   "subtitle": "10/28 07:13 10분 체크",
   "tasks": [
@@ -314,6 +314,40 @@
       ],
       "created_at": "2026-11-03T00:06:20Z",
       "link_pr": "https://github.com/storika/storika-mono/pull/13298"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-04#creator-invite-automation",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "daily 11/4 — 크리에이터 초대 자동화 설정(1시간마다 DM 발송)",
+      "summary": "배경 — 11/4 daily(48분, Fathom 요약 09:04 KST 수신). 크리에이터 온보딩을 빨리 늘리려고 커미션 30%로 인상, 초대 발송을 자동화해 1시간마다 보내기로 함. 11/13까지 온보딩이 부진하면 플랫 피(예: $500) 도입. Fathom 액션 아이템 담당자 Dongjoo.",
+      "액션": "Storika 크리에이터 초대 자동화 설정(1시간 간격 DM)\n11/13 온보딩 상황 보고 플랫 피 여부 판단",
+      "link": "https://fathom.video/share/vfNsypwAu_TpSpnmssAf8dwRTXg86-zc?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "creator-onboarding"
+      ],
+      "created_at": "2026-11-04T00:10:38Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-04#tullu-billing-research",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "medium",
+      "title": "daily 11/4 — 툴루 행동 기반 과금 리서치 공유",
+      "summary": "배경 — 11/4 daily(48분, Fathom 요약 09:04 KST 수신). 웹사이트·결제 업데이트 논의 중 Dongjoo가 툴루의 행동 기반 과금 모델 경쟁사 리서치를 팀에 공유하기로 함. 참고 — Pabal MVP 역할 분담에서 UX는 Dongjoo.",
+      "액션": "툴루 과금 리서치 정리해 팀에 공유",
+      "link": "https://fathom.video/share/vfNsypwAu_TpSpnmssAf8dwRTXg86-zc?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "research"
+      ],
+      "created_at": "2026-11-04T00:10:38Z"
     }
   ]
 }
