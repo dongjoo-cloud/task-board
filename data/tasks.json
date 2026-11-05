@@ -1,8 +1,42 @@
 {
-  "updatedAt": "2026-11-05T00:15:35Z",
+  "updatedAt": "2026-11-05T22:06:49Z",
   "title": "동주 태스크 보드",
-  "subtitle": "10/28 07:13 10분 체크",
+  "subtitle": "11/6 07:05 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:brex-wire-instructions-2026-11-06",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "medium",
+      "title": "Brex 국제 송금(wire) 안내 업데이트 — 벤더에 11/9까지 재공유",
+      "summary": "배경 — 11/6 05:02 KST Brex(noreply)가 dongjoo@storika.ai로 국제 wire 안내 변경 후속. USD 국제송금은 중개은행 불필요, non-USD는 보통 불필요·필요 시 Citibank N.A.(CITIUS33XXX). 이미 wire 안내를 벤더/송금자에게 공유했다면 2026-11-09까지 업데이트본을 다시 보내야 결제 지연·거절을 막을 수 있음. Help Center·대시보드에서 새 안내 다운로드 가능. 계좌 자체 설정 변경은 없음.\n\n참고 — 경리 몫으로 넘김.",
+      "액션": "공유한 Brex wire 안내가 있으면 11/9까지 업데이트본 재공유\nHelp Center/대시보드에서 새 안내 확인",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ad4e33da96e8a",
+      "tags": [
+        "gmail",
+        "brex",
+        "finance",
+        "wire"
+      ],
+      "created_at": "2026-11-05T20:02:25Z"
+    },
+    {
+      "id": "gmail:brex-limit-action-2026-11-06",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "Brex [Action Required] 신용한도 — 현금잔고 부족으로 한도 축소 가능(Laura Gamble)",
+      "summary": "배경 — 11/6 05:01 KST Success with Brex(Laura Gamble)가 jen·dongjoo·don·mason@gatsbyfoundationus.com 앞으로 Action Required 메일. 언더라이팅에 보이는 현금잔고가 현재 한도를 유지하기에 너무 낮아, 추가 계좌 연결·월말 PDF 명세서 업로드·연결 계좌/Brex Business Account 입금 중 하나가 없으면 한도가 줄어들 가능성이 큼. 조치 후 Laura에게 회신·캘린더 예약 가능.\n\n참고 — 경리 핸드오프 필요. DJ 결정/회신이 필요할 수 있음.",
+      "액션": "추가 계좌 연결 또는 월말 PDF 명세서 업로드 또는 입금\n조치 후 Laura Gamble에게 회신\n경리에 전달·Jen·Don과 역할 확인",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ad4cfac3cb500",
+      "tags": [
+        "gmail",
+        "brex",
+        "finance",
+        "action-required"
+      ],
+      "created_at": "2026-11-05T20:01:04Z"
+    },
     {
       "id": "gmail:slack-invite-teamcookie-2026-11-03",
       "status": "todo",
