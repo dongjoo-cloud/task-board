@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-11-06T06:03:30Z",
+  "updatedAt": "2026-11-06T06:13:19Z",
   "title": "동주 태스크 보드",
-  "subtitle": "11/6 15:00 시간 체크",
+  "subtitle": "11/6 15:12 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:google-otp-app-2026-11-06",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "Google 보안 — dongjoo@storika.ai에 OTP 앱이 로그인 단계로 추가됨(본인 확인)",
+      "summary": "배경 — 11/6 15:06 KST Google(no-reply@accounts.google.com)이 dongjoo@storika.ai로 보안 알림. OTP 앱이 로그인 단계로 추가됐다는 안내. 본인이 추가하지 않았다면 다른 사람이 계정을 쓰는 것일 수 있다고 함. 활동 확인·보안 강화 링크 포함.",
+      "액션": "본인이 OTP 앱을 추가했는지 확인\n아니면 myaccount.google.com에서 보안 활동 점검·의심 기기/앱 제거",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1af774c4d8eea2",
+      "tags": [
+        "gmail",
+        "security",
+        "google",
+        "otp"
+      ],
+      "created_at": "2026-11-06T06:13:19Z"
+    },
     {
       "id": "gmail:pivot-labs-au-beauty-2026-11-06",
       "status": "todo",
