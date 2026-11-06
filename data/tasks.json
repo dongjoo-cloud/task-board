@@ -1,8 +1,26 @@
 {
-  "updatedAt": "2026-11-06T06:13:19Z",
+  "updatedAt": "2026-11-06T08:21:31Z",
   "title": "동주 태스크 보드",
-  "subtitle": "11/6 15:12 10분 체크",
+  "subtitle": "11/6 17:12 10분 체크",
   "tasks": [
+    {
+      "id": "gmail:fathom-ktp-budgeting-2026-11-06#jen-accounting-categories",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "KTP Budgeting — Jen에게 회계 분류(용역비 vs 수용비, 공공요금 vs 임차료) 메일",
+      "summary": "배경 — 11/6 17:05 KST Fathom이 KTP Budgeting(31분) 요약을 보냄. 잔액 약 2,500만 원(부가세 포함) 연말 소진. 우선순위: 마케팅 1,000~1,500만·Mac Studio ~900만·Clay ~800만. 다음 단계 Jen(KTP 적격성·예산 재작성)·Don(Clay)·Jay(MS 연락). Fathom 액션 아이템 담당자 Dongjoo: Email Jen accounting categories (용역비 vs 수용비, 공공요금 vs 임차료).",
+      "액션": "Jen에게 용역비 vs 수용비·공공요금 vs 임차료 회계 분류 정리해서 메일",
+      "link": "https://fathom.video/share/dfLxmyL34ysQ4jkxsSbxUWfwqeuiBJdm?tab=summary",
+      "tags": [
+        "gmail",
+        "fathom",
+        "ktp",
+        "budget",
+        "accounting"
+      ],
+      "created_at": "2026-11-06T08:05:26Z"
+    },
     {
       "id": "gmail:google-otp-app-2026-11-06",
       "status": "todo",
