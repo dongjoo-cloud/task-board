@@ -4,58 +4,6 @@
   "subtitle": "11/6 17:12 10분 체크",
   "tasks": [
     {
-      "id": "gmail:fathom-ktp-budgeting-2026-11-06#jen-accounting-categories",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "KTP Budgeting — Jen에게 회계 분류(용역비 vs 수용비, 공공요금 vs 임차료) 메일",
-      "summary": "배경 — 11/6 17:05 KST Fathom이 KTP Budgeting(31분) 요약을 보냄. 잔액 약 2,500만 원(부가세 포함) 연말 소진. 우선순위: 마케팅 1,000~1,500만·Mac Studio ~900만·Clay ~800만. 다음 단계 Jen(KTP 적격성·예산 재작성)·Don(Clay)·Jay(MS 연락). Fathom 액션 아이템 담당자 Dongjoo: Email Jen accounting categories (용역비 vs 수용비, 공공요금 vs 임차료).",
-      "액션": "Jen에게 용역비 vs 수용비·공공요금 vs 임차료 회계 분류 정리해서 메일",
-      "link": "https://fathom.video/share/dfLxmyL34ysQ4jkxsSbxUWfwqeuiBJdm?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "ktp",
-        "budget",
-        "accounting"
-      ],
-      "created_at": "2026-11-06T08:05:26Z"
-    },
-    {
-      "id": "gmail:google-otp-app-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "Google 보안 — dongjoo@storika.ai에 OTP 앱이 로그인 단계로 추가됨(본인 확인)",
-      "summary": "배경 — 11/6 15:06 KST Google(no-reply@accounts.google.com)이 dongjoo@storika.ai로 보안 알림. OTP 앱이 로그인 단계로 추가됐다는 안내. 본인이 추가하지 않았다면 다른 사람이 계정을 쓰는 것일 수 있다고 함. 활동 확인·보안 강화 링크 포함.",
-      "액션": "본인이 OTP 앱을 추가했는지 확인\n아니면 myaccount.google.com에서 보안 활동 점검·의심 기기/앱 제거",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1af774c4d8eea2",
-      "tags": [
-        "gmail",
-        "security",
-        "google",
-        "otp"
-      ],
-      "created_at": "2026-11-06T06:13:19Z"
-    },
-    {
-      "id": "gmail:pivot-labs-au-beauty-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "Pivot Labs(Jamie) — 호주 뷰티 브랜드 Storika 소개 제안 회신 여부",
-      "summary": "배경 — 11/6 14:48 KST Jamie(Pivot Labs, hello@pivotlabs.com.au)가 contact@storika.ai로 콜드 아웃리치. Brisbane 기반 한·영 바이링구얼, 코파운더 Barry와 마케팅·세일즈·프로덕트·AI 셋업을 파트타임 지원. 호주 뷰티 브랜드의 미국 진출이 Storika와 맞다며 소개 가능하다고 함. Pivot-Labs-Deck.pdf 첨부. 기대하지 않은 제안이면 무시해도 됨.",
-      "액션": "소개·미팅 받을지 판단\n받을 거면 짧게 회신(일정/관심 범위), 아니면 무시·스누즈",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1af66d37de7a20",
-      "tags": [
-        "gmail",
-        "outbound",
-        "partnership",
-        "australia"
-      ],
-      "created_at": "2026-11-06T06:03:30Z"
-    },
-    {
       "id": "gmail:shopify-org-invite-2026-11-06",
       "status": "todo",
       "source": "gmail",
@@ -70,23 +18,6 @@
         "invite"
       ],
       "created_at": "2026-11-06T04:28:05Z"
-    },
-    {
-      "id": "gmail:viralbase-shutdown-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "ViralBase 11/19 15:00 KST 서비스 종료 — 자료 사본 필요 여부 판단",
-      "summary": "배경 — 11/6 09:10 KST Brice가 ViralBase Support(김성훈/BitterSweet)의 서비스 종료 안내를 Jay·DJ·Don·Jen에게 전달. 11/19(목) 15:00 KST에 ViralBase 종료, 그때까지 이용·잔여 크레딧 사용 가능. 결제/신규구독은 이미 막힘·기존 유료는 추가결제 없이 해지 불필요. 워크스페이스 자료 사본이 필요하면 11/19 15:00까지 sunghun@bittersweet.ai로 요청, 이후 법적 필수 외 자료 소멸.\n\n스레드 — Jay '매각?' → Brice '안되서 그냥 접는거겠지?' → Jay(09:42 KST) '우리가 십불에 사자'(Brice 앞, DJ·Don·Jen 참조). 농담/제안 수준으로 보이며 DJ 답장 필수는 아님. Storika가 ViralBase에 남긴 자료가 있으면 사본 신청 여부만 결정하면 됨.",
-      "액션": "Storika ViralBase 워크스페이스에 남길 자료 있는지 확인\n필요하면 11/19 15:00 KST 전까지 sunghun@bittersweet.ai로 사본 요청\n불필요하면 카드 done",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ae31aab53ba5b",
-      "tags": [
-        "gmail",
-        "viralbase",
-        "shutdown",
-        "deadline"
-      ],
-      "created_at": "2026-11-06T00:20:34Z"
     },
     {
       "id": "gmail:fathom-daily-2026-11-06#claude-creator-discovery",
@@ -123,57 +54,6 @@
         "memory-architecture"
       ],
       "created_at": "2026-11-05T23:50:33Z"
-    },
-    {
-      "id": "gmail:brex-wire-instructions-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "Brex 국제 송금(wire) 안내 업데이트 — 벤더에 11/9까지 재공유",
-      "summary": "배경 — 11/6 05:02 KST Brex(noreply)가 dongjoo@storika.ai로 국제 wire 안내 변경 후속. USD 국제송금은 중개은행 불필요, non-USD는 보통 불필요·필요 시 Citibank N.A.(CITIUS33XXX). 이미 wire 안내를 벤더/송금자에게 공유했다면 2026-11-09까지 업데이트본을 다시 보내야 결제 지연·거절을 막을 수 있음. Help Center·대시보드에서 새 안내 다운로드 가능. 계좌 자체 설정 변경은 없음.\n\n참고 — 경리 몫으로 넘김.",
-      "액션": "공유한 Brex wire 안내가 있으면 11/9까지 업데이트본 재공유\nHelp Center/대시보드에서 새 안내 확인",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ad4e33da96e8a",
-      "tags": [
-        "gmail",
-        "brex",
-        "finance",
-        "wire"
-      ],
-      "created_at": "2026-11-05T20:02:25Z"
-    },
-    {
-      "id": "gmail:brex-limit-action-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "Brex [Action Required] 신용한도 — 현금잔고 부족으로 한도 축소 가능(Laura Gamble)",
-      "summary": "배경 — 11/6 05:01 KST Success with Brex(Laura Gamble)가 jen·dongjoo·don·mason@gatsbyfoundationus.com 앞으로 Action Required 메일. 언더라이팅에 보이는 현금잔고가 현재 한도를 유지하기에 너무 낮아, 추가 계좌 연결·월말 PDF 명세서 업로드·연결 계좌/Brex Business Account 입금 중 하나가 없으면 한도가 줄어들 가능성이 큼. 조치 후 Laura에게 회신·캘린더 예약 가능.\n\n참고 — 경리 핸드오프 필요. DJ 결정/회신이 필요할 수 있음.",
-      "액션": "추가 계좌 연결 또는 월말 PDF 명세서 업로드 또는 입금\n조치 후 Laura Gamble에게 회신\n경리에 전달·Jen·Don과 역할 확인",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ad4cfac3cb500",
-      "tags": [
-        "gmail",
-        "brex",
-        "finance",
-        "action-required"
-      ],
-      "created_at": "2026-11-05T20:01:04Z"
-    },
-    {
-      "id": "gmail:slack-invite-teamcookie-2026-11-03",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "팀쿠키 강동하 님 Slack 공유 채널 초대 수락(#스토리카pr_팀쿠키_협업채널)",
-      "summary": "11/3 15:30 KST에 Teamcookie(theteamcookie.slack.com)의 강동하 님(Dongha.Kang@teamcookie.kr)이 업무 메일로 Slack 공유 채널 #스토리카pr_팀쿠키_협업채널 초대를 보냄. 채널에 읽지 않은 메시지가 10개 이상 쌓여 있음. 초대는 14일 뒤(약 11/17) 만료.",
-      "액션": "초대 메일에서 수락(Storika Slack 워크스페이스로 연결)\n채널의 밀린 메시지 10여 개 훑어보기",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1a01a56fc7784d",
-      "tags": [
-        "gmail",
-        "slack-connect",
-        "pr",
-        "teamcookie"
-      ],
-      "created_at": "2026-11-03T06:37:00Z"
     },
     {
       "id": "gmail:linear-storika-14981-jay-prod-qa-fail",
@@ -263,75 +143,6 @@
         "mart"
       ],
       "created_at": "2026-10-19T23:42:42Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-03#tts-batch-invite-dm",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "daily 11/3 — TikTok Shop 배치 초대 개별 수정 확인 + 크리에이터 DM 대화방 여는 방법 조사",
-      "summary": "배경 — 11/3 daily(42분, Fathom 요약 09:01 KST 수신). TikTok Shop에서 배치로 보낸 크리에이터 초대장은 하나의 ID로 묶여서 한 명의 커미션 요율만 바꿀 수 없고, 전체 배치를 바꾸거나 취소해야 함. 대안은 초대를 하나씩 보내는 건데 API 속도 제한을 고려해야 함. 또 셀러 센터에 기능이 없어 크리에이터에게 DM을 보낼 대화방을 열 수 없는 문제도 있음.\n\n참고 — Jay는 Pabal 데이터 수집에 gzip 압축 적용, Brice는 오늘 Pabal 설치·테스트하고 웹사이트 유스케이스 페이지를 에이전트 친화적 텍스트로 바꿀지 결정. 미디어 키트 캠페인은 싱가포르 성과가 좋아 동남아(싱가포르·말레이시아·필리핀) 크리에이터 추가.",
-      "액션": "(진행) 다중 초대에서 크리에이터 1명만 빼는 기능은 PR #13298(STORIKA-14975)로 11/3 10:39 KST 머지됨\nDM 리마인더 흐름: 대화방 여는 방법 조사 후 TikTok Shop으로 DM 발송 가능하게",
-      "link": "https://fathom.video/share/Bx4RSuY1UZY93xywzAVZAWRvdP3Tpav5?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "tiktok-shop"
-      ],
-      "created_at": "2026-11-03T00:06:20Z",
-      "link_pr": "https://github.com/storika/storika-mono/pull/13298"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-04#creator-invite-automation",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "daily 11/4 — 크리에이터 초대 자동화 설정(1시간마다 DM 발송)",
-      "summary": "배경 — 11/4 daily(48분, Fathom 요약 09:04 KST 수신). 크리에이터 온보딩을 빨리 늘리려고 커미션 30%로 인상, 초대 발송을 자동화해 1시간마다 보내기로 함. 11/13까지 온보딩이 부진하면 플랫 피(예: $500) 도입. Fathom 액션 아이템 담당자 Dongjoo.",
-      "액션": "Storika 크리에이터 초대 자동화 설정(1시간 간격 DM)\n11/13 온보딩 상황 보고 플랫 피 여부 판단",
-      "link": "https://fathom.video/share/vfNsypwAu_TpSpnmssAf8dwRTXg86-zc?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "creator-onboarding"
-      ],
-      "created_at": "2026-11-04T00:10:38Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-04#tullu-billing-research",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "daily 11/4 — 툴루 행동 기반 과금 리서치 공유",
-      "summary": "배경 — 11/4 daily(48분, Fathom 요약 09:04 KST 수신). 웹사이트·결제 업데이트 논의 중 Dongjoo가 툴루의 행동 기반 과금 모델 경쟁사 리서치를 팀에 공유하기로 함. 참고 — Pabal MVP 역할 분담에서 UX는 Dongjoo.",
-      "액션": "툴루 과금 리서치 정리해 팀에 공유",
-      "link": "https://fathom.video/share/vfNsypwAu_TpSpnmssAf8dwRTXg86-zc?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "research"
-      ],
-      "created_at": "2026-11-04T00:10:38Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-05#advanced-features",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "daily 11/5 — Storika 고급 기능 정의 미팅(오늘 11시, Jay와)",
-      "summary": "배경 — 11/5 daily(35분, Fathom 요약 08:54 KST 수신, 나는 불참). Storika 개발은 일요일까지 마무리하고 다음 주부터 팀 전체가 Pabal로 전환. 요약엔 '오늘 11시 미팅에서 동주와 Storika에 추가할 고급 기능 정의'로, Jay 액션 아이템엔 '11/8 동주와 30분 고급 기능 세션'으로 적혀 있어 날짜 확인 필요. 추가(09:14 KST) — Jay가 오늘 11:00–11:15 KST 'Quick checkin'(Google Meet, Brice 포함) 초대를 보냄. 이게 그 미팅으로 보임, 초대 응답 필요. 백로그 티켓 약 50개는 Brice가 일요일까지 처리.",
-      "액션": "Jay 'Quick checkin' 11:00 KST 초대 응답\n추가할 고급 기능 후보 정리해 가기",
-      "link": "https://fathom.video/share/nPXiCRi_hNVkxQ2eT1aSsyN_Px8xUxJ1?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "storika-wrapup"
-      ],
-      "created_at": "2026-11-05T00:08:02Z"
     }
   ]
 }

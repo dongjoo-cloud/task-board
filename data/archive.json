@@ -14,6 +14,20 @@
       "title": "Brex 계정 공지 확인 — 대시보드에 '중요 업데이트'",
       "source": "gmail"
     },
+    "gmail:brex-limit-action-2026-11-06": {
+      "status": "not_mine",
+      "at": "2026-11-06T11:22:07.121Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "Brex [Action Required] 신용한도 — 현금잔고 부족으로 한도 축소 가능(Laura Gamble)",
+      "source": "gmail"
+    },
+    "gmail:brex-wire-instructions-2026-11-06": {
+      "status": "not_mine",
+      "at": "2026-11-06T11:22:02.855Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "Brex 국제 송금(wire) 안내 업데이트 — 벤더에 11/9까지 재공유",
+      "source": "gmail"
+    },
     "gmail:calendar-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T02:43:21.000Z",
@@ -273,11 +287,46 @@
       "title": "데일리 10/30 — MCP 5개 작업 오늘 완료 + 커미션 5% + 크론 3개 + Olive 영상 (15:00 재싱크)",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-11-03#tts-batch-invite-dm": {
+      "status": "done",
+      "at": "2026-11-06T11:22:59.630Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "daily 11/3 — TikTok Shop 배치 초대 개별 수정 확인 + 크리에이터 DM 대화방 여는 방법 조사",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-04#creator-invite-automation": {
+      "status": "done",
+      "at": "2026-11-06T11:22:30.668Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "daily 11/4 — 크리에이터 초대 자동화 설정(1시간마다 DM 발송)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-04#tullu-billing-research": {
+      "status": "done",
+      "at": "2026-11-06T11:22:40.650Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "daily 11/4 — 툴루 행동 기반 과금 리서치 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-05#advanced-features": {
+      "status": "done",
+      "at": "2026-11-06T11:22:44.146Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "daily 11/5 — Storika 고급 기능 정의 미팅(오늘 11시, Jay와)",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",
       "archived_at": "2026-10-08T15:32:29.568Z",
       "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-ktp-budgeting-2026-11-06#jen-accounting-categories": {
+      "status": "not_mine",
+      "at": "2026-11-06T11:21:25.114Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "KTP Budgeting — Jen에게 회계 분류(용역비 vs 수용비, 공공요금 vs 임차료) 메일",
       "source": "gmail"
     },
     "gmail:fathom-product-sync-2026-10-06": {
@@ -371,6 +420,13 @@
       "title": "Google OAuth 클라이언트 'agentic' 표시 — djs-claude (11/11까지)",
       "source": "gmail"
     },
+    "gmail:google-otp-app-2026-11-06": {
+      "status": "done",
+      "at": "2026-11-06T11:21:28.063Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "Google 보안 — dongjoo@storika.ai에 OTP 앱이 로그인 단계로 추가됨(본인 확인)",
+      "source": "gmail"
+    },
     "gmail:ktech-funding-2026-10-12": {
       "status": "not_mine",
       "at": "2026-10-13T00:53:53.839Z",
@@ -404,6 +460,13 @@
       "at": "2026-11-03T02:53:26.392Z",
       "archived_at": "2026-11-04T09:03:20.745Z",
       "title": "MARU 입주사 인원 수 확인 회신 — 11/9(월)까지",
+      "source": "gmail"
+    },
+    "gmail:pivot-labs-au-beauty-2026-11-06": {
+      "status": "not_mine",
+      "at": "2026-11-06T11:21:32.259Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "Pivot Labs(Jamie) — 호주 뷰티 브랜드 Storika 소개 제안 회신 여부",
       "source": "gmail"
     },
     "gmail:ramp-admin-invite-kwoncpa-2026-10-08": {
@@ -441,11 +504,25 @@
       "title": "서울경제 '스타트업 스트리트' 서면 인터뷰 요청 — 11/3(화)까지 답변",
       "source": "gmail"
     },
+    "gmail:slack-invite-teamcookie-2026-11-03": {
+      "status": "done",
+      "at": "2026-11-06T11:22:10.557Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "팀쿠키 강동하 님 Slack 공유 채널 초대 수락(#스토리카pr_팀쿠키_협업채널)",
+      "source": "gmail"
+    },
     "gmail:typesafe-invite": {
       "status": "done",
       "at": "2026-10-02T08:32:25.874Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:viralbase-shutdown-2026-11-06": {
+      "status": "not_mine",
+      "at": "2026-11-06T11:21:39.891Z",
+      "archived_at": "2026-11-07T16:22:35.086Z",
+      "title": "ViralBase 11/19 15:00 KST 서비스 종료 — 자료 사본 필요 여부 판단",
       "source": "gmail"
     },
     "gmail:wispr-billing-2026-10-02": {
