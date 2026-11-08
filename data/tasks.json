@@ -1,8 +1,25 @@
 {
-  "updatedAt": "2026-11-06T08:21:31Z",
+  "updatedAt": "2026-11-08T12:44:09Z",
   "title": "동주 태스크 보드",
-  "subtitle": "11/6 17:12 10분 체크",
+  "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
+    {
+      "id": "gmail:hanpoom-trial-convert-2026-11-11",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "high",
+      "title": "한품 Storika 워크스페이스 체험 — 11/11 17:31 KST까지 취소하지 않으면 Pro $199/월로 전환",
+      "summary": "배경 — 11/8 17:32 KST Storika(notifications@mail.storika.ai)가 dongjoo@storika.ai로 한품 Storika 워크스페이스 무료 체험 종료 안내를 보냄. 체험은 2026-11-11 08:31 UTC(17:31 KST)에 끝나고, 그 전에 취소하지 않으면 등록된 카드로 Pro 플랜 $199/월(+세금)이 자동 결제된다. 월 80만 토큰 포함, 초과분은 1M 토큰당 $25(최대 월 $500). 체험 중 취소는 무료이고 체험 종료일까지 남은 토큰을 쓸 수 있다.",
+      "액션": "11/11 17:31 KST 전에 취소할지, Pro $199/월 전환을 허용할지 결정\n필요하면 Billing에서 처리: https://app.storika.ai/settings?section=billing",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ba4932be1aa4f",
+      "tags": [
+        "gmail",
+        "billing",
+        "hanpoom",
+        "trial"
+      ],
+      "created_at": "2026-11-08T08:32:00Z"
+    },
     {
       "id": "gmail:shopify-org-invite-2026-11-06",
       "status": "todo",
