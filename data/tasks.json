@@ -4,6 +4,23 @@
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
     {
+      "id": "gmail:vercel-slack-integration-permissions-2026-11-11",
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "title": "Vercel Storika 팀 — Slack 연동이 새 권한 요청(확인해야 연동 유지)",
+      "summary": "배경 — 11/11 02:34 KST에 Vercel이 dongjoo@storika.ai로 'Action required' 메일을 보냄. Storika 팀에 설치된 Slack 연동이 추가 권한을 요청했고, 검토·승인해야 연동이 계속 동작한다고 함. 어떤 권한인지는 메일에 없고 Vercel 대시보드 권한 페이지에서 확인해야 함.",
+      "액션": "Vercel 대시보드에서 Slack 연동 요청 권한 검토\n필요하면 승인, 안 쓰는 연동이면 그대로 두거나 제거 판단",
+      "link": "https://vercel.com/dashboard/storika/integrations/icfg_YloNksyoj1BeRAuCR7QikNgz/permissions",
+      "tags": [
+        "gmail",
+        "vercel",
+        "integration",
+        "permissions"
+      ],
+      "created_at": "2026-11-10T22:05:00Z"
+    },
+    {
       "id": "gmail:hanpoom-trial-convert-2026-11-11",
       "status": "todo",
       "source": "gmail",
