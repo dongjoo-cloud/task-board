@@ -4,6 +4,60 @@
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
     {
+      "id": "gmail:fathom-daily-2026-11-11#tongsin-panmae",
+      "title": "데일리 11/11 — 통신판매업 등록 오늘 신청(네이버·카카오 API 등록 블로커)",
+      "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — 네이버 스마트스토어·카카오 등 국내 플랫폼 API 등록에 통신판매업 등록이 필요해서 오늘 중 신청하기로 함. API 등록 현황: 완료 eBay·Edge·Naver Search Ads·Kakao Developers, 진행 중 ChatGPT(재제출)·Claude·Meta·TikTok Shop, 대기 Shopify·Lazada·Rakuten, 막힘 Microsoft(지원 티켓)·Docusign(거절)·Coupang Ads(대행사 전용).",
+      "액션": "통신판매업 등록 오늘 신청\n등록되면 네이버 스마트스토어·카카오 API 등록 이어서 진행",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "api-registration",
+        "deadline"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
+      "created_at": "2026-11-11T00:22:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-11#creator-50-video",
+      "title": "데일리 11/11 — 크리에이터 50명 골라서 영상 제작 제안 DM($500~$1,000/영상)",
+      "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — MCP 커넥터 테스트용 콘텐츠가 부족해서 크리에이터 50명에게 간단한 영상 제작을 직접 제안. 예산 $500~$1,000(액션 아이템엔 $1k/영상), 지급은 한품 틱톡샵 통해서 하고 Storika가 환급. 10명 단위로 DM 보내고 지급 확인 뒤 초대. 크리에이터 단가·지급 방식/통화 확인은 Brice 몫. 자동 탐색은 시간당 10명→50명으로 늘려 한계 테스트(TikTok API 레이트 리밋이 병목, Jay 확인).",
+      "액션": "크리에이터 50명 선정\n10명씩 영상 제작 제안 DM 발송($1k/영상)\n지급 방식 확인(Brice) 후 초대 발송",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "creator",
+        "hanpoom"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
+      "created_at": "2026-11-11T00:22:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-11#ai-avatar-channel",
+      "title": "데일리 11/11 — AI 아바타 채널 만들고 참고 자료 모으기(1인 5개, Jay와 맞추기)",
+      "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — TikTok·Instagram을 살려서 유료 광고 기반을 만들기로 함. 진행자는 Storika 불가사리 마스코트와 현실적인 AI 사람 아바타(참고: AI 인플루언서 Karen.AKC). AI 아바타 채널을 만들고 사람마다 참고 자료 5개씩 모으도록 조율, Jay와 맞추기. 마스코트 다듬기·AI 영상 도구 조사·X 계정(storika_ai, storika_ai_x) 통합은 Brice 몫.",
+      "액션": "AI 아바타 채널 만들기\n참고 자료 1인 5개씩 모으도록 조율\nJay와 방향 맞추기",
+      "tags": [
+        "gmail",
+        "fathom",
+        "meeting",
+        "social",
+        "ai-avatar"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
+      "created_at": "2026-11-11T00:22:00Z"
+    },
+    {
       "id": "gmail:vercel-slack-integration-permissions-2026-11-11",
       "status": "todo",
       "source": "gmail",
