@@ -231,6 +231,23 @@
         "mart"
       ],
       "created_at": "2026-10-19T23:42:42Z"
+    },
+    {
+      "id": "gmail:facebook-storika-business-portfolio-invite-2026-11-11",
+      "title": "Brice가 보낸 Facebook 'Storika' 비즈니스 포트폴리오 초대 수락",
+      "summary": "배경 — 11/11 09:29 KST에 Facebook에서 'Action required' 알림 수신. Brice Lee가 나를 Storika 비즈니스 포트폴리오(페이지·비즈니스 자산을 묶어 관리하는 곳)에 초대함. 오늘 daily에서 Meta API 등록이 '진행 중'이라 이와 관련 있을 수 있음.",
+      "액션": "메일의 초대 링크로 Storika 비즈니스 포트폴리오 참여 수락",
+      "tags": [
+        "gmail",
+        "meta",
+        "facebook",
+        "api-registration"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c802b24c2cd0c",
+      "created_at": "2026-11-11T00:32:00Z"
     }
   ]
 }
