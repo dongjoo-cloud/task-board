@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:27:50Z",
+  "updatedAt": "2026-11-11T07:48:32Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -299,6 +299,22 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c8d087e4f4efd",
       "created_at": "2026-11-11T04:19:40Z"
+    },
+    {
+      "id": "gmail:fal-team-invite-2026-11-11",
+      "title": "fal 팀 초대 수락 — Brice Lee가 fal 팀에 초대(16:46 KST)",
+      "summary": "Brice Lee가 fal(AI 이미지·영상 생성) 팀에 DJ를 초대함. 초대 메일(noreply@fal.ai)에서 수락하면 됨.",
+      "액션": "fal 팀 초대 수락",
+      "tags": [
+        "gmail",
+        "fal",
+        "invite"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c992b01fbd15b",
+      "created_at": "2026-11-11T07:48:32Z"
     }
   ]
 }
