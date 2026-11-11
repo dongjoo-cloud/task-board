@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T02:59:38Z",
+  "updatedAt": "2026-11-11T04:19:40Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -281,6 +281,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c87af52481bba",
       "created_at": "2026-11-11T02:59:38Z"
+    },
+    {
+      "id": "gmail:fathom-social-posting-2026-11-11#stella-test-video",
+      "title": "social posting 공모전 11/11 — AI 인플루언서 Stella 테스트 영상 만들고 오늘 15~16시 체크인 전에 Jay·Brice에게 공유",
+      "summary": "배경 — 11/11 12:30 KST Jay 주최 'social posting 공모전' 회의(42분) Fathom 요약(13:14 KST 수신). Storika AI 인플루언서 'Stella'로 '마케터의 하루' 브이로그를 만들어 제품을 간접 노출하고, storika.ai 계정에 영어로 게시(미국·싱가포르 아웃바운드와 시너지). 영상은 Vercel AI Gateway로 이미지 레퍼런스 기반 생성. 예산은 K-Tech Finalists 보조금 중 약 500만 원(약 $3,300)을 AI 비용으로 배정. 마스코트는 Brice 것, 사람 페르소나는 DJ 담당.\n\n다른 담당 — Brice: 콘텐츠 캘린더(CES·K-Beauty 컨퍼런스 등). Jay: AI 검색 품질·어댑터 안정성, Kyungdon과 예산·KR vs US·콘텐츠 언어 맞추기, 15~16시 DJ·Brice 체크인 잡기.\n\n참고 — 오전 바알 DONE: Jay가 GCP Secret Manager에 VERCEL_AI_GATEWAY_API_KEY를 만들어 둠, 영상·이미지 생성 전 개수·금액을 DJ가 정할 것.",
+      "액션": "Stella 이미지 시퀀스 만들기\nVercel AI Gateway로 첫 테스트 영상 생성(개수·금액 먼저 정하기)\n품질·제작 수고 평가해서 Jay·Brice에게 공유(오늘 15~16시 체크인)",
+      "tags": [
+        "gmail",
+        "fathom",
+        "social-posting",
+        "ai-influencer"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c8d087e4f4efd",
+      "created_at": "2026-11-11T04:19:40Z"
     }
   ]
 }
