@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T22:04:16Z",
+  "updatedAt": "2026-11-11T23:56:13Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -331,6 +331,102 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cc25db406b8ce",
       "created_at": "2026-11-11T22:04:16Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#mcp-video-calendar",
+      "title": "데일리 11/12 — MCP 커넥터 영상 콘텐츠 캘린더 초안(Claude와 함께)",
+      "summary": "AI 영상 테스트 시행착오 비용 $153, 안정 비용 $35~45 예상. 영상 제작 목표에 맞춰 MCP 커넥터 설명 영상 캘린더를 짠다.",
+      "액션": "MCP 커넥터 영상 콘텐츠 캘린더 초안 작성",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#runway-eval",
+      "title": "데일리 11/12 — MCP 설명 영상용 Runway 검토, 필요하면 Brice에게 Slack 요청",
+      "summary": "Fall AI를 쓰는 중이고 Runway를 MCP 커넥터 설명 영상용 대안으로 검토. 필요하면 Brice에게 Slack으로 요청.",
+      "액션": "Runway 검토 후 필요 시 Brice에게 요청",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#outreach-email",
+      "title": "데일리 11/12 — 아웃리치 루프에 이메일 발송 추가(Gmail 연동 재활성화)",
+      "summary": "DM 50건 응답률 1% 미만이라 Gmail 연동을 다시 켜서 이메일 발송을 아웃리치 루프에 넣기로 함.",
+      "액션": "아웃리치 루프 이메일 발송 기능 추가",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#discovery-max",
+      "title": "데일리 11/12 — 크리에이터 발굴 최대치로 돌리기 + 조기 포기 고치기 + 티켓",
+      "summary": "검색 한도(하드코딩 100)를 API 실제 한도까지 올리고, 적합한 크리에이터를 못 찾으면 빨리 포기하는 문제를 고치고, 티켓으로 정리. 바알이 08:38 '3번 친구' 한도 시험 계획 중(DJ '실행' 대기).",
+      "액션": "발굴 최대치 실행·조기 포기 수정·티켓 정리",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#x-posts",
+      "title": "데일리 11/12 — Storika X 포스팅 오늘부터 재개",
+      "summary": "오늘(11/12)부터 Storika X에 다시 포스팅 시작하기로 함.",
+      "액션": "Storika X 포스팅 재개",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-12#threads-setup",
+      "title": "데일리 11/12 — Storika Threads 설정 Jay와 확인 후 포스팅 시작",
+      "summary": "Storika Threads 계정 설정을 Jay와 확인하고 포스팅을 시작.",
+      "액션": "Jay와 Threads 설정 확인 후 포스팅 시작",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
+      "created_at": "2026-11-11T23:56:13Z"
     }
   ]
 }
