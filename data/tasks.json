@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T12:44:09Z",
+  "updatedAt": "2026-11-11T02:59:38Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -265,6 +265,22 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c85c9b0d78637",
       "created_at": "2026-11-11T02:10:00Z"
+    },
+    {
+      "id": "gmail:lazada-onboarding-rejected-2026-11-11",
+      "title": "Lazada 연동 등록 반려 — Open Platform 프로필 인증 실패 + Service Marketplace 기본정보 반려",
+      "summary": "배경 — 11/11 11:40 KST integrations@storika.ai로 Lazada 메일 2통. (1) Lazada Open Platform: 프로필 인증 실패. 신청서에 넣은 사업자등록번호가 Delaware 법인설립증명서(Certificate of Incorporation)의 File Number와 일치하지 않는다는 사유. (2) Lazada Service Marketplace: 기본정보가 요건 미충족으로 반려, 로그인해서 코멘트 확인 후 수정·재제출 요청.\n\n맥락 — 오늘 daily 회의록 API 등록 현황에서 Lazada는 '대기'였음.",
+      "액션": "isvconsole.lazada.com 프로필에서 사업자등록번호 칸을 Delaware 증명서 File Number 기준으로 고쳐 재제출\nService Marketplace에 로그인해 반려 코멘트 확인 후 기본정보 수정·재제출",
+      "tags": [
+        "gmail",
+        "lazada",
+        "api-registration"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c87af52481bba",
+      "created_at": "2026-11-11T02:59:38Z"
     }
   ]
 }
