@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T04:19:40Z",
+  "updatedAt": "2026-11-11T05:27:50Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -234,9 +234,9 @@
     },
     {
       "id": "gmail:facebook-storika-business-portfolio-invite-2026-11-11",
-      "title": "Brice가 보낸 Facebook 'Storika' 비즈니스 포트폴리오 초대 수락",
-      "summary": "배경 — 11/11 09:29 KST에 Facebook에서 'Action required' 알림 수신. Brice Lee가 나를 Storika 비즈니스 포트폴리오(페이지·비즈니스 자산을 묶어 관리하는 곳)에 초대함. 오늘 daily에서 Meta API 등록이 '진행 중'이라 이와 관련 있을 수 있음.",
-      "액션": "메일의 초대 링크로 Storika 비즈니스 포트폴리오 참여 수락",
+      "title": "Brice가 보낸 Facebook 비즈니스 포트폴리오 초대 수락('Storika' + 'Storika Korea Inc')",
+      "summary": "배경 — 11/11 09:29 KST에 Facebook에서 'Action required' 알림 수신. Brice Lee가 나를 Storika 비즈니스 포트폴리오(페이지·비즈니스 자산을 묶어 관리하는 곳)에 초대함. 오늘 daily에서 Meta API 등록이 '진행 중'이라 이와 관련 있을 수 있음.\n\n추가 — 11/11 14:19 KST에 Brice Lee가 'Storika Korea Inc' 비즈니스 포트폴리오에도 초대함(별도 'Action required' 메일). 둘 다 같은 건지, 한국 법인용이 따로인지 확인 필요.",
+      "액션": "메일의 초대 링크로 Storika 비즈니스 포트폴리오 참여 수락\n14:19 KST 메일의 초대 링크로 Storika Korea Inc 포트폴리오 참여 수락",
       "tags": [
         "gmail",
         "meta",
@@ -247,7 +247,8 @@
       "source": "gmail",
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c802b24c2cd0c",
-      "created_at": "2026-11-11T00:32:00Z"
+      "created_at": "2026-11-11T00:32:00Z",
+      "link2": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c90c457776de1"
     },
     {
       "id": "gmail:ktech-pioneers-agreement-change-2026-11-26",
