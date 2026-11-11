@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T07:48:32Z",
+  "updatedAt": "2026-11-11T22:04:16Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -315,6 +315,22 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c992b01fbd15b",
       "created_at": "2026-11-11T07:48:32Z"
+    },
+    {
+      "id": "gmail:apify-security-token-rotation-2026-11-12",
+      "title": "Apify 보안 사고 — API 토큰 전부 교체됨, 쓰는 곳에 새 토큰 넣기",
+      "summary": "Apify가 11/9~10 내부 시스템 무단 접근을 알림(11/12 04:46 KST 메일). 모든 API 토큰·Proxy 비밀번호를 이미 교체해서 옛 토큰은 무효. 스크립트·CI·연동(Apify MCP 포함)에 새 토큰을 넣고, 끊긴 OAuth 연동(GitHub 등)은 다시 연결해야 함. 개인·조직 계정 둘 다 해당.",
+      "액션": "Apify 콘솔에서 새 API 토큰 확인 후 사용처 교체 + 연동 재연결",
+      "tags": [
+        "gmail",
+        "apify",
+        "security"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cc25db406b8ce",
+      "created_at": "2026-11-11T22:04:16Z"
     }
   ]
 }
