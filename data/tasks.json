@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T23:56:13Z",
+  "updatedAt": "2026-11-12T07:18:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -443,6 +443,38 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cdaa2d66062ab",
       "created_at": "2026-11-12T03:00:00Z"
+    },
+    {
+      "id": "gmail:fathom-brice-1on1-2026-11-12#ktp-videos",
+      "title": "Brice 1:1 11/12 — KTP 검토용 영상 1개(11/17까지) + 데모데이(11/23) 전 1개 더",
+      "summary": "배경 — 11/12 [Brice x DJ] Weekly 1:1(10분, Fathom 요약 16:05 KST 수신). KTP 예산 3천만 원 중 퍼포먼스 마케팅 1천만 원, 나머지는 영상 제작. 영상은 Vercel AI Gateway로 만들고(통합 인보이스), Runway는 비싸고 통합이 어려워 안 쓰기로 함. 영상당 약 $35~45, 영상 예산 약 500만 원(약 100개), 초기 테스트는 약 $500 안에서. 콘텐츠 캘린더는 데일리 11/12 카드와 이어짐.",
+      "액션": "11/17까지 KTP 검토용 영상 1개 제작\n11/23 데모데이 전 영상 1개 더 제작\n초기 짧은 영상·툴 테스트는 약 $500 안에서",
+      "tags": [
+        "gmail",
+        "fathom",
+        "ktp"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ce9337105bfe2",
+      "created_at": "2026-11-12T07:18:00Z"
+    },
+    {
+      "id": "gmail:fathom-brice-1on1-2026-11-12#demo-metrics",
+      "title": "Brice 1:1 11/12 — KTP 예선 데모데이(11/23) 최종 지표 확정",
+      "summary": "배경 — 11/12 [Brice x DJ] Weekly 1:1(10분, Fathom 요약 16:05 KST 수신). KTP 예산 3천만 원 중 퍼포먼스 마케팅 1천만 원, 나머지는 영상 제작. 영상은 Vercel AI Gateway로 만들고(통합 인보이스), Runway는 비싸고 통합이 어려워 안 쓰기로 함. 데모데이용 최종 지표를 Dongjoo가 확정하기로 함. 크리에이터 검색 약 100명 이후 '적합한 크리에이터 없음' 버그는 데일리 11/12 발굴 카드에서 진행 중.",
+      "액션": "KTP 예선 데모데이(11/23) 발표용 최종 지표 확정",
+      "tags": [
+        "gmail",
+        "fathom",
+        "ktp"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ce9337105bfe2",
+      "created_at": "2026-11-12T07:18:00Z"
     }
   ]
 }
