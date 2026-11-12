@@ -427,6 +427,22 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
       "created_at": "2026-11-11T23:56:13Z"
+    },
+    {
+      "id": "gmail:stripe-unauthorized-ip-2026-11-12",
+      "title": "Stripe 라이브 제한 키가 허용 IP 밖에서 사용됨 (11/12 11:50)",
+      "summary": "Stripe가 Storika 계정의 live restricted key 하나가 설정된 IP 범위 밖에서 호출됐다고 경고. 의도한 게 아니면 키 롤링 또는 IP 범위 수정 필요.",
+      "액션": "Stripe 대시보드 보안 기록 확인 → 의도치 않았으면 키 롤링, 의도했으면 허용 IP 범위 갱신",
+      "tags": [
+        "gmail",
+        "stripe",
+        "security"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cdaa2d66062ab",
+      "created_at": "2026-11-12T03:00:00Z"
     }
   ]
 }
