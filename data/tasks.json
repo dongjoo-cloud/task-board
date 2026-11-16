@@ -610,6 +610,78 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e338825cd1891",
       "created_at": "2026-11-16T07:26:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-sync2-2026-11-16#hanpoom-access",
+      "title": "Jason sync 2차 — Jason에게 한품 계정 접근 권한 주기 + 커넥터 Gmail 재연결(read/send)",
+      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
+      "액션": "Jason에게 한품 계정 권한 부여(E2E 테스트용), 커넥터에 Gmail 다시 연결해서 읽기·보내기 켜기",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "access",
+        "hanpoom"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
+      "created_at": "2026-11-16T08:54:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-sync2-2026-11-16#log-visibility",
+      "title": "Jason sync 2차 — 로그 가시성 조사, 티켓 만들어 Jay와 공유",
+      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
+      "액션": "대화 로그는 저장 안 하니 AI 호출 목록 저장 등으로 사용자 의도 볼 방법 조사 → 티켓 만들고 Jay에게 공유. Jason이 로그 막히면 DJ에게 핑함",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "logs",
+        "ticket"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
+      "created_at": "2026-11-16T08:54:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-sync2-2026-11-16#connector-fixes",
+      "title": "Jason sync 2차 — 커넥터/웹앱 수정: 내부 ID·OWI 숨김, 비-TikTok Shop 캠페인 흐름, 토큰 메시지 단순화",
+      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
+      "액션": "UI에서 내부 ID/OWI 숨기기; TikTok Shop 없는 사용자 캠페인이 웹앱에 안 보이는 흐름 고치고 레거시 웹앱 참조 제거; 토큰 사용 메시지를 '남은 양/부족 경고' 수준으로 단순화. (샘플 요청 pending 표시 버그는 Jason 담당으로 잡힘)",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "bugs",
+        "connector"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
+      "created_at": "2026-11-16T08:54:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-sync2-2026-11-16#ad-refs",
+      "title": "Jason sync 2차 — 제품 채널에 경쟁사 광고 레퍼런스 공유",
+      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
+      "액션": "한국 대상 Meta/TikTok 저예산 다중 크리에이티브 테스트용 경쟁사 광고 레퍼런스를 제품 채널에 공유 (Jay도 광고·크리에이티브 레퍼런스 공유 담당)",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "marketing",
+        "ads"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
+      "created_at": "2026-11-16T08:54:00Z"
     }
   ]
 }
