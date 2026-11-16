@@ -1,5 +1,9 @@
 {
   "ids": {
+    "gmail:apify-security-token-rotation-2026-11-12": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:50:06.553Z"
+    },
     "gmail:brice-hustlefund-black-friday-2026-11-16": {
       "status": "not_mine",
       "at": "2026-11-16T22:45:48.457Z"
@@ -39,6 +43,10 @@
     "gmail:fathom-daily-2026-11-11#tongsin-panmae": {
       "status": "not_mine",
       "at": "2026-11-16T22:40:13.753Z"
+    },
+    "gmail:fathom-daily-2026-11-12#mcp-video-calendar": {
+      "status": "done",
+      "at": "2026-11-16T22:50:11.960Z"
     },
     "gmail:fathom-daily-2026-11-12#threads-setup": {
       "status": "done",
