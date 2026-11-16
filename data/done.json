@@ -28,6 +28,14 @@
       "status": "not_mine",
       "at": "2026-11-16T22:40:13.753Z"
     },
+    "gmail:fathom-jason-qa-2026-11-16#grok-marketplace": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:45:57.435Z"
+    },
+    "gmail:fathom-jason-qa-2026-11-16#jason-signoff": {
+      "status": "done",
+      "at": "2026-11-16T22:46:01.090Z"
+    },
     "gmail:fathom-jason-sync2-2026-11-16#ad-refs": {
       "status": "done",
       "at": "2026-11-16T22:45:36.495Z"
@@ -43,6 +51,10 @@
     "gmail:fathom-jason-sync2-2026-11-16#log-visibility": {
       "status": "done",
       "at": "2026-11-16T22:45:42.032Z"
+    },
+    "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
+      "status": "in_progress",
+      "at": "2026-11-16T22:45:54.737Z"
     },
     "gmail:gemini-jason-qa-2026-11-16#token-usage-month": {
       "status": "done",
