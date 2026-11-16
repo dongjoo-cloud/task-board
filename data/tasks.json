@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T00:00:29Z",
+  "updatedAt": "2026-11-16T02:05:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -509,6 +509,56 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e1a10a9afa833",
       "created_at": "2026-11-16T00:00:29Z"
+    },
+    {
+      "id": "gmail:fathom-jason-qa-2026-11-16#tickets",
+      "title": "Jason QA 11/16 — 이슈 티켓 만들기: Safety Check 옵션화·승인 프롬프트 현지화·다음 단계 제안",
+      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
+      "액션": "Linear에 3건 티켓 생성(Safety Check 옵션화+UI/비용 갱신, 승인 프롬프트 사용자 언어로, 커넥터가 다음 단계 제안). Fathom 액션 아이템에는 'Create and assign tickets'가 Jay로도 잡혀 있으니 Jay와 겹치지 않게 확인",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "linear"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e215ea49a8f8b",
+      "created_at": "2026-11-16T02:05:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-qa-2026-11-16#jason-signoff",
+      "title": "Jason QA 11/16 — Fathom 요약을 Jason에게 공유하고 sign-off 받기",
+      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
+      "액션": "Fathom 요약 공유 → Jason 확인(sign-off) 요청",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e215ea49a8f8b",
+      "created_at": "2026-11-16T02:05:00Z"
+    },
+    {
+      "id": "gmail:fathom-jason-qa-2026-11-16#grok-marketplace",
+      "title": "Jason QA 11/16 — Storika 봇 Grok 마켓플레이스 등록 + 데모 영상 준비",
+      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
+      "액션": "Storika 봇을 Grok 마켓플레이스에 제출해 인바운드 유입, 데모 영상 준비",
+      "tags": [
+        "gmail",
+        "fathom",
+        "grok",
+        "marketing"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e215ea49a8f8b",
+      "created_at": "2026-11-16T02:05:00Z"
     }
   ]
 }
