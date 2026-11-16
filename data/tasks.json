@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T07:18:00Z",
+  "updatedAt": "2026-11-16T00:00:29Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -475,6 +475,40 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ce9337105bfe2",
       "created_at": "2026-11-12T07:18:00Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-16#codex-usage",
+      "title": "데일리 11/16 — Codex 토큰 사용량 조사해서 Jay에게 DM",
+      "summary": "배경 — 11/16 daily(23분, Fathom 요약 08:53 KST 수신). 주말 디스커버리 엔진 개선 공유, Jason 유료 마케팅 워크플로우(Google Drive를 DB로, 11월 저예산 테스트→12월 론칭, 광고 계정은 Brice 승인), Codex 토큰 비용 급증 논의. 10:00 Jason QA 세팅 후속 미팅(Jay 초대). Jay는 리뷰 범위를 좁히고 중요한 버그에 집중하는 방향을 제안함(수동 리셋이 자동 주간 리셋보다 토큰이 적게 나오는 것 같다는 문제 포함).",
+      "액션": "Codex 토큰 사용량 분석 → 결과를 Jay에게 DM",
+      "tags": [
+        "gmail",
+        "fathom",
+        "codex",
+        "cost"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e1a10a9afa833",
+      "created_at": "2026-11-16T00:00:29Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-16#jason-qa-bot",
+      "title": "데일리 11/16 — Jason에게 Groq/Claude 접근 전달 + 10:00 자동 QA 봇(Slack 알림) 세팅",
+      "summary": "배경 — 11/16 daily(23분, Fathom 요약 08:53 KST 수신). 주말 디스커버리 엔진 개선 공유, Jason 유료 마케팅 워크플로우(Google Drive를 DB로, 11월 저예산 테스트→12월 론칭, 광고 계정은 Brice 승인), Codex 토큰 비용 급증 논의. 10:00 Jason QA 세팅 후속 미팅(Jay 초대). Jason은 플래그된 항목을 DJ에게 공유하기로 함.",
+      "액션": "10:00 Jason QA 세팅 미팅에서 Groq/Claude 접근 전달, 자동 QA 봇+Slack 알림 세팅",
+      "tags": [
+        "gmail",
+        "fathom",
+        "jason",
+        "qa"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e1a10a9afa833",
+      "created_at": "2026-11-16T00:00:29Z"
     }
   ]
 }
