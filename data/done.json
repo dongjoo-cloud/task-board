@@ -1,5 +1,9 @@
 {
   "ids": {
+    "gmail:brice-hustlefund-black-friday-2026-11-16": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:45:48.457Z"
+    },
     "gmail:fathom-daily-2026-10-20#cost-cut-mart": {
       "status": "in_progress",
       "at": "2026-11-03T02:53:00.264Z"
@@ -32,9 +36,17 @@
       "status": "done",
       "at": "2026-11-16T22:45:39.543Z"
     },
+    "gmail:fathom-jason-sync2-2026-11-16#hanpoom-access": {
+      "status": "done",
+      "at": "2026-11-16T22:45:44.827Z"
+    },
     "gmail:fathom-jason-sync2-2026-11-16#log-visibility": {
       "status": "done",
       "at": "2026-11-16T22:45:42.032Z"
+    },
+    "gmail:gemini-jason-qa-2026-11-16#token-usage-month": {
+      "status": "done",
+      "at": "2026-11-16T22:45:51.827Z"
     },
     "gmail:hanpoom-trial-convert-2026-11-11": {
       "status": "done",
