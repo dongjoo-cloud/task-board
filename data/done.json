@@ -16,6 +16,10 @@
       "status": "in_progress",
       "at": "2026-11-03T02:52:31.570Z"
     },
+    "gmail:fathom-daily-2026-11-06#claude-creator-discovery": {
+      "status": "done",
+      "at": "2026-11-16T22:46:45.029Z"
+    },
     "gmail:fathom-daily-2026-11-11#ai-avatar-channel": {
       "status": "in_progress",
       "at": "2026-11-16T22:40:20.893Z"
@@ -27,6 +31,14 @@
     "gmail:fathom-daily-2026-11-11#tongsin-panmae": {
       "status": "not_mine",
       "at": "2026-11-16T22:40:13.753Z"
+    },
+    "gmail:fathom-daily-2026-11-12#threads-setup": {
+      "status": "done",
+      "at": "2026-11-16T22:46:33.857Z"
+    },
+    "gmail:fathom-daily-2026-11-12#x-posts": {
+      "status": "in_progress",
+      "at": "2026-11-16T22:46:36.882Z"
     },
     "gmail:fathom-daily-2026-11-16#codex-usage": {
       "status": "done",
