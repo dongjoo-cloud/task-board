@@ -4,6 +4,10 @@
       "status": "not_mine",
       "at": "2026-11-16T22:45:48.457Z"
     },
+    "gmail:fal-team-invite-2026-11-11": {
+      "status": "done",
+      "at": "2026-11-16T22:50:03.969Z"
+    },
     "gmail:fathom-daily-2026-10-20#cost-cut-mart": {
       "status": "in_progress",
       "at": "2026-11-03T02:53:00.264Z"
@@ -79,6 +83,10 @@
     "gmail:fathom-jason-sync2-2026-11-16#log-visibility": {
       "status": "done",
       "at": "2026-11-16T22:45:42.032Z"
+    },
+    "gmail:fathom-social-posting-2026-11-11#stella-test-video": {
+      "status": "done",
+      "at": "2026-11-16T22:50:01.523Z"
     },
     "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach": {
       "status": "in_progress",
