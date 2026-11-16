@@ -44,9 +44,21 @@
       "status": "not_mine",
       "at": "2026-11-16T22:40:13.753Z"
     },
+    "gmail:fathom-daily-2026-11-12#discovery-max": {
+      "status": "done",
+      "at": "2026-11-16T22:50:20.722Z"
+    },
     "gmail:fathom-daily-2026-11-12#mcp-video-calendar": {
       "status": "done",
       "at": "2026-11-16T22:50:11.960Z"
+    },
+    "gmail:fathom-daily-2026-11-12#outreach-email": {
+      "status": "in_progress",
+      "at": "2026-11-16T22:50:18.479Z"
+    },
+    "gmail:fathom-daily-2026-11-12#runway-eval": {
+      "status": "done",
+      "at": "2026-11-16T22:50:14.403Z"
     },
     "gmail:fathom-daily-2026-11-12#threads-setup": {
       "status": "done",
