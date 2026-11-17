@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:06:26Z",
+  "updatedAt": "2026-11-17T22:08:48.000Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -767,11 +767,13 @@
         "need-dj",
         "STORIKA-15544"
       ],
-      "status": "todo",
+      "status": "done",
       "source": "slack",
       "priority": "new",
       "link": "https://storika.slack.com/archives/C0C9EGE3LN5/p1794892607942369",
-      "created_at": "2026-11-17T05:31:00Z"
+      "created_at": "2026-11-17T05:31:00Z",
+      "status_at": "2026-11-17T22:08:48.000Z",
+      "resolution": "DJ 11/17 20:18 KST 결정: C(Seller Center 안내만)로 마무리, #14213 PR, #14205 주차 (바알 DONE in #agent-room)"
     }
   ]
 }
