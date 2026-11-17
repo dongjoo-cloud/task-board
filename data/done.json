@@ -159,6 +159,10 @@
     "gmail:vercel-slack-integration-permissions-2026-11-11": {
       "status": "not_mine",
       "at": "2026-11-16T22:40:27.476Z"
+    },
+    "slack:agent-room:1794880968.333789": {
+      "status": "in_progress",
+      "at": "2026-11-17T23:38:24.327Z"
     }
   }
 }
