@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T00:20:00Z",
+  "updatedAt": "2026-11-17T02:06:26Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -737,6 +737,24 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e6da774cf0a94",
       "created_at": "2026-11-17T00:20:00Z"
+    },
+    {
+      "id": "slack:agent-room:1794880968.333789",
+      "title": "15551 후속 2건 승인: 웹앱 문구 정리 티켓 생성 + 카드 없는 앱 enroll_creators typed-yes 정책",
+      "summary": "배경 — 마녀 NEED-DJ (#agent-room 11:02 KST). Jason 실제 실패는 (2). refs STORIKA-15551, STORIKA-15539",
+      "액션": "(1) 아직 웹앱을 말하는 탐색 답(editor_open·round_open·Discovery card·종료/대기 문구) 정리 티켓 생성 승인 여부 (2) 카드 없는 앱(Grok)에서 enroll_creators를 typed yes로 확인하도록 ai-agent-autonomy 정책 변경 승인 여부",
+      "tags": [
+        "slack",
+        "agent-room",
+        "need-dj",
+        "STORIKA-15551",
+        "policy"
+      ],
+      "status": "todo",
+      "source": "slack",
+      "priority": "new",
+      "link": "https://storika.slack.com/archives/C0C9EGE3LN5/p1794880968333789",
+      "created_at": "2026-11-17T02:06:26Z"
     }
   ]
 }
