@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T22:08:48.000Z",
+  "updatedAt": "2026-11-17T23:57:51Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -774,6 +774,22 @@
       "created_at": "2026-11-17T05:31:00Z",
       "status_at": "2026-11-17T22:08:48.000Z",
       "resolution": "DJ 11/17 20:18 KST 결정: C(Seller Center 안내만)로 마무리, #14213 PR, #14205 주차 (바알 DONE in #agent-room)"
+    },
+    {
+      "id": "gmail:google-ads-invite-storika-korea-2026-11-18",
+      "title": "Google Ads 'Storika Korea' 계정 관리자 초대 수락 (Brice)",
+      "summary": "배경 — brice@storika.ai가 dongjoo@storika.ai를 Google Ads 계정 'Storika Korea'(고객 ID 307-174-0593)에 관리자 권한으로 초대 (메일 11/18 08:38 KST).",
+      "액션": "Google Ads 초대 메일에서 수락",
+      "tags": [
+        "gmail",
+        "google-ads",
+        "brice"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ebe025b7c3461",
+      "created_at": "2026-11-17T23:57:51Z"
     }
   ]
 }
