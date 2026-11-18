@@ -56,6 +56,10 @@
       "status": "in_progress",
       "at": "2026-11-16T22:48:49.918Z"
     },
+    "gmail:gcp-gemini-36-flash-retire-2026-11-18": {
+      "status": "not_mine",
+      "at": "2026-11-18T23:59:32.279Z"
+    },
     "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
       "status": "in_progress",
       "at": "2026-11-16T22:45:54.737Z"
