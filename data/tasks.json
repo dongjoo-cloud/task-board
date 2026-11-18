@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T23:57:51Z",
+  "updatedAt": "2026-11-18T00:57:40Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -790,6 +790,24 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/u/0/#inbox/1a1ebe025b7c3461",
       "created_at": "2026-11-17T23:57:51Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-18#asana-2fa",
+      "title": "Asana 2단계 인증 코드 Brice에게 요청해 로그인 → Storika Korea 광고 계정 추가",
+      "summary": "배경 — 11/18 daily Fathom 요약(09:38 KST 수신). Asana 2단계 인증 코드가 Brice 이메일로 가서 로그인 못 함. Fathom 액션 아이템 담당자 Dongjoo: DM Brice re: 2FA; complete login; then add Storika Korea ad account. 회의: https://fathom.video/share/2zkMr7MXrP_Eq5idu9iLxXKoLTrPnYxA (오늘 15~16시 Jay·Jason 10분 체크인도 잡힘)",
+      "액션": "Brice에게 Asana 2FA 코드 DM으로 요청\n로그인 끝내기\nStorika Korea 광고 계정 추가 (Google Ads 초대 카드와 연결)",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "asana",
+        "brice"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec1719e63aec5",
+      "created_at": "2026-11-18T00:57:40Z"
     }
   ]
 }
