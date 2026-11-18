@@ -384,6 +384,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ed6ddfa03d355",
       "created_at": "2026-11-18T07:00:00Z"
+    },
+    {
+      "id": "gmail:posthog-ai-observability-limit-2026-11-18",
+      "title": "PostHog AI Observability 결제 한도 100% — 데이터 수집 멈춤, 한도 올릴지 결정",
+      "summary": "배경 — 11/18 22:46 KST PostHog billing 메일: AI Observability 결제 한도 100% 도달, 새 데이터가 수집되지 않음. 같은 날 20:07 KST에는 Storika 프로젝트 data warehouse sync 일부가 재시도 불가 오류로 paused라는 알림도 옴.",
+      "액션": "PostHog 결제 한도 올릴지(예산) 결정\ndata warehouse paused sync 원인 확인할 사람 정하기(Jay?)",
+      "tags": [
+        "gmail",
+        "posthog",
+        "billing",
+        "budget"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1eee91c81ed247",
+      "created_at": "2026-11-18T22:15:00Z"
     }
   ]
 }
