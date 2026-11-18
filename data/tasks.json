@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T00:57:40Z",
+  "updatedAt": "2026-11-18T01:39:56Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -808,6 +808,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec1719e63aec5",
       "created_at": "2026-11-18T00:57:40Z"
+    },
+    {
+      "id": "gmail:gcp-gemini-36-flash-retire-2026-11-18",
+      "title": "GCP storika-455708 Gemini 3.6 Flash → Gemini 4 Hydrogen 이전 (2027-01-28 종료)",
+      "summary": "배경 — Google Cloud [Action Required] 메일(11/18 10:37 KST). storika-455708 프로젝트가 Gemini Enterprise(옛 Vertex AI)에서 Gemini 3.6 Flash를 씀. 11/19부터 새·비활성 프로젝트는 차단, 기존 활성 프로젝트는 2027-01-28에 완전 종료(404). 권장 이전 대상은 Gemini 4 Hydrogen. 3.7 Flash도 같은 날 은퇴 예정. 새 PT 주문은 11/19부터 안 받음.",
+      "액션": "storika-mono에서 Gemini 3.6 Flash(Vertex) 호출 위치 확인\nGemini 4 Hydrogen으로 테스트·전환 (바알/Jay에게 티켓화 여부 결정)",
+      "tags": [
+        "gmail",
+        "gcp",
+        "gemini",
+        "deadline"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec4db68b50ba2",
+      "created_at": "2026-11-18T01:39:56Z"
     }
   ]
 }
