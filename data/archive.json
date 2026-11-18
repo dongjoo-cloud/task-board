@@ -7,6 +7,13 @@
       "title": "LG생건 온라인 미팅 요청(긴급) — 11/5(목) 14:00, 1시간",
       "source": "gmail"
     },
+    "gmail:apify-security-token-rotation-2026-11-12": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:50:06.553Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Apify 보안 사고 — API 토큰 전부 교체됨, 쓰는 곳에 새 토큰 넣기",
+      "source": "gmail"
+    },
     "gmail:brex-account-review-2026-10-27": {
       "status": "not_mine",
       "at": "2026-11-03T02:53:10.563Z",
@@ -26,6 +33,13 @@
       "at": "2026-11-06T11:22:02.855Z",
       "archived_at": "2026-11-07T16:22:35.086Z",
       "title": "Brex 국제 송금(wire) 안내 업데이트 — 벤더에 11/9까지 재공유",
+      "source": "gmail"
+    },
+    "gmail:brice-hustlefund-black-friday-2026-11-16": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:45:48.457Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Hustle Fund 블랙프라이데이 딜 — Brice '75% 할인 공격적으로' 제안, 폼 마감 11/18(수)",
       "source": "gmail"
     },
     "gmail:calendar-gantt-review-2026-10-07": {
@@ -61,6 +75,20 @@
       "at": "2026-10-02T08:41:23.852Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:facebook-storika-business-portfolio-invite-2026-11-11": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:50:38.574Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Brice가 보낸 Facebook 비즈니스 포트폴리오 초대 수락('Storika' + 'Storika Korea Inc')",
+      "source": "gmail"
+    },
+    "gmail:fal-team-invite-2026-11-11": {
+      "status": "done",
+      "at": "2026-11-16T22:50:03.969Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "fal 팀 초대 수락 — Brice Lee가 fal 팀에 초대(16:46 KST)",
       "source": "gmail"
     },
     "gmail:fathom-1on1-2026-10-22#hanhum-mcp-poc": {
@@ -315,11 +343,116 @@
       "title": "daily 11/5 — Storika 고급 기능 정의 미팅(오늘 11시, Jay와)",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-11-06#ab-campaigns": {
+      "status": "done",
+      "at": "2026-11-16T22:46:48.357Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "daily 11/6 — 캠페인 2개로 A/B 테스트 후 Jay에게 확인",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-06#claude-creator-discovery": {
+      "status": "done",
+      "at": "2026-11-16T22:46:45.029Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "daily 11/6 — Claude 웹검색 크리에이터 발굴을 다른 제품으로 테스트·피드백 + 유스케이스 문서",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-11#tongsin-panmae": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:40:13.753Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/11 — 통신판매업 등록 오늘 신청(네이버·카카오 API 등록 블로커)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-12#discovery-max": {
+      "status": "done",
+      "at": "2026-11-16T22:50:20.722Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/12 — 크리에이터 발굴 최대치로 돌리기 + 조기 포기 고치기 + 티켓",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-12#mcp-video-calendar": {
+      "status": "done",
+      "at": "2026-11-16T22:50:11.960Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/12 — MCP 커넥터 영상 콘텐츠 캘린더 초안(Claude와 함께)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-12#runway-eval": {
+      "status": "done",
+      "at": "2026-11-16T22:50:14.403Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/12 — MCP 설명 영상용 Runway 검토, 필요하면 Brice에게 Slack 요청",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-12#threads-setup": {
+      "status": "done",
+      "at": "2026-11-16T22:46:33.857Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/12 — Storika Threads 설정 Jay와 확인 후 포스팅 시작",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-16#codex-usage": {
+      "status": "done",
+      "at": "2026-11-16T22:46:11.869Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/16 — Codex 토큰 사용량 조사해서 Jay에게 DM",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-16#jason-qa-bot": {
+      "status": "done",
+      "at": "2026-11-16T22:46:09.965Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "데일리 11/16 — Jason에게 Groq/Claude 접근 전달 + 10:00 자동 QA 봇(Slack 알림) 세팅",
+      "source": "gmail"
+    },
     "gmail:fathom-gantt-review-2026-10-07": {
       "status": "done",
       "at": "2026-10-07T08:30:21.913Z",
       "archived_at": "2026-10-08T15:32:29.568Z",
       "title": "간트차트 리뷰(10/7 14:00) Fathom — DJ 액션",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-qa-2026-11-16#grok-marketplace": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:45:57.435Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason QA 11/16 — Storika 봇 Grok 마켓플레이스 등록 + 데모 영상 준비",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-qa-2026-11-16#jason-signoff": {
+      "status": "done",
+      "at": "2026-11-16T22:46:01.090Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason QA 11/16 — Fathom 요약을 Jason에게 공유하고 sign-off 받기",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-sync2-2026-11-16#ad-refs": {
+      "status": "done",
+      "at": "2026-11-16T22:45:36.495Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason sync 2차 — 제품 채널에 경쟁사 광고 레퍼런스 공유",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-sync2-2026-11-16#connector-fixes": {
+      "status": "done",
+      "at": "2026-11-16T22:45:39.543Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason sync 2차 — 커넥터/웹앱 수정: 내부 ID·OWI 숨김, 비-TikTok Shop 캠페인 흐름, 토큰 메시지 단순화",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-sync2-2026-11-16#hanpoom-access": {
+      "status": "done",
+      "at": "2026-11-16T22:45:44.827Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason sync 2차 — Jason에게 한품 계정 접근 권한 주기 + 커넥터 Gmail 재연결(read/send)",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-sync2-2026-11-16#log-visibility": {
+      "status": "done",
+      "at": "2026-11-16T22:45:42.032Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason sync 2차 — 로그 가시성 조사, 티켓 만들어 Jay와 공유",
       "source": "gmail"
     },
     "gmail:fathom-ktp-budgeting-2026-11-06#jen-accounting-categories": {
@@ -348,6 +481,13 @@
       "at": "2026-10-12T12:45:05.395Z",
       "archived_at": "2026-10-13T15:54:04.515Z",
       "title": "프로덕트 싱크 10/12 — Orchestrator/Fleet Driver/QA 세션 분리·이름 정리",
+      "source": "gmail"
+    },
+    "gmail:fathom-social-posting-2026-11-11#stella-test-video": {
+      "status": "done",
+      "at": "2026-11-16T22:50:01.523Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "social posting 공모전 11/11 — AI 인플루언서 Stella 테스트 영상 만들고 오늘 15~16시 체크인 전에 Jay·Brice에게 공유",
       "source": "gmail"
     },
     "gmail:fathom-weekly-sync-2026-10-06": {
@@ -406,6 +546,13 @@
       "title": "Google 프로그래밍 검색 엔진 전환 — storika-455708 (2027/1/1까지)",
       "source": "gmail"
     },
+    "gmail:gemini-jason-qa-2026-11-16#token-usage-month": {
+      "status": "done",
+      "at": "2026-11-16T22:45:51.827Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Jason QA 11/16 — 이번 달 토큰 사용 내역 정리·공유, 마케팅 피드백 반영해 최종 조정",
+      "source": "gmail"
+    },
     "gmail:gkor-creator-db-inquiry-2026-10-07": {
       "status": "done",
       "at": "2026-10-11T12:42:57.719Z",
@@ -427,6 +574,13 @@
       "title": "Google 보안 — dongjoo@storika.ai에 OTP 앱이 로그인 단계로 추가됨(본인 확인)",
       "source": "gmail"
     },
+    "gmail:hanpoom-trial-convert-2026-11-11": {
+      "status": "done",
+      "at": "2026-11-16T22:40:32.367Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "한품 Storika 워크스페이스 체험 — 11/11 17:31 KST까지 취소하지 않으면 Pro $199/월로 전환",
+      "source": "gmail"
+    },
     "gmail:ktech-funding-2026-10-12": {
       "status": "not_mine",
       "at": "2026-10-13T00:53:53.839Z",
@@ -434,11 +588,32 @@
       "title": "K-테크 지원금 — 국내유입 증빙 10/30·편성 변경 마감 확인",
       "source": "gmail"
     },
+    "gmail:ktech-pioneers-agreement-change-2026-11-26": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:49:51.598Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "K-테크 파이오니어즈 협약변경 신청 — 11/26(목) 18:00 KST 최종 마감",
+      "source": "gmail"
+    },
+    "gmail:lazada-onboarding-rejected-2026-11-11": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:49:54.719Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Lazada 연동 등록 반려 — Open Platform 프로필 인증 실패 + Service Marketplace 기본정보 반려",
+      "source": "gmail"
+    },
     "gmail:linear-STORIKA-10054-date-check-2026-10-16": {
       "status": "done",
       "at": "2026-10-16T05:57:42.825Z",
       "archived_at": "2026-10-17T09:16:04.989Z",
       "title": "STORIKA-10054 마감(10/27)과 MART 은퇴 일정 안 맞음 — 테이블 drop 12/3로 분리할지 마감 옮길지 정하기",
+      "source": "gmail"
+    },
+    "gmail:linear-storika-14981-jay-prod-qa-fail": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:46:59.610Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "STORIKA-14981 — Jay prod QA: 승인 샘플 배송 단계·송장 번호가 안 나옴(Done 처리 2분 뒤 실패 보고)",
       "source": "gmail"
     },
     "gmail:maru-gathering-2026-10-21": {
@@ -504,6 +679,13 @@
       "title": "서울경제 '스타트업 스트리트' 서면 인터뷰 요청 — 11/3(화)까지 답변",
       "source": "gmail"
     },
+    "gmail:shopify-org-invite-2026-11-06": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:40:46.437Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Shopify 조직 초대 수락 여부 — 누가/어느 org인지 확인 후 수락·무시",
+      "source": "gmail"
+    },
     "gmail:slack-invite-teamcookie-2026-11-03": {
       "status": "done",
       "at": "2026-11-06T11:22:10.557Z",
@@ -511,11 +693,25 @@
       "title": "팀쿠키 강동하 님 Slack 공유 채널 초대 수락(#스토리카pr_팀쿠키_협업채널)",
       "source": "gmail"
     },
+    "gmail:stripe-unauthorized-ip-2026-11-12": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:46:29.907Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Stripe 라이브 제한 키가 허용 IP 밖에서 사용됨 (11/12 11:50)",
+      "source": "gmail"
+    },
     "gmail:typesafe-invite": {
       "status": "done",
       "at": "2026-10-02T08:32:25.874Z",
       "archived_at": "2026-10-08T00:29:27.691Z",
       "title": "",
+      "source": "gmail"
+    },
+    "gmail:vercel-slack-integration-permissions-2026-11-11": {
+      "status": "not_mine",
+      "at": "2026-11-16T22:40:27.476Z",
+      "archived_at": "2026-11-18T04:12:54.723Z",
+      "title": "Vercel Storika 팀 — Slack 연동이 새 권한 요청(확인해야 연동 유지)",
       "source": "gmail"
     },
     "gmail:viralbase-shutdown-2026-11-06": {

@@ -4,24 +4,6 @@
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
     {
-      "id": "gmail:fathom-daily-2026-11-11#tongsin-panmae",
-      "title": "데일리 11/11 — 통신판매업 등록 오늘 신청(네이버·카카오 API 등록 블로커)",
-      "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — 네이버 스마트스토어·카카오 등 국내 플랫폼 API 등록에 통신판매업 등록이 필요해서 오늘 중 신청하기로 함. API 등록 현황: 완료 eBay·Edge·Naver Search Ads·Kakao Developers, 진행 중 ChatGPT(재제출)·Claude·Meta·TikTok Shop, 대기 Shopify·Lazada·Rakuten, 막힘 Microsoft(지원 티켓)·Docusign(거절)·Coupang Ads(대행사 전용).",
-      "액션": "통신판매업 등록 오늘 신청\n등록되면 네이버 스마트스토어·카카오 API 등록 이어서 진행",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "api-registration",
-        "deadline"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
-      "created_at": "2026-11-11T00:22:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-11-11#creator-50-video",
       "title": "데일리 11/11 — 크리에이터 50명 골라서 영상 제작 제안 DM($500~$1,000/영상)",
       "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — MCP 커넥터 테스트용 콘텐츠가 부족해서 크리에이터 50명에게 간단한 영상 제작을 직접 제안. 예산 $500~$1,000(액션 아이템엔 $1k/영상), 지급은 한품 틱톡샵 통해서 하고 Storika가 환급. 10명 단위로 DM 보내고 지급 확인 뒤 초대. 크리에이터 단가·지급 방식/통화 확인은 Brice 몫. 자동 탐색은 시간당 10명→50명으로 늘려 한계 테스트(TikTok API 레이트 리밋이 병목, Jay 확인).",
@@ -56,110 +38,6 @@
       "priority": "new",
       "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
       "created_at": "2026-11-11T00:22:00Z"
-    },
-    {
-      "id": "gmail:vercel-slack-integration-permissions-2026-11-11",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "title": "Vercel Storika 팀 — Slack 연동이 새 권한 요청(확인해야 연동 유지)",
-      "summary": "배경 — 11/11 02:34 KST에 Vercel이 dongjoo@storika.ai로 'Action required' 메일을 보냄. Storika 팀에 설치된 Slack 연동이 추가 권한을 요청했고, 검토·승인해야 연동이 계속 동작한다고 함. 어떤 권한인지는 메일에 없고 Vercel 대시보드 권한 페이지에서 확인해야 함.",
-      "액션": "Vercel 대시보드에서 Slack 연동 요청 권한 검토\n필요하면 승인, 안 쓰는 연동이면 그대로 두거나 제거 판단",
-      "link": "https://vercel.com/dashboard/storika/integrations/icfg_YloNksyoj1BeRAuCR7QikNgz/permissions",
-      "tags": [
-        "gmail",
-        "vercel",
-        "integration",
-        "permissions"
-      ],
-      "created_at": "2026-11-10T22:05:00Z"
-    },
-    {
-      "id": "gmail:hanpoom-trial-convert-2026-11-11",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "한품 Storika 워크스페이스 체험 — 11/11 17:31 KST까지 취소하지 않으면 Pro $199/월로 전환",
-      "summary": "배경 — 11/8 17:32 KST Storika(notifications@mail.storika.ai)가 dongjoo@storika.ai로 한품 Storika 워크스페이스 무료 체험 종료 안내를 보냄. 체험은 2026-11-11 08:31 UTC(17:31 KST)에 끝나고, 그 전에 취소하지 않으면 등록된 카드로 Pro 플랜 $199/월(+세금)이 자동 결제된다. 월 80만 토큰 포함, 초과분은 1M 토큰당 $25(최대 월 $500). 체험 중 취소는 무료이고 체험 종료일까지 남은 토큰을 쓸 수 있다.",
-      "액션": "11/11 17:31 KST 전에 취소할지, Pro $199/월 전환을 허용할지 결정\n필요하면 Billing에서 처리: https://app.storika.ai/settings?section=billing",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1ba4932be1aa4f",
-      "tags": [
-        "gmail",
-        "billing",
-        "hanpoom",
-        "trial"
-      ],
-      "created_at": "2026-11-08T08:32:00Z"
-    },
-    {
-      "id": "gmail:shopify-org-invite-2026-11-06",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "medium",
-      "title": "Shopify 조직 초대 수락 여부 — 누가/어느 org인지 확인 후 수락·무시",
-      "summary": "배경 — 11/6 13:28 KST Shopify(mailer@shopify.com)가 dongjoo@storika.ai로 organization join 초대를 보냄. 본문에 초대한 사람·조직명은 없고 Accept invite 링크만 있음. 업무 메일로 왔으니 Storika 관련일 수 있으나 확인 필요. 기대하지 않은 초대면 무시해도 됨.",
-      "액션": "초대한 사람·조직 확인(팀/슬랙에 문의 또는 초대 페이지에서)\n맞으면 수락, 아니면 무시",
-      "link": "https://mail.google.com/mail/u/0/#inbox/1a1af1d28d092fa1",
-      "tags": [
-        "gmail",
-        "shopify",
-        "invite"
-      ],
-      "created_at": "2026-11-06T04:28:05Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-06#claude-creator-discovery",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "daily 11/6 — Claude 웹검색 크리에이터 발굴을 다른 제품으로 테스트·피드백 + 유스케이스 문서",
-      "summary": "배경 — 11/6 daily(34분, Fathom 요약 08:50 KST 수신). LG가 요청한 경쟁사 바이럴 영상·크리에이터 분석을 Claude 웹검색으로 테스트 중(자체 DB보다 빠른 대안). Fathom 액션: Test Claude web-search creator discovery on other products; share feedback. 다음 단계 Dongjoo: 추가 제품으로 테스트 + 유스케이스 문서 작성.",
-      "액션": "다른 제품으로 Claude 웹검색 크리에이터 발굴 워크플로우 테스트\n피드백 공유\n유스케이스 문서 작성",
-      "link": "https://fathom.video/share/R8hSVgKNGC_B1QHiZ1gSEPXyBt4wkzm9?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "claude",
-        "creator-discovery"
-      ],
-      "created_at": "2026-11-05T23:50:33Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-06#ab-campaigns",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "daily 11/6 — 캠페인 2개로 A/B 테스트 후 Jay에게 확인",
-      "summary": "배경 — 11/6 daily(34분, Fathom 요약 08:50 KST 수신). LG 미팅 피드백으로 브랜드·캠페인 2단계 기억 아키텍처를 도입했고, A/B 테스트가 가능하다고 정리됨. Fathom 액션 아이템 담당자 Dongjoo: Test A/B via 2 campaigns; confirm w/ Jay.",
-      "액션": "캠페인 2개로 A/B 테스트 돌리기\n결과를 Jay에게 확인·공유",
-      "link": "https://fathom.video/share/R8hSVgKNGC_B1QHiZ1gSEPXyBt4wkzm9?tab=summary",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily",
-        "ab-test",
-        "memory-architecture"
-      ],
-      "created_at": "2026-11-05T23:50:33Z"
-    },
-    {
-      "id": "gmail:linear-storika-14981-jay-prod-qa-fail",
-      "status": "todo",
-      "source": "gmail",
-      "priority": "high",
-      "title": "STORIKA-14981 — Jay prod QA: 승인 샘플 배송 단계·송장 번호가 안 나옴(Done 처리 2분 뒤 실패 보고)",
-      "summary": "배경 — DJ 담당 STORIKA-14981(High, 마감 11/7, MCP QA)은 PR #13301 머지 후 11/3 14:26 KST에 Done 처리됨. 14:28 KST Jay가 prod QA 결과를 코멘트로 남김(Linear 알림 메일 15:28 KST 수신): 배포 8e8dad21에서 두 가게(org 330 Storika, Hanpoom Kimsbasket) qa-grok 캠페인의 handle_sample_requests list를 4번 불렀는데 매번 \"Approved TikTok Shop samples could not be fully read right now.\"와 노트 3개만 나오고 배송 단계·송장 줄은 한 번도 안 나옴. 같은 시간대 Sentry 경고 없음. 두 가게가 똑같이 실패해서 Jay는 읽기 자체 문제로 추정. 열린 요청 줄은 정상.\n\n추가 요청 — 하나도 못 읽었을 때는 'fully' 문구+노트 3개 대신 안내를 한 줄로 줄여 달라고 함. 스크린샷은 #qa 스레드 1793683591.593849.",
-      "액션": "STORIKA-14981 다시 열기(Done → In Progress)\n승인 샘플 읽기 실패 원인 확인 후 수정(Sentry에 경고가 안 남는 것도 같이 확인)\n전부 못 읽었을 때 안내를 한 줄로 줄이기\n배포 후 Jay에게 재QA 요청",
-      "link": "https://linear.app/storika/issue/STORIKA-14981/a-marketer-sees-the-shipping-stage-and-tracking-number-of-approved",
-      "tags": [
-        "gmail",
-        "linear",
-        "mcp",
-        "tiktok-shop",
-        "qa"
-      ],
-      "created_at": "2026-11-03T06:30:00Z"
     },
     {
       "id": "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach",
@@ -233,158 +111,10 @@
       "created_at": "2026-10-19T23:42:42Z"
     },
     {
-      "id": "gmail:facebook-storika-business-portfolio-invite-2026-11-11",
-      "title": "Brice가 보낸 Facebook 비즈니스 포트폴리오 초대 수락('Storika' + 'Storika Korea Inc')",
-      "summary": "배경 — 11/11 09:29 KST에 Facebook에서 'Action required' 알림 수신. Brice Lee가 나를 Storika 비즈니스 포트폴리오(페이지·비즈니스 자산을 묶어 관리하는 곳)에 초대함. 오늘 daily에서 Meta API 등록이 '진행 중'이라 이와 관련 있을 수 있음.\n\n추가 — 11/11 14:19 KST에 Brice Lee가 'Storika Korea Inc' 비즈니스 포트폴리오에도 초대함(별도 'Action required' 메일). 둘 다 같은 건지, 한국 법인용이 따로인지 확인 필요.",
-      "액션": "메일의 초대 링크로 Storika 비즈니스 포트폴리오 참여 수락\n14:19 KST 메일의 초대 링크로 Storika Korea Inc 포트폴리오 참여 수락",
-      "tags": [
-        "gmail",
-        "meta",
-        "facebook",
-        "api-registration"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c802b24c2cd0c",
-      "created_at": "2026-11-11T00:32:00Z",
-      "link2": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c90c457776de1"
-    },
-    {
-      "id": "gmail:ktech-pioneers-agreement-change-2026-11-26",
-      "title": "K-테크 파이오니어즈 협약변경 신청 — 11/26(목) 18:00 KST 최종 마감",
-      "summary": "배경 — 11/11 11:07 KST 운영사무국 메일. 사업 종료 전에 최초 협약 이후 바뀐 사업내용·사업비 편성을 최종 반영하는 협약변경 절차. 마감 이후에는 사업내용·사업비 변경이 일절 불가하고, 최종 제출본 기준으로 회계검토가 진행됨. 승인사항(비목 간 변경·세목 신설, 인건비·여비 세목 간 변경, 총괄책임자 변경 등)과 통보사항(세목 간 변경, 참여연구원·참여율 변경 등)으로 구분, 기준은 첨부 회계교육 자료 38쪽.\n\n일정 — 11/11~11/17 최초 협약 사업계획서·사업비 편성내역과 이후 변경사항(참여인력 등록 포함) 점검. 11/18~11/26 워크스페이스에서 변경 전/후·사유 작성 후 공문·사업(협약)변경신청서·수정사업계획서 제출(공문 자동 생성은 11/18부터). 이미 변경신청한 경우 추가 수정 없으면 11/18 이후 공문만 제출, 공문 신청일은 기존 변경신청일과 일치시킬 것. 변경사항이 없으면 신청 불필요.\n\n참고 — 3차 사업비 교부 미신청 기업은 예외 접수로 11/13(금) 14:00 KST까지 교부신청(이전 회차 사용증빙) 하고 11/18(수) 14:00 KST까지 보완하면 11/30 교부 가능. 문의는 회신 말고 김해람 팀장에게 Slack DM이나 별도 메일.",
-      "액션": "최초 협약 대비 사업내용·사업비 변경사항 점검(11/17까지)\n3차 사업비 교부 미신청이면 11/13(금) 14:00 KST까지 신청\n11/18~11/26 18:00 KST 워크스페이스에서 협약변경 신청·공문 제출(변경 없으면 생략)",
-      "tags": [
-        "gmail",
-        "ktech-pioneers",
-        "grant",
-        "deadline"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c85c9b0d78637",
-      "created_at": "2026-11-11T02:10:00Z"
-    },
-    {
-      "id": "gmail:lazada-onboarding-rejected-2026-11-11",
-      "title": "Lazada 연동 등록 반려 — Open Platform 프로필 인증 실패 + Service Marketplace 기본정보 반려",
-      "summary": "배경 — 11/11 11:40 KST integrations@storika.ai로 Lazada 메일 2통. (1) Lazada Open Platform: 프로필 인증 실패. 신청서에 넣은 사업자등록번호가 Delaware 법인설립증명서(Certificate of Incorporation)의 File Number와 일치하지 않는다는 사유. (2) Lazada Service Marketplace: 기본정보가 요건 미충족으로 반려, 로그인해서 코멘트 확인 후 수정·재제출 요청.\n\n맥락 — 오늘 daily 회의록 API 등록 현황에서 Lazada는 '대기'였음.",
-      "액션": "isvconsole.lazada.com 프로필에서 사업자등록번호 칸을 Delaware 증명서 File Number 기준으로 고쳐 재제출\nService Marketplace에 로그인해 반려 코멘트 확인 후 기본정보 수정·재제출",
-      "tags": [
-        "gmail",
-        "lazada",
-        "api-registration"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c87af52481bba",
-      "created_at": "2026-11-11T02:59:38Z"
-    },
-    {
-      "id": "gmail:fathom-social-posting-2026-11-11#stella-test-video",
-      "title": "social posting 공모전 11/11 — AI 인플루언서 Stella 테스트 영상 만들고 오늘 15~16시 체크인 전에 Jay·Brice에게 공유",
-      "summary": "배경 — 11/11 12:30 KST Jay 주최 'social posting 공모전' 회의(42분) Fathom 요약(13:14 KST 수신). Storika AI 인플루언서 'Stella'로 '마케터의 하루' 브이로그를 만들어 제품을 간접 노출하고, storika.ai 계정에 영어로 게시(미국·싱가포르 아웃바운드와 시너지). 영상은 Vercel AI Gateway로 이미지 레퍼런스 기반 생성. 예산은 K-Tech Finalists 보조금 중 약 500만 원(약 $3,300)을 AI 비용으로 배정. 마스코트는 Brice 것, 사람 페르소나는 DJ 담당.\n\n다른 담당 — Brice: 콘텐츠 캘린더(CES·K-Beauty 컨퍼런스 등). Jay: AI 검색 품질·어댑터 안정성, Kyungdon과 예산·KR vs US·콘텐츠 언어 맞추기, 15~16시 DJ·Brice 체크인 잡기.\n\n참고 — 오전 바알 DONE: Jay가 GCP Secret Manager에 VERCEL_AI_GATEWAY_API_KEY를 만들어 둠, 영상·이미지 생성 전 개수·금액을 DJ가 정할 것.",
-      "액션": "Stella 이미지 시퀀스 만들기\nVercel AI Gateway로 첫 테스트 영상 생성(개수·금액 먼저 정하기)\n품질·제작 수고 평가해서 Jay·Brice에게 공유(오늘 15~16시 체크인)",
-      "tags": [
-        "gmail",
-        "fathom",
-        "social-posting",
-        "ai-influencer"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c8d087e4f4efd",
-      "created_at": "2026-11-11T04:19:40Z"
-    },
-    {
-      "id": "gmail:fal-team-invite-2026-11-11",
-      "title": "fal 팀 초대 수락 — Brice Lee가 fal 팀에 초대(16:46 KST)",
-      "summary": "Brice Lee가 fal(AI 이미지·영상 생성) 팀에 DJ를 초대함. 초대 메일(noreply@fal.ai)에서 수락하면 됨.",
-      "액션": "fal 팀 초대 수락",
-      "tags": [
-        "gmail",
-        "fal",
-        "invite"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1c992b01fbd15b",
-      "created_at": "2026-11-11T07:48:32Z"
-    },
-    {
-      "id": "gmail:apify-security-token-rotation-2026-11-12",
-      "title": "Apify 보안 사고 — API 토큰 전부 교체됨, 쓰는 곳에 새 토큰 넣기",
-      "summary": "Apify가 11/9~10 내부 시스템 무단 접근을 알림(11/12 04:46 KST 메일). 모든 API 토큰·Proxy 비밀번호를 이미 교체해서 옛 토큰은 무효. 스크립트·CI·연동(Apify MCP 포함)에 새 토큰을 넣고, 끊긴 OAuth 연동(GitHub 등)은 다시 연결해야 함. 개인·조직 계정 둘 다 해당.",
-      "액션": "Apify 콘솔에서 새 API 토큰 확인 후 사용처 교체 + 연동 재연결",
-      "tags": [
-        "gmail",
-        "apify",
-        "security"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cc25db406b8ce",
-      "created_at": "2026-11-11T22:04:16Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-12#mcp-video-calendar",
-      "title": "데일리 11/12 — MCP 커넥터 영상 콘텐츠 캘린더 초안(Claude와 함께)",
-      "summary": "AI 영상 테스트 시행착오 비용 $153, 안정 비용 $35~45 예상. 영상 제작 목표에 맞춰 MCP 커넥터 설명 영상 캘린더를 짠다.",
-      "액션": "MCP 커넥터 영상 콘텐츠 캘린더 초안 작성",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
-      "created_at": "2026-11-11T23:56:13Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-12#runway-eval",
-      "title": "데일리 11/12 — MCP 설명 영상용 Runway 검토, 필요하면 Brice에게 Slack 요청",
-      "summary": "Fall AI를 쓰는 중이고 Runway를 MCP 커넥터 설명 영상용 대안으로 검토. 필요하면 Brice에게 Slack으로 요청.",
-      "액션": "Runway 검토 후 필요 시 Brice에게 요청",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
-      "created_at": "2026-11-11T23:56:13Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-11-12#outreach-email",
       "title": "데일리 11/12 — 아웃리치 루프에 이메일 발송 추가(Gmail 연동 재활성화)",
       "summary": "DM 50건 응답률 1% 미만이라 Gmail 연동을 다시 켜서 이메일 발송을 아웃리치 루프에 넣기로 함.",
       "액션": "아웃리치 루프 이메일 발송 기능 추가",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
-      "created_at": "2026-11-11T23:56:13Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-12#discovery-max",
-      "title": "데일리 11/12 — 크리에이터 발굴 최대치로 돌리기 + 조기 포기 고치기 + 티켓",
-      "summary": "검색 한도(하드코딩 100)를 API 실제 한도까지 올리고, 적합한 크리에이터를 못 찾으면 빨리 포기하는 문제를 고치고, 티켓으로 정리. 바알이 08:38 '3번 친구' 한도 시험 계획 중(DJ '실행' 대기).",
-      "액션": "발굴 최대치 실행·조기 포기 수정·티켓 정리",
       "tags": [
         "gmail",
         "fathom",
@@ -411,38 +141,6 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
       "created_at": "2026-11-11T23:56:13Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-12#threads-setup",
-      "title": "데일리 11/12 — Storika Threads 설정 Jay와 확인 후 포스팅 시작",
-      "summary": "Storika Threads 계정 설정을 Jay와 확인하고 포스팅을 시작.",
-      "액션": "Jay와 Threads 설정 확인 후 포스팅 시작",
-      "tags": [
-        "gmail",
-        "fathom",
-        "daily"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cd06758eea1e8",
-      "created_at": "2026-11-11T23:56:13Z"
-    },
-    {
-      "id": "gmail:stripe-unauthorized-ip-2026-11-12",
-      "title": "Stripe 라이브 제한 키가 허용 IP 밖에서 사용됨 (11/12 11:50)",
-      "summary": "Stripe가 Storika 계정의 live restricted key 하나가 설정된 IP 범위 밖에서 호출됐다고 경고. 의도한 게 아니면 키 롤링 또는 IP 범위 수정 필요.",
-      "액션": "Stripe 대시보드 보안 기록 확인 → 의도치 않았으면 키 롤링, 의도했으면 허용 IP 범위 갱신",
-      "tags": [
-        "gmail",
-        "stripe",
-        "security"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1cdaa2d66062ab",
-      "created_at": "2026-11-12T03:00:00Z"
     },
     {
       "id": "gmail:fathom-brice-1on1-2026-11-12#ktp-videos",
@@ -477,40 +175,6 @@
       "created_at": "2026-11-12T07:18:00Z"
     },
     {
-      "id": "gmail:fathom-daily-2026-11-16#codex-usage",
-      "title": "데일리 11/16 — Codex 토큰 사용량 조사해서 Jay에게 DM",
-      "summary": "배경 — 11/16 daily(23분, Fathom 요약 08:53 KST 수신). 주말 디스커버리 엔진 개선 공유, Jason 유료 마케팅 워크플로우(Google Drive를 DB로, 11월 저예산 테스트→12월 론칭, 광고 계정은 Brice 승인), Codex 토큰 비용 급증 논의. 10:00 Jason QA 세팅 후속 미팅(Jay 초대). Jay는 리뷰 범위를 좁히고 중요한 버그에 집중하는 방향을 제안함(수동 리셋이 자동 주간 리셋보다 토큰이 적게 나오는 것 같다는 문제 포함).",
-      "액션": "Codex 토큰 사용량 분석 → 결과를 Jay에게 DM",
-      "tags": [
-        "gmail",
-        "fathom",
-        "codex",
-        "cost"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e1a10a9afa833",
-      "created_at": "2026-11-16T00:00:29Z"
-    },
-    {
-      "id": "gmail:fathom-daily-2026-11-16#jason-qa-bot",
-      "title": "데일리 11/16 — Jason에게 Groq/Claude 접근 전달 + 10:00 자동 QA 봇(Slack 알림) 세팅",
-      "summary": "배경 — 11/16 daily(23분, Fathom 요약 08:53 KST 수신). 주말 디스커버리 엔진 개선 공유, Jason 유료 마케팅 워크플로우(Google Drive를 DB로, 11월 저예산 테스트→12월 론칭, 광고 계정은 Brice 승인), Codex 토큰 비용 급증 논의. 10:00 Jason QA 세팅 후속 미팅(Jay 초대). Jason은 플래그된 항목을 DJ에게 공유하기로 함.",
-      "액션": "10:00 Jason QA 세팅 미팅에서 Groq/Claude 접근 전달, 자동 QA 봇+Slack 알림 세팅",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason",
-        "qa"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e1a10a9afa833",
-      "created_at": "2026-11-16T00:00:29Z"
-    },
-    {
       "id": "gmail:fathom-jason-qa-2026-11-16#tickets",
       "title": "Jason QA 11/16 — 이슈 티켓 만들기: Safety Check 옵션화·승인 프롬프트 현지화·다음 단계 제안",
       "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
@@ -520,39 +184,6 @@
         "fathom",
         "jason",
         "linear"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e215ea49a8f8b",
-      "created_at": "2026-11-16T02:05:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-qa-2026-11-16#jason-signoff",
-      "title": "Jason QA 11/16 — Fathom 요약을 Jason에게 공유하고 sign-off 받기",
-      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
-      "액션": "Fathom 요약 공유 → Jason 확인(sign-off) 요청",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e215ea49a8f8b",
-      "created_at": "2026-11-16T02:05:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-qa-2026-11-16#grok-marketplace",
-      "title": "Jason QA 11/16 — Storika 봇 Grok 마켓플레이스 등록 + 데모 영상 준비",
-      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅(56분, Fathom 요약 11:00 KST 수신). 커넥터 크리에이터 발굴 QA: GMV 과가중으로 콘텐츠 적합도 낮음(목표 정확도 70~80%), 순차 검색이 느림(10명 ~5분) → Jay가 병렬 처리 'Hydrogen' 구조와 Marketer Brief 설계 담당. Safety Check(크리에이터당 ~1만 토큰)는 옵션화, 승인 프롬프트 현지화, 다음 단계 제안 추가. 무료 토큰 5만→20만으로 상향. 16:30 'Jason sync up 2차'(Jay 초대) 예정.",
-      "액션": "Storika 봇을 Grok 마켓플레이스에 제출해 인바운드 유입, 데모 영상 준비",
-      "tags": [
-        "gmail",
-        "fathom",
-        "grok",
-        "marketing"
       ],
       "status": "todo",
       "source": "gmail",
@@ -576,112 +207,6 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e219ca75d8221",
       "created_at": "2026-11-16T02:12:00Z"
-    },
-    {
-      "id": "gmail:gemini-jason-qa-2026-11-16#token-usage-month",
-      "title": "Jason QA 11/16 — 이번 달 토큰 사용 내역 정리·공유, 마케팅 피드백 반영해 최종 조정",
-      "summary": "배경 — 11/16 'Jason QA 세팅' 미팅 Gemini 회의록(11:05 KST 수신). Fathom 요약(카드 #tickets·#jason-signoff·#grok-marketplace)과 같은 미팅인데, Gemini는 아래 항목을 DJ 담당으로 잡음(Fathom은 Hydrogen·Marketer Brief를 Jay 담당으로 적음 — 담당 겹침 확인 필요). 16:30 'Jason sync up 2차'에서 이어서 논의.",
-      "액션": "이번 달 토큰 사용 내역 정리해서 공유 → 마케팅(Jason) 피드백 보고 무료 한도 등 최종 조정. 데일리 11/16 Codex 토큰 카드와는 별개(커넥터 토큰)일 수 있음",
-      "tags": [
-        "gmail",
-        "gemini",
-        "jason",
-        "tokens"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e219ca75d8221",
-      "created_at": "2026-11-16T02:12:00Z"
-    },
-    {
-      "id": "gmail:brice-hustlefund-black-friday-2026-11-16",
-      "title": "Hustle Fund 블랙프라이데이 딜 — Brice '75% 할인 공격적으로' 제안, 폼 마감 11/18(수)",
-      "summary": "배경 — Brice가 Hustle Fund(Elizabeth Yin) BF/CM 포트폴리오 딜 모음 요청을 Jay·Don·DJ에게 포워드(16:18 KST). 오퍼 있으면 5문항 폼을 11/18(수) EOD까지 제출, 추수감사절 주 뉴스레터에 실림. Brice 의견: 한정 기간 75% 할인 등 공격적으로.",
-      "액션": "오퍼 내용(할인율·기간·대상 플랜)을 Jay·Don과 정하고 누가 폼 낼지 정리. 폼: https://docs.google.com/forms/d/e/1FAIpQLSfEuzzhlp6tbjdRc1lyaNhiFGYQZJbniI9qIe-CsVx7bSAorg/viewform",
-      "tags": [
-        "gmail",
-        "brice",
-        "marketing",
-        "deadline"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e338825cd1891",
-      "created_at": "2026-11-16T07:26:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-sync2-2026-11-16#hanpoom-access",
-      "title": "Jason sync 2차 — Jason에게 한품 계정 접근 권한 주기 + 커넥터 Gmail 재연결(read/send)",
-      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
-      "액션": "Jason에게 한품 계정 권한 부여(E2E 테스트용), 커넥터에 Gmail 다시 연결해서 읽기·보내기 켜기",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason",
-        "access",
-        "hanpoom"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
-      "created_at": "2026-11-16T08:54:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-sync2-2026-11-16#log-visibility",
-      "title": "Jason sync 2차 — 로그 가시성 조사, 티켓 만들어 Jay와 공유",
-      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
-      "액션": "대화 로그는 저장 안 하니 AI 호출 목록 저장 등으로 사용자 의도 볼 방법 조사 → 티켓 만들고 Jay에게 공유. Jason이 로그 막히면 DJ에게 핑함",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason",
-        "logs",
-        "ticket"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
-      "created_at": "2026-11-16T08:54:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-sync2-2026-11-16#connector-fixes",
-      "title": "Jason sync 2차 — 커넥터/웹앱 수정: 내부 ID·OWI 숨김, 비-TikTok Shop 캠페인 흐름, 토큰 메시지 단순화",
-      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
-      "액션": "UI에서 내부 ID/OWI 숨기기; TikTok Shop 없는 사용자 캠페인이 웹앱에 안 보이는 흐름 고치고 레거시 웹앱 참조 제거; 토큰 사용 메시지를 '남은 양/부족 경고' 수준으로 단순화. (샘플 요청 pending 표시 버그는 Jason 담당으로 잡힘)",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason",
-        "bugs",
-        "connector"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
-      "created_at": "2026-11-16T08:54:00Z"
-    },
-    {
-      "id": "gmail:fathom-jason-sync2-2026-11-16#ad-refs",
-      "title": "Jason sync 2차 — 제품 채널에 경쟁사 광고 레퍼런스 공유",
-      "summary": "배경 — 11/16 'Jason sync up 2차'(78분) Fathom 요약(17:50 KST 수신). Jason이 한품 계정으로 커넥터 E2E 테스트(발굴→샘플 요청), 버그는 'MCP Connector' Jira에 Loom과 함께 올림. whoami 노출은 Jay 담당. 회의: https://fathom.video/share/eE9FmSBRWzHXFPFgoUrfs6f_rKYKcw8-",
-      "액션": "한국 대상 Meta/TikTok 저예산 다중 크리에이티브 테스트용 경쟁사 광고 레퍼런스를 제품 채널에 공유 (Jay도 광고·크리에이티브 레퍼런스 공유 담당)",
-      "tags": [
-        "gmail",
-        "fathom",
-        "jason",
-        "marketing",
-        "ads"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1e38d3ec1a64a8",
-      "created_at": "2026-11-16T08:54:00Z"
     },
     {
       "id": "gmail:fathom-daily-2026-11-17#eu-selector-ui",

@@ -1,21 +1,5 @@
 {
   "ids": {
-    "gmail:apify-security-token-rotation-2026-11-12": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:50:06.553Z"
-    },
-    "gmail:brice-hustlefund-black-friday-2026-11-16": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:45:48.457Z"
-    },
-    "gmail:facebook-storika-business-portfolio-invite-2026-11-11": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:50:38.574Z"
-    },
-    "gmail:fal-team-invite-2026-11-11": {
-      "status": "done",
-      "at": "2026-11-16T22:50:03.969Z"
-    },
     "gmail:fathom-brice-1on1-2026-11-12#demo-metrics": {
       "status": "in_progress",
       "at": "2026-11-16T22:50:34.225Z"
@@ -36,14 +20,6 @@
       "status": "in_progress",
       "at": "2026-11-03T02:52:31.570Z"
     },
-    "gmail:fathom-daily-2026-11-06#ab-campaigns": {
-      "status": "done",
-      "at": "2026-11-16T22:46:48.357Z"
-    },
-    "gmail:fathom-daily-2026-11-06#claude-creator-discovery": {
-      "status": "done",
-      "at": "2026-11-16T22:46:45.029Z"
-    },
     "gmail:fathom-daily-2026-11-11#ai-avatar-channel": {
       "status": "in_progress",
       "at": "2026-11-16T22:40:20.893Z"
@@ -52,77 +28,21 @@
       "status": "done",
       "at": "2026-11-17T23:03:51.044Z"
     },
-    "gmail:fathom-daily-2026-11-11#tongsin-panmae": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:40:13.753Z"
-    },
-    "gmail:fathom-daily-2026-11-12#discovery-max": {
-      "status": "done",
-      "at": "2026-11-16T22:50:20.722Z"
-    },
-    "gmail:fathom-daily-2026-11-12#mcp-video-calendar": {
-      "status": "done",
-      "at": "2026-11-16T22:50:11.960Z"
-    },
     "gmail:fathom-daily-2026-11-12#outreach-email": {
       "status": "in_progress",
       "at": "2026-11-16T22:50:18.479Z"
-    },
-    "gmail:fathom-daily-2026-11-12#runway-eval": {
-      "status": "done",
-      "at": "2026-11-16T22:50:14.403Z"
-    },
-    "gmail:fathom-daily-2026-11-12#threads-setup": {
-      "status": "done",
-      "at": "2026-11-16T22:46:33.857Z"
     },
     "gmail:fathom-daily-2026-11-12#x-posts": {
       "status": "in_progress",
       "at": "2026-11-16T22:46:36.882Z"
     },
-    "gmail:fathom-daily-2026-11-16#codex-usage": {
-      "status": "done",
-      "at": "2026-11-16T22:46:11.869Z"
-    },
-    "gmail:fathom-daily-2026-11-16#jason-qa-bot": {
-      "status": "done",
-      "at": "2026-11-16T22:46:09.965Z"
-    },
     "gmail:fathom-daily-2026-11-17#approval-card-en": {
       "status": "in_progress",
       "at": "2026-11-17T23:38:29.494Z"
     },
-    "gmail:fathom-jason-qa-2026-11-16#grok-marketplace": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:45:57.435Z"
-    },
-    "gmail:fathom-jason-qa-2026-11-16#jason-signoff": {
-      "status": "done",
-      "at": "2026-11-16T22:46:01.090Z"
-    },
     "gmail:fathom-jason-qa-2026-11-16#tickets": {
       "status": "in_progress",
       "at": "2026-11-16T22:46:05.423Z"
-    },
-    "gmail:fathom-jason-sync2-2026-11-16#ad-refs": {
-      "status": "done",
-      "at": "2026-11-16T22:45:36.495Z"
-    },
-    "gmail:fathom-jason-sync2-2026-11-16#connector-fixes": {
-      "status": "done",
-      "at": "2026-11-16T22:45:39.543Z"
-    },
-    "gmail:fathom-jason-sync2-2026-11-16#hanpoom-access": {
-      "status": "done",
-      "at": "2026-11-16T22:45:44.827Z"
-    },
-    "gmail:fathom-jason-sync2-2026-11-16#log-visibility": {
-      "status": "done",
-      "at": "2026-11-16T22:45:42.032Z"
-    },
-    "gmail:fathom-social-posting-2026-11-11#stella-test-video": {
-      "status": "done",
-      "at": "2026-11-16T22:50:01.523Z"
     },
     "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach": {
       "status": "in_progress",
@@ -131,38 +51,6 @@
     "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
       "status": "in_progress",
       "at": "2026-11-16T22:45:54.737Z"
-    },
-    "gmail:gemini-jason-qa-2026-11-16#token-usage-month": {
-      "status": "done",
-      "at": "2026-11-16T22:45:51.827Z"
-    },
-    "gmail:hanpoom-trial-convert-2026-11-11": {
-      "status": "done",
-      "at": "2026-11-16T22:40:32.367Z"
-    },
-    "gmail:ktech-pioneers-agreement-change-2026-11-26": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:49:51.598Z"
-    },
-    "gmail:lazada-onboarding-rejected-2026-11-11": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:49:54.719Z"
-    },
-    "gmail:linear-storika-14981-jay-prod-qa-fail": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:46:59.610Z"
-    },
-    "gmail:shopify-org-invite-2026-11-06": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:40:46.437Z"
-    },
-    "gmail:stripe-unauthorized-ip-2026-11-12": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:46:29.907Z"
-    },
-    "gmail:vercel-slack-integration-permissions-2026-11-11": {
-      "status": "not_mine",
-      "at": "2026-11-16T22:40:27.476Z"
     },
     "slack:agent-room:1794880968.333789": {
       "status": "in_progress",
