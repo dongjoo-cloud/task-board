@@ -367,6 +367,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec57d3b7d0f45",
       "created_at": "2026-11-18T02:01:31Z"
+    },
+    {
+      "id": "gmail:ktech-pioneers-settlement-fee-2026-11-24",
+      "title": "K-테크 파이오니어즈 최종 회계검토 위탁정산비용 — 편성 확인·세금계산서 수신자 회신(~11/24 15:00)",
+      "summary": "배경 — 11/18 15:52 KST 운영사무국 안내. 수인회계법인이 각 기업에 위탁정산비용 세금계산서를 발행(대표자 이메일로). 사업비에 일반수용비_수수료(위탁정산비용) 1,000,000원이 편성돼 있는지 확인, 미편성·조정 필요하면 11/26(목) 전 워크스페이스에서 협약변경 신청. 대표자 메일이 아닌 별도 수신자를 쓰려면 11/24(화) 15:00 KST까지 담당자명·이메일 회신.",
+      "액션": "Jen(정부과제 담당)·Brice에게 공유\n위탁정산비용 100만원 편성 여부 확인 (없으면 11/26 전 협약변경)\n세금계산서 수신자를 대표자 말고 바꿀지 결정 → 필요하면 11/24 15:00 전 회신",
+      "tags": [
+        "gmail",
+        "grant",
+        "ktech-pioneers",
+        "deadline"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ed6ddfa03d355",
+      "created_at": "2026-11-18T07:00:00Z"
     }
   ]
 }
