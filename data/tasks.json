@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T01:39:56Z",
+  "updatedAt": "2026-11-18T02:01:31Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -825,6 +825,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec4db68b50ba2",
       "created_at": "2026-11-18T01:39:56Z"
+    },
+    {
+      "id": "gmail:mirae-asset-capital-intro-2026-11-18",
+      "title": "Mirae Asset Capital 투자 인트로 콜 요청 — Brice와 공유하고 답장 여부 결정",
+      "summary": "배경 — 11/18 10:48 KST contact@storika.ai로 Mirae Asset Capital ICT투자2팀 Jun Kim(Manager) 메일. 최근 seed 라운드와 D2C 브랜드용 AI 크리에이터 마케팅 자동화를 보고 연락, 하는 일과 미국 시장 계획을 듣고 싶다며 짧은 인트로 콜 제안.",
+      "액션": "Brice(CEO)·Don에게 공유\n답장·콜 여부 결정 (답장은 내가 직접 또는 Brice)",
+      "tags": [
+        "gmail",
+        "investor",
+        "vc",
+        "brice"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1ec57d3b7d0f45",
+      "created_at": "2026-11-18T02:01:31Z"
     }
   ]
 }
