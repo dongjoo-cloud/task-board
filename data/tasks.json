@@ -388,7 +388,7 @@
     {
       "id": "gmail:posthog-ai-observability-limit-2026-11-18",
       "title": "PostHog AI Observability 결제 한도 100% — 데이터 수집 멈춤, 한도 올릴지 결정",
-      "summary": "배경 — 11/18 22:46 KST PostHog billing 메일: AI Observability 결제 한도 100% 도달, 새 데이터가 수집되지 않음. 같은 날 20:07 KST에는 Storika 프로젝트 data warehouse sync 일부가 재시도 불가 오류로 paused라는 알림도 옴.",
+      "summary": "배경 — 11/18 22:46 KST PostHog billing 메일: AI Observability 결제 한도 100% 도달, 새 데이터가 수집되지 않음. 같은 날 20:07 KST에는 Storika 프로젝트 data warehouse sync 일부가 재시도 불가 오류로 paused라는 알림도 옴. — 11/19 09:01 KST 내가 Jay·Don에게 전달함.",
       "액션": "PostHog 결제 한도 올릴지(예산) 결정\ndata warehouse paused sync 원인 확인할 사람 정하기(Jay?)",
       "tags": [
         "gmail",
@@ -396,11 +396,12 @@
         "billing",
         "budget"
       ],
-      "status": "todo",
+      "status": "done",
       "source": "gmail",
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1eee91c81ed247",
-      "created_at": "2026-11-18T22:15:00Z"
+      "created_at": "2026-11-18T22:15:00Z",
+      "status_at": "2026-11-19T00:01:35Z"
     },
     {
       "id": "gmail:gkor-consulting-written-details-2026-11-19",
@@ -418,6 +419,23 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1165fe33127b4f",
       "created_at": "2026-11-18T23:57:00Z"
+    },
+    {
+      "id": "fathom:daily-2026-11-19-dj-actions",
+      "title": "11/19 daily 액션: 영어 데모 PPT(가격) Jay에게 전달 · 광고 영상 소재 Jason에게 공유",
+      "summary": "배경 — 11/19 daily Fathom 요약(09:01 KST)에서 내 몫 액션 2개. ① 영어 데모 PPT(Price)를 찾아 Jay에게 보내기 — Atomic Agency(Travis) 데모 요청 후속용 ② 광고 영상 소재를 Jason에게 공유.",
+      "액션": "영어 데모 PPT(가격 포함) 찾아 Jay에게 전달\n광고 영상 소재 Jason Song에게 공유",
+      "tags": [
+        "fathom",
+        "daily",
+        "jay",
+        "jason"
+      ],
+      "status": "todo",
+      "source": "fathom",
+      "priority": "new",
+      "link": "https://fathom.video/share/RrCnPo9zFXe7zCu9SYTZycXoBFHs9Voy?tab=summary",
+      "created_at": "2026-11-19T00:10:00Z"
     }
   ]
 }
