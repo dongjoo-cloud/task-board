@@ -65,8 +65,8 @@
       "at": "2026-11-18T23:59:32.279Z"
     },
     "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
-      "status": "in_progress",
-      "at": "2026-11-16T22:45:54.737Z"
+      "status": "done",
+      "at": "2026-11-19T00:47:18.274Z"
     },
     "gmail:gkor-consulting-written-details-2026-11-19": {
       "status": "in_progress",
@@ -89,8 +89,8 @@
       "at": "2026-11-19T00:01:41.327Z"
     },
     "slack:agent-room:1794880968.333789": {
-      "status": "in_progress",
-      "at": "2026-11-17T23:38:24.327Z"
+      "status": "done",
+      "at": "2026-11-19T00:47:10.790Z"
     }
   }
 }
