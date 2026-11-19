@@ -4,24 +4,6 @@
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
     {
-      "id": "gmail:fathom-daily-2026-11-11#creator-50-video",
-      "title": "데일리 11/11 — 크리에이터 50명 골라서 영상 제작 제안 DM($500~$1,000/영상)",
-      "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — MCP 커넥터 테스트용 콘텐츠가 부족해서 크리에이터 50명에게 간단한 영상 제작을 직접 제안. 예산 $500~$1,000(액션 아이템엔 $1k/영상), 지급은 한품 틱톡샵 통해서 하고 Storika가 환급. 10명 단위로 DM 보내고 지급 확인 뒤 초대. 크리에이터 단가·지급 방식/통화 확인은 Brice 몫. 자동 탐색은 시간당 10명→50명으로 늘려 한계 테스트(TikTok API 레이트 리밋이 병목, Jay 확인).",
-      "액션": "크리에이터 50명 선정\n10명씩 영상 제작 제안 DM 발송($1k/영상)\n지급 방식 확인(Brice) 후 초대 발송",
-      "tags": [
-        "gmail",
-        "fathom",
-        "meeting",
-        "creator",
-        "hanpoom"
-      ],
-      "status": "todo",
-      "source": "gmail",
-      "priority": "new",
-      "link": "https://fathom.video/share/PxMG5Haqe5TsphMGKQNvyYg49-xPy-zt?tab=summary",
-      "created_at": "2026-11-11T00:22:00Z"
-    },
-    {
       "id": "gmail:fathom-daily-2026-11-11#ai-avatar-channel",
       "title": "데일리 11/11 — AI 아바타 채널 만들고 참고 자료 모으기(1인 5개, Jay와 맞추기)",
       "summary": "배경 — 11/11 아침 daily(58분, Fathom 요약 09:15 KST 수신). 목적은 크리에이터 유치 전략 확정과 소셜 마케팅 계획. 후속 미팅은 Jay가 보낸 'social posting 공모전' 초대(오늘 11:00~11:30 KST).\n\n회의록 액션(내 몫) — TikTok·Instagram을 살려서 유료 광고 기반을 만들기로 함. 진행자는 Storika 불가사리 마스코트와 현실적인 AI 사람 아바타(참고: AI 인플루언서 Karen.AKC). AI 아바타 채널을 만들고 사람마다 참고 자료 5개씩 모으도록 조율, Jay와 맞추기. 마스코트 다듬기·AI 영상 도구 조사·X 계정(storika_ai, storika_ai_x) 통합은 Brice 몫.",
@@ -280,25 +262,6 @@
       "priority": "new",
       "link": "https://storika.slack.com/archives/C0C9EGE3LN5/p1794880968333789",
       "created_at": "2026-11-17T02:06:26Z"
-    },
-    {
-      "id": "slack:agent-room:1794892607.942369",
-      "title": "15544 (c) handle_sample_requests ship 동작 설계 승인",
-      "summary": "배경 — 마녀 ASK @바알, DJ 판단 필요 (#agent-room 14:16 KST). handle_sample_requests에 ship 동작(request_id·택배사·운송장) 추가, 확인 카드 후 1회, Manager만·QA 거절. TikTok: 주문상세→배송사 이름 매칭→Ship Package(self_shipment), TikTok배송 샘플·매칭 실패는 거절, 주소 안 읽음. c1(꺼짐: TikTok 경로+door)·c2(켬: 도구 동작). 실제 호출은 배포 뒤 QA실장이 진짜 번호로 처음. refs STORIKA-15544",
-      "액션": "15544 (c) 설계(ship 동작, c1/c2 단계) 승인 여부",
-      "tags": [
-        "slack",
-        "agent-room",
-        "need-dj",
-        "STORIKA-15544"
-      ],
-      "status": "done",
-      "source": "slack",
-      "priority": "new",
-      "link": "https://storika.slack.com/archives/C0C9EGE3LN5/p1794892607942369",
-      "created_at": "2026-11-17T05:31:00Z",
-      "status_at": "2026-11-17T22:08:48.000Z",
-      "resolution": "DJ 11/17 20:18 KST 결정: C(Seller Center 안내만)로 마무리, #14213 PR, #14205 주차 (바알 DONE in #agent-room)"
     },
     {
       "id": "gmail:google-ads-invite-storika-korea-2026-11-18",

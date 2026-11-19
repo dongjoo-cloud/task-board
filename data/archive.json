@@ -357,6 +357,13 @@
       "title": "daily 11/6 — Claude 웹검색 크리에이터 발굴을 다른 제품으로 테스트·피드백 + 유스케이스 문서",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-11-11#creator-50-video": {
+      "status": "done",
+      "at": "2026-11-17T23:03:51.044Z",
+      "archived_at": "2026-11-19T03:17:45.972Z",
+      "title": "데일리 11/11 — 크리에이터 50명 골라서 영상 제작 제안 DM($500~$1,000/영상)",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-11-11#tongsin-panmae": {
       "status": "not_mine",
       "at": "2026-11-16T22:40:13.753Z",
@@ -1055,6 +1062,13 @@
       "at": "2026-10-16T05:58:07.236Z",
       "archived_at": "2026-10-17T09:16:04.989Z",
       "title": "열린 PR 정리 — 남은 #12391 rebase/.sig (#12302·#12309·#12479 머지 완료)",
+      "source": "slack"
+    },
+    "slack:agent-room:1794892607.942369": {
+      "status": "done",
+      "at": "2026-11-17T22:08:48.000Z",
+      "archived_at": "2026-11-19T03:17:45.972Z",
+      "title": "15544 (c) handle_sample_requests ship 동작 설계 승인",
       "source": "slack"
     }
   }
