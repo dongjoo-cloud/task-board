@@ -1,13 +1,5 @@
 {
   "ids": {
-    "fathom:daily-2026-11-19-dj-actions": {
-      "status": "done",
-      "at": "2026-11-19T00:10:14.598Z"
-    },
-    "gmail:fathom-brice-1on1-2026-11-12#demo-metrics": {
-      "status": "not_mine",
-      "at": "2026-11-19T00:47:25.349Z"
-    },
     "gmail:fathom-brice-1on1-2026-11-12#ktp-videos": {
       "status": "in_progress",
       "at": "2026-11-16T22:50:31.725Z"
@@ -15,14 +7,6 @@
     "gmail:fathom-daily-2026-10-20#cost-cut-mart": {
       "status": "in_progress",
       "at": "2026-11-03T02:53:00.264Z"
-    },
-    "gmail:fathom-daily-2026-10-23#infra-shutdown": {
-      "status": "not_mine",
-      "at": "2026-11-19T00:10:32.250Z"
-    },
-    "gmail:fathom-daily-2026-11-02#invite-bugs-tests": {
-      "status": "done",
-      "at": "2026-11-19T00:10:26.675Z"
     },
     "gmail:fathom-daily-2026-11-11#ai-avatar-channel": {
       "status": "done",
@@ -32,61 +16,13 @@
       "status": "in_progress",
       "at": "2026-11-16T22:50:18.479Z"
     },
-    "gmail:fathom-daily-2026-11-12#x-posts": {
-      "status": "not_mine",
-      "at": "2026-11-19T00:47:38.050Z"
-    },
-    "gmail:fathom-daily-2026-11-17#approval-card-en": {
-      "status": "done",
-      "at": "2026-11-19T00:47:05.358Z"
-    },
-    "gmail:fathom-daily-2026-11-17#eu-selector-ui": {
-      "status": "done",
-      "at": "2026-11-18T23:56:56.637Z"
-    },
-    "gmail:fathom-daily-2026-11-17#tts-payout": {
-      "status": "done",
-      "at": "2026-11-18T23:56:59.508Z"
-    },
-    "gmail:fathom-jason-qa-2026-11-16#tickets": {
-      "status": "done",
-      "at": "2026-11-19T00:47:00.440Z"
-    },
     "gmail:fathom-weekly-sync-2026-11-03#ktp-poc-outreach": {
       "status": "in_progress",
       "at": "2026-11-16T22:48:49.918Z"
     },
-    "gmail:gcp-gemini-36-flash-retire-2026-11-18": {
-      "status": "not_mine",
-      "at": "2026-11-18T23:59:32.279Z"
-    },
-    "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
-      "status": "done",
-      "at": "2026-11-19T00:47:18.274Z"
-    },
     "gmail:gkor-consulting-written-details-2026-11-19": {
       "status": "in_progress",
       "at": "2026-11-19T00:10:12.521Z"
-    },
-    "gmail:google-ads-invite-storika-korea-2026-11-18": {
-      "status": "done",
-      "at": "2026-11-18T23:59:13.639Z"
-    },
-    "gmail:ktech-pioneers-settlement-fee-2026-11-24": {
-      "status": "not_mine",
-      "at": "2026-11-19T00:00:10.483Z"
-    },
-    "gmail:mirae-asset-capital-intro-2026-11-18": {
-      "status": "not_mine",
-      "at": "2026-11-18T23:59:38.191Z"
-    },
-    "gmail:posthog-ai-observability-limit-2026-11-18": {
-      "status": "not_mine",
-      "at": "2026-11-19T00:01:41.327Z"
-    },
-    "slack:agent-room:1794880968.333789": {
-      "status": "done",
-      "at": "2026-11-19T00:47:10.790Z"
     }
   }
 }

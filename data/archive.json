@@ -1,5 +1,12 @@
 {
   "ids": {
+    "fathom:daily-2026-11-19-dj-actions": {
+      "status": "done",
+      "at": "2026-11-19T00:10:14.598Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "11/19 daily 액션: 영어 데모 PPT(가격) Jay에게 전달 · 광고 영상 소재 Jason에게 공유",
+      "source": "fathom"
+    },
     "gmail:1a1a4118de7ee141": {
       "status": "done",
       "at": "2026-11-06T00:40:24.000Z",
@@ -103,6 +110,13 @@
       "at": "2026-11-03T02:53:21.555Z",
       "archived_at": "2026-11-04T09:03:20.745Z",
       "title": "1:1 10/29 — DM·초대 2,000자 제한 수정 + 5%/20% 커미션 테스트 + KTP 데모 준비(11/23)",
+      "source": "gmail"
+    },
+    "gmail:fathom-brice-1on1-2026-11-12#demo-metrics": {
+      "status": "not_mine",
+      "at": "2026-11-19T00:47:25.349Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "Brice 1:1 11/12 — KTP 예선 데모데이(11/23) 최종 지표 확정",
       "source": "gmail"
     },
     "gmail:fathom-daily-2026-10-02": {
@@ -287,6 +301,13 @@
       "title": "데일리 10/23 — daily 보드 정리(잡동사니 빼기)",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-10-23#infra-shutdown": {
+      "status": "not_mine",
+      "at": "2026-11-19T00:10:32.250Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "데일리 10/23 — 10/27까지 인프라 전부 종료(dev DB 백업 후 삭제, 프로덕션 API 1대로)",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-10-23#ktp-plan": {
       "status": "not_mine",
       "at": "2026-10-24T08:09:41.865Z",
@@ -313,6 +334,13 @@
       "at": "2026-11-03T02:52:40.289Z",
       "archived_at": "2026-11-04T09:03:20.745Z",
       "title": "데일리 10/30 — MCP 5개 작업 오늘 완료 + 커미션 5% + 크론 3개 + Olive 영상 (15:00 재싱크)",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-02#invite-bugs-tests": {
+      "status": "done",
+      "at": "2026-11-19T00:10:26.675Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "데일리 11/2 — 초청 버그 티켓 2건 + 초청 차단 규칙 정리 + 높은 커미션 초청 5건 + 이메일 초청 테스트",
       "source": "gmail"
     },
     "gmail:fathom-daily-2026-11-03#tts-batch-invite-dm": {
@@ -399,6 +427,13 @@
       "title": "데일리 11/12 — Storika Threads 설정 Jay와 확인 후 포스팅 시작",
       "source": "gmail"
     },
+    "gmail:fathom-daily-2026-11-12#x-posts": {
+      "status": "not_mine",
+      "at": "2026-11-19T00:47:38.050Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "데일리 11/12 — Storika X 포스팅 오늘부터 재개",
+      "source": "gmail"
+    },
     "gmail:fathom-daily-2026-11-16#codex-usage": {
       "status": "done",
       "at": "2026-11-16T22:46:11.869Z",
@@ -411,6 +446,27 @@
       "at": "2026-11-16T22:46:09.965Z",
       "archived_at": "2026-11-18T04:12:54.723Z",
       "title": "데일리 11/16 — Jason에게 Groq/Claude 접근 전달 + 10:00 자동 QA 봇(Slack 알림) 세팅",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-17#approval-card-en": {
+      "status": "done",
+      "at": "2026-11-19T00:47:05.358Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "영문 '승인카드' 문구 점검·현지화 수정",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-17#eu-selector-ui": {
+      "status": "done",
+      "at": "2026-11-18T23:56:56.637Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "EU selector UI·'AI removed—marketer? add back' 확인 후 티켓",
+      "source": "gmail"
+    },
+    "gmail:fathom-daily-2026-11-17#tts-payout": {
+      "status": "done",
+      "at": "2026-11-18T23:56:59.508Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "TikTok Shop 크리에이터 지급 관행 조사 + Kyungdo와 맞추고 크리에이터에게 지급 메일",
       "source": "gmail"
     },
     "gmail:fathom-gantt-review-2026-10-07": {
@@ -432,6 +488,13 @@
       "at": "2026-11-16T22:46:01.090Z",
       "archived_at": "2026-11-18T04:12:54.723Z",
       "title": "Jason QA 11/16 — Fathom 요약을 Jason에게 공유하고 sign-off 받기",
+      "source": "gmail"
+    },
+    "gmail:fathom-jason-qa-2026-11-16#tickets": {
+      "status": "done",
+      "at": "2026-11-19T00:47:00.440Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "Jason QA 11/16 — 이슈 티켓 만들기: Safety Check 옵션화·승인 프롬프트 현지화·다음 단계 제안",
       "source": "gmail"
     },
     "gmail:fathom-jason-sync2-2026-11-16#ad-refs": {
@@ -546,11 +609,25 @@
       "title": "GCP 결제 계정(0194FA-5E63D1-510368) 연체·결제 정보 업데이트",
       "source": "gmail"
     },
+    "gmail:gcp-gemini-36-flash-retire-2026-11-18": {
+      "status": "not_mine",
+      "at": "2026-11-18T23:59:32.279Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "GCP storika-455708 Gemini 3.6 Flash → Gemini 4 Hydrogen 이전 (2027-01-28 종료)",
+      "source": "gmail"
+    },
     "gmail:gcp-programmable-search-sunset-storika-455708": {
       "status": "not_mine",
       "at": "2026-11-03T02:53:14.474Z",
       "archived_at": "2026-11-04T09:03:20.745Z",
       "title": "Google 프로그래밍 검색 엔진 전환 — storika-455708 (2027/1/1까지)",
+      "source": "gmail"
+    },
+    "gmail:gemini-jason-qa-2026-11-16#hydrogen-brief": {
+      "status": "done",
+      "at": "2026-11-19T00:47:18.274Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "Jason QA 11/16 — 검색 로직: Hydrogen 병렬 검증+토큰 한도 조정, 마케터 브리프 반영 (Jay와 담당 확인)",
       "source": "gmail"
     },
     "gmail:gemini-jason-qa-2026-11-16#token-usage-month": {
@@ -565,6 +642,13 @@
       "at": "2026-10-11T12:42:57.719Z",
       "archived_at": "2026-10-12T17:48:25.663Z",
       "title": "G-Kor Consulting — 국가별 크리에이터 DB 규모 문의 답변",
+      "source": "gmail"
+    },
+    "gmail:google-ads-invite-storika-korea-2026-11-18": {
+      "status": "done",
+      "at": "2026-11-18T23:59:13.639Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "Google Ads 'Storika Korea' 계정 관리자 초대 수락 (Brice)",
       "source": "gmail"
     },
     "gmail:google-agentic-oauth-djs-claude": {
@@ -600,6 +684,13 @@
       "at": "2026-11-16T22:49:51.598Z",
       "archived_at": "2026-11-18T04:12:54.723Z",
       "title": "K-테크 파이오니어즈 협약변경 신청 — 11/26(목) 18:00 KST 최종 마감",
+      "source": "gmail"
+    },
+    "gmail:ktech-pioneers-settlement-fee-2026-11-24": {
+      "status": "not_mine",
+      "at": "2026-11-19T00:00:10.483Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "K-테크 파이오니어즈 최종 회계검토 위탁정산비용 — 편성 확인·세금계산서 수신자 회신(~11/24 15:00)",
       "source": "gmail"
     },
     "gmail:lazada-onboarding-rejected-2026-11-11": {
@@ -644,11 +735,25 @@
       "title": "MARU 입주사 인원 수 확인 회신 — 11/9(월)까지",
       "source": "gmail"
     },
+    "gmail:mirae-asset-capital-intro-2026-11-18": {
+      "status": "not_mine",
+      "at": "2026-11-18T23:59:38.191Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "Mirae Asset Capital 투자 인트로 콜 요청 — Brice와 공유하고 답장 여부 결정",
+      "source": "gmail"
+    },
     "gmail:pivot-labs-au-beauty-2026-11-06": {
       "status": "not_mine",
       "at": "2026-11-06T11:21:32.259Z",
       "archived_at": "2026-11-07T16:22:35.086Z",
       "title": "Pivot Labs(Jamie) — 호주 뷰티 브랜드 Storika 소개 제안 회신 여부",
+      "source": "gmail"
+    },
+    "gmail:posthog-ai-observability-limit-2026-11-18": {
+      "status": "not_mine",
+      "at": "2026-11-19T00:01:41.327Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "PostHog AI Observability 결제 한도 100% — 데이터 수집 멈춤, 한도 올릴지 결정",
       "source": "gmail"
     },
     "gmail:ramp-admin-invite-kwoncpa-2026-10-08": {
@@ -1062,6 +1167,13 @@
       "at": "2026-10-16T05:58:07.236Z",
       "archived_at": "2026-10-17T09:16:04.989Z",
       "title": "열린 PR 정리 — 남은 #12391 rebase/.sig (#12302·#12309·#12479 머지 완료)",
+      "source": "slack"
+    },
+    "slack:agent-room:1794880968.333789": {
+      "status": "done",
+      "at": "2026-11-19T00:47:10.790Z",
+      "archived_at": "2026-11-20T03:05:09.598Z",
+      "title": "15551 후속 2건 승인: 웹앱 문구 정리 티켓 생성 + 카드 없는 앱 enroll_creators typed-yes 정책",
       "source": "slack"
     },
     "slack:agent-room:1794892607.942369": {
