@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T04:57:59Z",
+  "updatedAt": "2026-11-24T00:13:00Z",
   "title": "동주 태스크 보드",
   "subtitle": "11/8 21:44 일요 저녁 체크",
   "tasks": [
@@ -122,6 +122,24 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a1f7425229979f8",
       "created_at": "2026-11-20T04:57:59Z"
+    },
+    {
+      "id": "gmail:fathom-daily-2026-11-24#ig-search-kr-landing",
+      "title": "11/24 daily — IG/TikTok 검색·'검토 전' 조사 + KR 랜딩 이전·쿠키 측정 + Storika IG + 주간 미팅 재조정",
+      "summary": "배경 — 11/24(화) daily Fathom 요약(09:04 KST 수신, 47분). 검색당 토큰 60k 상한 적용 완료. Instagram 검색 품질이 나쁜 건 오래된 내부 Postgres DB 탓일 수 있어 조사하기로 함, Jason이 검색 결과·로그와 버그 보고서를 줄 예정('검토 전' 상태 고정, 아바타 안 뜸). 크리에이터 1 배송 오류(UPS 직배송 후 TikTok fulfillment 오요청)는 TikTok 지원팀과 해결 중. KR 사이트 법적 고지·통신판매업은 Brice 담당. 12/4~6 워크숍(곤지암 유력). 회의: https://fathom.video/share/xPsCeWyrEMNGmAkbtgDTD8eR_E3pbd9u",
+      "액션": "IG/TikTok 검색 결과·'검토 전' 상태 원인 조사 후 Jason에게 공유\nTikTok 지원팀과 크리에이터 1 배송 오류 해결\nKR 웹사이트 쿠키 측정 배포 + 랜딩을 Storika로 이전(Brice와 맞추기)\nStorika IG 계정 만들고 영상 6개 이틀 간격 게시\n주간 미팅을 11/25 또는 11/26으로 재조정(Jason·Brice)",
+      "tags": [
+        "gmail",
+        "fathom",
+        "daily",
+        "jason",
+        "brice"
+      ],
+      "status": "todo",
+      "source": "gmail",
+      "priority": "new",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a20ade89265c3bb",
+      "created_at": "2026-11-24T00:13:00Z"
     }
   ]
 }
