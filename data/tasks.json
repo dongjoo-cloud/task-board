@@ -156,6 +156,22 @@
         "gemini",
         "weekly-sync"
       ]
+    },
+    {
+      "id": "gmail:gemini-weekly-sync-take2-2026-11-25#dj-actions",
+      "source": "gmail",
+      "status": "todo",
+      "priority": "new",
+      "created_at": "2026-11-25T07:32:00Z",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a2118613ea642cc",
+      "tags": [
+        "gmail",
+        "gemini",
+        "weekly-sync"
+      ],
+      "title": "11/25 Weekly Sync Take 2 — 가입 게이트 뒤 AI 커넥터 설치 페이지로 바로 이동",
+      "summary": "배경 — 11/25(수) [Internal] Weekly Sync Take 2 Gemini 회의록(16:05 KST 수신). KTP 예산 확정(초과 집행 기조, 금요일 최종 제출), Sentry 에러 트래킹 도입 확정, 상사·1인 창업 지원 모델 전환은 다음 주 금요일 워크숍에서 딥다이브. Brice가 이번 주 랜딩에 로그인 유도 장치 추가.",
+      "액션": "가입 페이지 수정: 가입 게이트를 거친 뒤 AI 커넥터 설치 페이지로 바로 이동하게 구현\n(그룹) 공유된 사업 전략 슬라이드 검토 — 다음 주 금요일 회의 준비"
     }
   ]
 }
