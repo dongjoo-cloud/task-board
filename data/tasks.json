@@ -140,6 +140,22 @@
       "priority": "new",
       "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a20ade89265c3bb",
       "created_at": "2026-11-24T00:13:00Z"
+    },
+    {
+      "id": "gmail:gemini-weekly-sync-2026-11-25#dj-actions",
+      "source": "gmail",
+      "status": "todo",
+      "priority": "new",
+      "created_at": "2026-11-25T04:11:41Z",
+      "link": "https://mail.google.com/mail/?authuser=dongjoo@storika.ai#all/1a210b949cac37da",
+      "title": "11/25 Weekly Sync — 데이터 모델 1:1 간소화 + 커넥터(Edge·eBay) 점검 + Sheets→Drive 통합 + IG 국가 누락 + 쇼핑 툴",
+      "summary": "배경 — 11/25(수) [Internal] Weekly Sync Gemini 회의록(12:21 KST 수신). GCP 버킷 보안 조치(US central 프라이빗 버킷으로 광고 단가 데이터 이동·코드 경로 수정)는 완료로 정리됨. 유저-조직 M:N → 1:1로 바꾸기로 결정. 그룹 액션: 티켓 생성 시 프로젝트·마일스톤 필수, 다음 주 월요일 에이전시 1,400·브랜드 600 아웃바운드 메일.",
+      "액션": "조직-유저 관계 1:1로 바꾸고 브랜드 정보 입력 간소화(데이터 모델 재구성)\nEdge·eBay 커넥터 연동 상태 확인, 정식 연결 가능 여부 검토\nGoogle Sheets 연동 → Google Drive 통합으로 전환\nIG 크리에이터 검색 국가 누락 이슈 해결\n쇼핑 기능용 커넥터 툴 추가\n브랜드 설정 문서 다듬기\n(Jason과) Linear 티켓 정리·마일스톤 날짜 최신화",
+      "tags": [
+        "gmail",
+        "gemini",
+        "weekly-sync"
+      ]
     }
   ]
 }
